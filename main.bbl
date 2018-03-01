@@ -176,6 +176,33 @@
   \urlprefix\url{http://dx.doi.org/10.1111/j.1600-0587.2011.06919.x{\%}5Cnhttp://doi.wiley.com/10.1111/j.1600-0587.2011.06919.x}.
 \newblock \doiprefix 10.1111/j.1600-0587.2011.06919.x.
 
+\bibitem{Stone1990a}
+\bibinfo{author}{Stone, L.} \& \bibinfo{author}{Roberts, A.}
+\newblock \bibinfo{journal}{\bibinfo{title}{{The checkerboard score and species
+  distributions}}}.
+\newblock {\emph{\JournalTitle{Oecologia}}} \textbf{\bibinfo{volume}{85}},
+  \bibinfo{pages}{74--79} (\bibinfo{year}{1990}).
+\newblock \doiprefix 10.1007/BF00317345.
+
+\bibitem{Atmar1993}
+\bibinfo{author}{Atmar, W.} \& \bibinfo{author}{Patterson, B.~D.}
+\newblock \bibinfo{journal}{\bibinfo{title}{{The measure of order and disorder
+  in the distribution of species in fragmented habitat}}}.
+\newblock {\emph{\JournalTitle{Oecologia}}} \textbf{\bibinfo{volume}{96}},
+  \bibinfo{pages}{373--382} (\bibinfo{year}{1993}).
+\newblock \urlprefix\url{http://link.springer.com/10.1007/BF00317508}.
+\newblock \doiprefix 10.1007/BF00317508.
+
+\bibitem{Newman2006}
+\bibinfo{author}{Newman, M. E.~J.}
+\newblock \bibinfo{journal}{\bibinfo{title}{{Modularity and community structure
+  in networks.}}}
+\newblock {\emph{\JournalTitle{Proc. Natl. Acad. Sci. U. S. A.}}}
+  \textbf{\bibinfo{volume}{103}}, \bibinfo{pages}{8577--82}
+  (\bibinfo{year}{2006}).
+\newblock \urlprefix\url{http://www.pnas.org/content/103/23/8577.short}.
+\newblock \doiprefix 10.1073/pnas.0601602103.
+
 \bibitem{DeAngelis1989}
 \bibinfo{author}{DeAngelis, D.~L.}, \bibinfo{author}{Bartell, S.~M.} \&
   \bibinfo{author}{Brenkert, A.~L.}
@@ -224,32 +251,5 @@
   \bibinfo{pages}{844--52} (\bibinfo{year}{2013}).
 \newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/23692559}.
 \newblock \doiprefix 10.1111/ele.12117.
-
-\bibitem{Stone1990a}
-\bibinfo{author}{Stone, L.} \& \bibinfo{author}{Roberts, A.}
-\newblock \bibinfo{journal}{\bibinfo{title}{{The checkerboard score and species
-  distributions}}}.
-\newblock {\emph{\JournalTitle{Oecologia}}} \textbf{\bibinfo{volume}{85}},
-  \bibinfo{pages}{74--79} (\bibinfo{year}{1990}).
-\newblock \doiprefix 10.1007/BF00317345.
-
-\bibitem{Atmar1993}
-\bibinfo{author}{Atmar, W.} \& \bibinfo{author}{Patterson, B.~D.}
-\newblock \bibinfo{journal}{\bibinfo{title}{{The measure of order and disorder
-  in the distribution of species in fragmented habitat}}}.
-\newblock {\emph{\JournalTitle{Oecologia}}} \textbf{\bibinfo{volume}{96}},
-  \bibinfo{pages}{373--382} (\bibinfo{year}{1993}).
-\newblock \urlprefix\url{http://link.springer.com/10.1007/BF00317508}.
-\newblock \doiprefix 10.1007/BF00317508.
-
-\bibitem{Newman2006}
-\bibinfo{author}{Newman, M. E.~J.}
-\newblock \bibinfo{journal}{\bibinfo{title}{{Modularity and community structure
-  in networks.}}}
-\newblock {\emph{\JournalTitle{Proc. Natl. Acad. Sci. U. S. A.}}}
-  \textbf{\bibinfo{volume}{103}}, \bibinfo{pages}{8577--82}
-  (\bibinfo{year}{2006}).
-\newblock \urlprefix\url{http://www.pnas.org/content/103/23/8577.short}.
-\newblock \doiprefix 10.1073/pnas.0601602103.
 
 \end{thebibliography}
