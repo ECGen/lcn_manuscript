@@ -47,17 +47,6 @@
   \urlprefix\url{http://www.esajournals.org/doi/abs/10.1890/1540-9295(2005)003[0479:LOFSCF]2.0.CO;2?journalCode=fron}.
 \newblock \doiprefix 10.1890/1540-9295(2005)003[0479:LOFSCF]2.0.CO;2.
 
-\bibitem{Winfree2011}
-\bibinfo{author}{Winfree, R.}, \bibinfo{author}{Gross, B.~J.} \&
-  \bibinfo{author}{Kremen, C.}
-\newblock \bibinfo{journal}{\bibinfo{title}{{Valuing pollination services to
-  agriculture}}}.
-\newblock {\emph{\JournalTitle{Ecol. Econ.}}} \textbf{\bibinfo{volume}{71}},
-  \bibinfo{pages}{80--88} (\bibinfo{year}{2011}).
-\newblock
-  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S092180091100334X}.
-\newblock \doiprefix 10.1016/j.ecolecon.2011.08.001.
-
 \bibitem{Fontaine2011}
 \bibinfo{author}{Fontaine, C.} \emph{et~al.}
 \newblock \bibinfo{journal}{\bibinfo{title}{{The ecological and evolutionary
@@ -153,6 +142,17 @@
 \newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/21091573}.
 \newblock \doiprefix 10.1111/j.1420-9101.2010.02178.x.
 
+\bibitem{Winfree2011}
+\bibinfo{author}{Winfree, R.}, \bibinfo{author}{Gross, B.~J.} \&
+  \bibinfo{author}{Kremen, C.}
+\newblock \bibinfo{journal}{\bibinfo{title}{{Valuing pollination services to
+  agriculture}}}.
+\newblock {\emph{\JournalTitle{Ecol. Econ.}}} \textbf{\bibinfo{volume}{71}},
+  \bibinfo{pages}{80--88} (\bibinfo{year}{2011}).
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S092180091100334X}.
+\newblock \doiprefix 10.1016/j.ecolecon.2011.08.001.
+
 \bibitem{Zytynska2011}
 \bibinfo{author}{Zytynska, S.~E.}, \bibinfo{author}{Fay, M.~F.},
   \bibinfo{author}{Penney, D.} \& \bibinfo{author}{Preziosi, R.~F.}
@@ -175,33 +175,6 @@
 \newblock
   \urlprefix\url{http://dx.doi.org/10.1111/j.1600-0587.2011.06919.x{\%}5Cnhttp://doi.wiley.com/10.1111/j.1600-0587.2011.06919.x}.
 \newblock \doiprefix 10.1111/j.1600-0587.2011.06919.x.
-
-\bibitem{Stone1990a}
-\bibinfo{author}{Stone, L.} \& \bibinfo{author}{Roberts, A.}
-\newblock \bibinfo{journal}{\bibinfo{title}{{The checkerboard score and species
-  distributions}}}.
-\newblock {\emph{\JournalTitle{Oecologia}}} \textbf{\bibinfo{volume}{85}},
-  \bibinfo{pages}{74--79} (\bibinfo{year}{1990}).
-\newblock \doiprefix 10.1007/BF00317345.
-
-\bibitem{Atmar1993}
-\bibinfo{author}{Atmar, W.} \& \bibinfo{author}{Patterson, B.~D.}
-\newblock \bibinfo{journal}{\bibinfo{title}{{The measure of order and disorder
-  in the distribution of species in fragmented habitat}}}.
-\newblock {\emph{\JournalTitle{Oecologia}}} \textbf{\bibinfo{volume}{96}},
-  \bibinfo{pages}{373--382} (\bibinfo{year}{1993}).
-\newblock \urlprefix\url{http://link.springer.com/10.1007/BF00317508}.
-\newblock \doiprefix 10.1007/BF00317508.
-
-\bibitem{Newman2006}
-\bibinfo{author}{Newman, M. E.~J.}
-\newblock \bibinfo{journal}{\bibinfo{title}{{Modularity and community structure
-  in networks.}}}
-\newblock {\emph{\JournalTitle{Proc. Natl. Acad. Sci. U. S. A.}}}
-  \textbf{\bibinfo{volume}{103}}, \bibinfo{pages}{8577--82}
-  (\bibinfo{year}{2006}).
-\newblock \urlprefix\url{http://www.pnas.org/content/103/23/8577.short}.
-\newblock \doiprefix 10.1073/pnas.0601602103.
 
 \bibitem{DeAngelis1989}
 \bibinfo{author}{DeAngelis, D.~L.}, \bibinfo{author}{Bartell, S.~M.} \&
@@ -251,5 +224,32 @@
   \bibinfo{pages}{844--52} (\bibinfo{year}{2013}).
 \newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/23692559}.
 \newblock \doiprefix 10.1111/ele.12117.
+
+\bibitem{Stone1990a}
+\bibinfo{author}{Stone, L.} \& \bibinfo{author}{Roberts, A.}
+\newblock \bibinfo{journal}{\bibinfo{title}{{The checkerboard score and species
+  distributions}}}.
+\newblock {\emph{\JournalTitle{Oecologia}}} \textbf{\bibinfo{volume}{85}},
+  \bibinfo{pages}{74--79} (\bibinfo{year}{1990}).
+\newblock \doiprefix 10.1007/BF00317345.
+
+\bibitem{Atmar1993}
+\bibinfo{author}{Atmar, W.} \& \bibinfo{author}{Patterson, B.~D.}
+\newblock \bibinfo{journal}{\bibinfo{title}{{The measure of order and disorder
+  in the distribution of species in fragmented habitat}}}.
+\newblock {\emph{\JournalTitle{Oecologia}}} \textbf{\bibinfo{volume}{96}},
+  \bibinfo{pages}{373--382} (\bibinfo{year}{1993}).
+\newblock \urlprefix\url{http://link.springer.com/10.1007/BF00317508}.
+\newblock \doiprefix 10.1007/BF00317508.
+
+\bibitem{Newman2006}
+\bibinfo{author}{Newman, M. E.~J.}
+\newblock \bibinfo{journal}{\bibinfo{title}{{Modularity and community structure
+  in networks.}}}
+\newblock {\emph{\JournalTitle{Proc. Natl. Acad. Sci. U. S. A.}}}
+  \textbf{\bibinfo{volume}{103}}, \bibinfo{pages}{8577--82}
+  (\bibinfo{year}{2006}).
+\newblock \urlprefix\url{http://www.pnas.org/content/103/23/8577.short}.
+\newblock \doiprefix 10.1073/pnas.0601602103.
 
 \end{thebibliography}
