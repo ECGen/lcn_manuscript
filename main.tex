@@ -200,8 +200,6 @@ Tylianakis 2010 Conservation of species interaction networks.
 \end{itemize}
 
 
-
-
 Here, we investigate how genetic variation in a foundation tree
 species determines the structure of a network of interactions among
 species. Using a long-term (20 years+), common garden experiment with
@@ -210,108 +208,31 @@ established stand of \textit{P. angustifolia}. We focused on a model
 community of 9 epiphytic lichens species, as previous research has
 demonstrated significant compositional responses of epiphytes to
 genotypic variation \cite{Winfree2011, Zytynska2011}. In addition, the
-ecology of lichen, with local interactions and slow population
-turnover rates, allowed us to assess interactions among lichen species
-rapidly on individual trees.
+life-history characteristics of lichen, having highly localized,
+direct contact interactions and slow population turnover rates,
+allowed us to assess interactions among lichen species rapidly on
+individual trees. Applying a dual-scale (lichen-lichen and
+genotype-lichen interactions) network analysis approach, we then
+examined the genetically based impacts of \textit{P. angustifolia} on
+network structure. We focused our network analysis on modularity
+(i.e. the formation of compartments) and nestedness (i.e. the overlap
+in sets of interactions among species) both of which are of interest
+in the context of the interplay between ecological and evolutionary
+dynamics as have established theoretical and empirical support as
+relevant structural metrics of ecological dynamics and can serve as
+indicators of the units of evolution in a community context.
 
 
-\section*{Methods}
-
-%% Topical subheadings are allowed. Authors must ensure that their Methods section includes adequate experimental and characterization data necessary for others in the field to reproduce their work.
-
-\subsection*{Field observations in common garden and natural riparian
-  forest stands}
-
-The study was conducted along the Weber River, UT (USA), which is a
-cottonwood (\textit{Populus} spp.) dominated riparian
-ecosystem. Although two native species, \textit{Populus angustifolia}
-(James) and \textit{Populus fremontii} (S. Watson), occur here and are
-known to hybridize, only pure or highly advanced backcrosses of
-\textit{P. angustifolia} were sampled in order to avoid the effect of
-the hybridization between these two species.
-
-A common garden setting was used to isolate the effect of tree
-genotype from the effect of the localized microenvironment associated
-with each individual and spatial autocorrelation. Asexually propagated
-clones of genotyped \textit{P. angustifolia} individuals4 were
-obtained from wild collections and planted randomly in a single field
-(0.025 km$^2$) at the Ogden Nature Center, Ogden, UT in 1992. A total
-of thirteen genotypes replicated between 3 and 8 times each, were
-chosen for sampling. Genotype names were previously published
-\cite{Ellison2005}. Observations were made in the common garden in
-October 2010 and May 2011.
-
-The natural stand of \textit{P. angustifolia} near the city of Uintah,
-UT (GPS:  N41.13903, W110.94400) was used for the wild stand
-survey. We conducted sampling of the stand in May 2012. A total of 14
-trees were chosen randomly over a 0.10 km$^2$ area with a minimal
-distance of 5.56 m between trees across a range of tree core based
-ages from 15 to 60 years.
-
-\subsection*{Bark and Lichen Community Observations}
-
-The bark lichen community in this system is comprised of fourteen
-species; however, only 9 species were observed within our study
-quadrats. The lichen community included (abbreviations are given for
-species present in study): Xg = \textit{Xanthomendoza galericulata},
-Xm = \textit{X. montana}, Ch = \textit{Caloplaca holocarpa}, Cs =
-\textit{Candelariella subdeflexa}, Rg = \textit{Rinodina glauca}, Lh =
-\textit{Lecanora hagenii}, Ls = \textit{Lecanora} (unknown species),
-Pm = \textit{Phyciella melanchra}, Pa = \textit{Physcia adscendens},
-Pu = \textit{Physcia undulata}, \textit{Phaeophyscia orbicularis},
-\textit{Phaeophyscia ciliata}, \textit{Melanelia subolivacea},
-\textit{Meanelia elegantula}, including both crustose and foliose
-lichen species that exhibit low inter-annual variation
-\cite{Ellison2005}. We were able to rapidly assess lichen interactions
-by quantifying thalli in closed contact as assessed using 1 cm$^2$
-cells. Species accumulation curves showed that communities in the wild
-and the common garden were thoroughly sampled and with very similar
-species richness (Supplementary Materials). 
-
-On each tree, presence or absence of each lichen species was assessed
-in 50 total 1 cm$^2$ cells arrayed in a checkerboard pattern. Two
-adjacent 10 cm$^2$ quadrats centered at 50 cm and 85 cm from ground
-level were sampled. The checkerboard sampling pattern was chosen to
-isolate each cell based on an average thallus size of 1
-cm$^2$. Samples were restricted to the northern aspect of the trunk to
-maximize the abundance of lichen and control for the effect of
-aspect. The thalli in each cell are expected to be spatially
-independent of the other cells in the quadrat, but exposed to similar
-micro-environmental conditions. Bark roughness was measured on each
-tree following \cite{Winfree2011}.
-
-\subsection*{Network modeling and analyses}
-
-We used the observations of lichen in the 1cm$^2$ cells on individual
-trees of \textit{P. angustifolia} both in the common garden and the
-natural stand. Uni-partite networks were generated using an analytical
-procedure that removes non-significant interactions between species
-\cite{Araujo2011}. We used a null model based approach for all other
-analyses of network structure. A conservative null model that
-constrained both the row and column marginal totals was used in order
-to account for the effects of variation in species’ total
-abundances24. From a total of 5000 null matrices, a standardized score
-was calculated for each statistic ($z = \frac{x_{obs} -
-  \bar{x}_{sim}}{sd_{sim}}$), including the C-score \cite{Stone1990a},
-nestedness \cite{Atmar1993} and modularity \cite{Newman2006}. Here, we
-follow the convention of the co-occurrence literature and refer to the
-standardized C-Score as the Standardized Effect Size (SES)
-\cite{Gotelli2001}.
-
-A correlation test with Pearson’s \textit{r} was used to test for the
-correlation between the wild and common garden networks. A Welch
-Analysis of Variance (ANOVA), which relaxes the assumption of
-homogeneity of variance, was used to test for the effects of genotype
-on tree scale SES values. A permutation based Mantel Test was used to
-test for the effect of bark roughness on SES values in the common
-garden. All analyses were conducted using the programming language R
-\cite{RCoreTeam2017}.
-
+%% Topical subheadings are allowed. Authors must ensure that their
+%% Methods section includes adequate experimental and characterization
+%% data necessary for others in the field to reproduce their work.
 
 
 \section*{Results}
 
 %%% Up to three levels of \textbf{subheading} are permitted. Subheadings should not be numbered.
+
+\subsection*{Experimental Garden and Field Observations of Networks}
 
 In both the experimental garden and the natural stand, we discovered
 that genotypic variation in a \textit{P. angustifolia} predictably
@@ -335,6 +256,25 @@ indicates that the common garden environment captures much of the
 natural variation that exists in nature and accurately reflects
 natural processes.
 
+
+The bark lichen community in this system is comprised of fourteen
+species; however, only 9 species were observed within our study
+quadrats. The lichen community included (abbreviations are given for
+species present in study): Xg = \textit{Xanthomendoza galericulata},
+Xm = \textit{X. montana}, Ch = \textit{Caloplaca holocarpa}, Cs =
+\textit{Candelariella subdeflexa}, Rg = \textit{Rinodina glauca}, Lh =
+\textit{Lecanora hagenii}, Ls = \textit{Lecanora} (unknown species),
+Pm = \textit{Phyciella melanchra}, Pa = \textit{Physcia adscendens},
+Pu = \textit{Physcia undulata}, \textit{Phaeophyscia orbicularis},
+\textit{Phaeophyscia ciliata}, \textit{Melanelia subolivacea},
+\textit{Meanelia elegantula}, including both crustose and foliose
+lichen species that exhibit low inter-annual variation
+\cite{Ellison2005}. We were able to rapidly assess lichen interactions
+by quantifying thalli in closed contact as assessed using 1 cm$^2$
+cells. Species accumulation curves showed that communities in the wild
+and the common garden were thoroughly sampled and with very similar
+species richness (Supplementary Materials). 
+
 In the common garden, where the effect of environmental variation was
 controlled, genotype was an important factor contributing to network
 structure. Genotype was a significant predictor of interactions on
@@ -346,6 +286,8 @@ similar levels of bark roughness had similar levels of lichen
 interactions (Fig. 2a; Mantel R = 0.08, p = 0.013), which was similar
 to the correlation observed between bark roughness and lichen
 interactions in the natural stands (Fig 2b: r = -0.53, p = 0.050).
+
+
 
 We also examined how \textit{P. angustifolia} genotypic
 differentiation contributes to the formation of groups of tree
@@ -428,7 +370,78 @@ species interactions and the associated ecosystem functions
 \cite{Evans2013} that they provide.
 
 
+\section*{Methods}
 
+\subsection*{Field observations in common garden and natural riparian
+  forest stands}
+
+The study was conducted along the Weber River, UT (USA), which is a
+cottonwood (\textit{Populus} spp.) dominated riparian
+ecosystem. Although two native species, \textit{Populus angustifolia}
+(James) and \textit{Populus fremontii} (S. Watson), occur here and are
+known to hybridize, only pure or highly advanced backcrosses of
+\textit{P. angustifolia} were sampled in order to avoid the effect of
+the hybridization between these two species.
+
+A common garden setting was used to isolate the effect of tree
+genotype from the effect of the localized microenvironment associated
+with each individual and spatial autocorrelation. Asexually propagated
+clones of genotyped \textit{P. angustifolia} individuals4 were
+obtained from wild collections and planted randomly in a single field
+(0.025 km$^2$) at the Ogden Nature Center, Ogden, UT in 1992. A total
+of thirteen genotypes replicated between 3 and 8 times each, were
+chosen for sampling. Genotype names were previously published
+\cite{Ellison2005}. Observations were made in the common garden in
+October 2010 and May 2011.
+
+The natural stand of \textit{P. angustifolia} near the city of Uintah,
+UT (GPS:  N41.13903, W110.94400) was used for the wild stand
+survey. We conducted sampling of the stand in May 2012. A total of 14
+trees were chosen randomly over a 0.10 km$^2$ area with a minimal
+distance of 5.56 m between trees across a range of tree core based
+ages from 15 to 60 years.
+
+\subsection*{Bark and Lichen Community Observations}
+
+
+On each tree, presence or absence of each lichen species was assessed
+in 50 total 1 cm$^2$ cells arrayed in a checkerboard pattern. Two
+adjacent 10 cm$^2$ quadrats centered at 50 cm and 85 cm from ground
+level were sampled. The checkerboard sampling pattern was chosen to
+isolate each cell based on an average thallus size of 1
+cm$^2$. Samples were restricted to the northern aspect of the trunk to
+maximize the abundance of lichen and control for the effect of
+aspect. The thalli in each cell are expected to be spatially
+independent of the other cells in the quadrat, but exposed to similar
+micro-environmental conditions. Bark roughness was measured on each
+tree following \cite{Winfree2011}.
+
+\subsection*{Network modeling and analyses}
+
+We used the observations of lichen in the 1cm$^2$ cells on individual
+trees of \textit{P. angustifolia} both in the common garden and the
+natural stand. Uni-partite networks were generated using an analytical
+procedure that removes non-significant interactions between species
+\cite{Araujo2011}. We used a null model based approach for all other
+analyses of network structure. A conservative null model that
+constrained both the row and column marginal totals was used in order
+to account for the effects of variation in species’ total
+abundances24. From a total of 5000 null matrices, a standardized score
+was calculated for each statistic ($z = \frac{x_{obs} -
+  \bar{x}_{sim}}{sd_{sim}}$), including the C-score \cite{Stone1990a},
+nestedness \cite{Atmar1993} and modularity \cite{Newman2006}. Here, we
+follow the convention of the co-occurrence literature and refer to the
+standardized C-Score as the Standardized Effect Size (SES)
+\cite{Gotelli2001}.
+
+A correlation test with Pearson’s \textit{r} was used to test for the
+correlation between the wild and common garden networks. A Welch
+Analysis of Variance (ANOVA), which relaxes the assumption of
+homogeneity of variance, was used to test for the effects of genotype
+on tree scale SES values. A permutation based Mantel Test was used to
+test for the effect of bark roughness on SES values in the common
+garden. All analyses were conducted using the programming language R
+\cite{RCoreTeam2017}.
 
 
 \bibliography{Lau_InPrep_Nature}
