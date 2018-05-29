@@ -47,6 +47,16 @@
   \urlprefix\url{http://www.esajournals.org/doi/abs/10.1890/1540-9295(2005)003[0479:LOFSCF]2.0.CO;2?journalCode=fron}.
 \newblock \doiprefix 10.1890/1540-9295(2005)003[0479:LOFSCF]2.0.CO;2.
 
+\bibitem{Lamit2011}
+\bibinfo{author}{Lamit, L.} \emph{et~al.}
+\newblock \bibinfo{journal}{\bibinfo{title}{{Genetically-based trait variation
+  within a foundation tree species influences a dominant bark lichen}}}.
+\newblock {\emph{\JournalTitle{Fungal Ecol.}}} \textbf{\bibinfo{volume}{4}},
+  \bibinfo{pages}{103--109} (\bibinfo{year}{2011}).
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S1754504810000668}.
+\newblock \doiprefix 10.1016/j.funeco.2010.09.007.
+
 \bibitem{Fontaine2011}
 \bibinfo{author}{Fontaine, C.} \emph{et~al.}
 \newblock \bibinfo{journal}{\bibinfo{title}{{The ecological and evolutionary
@@ -75,24 +85,15 @@
 \newblock {\emph{\JournalTitle{Ecology}}} \textbf{\bibinfo{volume}{94}},
   \bibinfo{pages}{2321--33} (\bibinfo{year}{2013}).
 
-\bibitem{Whitham2006a}
-\bibinfo{author}{Whitham, T.~G.} \emph{et~al.}
-\newblock \bibinfo{journal}{\bibinfo{title}{{A framework for community and
-  ecosystem genetics: from genes to ecosystems.}}}
-\newblock {\emph{\JournalTitle{Nat. Rev. Genet.}}}
-  \textbf{\bibinfo{volume}{7}}, \bibinfo{pages}{510--523}
-  (\bibinfo{year}{2006}).
-\newblock \doiprefix 10.1038/nrg1877.
-
-\bibitem{Lamit2011}
-\bibinfo{author}{Lamit, L.} \emph{et~al.}
-\newblock \bibinfo{journal}{\bibinfo{title}{{Genetically-based trait variation
-  within a foundation tree species influences a dominant bark lichen}}}.
-\newblock {\emph{\JournalTitle{Fungal Ecol.}}} \textbf{\bibinfo{volume}{4}},
-  \bibinfo{pages}{103--109} (\bibinfo{year}{2011}).
-\newblock
-  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S1754504810000668}.
-\newblock \doiprefix 10.1016/j.funeco.2010.09.007.
+\bibitem{holeski2012}
+\bibinfo{author}{Holeski, L.~M.}, \bibinfo{author}{Hillstrom, M.~L.},
+  \bibinfo{author}{Whitham, T.~G.} \& \bibinfo{author}{Lindroth, R.~L.}
+\newblock \bibinfo{journal}{\bibinfo{title}{{Relative importance of genetic,
+  ontogenetic, induction, and seasonal variation in producing a multivariate
+  defense phenotype in a foundation tree species}}}.
+\newblock {\emph{\JournalTitle{Oecologia}}} \textbf{\bibinfo{volume}{170}},
+  \bibinfo{pages}{695--707} (\bibinfo{year}{2012}).
+\newblock \doiprefix 10.1007/s00442-012-2344-6.
 
 \bibitem{Bailey2009a}
 \bibinfo{author}{Bailey, J.~K.} \emph{et~al.}
@@ -105,42 +106,6 @@
 \newblock
   \urlprefix\url{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=2690499{\&}tool=pmcentrez{\&}rendertype=abstract}.
 \newblock \doiprefix 10.1098/rstb.2008.0336.
-
-\bibitem{holeski2012}
-\bibinfo{author}{Holeski, L.~M.}, \bibinfo{author}{Hillstrom, M.~L.},
-  \bibinfo{author}{Whitham, T.~G.} \& \bibinfo{author}{Lindroth, R.~L.}
-\newblock \bibinfo{journal}{\bibinfo{title}{{Relative importance of genetic,
-  ontogenetic, induction, and seasonal variation in producing a multivariate
-  defense phenotype in a foundation tree species}}}.
-\newblock {\emph{\JournalTitle{Oecologia}}} \textbf{\bibinfo{volume}{170}},
-  \bibinfo{pages}{695--707} (\bibinfo{year}{2012}).
-\newblock \doiprefix 10.1007/s00442-012-2344-6.
-
-\bibitem{whitham2012}
-\bibinfo{author}{Whitham, T.~G.} \emph{et~al.}
-\newblock \bibinfo{title}{{Community specificity: Life and afterlife effects of
-  genes}} (\bibinfo{year}{2012}).
-\newblock \doiprefix 10.1016/j.tplants.2012.01.005.
-
-\bibitem{burkle2013}
-\bibinfo{author}{Burkle, L.~A.}, \bibinfo{author}{Souza, L.},
-  \bibinfo{author}{Genung, M.~A.} \& \bibinfo{author}{Crutsinger, G.~M.}
-\newblock \bibinfo{journal}{\bibinfo{title}{{Plant genotype, nutrients, and G x
-  E interactions structure floral visitor communities}}}.
-\newblock {\emph{\JournalTitle{Ecosphere}}} \textbf{\bibinfo{volume}{4}},
-  \bibinfo{pages}{art113} (\bibinfo{year}{2013}).
-\newblock \urlprefix\url{http://dx.doi.org/10.1890/ES13-00039.1}.
-\newblock \doiprefix 10.1890/ES13-00039.1.
-
-\bibitem{smith2011}
-\bibinfo{author}{Smith, D.~S.}, \bibinfo{author}{Bailey, J.~K.},
-  \bibinfo{author}{Shuster, S.~M.} \& \bibinfo{author}{Whitham, T.~G.}
-\newblock \bibinfo{journal}{\bibinfo{title}{{A geographic mosaic of trophic
-  interactions and selection: trees, aphids and birds.}}}
-\newblock {\emph{\JournalTitle{J. Evol. Biol.}}} \textbf{\bibinfo{volume}{24}},
-  \bibinfo{pages}{422--9} (\bibinfo{year}{2011}).
-\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/21091573}.
-\newblock \doiprefix 10.1111/j.1420-9101.2010.02178.x.
 
 \bibitem{Winfree2011}
 \bibinfo{author}{Winfree, R.}, \bibinfo{author}{Gross, B.~J.} \&
@@ -183,6 +148,15 @@
   on Resilience}} (\bibinfo{year}{1989}).
 \newblock \doiprefix 10.1086/285011.
 
+\bibitem{Whitham2006a}
+\bibinfo{author}{Whitham, T.~G.} \emph{et~al.}
+\newblock \bibinfo{journal}{\bibinfo{title}{{A framework for community and
+  ecosystem genetics: from genes to ecosystems.}}}
+\newblock {\emph{\JournalTitle{Nat. Rev. Genet.}}}
+  \textbf{\bibinfo{volume}{7}}, \bibinfo{pages}{510--523}
+  (\bibinfo{year}{2006}).
+\newblock \doiprefix 10.1038/nrg1877.
+
 \bibitem{Borgatti2006}
 \bibinfo{author}{Borgatti, S.~P.} \& \bibinfo{author}{Everett, M.~G.}
 \newblock \bibinfo{journal}{\bibinfo{title}{{A Graph-theoretic perspective on
@@ -190,6 +164,16 @@
 \newblock {\emph{\JournalTitle{Soc. Networks}}} \textbf{\bibinfo{volume}{28}},
   \bibinfo{pages}{466--484} (\bibinfo{year}{2006}).
 \newblock \doiprefix 10.1016/j.socnet.2005.11.005.
+
+\bibitem{Smith2011}
+\bibinfo{author}{Smith, D.~S.}, \bibinfo{author}{Bailey, J.~K.},
+  \bibinfo{author}{Shuster, S.~M.} \& \bibinfo{author}{Whitham, T.~G.}
+\newblock \bibinfo{journal}{\bibinfo{title}{{A geographic mosaic of trophic
+  interactions and selection: trees, aphids and birds.}}}
+\newblock {\emph{\JournalTitle{J. Evol. Biol.}}} \textbf{\bibinfo{volume}{24}},
+  \bibinfo{pages}{422--9} (\bibinfo{year}{2011}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/21091573}.
+\newblock \doiprefix 10.1111/j.1420-9101.2010.02178.x.
 
 \bibitem{Rowntree2011}
 \bibinfo{author}{Rowntree, J.~K.}, \bibinfo{author}{Shuker, D.~M.} \&
@@ -202,6 +186,12 @@
 \newblock
   \urlprefix\url{http://rstb.royalsocietypublishing.org/content/366/1569/1322.full}.
 \newblock \doiprefix 10.1098/rstb.2010.0357.
+
+\bibitem{Whitham2012}
+\bibinfo{author}{Whitham, T.~G.} \emph{et~al.}
+\newblock \bibinfo{title}{{Community specificity: Life and afterlife effects of
+  genes}} (\bibinfo{year}{2012}).
+\newblock \doiprefix 10.1016/j.tplants.2012.01.005.
 
 \bibitem{Zook2010}
 \bibinfo{author}{Zook, A.~E.}, \bibinfo{author}{Eklof, A.},
