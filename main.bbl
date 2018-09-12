@@ -1,9 +1,212 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{10}
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
 \expandafter\ifx\csname doiprefix\endcsname\relax\def\doiprefix{DOI }\fi
 \providecommand{\bibinfo}[2]{#2}
 \providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem{Fontaine2011}
+\bibinfo{author}{Fontaine, C.} \emph{et~al.}
+\newblock \bibinfo{journal}{\bibinfo{title}{{The ecological and evolutionary
+  implications of merging different types of networks.}}}
+\newblock {\emph{\JournalTitle{Ecol. Lett.}}} \textbf{\bibinfo{volume}{14}},
+  \bibinfo{pages}{1170--81} (\bibinfo{year}{2011}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/21951949}.
+\newblock \doiprefix 10.1111/j.1461-0248.2011.01688.x.
+
+\bibitem{Bascompte2006}
+\bibinfo{author}{Bascompte, J.}, \bibinfo{author}{Jordano, P.} \&
+  \bibinfo{author}{Olesen, J.~M.}
+\newblock \bibinfo{journal}{\bibinfo{title}{{Asymmetric Coevolutionary Networks
+  Facilitate Biodiversity Maintenance\r10.1126/science.1123412}}}.
+\newblock {\emph{\JournalTitle{Science (80-. ).}}}
+  \textbf{\bibinfo{volume}{312}}, \bibinfo{pages}{431--433}
+  (\bibinfo{year}{2006}).
+\newblock
+  \urlprefix\url{http://www.sciencemag.org/cgi/content/abstract/312/5772/431}.
+\newblock \doiprefix 10.1126/science.1123412.
+
+\bibitem{Rafferty2013}
+\bibinfo{author}{Rafferty, N.~E.} \& \bibinfo{author}{Ives, A.~R.}
+\newblock \bibinfo{journal}{\bibinfo{title}{{Phylogenetic trait-based analyses
+  of ecological networks.}}}
+\newblock {\emph{\JournalTitle{Ecology}}} \textbf{\bibinfo{volume}{94}},
+  \bibinfo{pages}{2321--33} (\bibinfo{year}{2013}).
+
+\bibitem{Ellison2005}
+\bibinfo{author}{Ellison, A.~M.} \emph{et~al.}
+\newblock \bibinfo{journal}{\bibinfo{title}{{Loss of foundation species:
+  consequences for the structure and dynamics of forested ecosystems}}}.
+\newblock {\emph{\JournalTitle{Front. Ecol. Environ.}}}
+  \textbf{\bibinfo{volume}{3}}, \bibinfo{pages}{479--486}
+  (\bibinfo{year}{2005}).
+\newblock
+  \urlprefix\url{http://www.esajournals.org/doi/abs/10.1890/1540-9295(2005)003[0479:LOFSCF]2.0.CO;2?journalCode=fron}.
+\newblock \doiprefix 10.1890/1540-9295(2005)003[0479:LOFSCF]2.0.CO;2.
+
+\bibitem{holeski2012}
+\bibinfo{author}{Holeski, L.~M.}, \bibinfo{author}{Hillstrom, M.~L.},
+  \bibinfo{author}{Whitham, T.~G.} \& \bibinfo{author}{Lindroth, R.~L.}
+\newblock \bibinfo{journal}{\bibinfo{title}{{Relative importance of genetic,
+  ontogenetic, induction, and seasonal variation in producing a multivariate
+  defense phenotype in a foundation tree species}}}.
+\newblock {\emph{\JournalTitle{Oecologia}}} \textbf{\bibinfo{volume}{170}},
+  \bibinfo{pages}{695--707} (\bibinfo{year}{2012}).
+\newblock \doiprefix 10.1007/s00442-012-2344-6.
+
+\bibitem{Bailey2009a}
+\bibinfo{author}{Bailey, J.~K.} \emph{et~al.}
+\newblock \bibinfo{journal}{\bibinfo{title}{{From genes to ecosystems: a
+  synthesis of the effects of plant genetic factors across levels of
+  organization.}}}
+\newblock {\emph{\JournalTitle{Philos. Trans. R. Soc. Lond. B. Biol. Sci.}}}
+  \textbf{\bibinfo{volume}{364}}, \bibinfo{pages}{1607--16}
+  (\bibinfo{year}{2009}).
+\newblock
+  \urlprefix\url{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=2690499&tool=pmcentrez&rendertype=abstract}.
+\newblock \doiprefix 10.1098/rstb.2008.0336.
+
+\bibitem{Rowntree2011}
+\bibinfo{author}{Rowntree, J.~K.}, \bibinfo{author}{Shuker, D.~M.} \&
+  \bibinfo{author}{Preziosi, R.~F.}
+\newblock \bibinfo{journal}{\bibinfo{title}{{Forward from the crossroads of
+  ecology and evolution.}}}
+\newblock {\emph{\JournalTitle{Philos. Trans. R. Soc. Lond. B. Biol. Sci.}}}
+  \textbf{\bibinfo{volume}{366}}, \bibinfo{pages}{1322--8}
+  (\bibinfo{year}{2011}).
+\newblock
+  \urlprefix\url{http://rstb.royalsocietypublishing.org/content/366/1569/1322.full}.
+\newblock \doiprefix 10.1098/rstb.2010.0357.
+
+\bibitem{Lamit2011}
+\bibinfo{author}{Lamit, L.} \emph{et~al.}
+\newblock \bibinfo{journal}{\bibinfo{title}{{Genetically-based trait variation
+  within a foundation tree species influences a dominant bark lichen}}}.
+\newblock {\emph{\JournalTitle{Fungal Ecol.}}} \textbf{\bibinfo{volume}{4}},
+  \bibinfo{pages}{103--109} (\bibinfo{year}{2011}).
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S1754504810000668}.
+\newblock \doiprefix 10.1016/j.funeco.2010.09.007.
+
+\bibitem{Rezende2007}
+\bibinfo{author}{Rezende, E.~L.}, \bibinfo{author}{Lavabre, J.~E.},
+  \bibinfo{author}{Guimar{\~{a}}es, P.~R.}, \bibinfo{author}{Jordano, P.} \&
+  \bibinfo{author}{Bascompte, J.}
+\newblock \bibinfo{journal}{\bibinfo{title}{{Non-random coextinctions in
+  phylogenetically structured mutualistic networks.}}}
+\newblock {\emph{\JournalTitle{Nature}}} \textbf{\bibinfo{volume}{448}},
+  \bibinfo{pages}{925--8} (\bibinfo{year}{2007}).
+\newblock \urlprefix\url{http://dx.doi.org/10.1038/nature05956}.
+\newblock \doiprefix 10.1038/nature05956.
+
+\bibitem{Guimaraes2011}
+\bibinfo{author}{Guimar{\~{a}}es, P.~R.}, \bibinfo{author}{Jordano, P.} \&
+  \bibinfo{author}{Thompson, J.~N.}
+\newblock \bibinfo{journal}{\bibinfo{title}{{Evolution and coevolution in
+  mutualistic networks}}}.
+\newblock {\emph{\JournalTitle{Ecol. Lett.}}} \textbf{\bibinfo{volume}{14}},
+  \bibinfo{pages}{877--85} (\bibinfo{year}{2011}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/21749596}.
+\newblock \doiprefix 10.1111/j.1461-0248.2011.01649.x.
+\newblock \eprint{arXiv:1012.5461v2}.
+
+\bibitem{Moya-Larano2011}
+\bibinfo{author}{Moya-Lara{\~{n}}o, J.}
+\newblock \bibinfo{journal}{\bibinfo{title}{{Genetic variation, predator-prey
+  interactions and food web structure.}}}
+\newblock {\emph{\JournalTitle{Philos. Trans. R. Soc. Lond. B. Biol. Sci.}}}
+  \textbf{\bibinfo{volume}{366}}, \bibinfo{pages}{1425--37}
+  (\bibinfo{year}{2011}).
+\newblock \doiprefix 10.1098/rstb.2010.0241.
+
+\bibitem{Winfree2011}
+\bibinfo{author}{Winfree, R.}, \bibinfo{author}{Gross, B.~J.} \&
+  \bibinfo{author}{Kremen, C.}
+\newblock \bibinfo{journal}{\bibinfo{title}{{Valuing pollination services to
+  agriculture}}}.
+\newblock {\emph{\JournalTitle{Ecol. Econ.}}} \textbf{\bibinfo{volume}{71}},
+  \bibinfo{pages}{80--88} (\bibinfo{year}{2011}).
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S092180091100334X}.
+\newblock \doiprefix 10.1016/j.ecolecon.2011.08.001.
+
+\bibitem{Zytynska2011}
+\bibinfo{author}{Zytynska, S.~E.}, \bibinfo{author}{Fay, M.~F.},
+  \bibinfo{author}{Penney, D.} \& \bibinfo{author}{Preziosi, R.~F.}
+\newblock \bibinfo{journal}{\bibinfo{title}{{Genetic variation in a tropical
+  tree species influences the associated epiphytic plant and invertebrate
+  communities in a complex forest ecosystem.}}}
+\newblock {\emph{\JournalTitle{Philos. Trans. R. Soc. Lond. B. Biol. Sci.}}}
+  \textbf{\bibinfo{volume}{366}}, \bibinfo{pages}{1329--1336}
+  (\bibinfo{year}{2011}).
+\newblock \doiprefix 10.1098/rstb.2010.0183.
+
+\bibitem{Araujo2011}
+\bibinfo{author}{Ara{\'{u}}jo, M.~B.}, \bibinfo{author}{Rozenfeld, A.},
+  \bibinfo{author}{Rahbek, C.} \& \bibinfo{author}{Marquet, P.~A.}
+\newblock \bibinfo{journal}{\bibinfo{title}{{Using species co-occurrence
+  networks to assess the impacts of climate change}}}.
+\newblock {\emph{\JournalTitle{Ecography (Cop.).}}}
+  \textbf{\bibinfo{volume}{34}}, \bibinfo{pages}{897--908}
+  (\bibinfo{year}{2011}).
+\newblock
+  \urlprefix\url{http://dx.doi.org/10.1111/j.1600-0587.2011.06919.x%5Cnhttp://doi.wiley.com/10.1111/j.1600-0587.2011.06919.x}.
+\newblock \doiprefix 10.1111/j.1600-0587.2011.06919.x.
+
+\bibitem{Whitham2006a}
+\bibinfo{author}{Whitham, T.~G.} \emph{et~al.}
+\newblock \bibinfo{journal}{\bibinfo{title}{{A framework for community and
+  ecosystem genetics: from genes to ecosystems.}}}
+\newblock {\emph{\JournalTitle{Nat. Rev. Genet.}}}
+  \textbf{\bibinfo{volume}{7}}, \bibinfo{pages}{510--523}
+  (\bibinfo{year}{2006}).
+\newblock \doiprefix 10.1038/nrg1877.
+
+\bibitem{Borgatti2006}
+\bibinfo{author}{Borgatti, S.~P.} \& \bibinfo{author}{Everett, M.~G.}
+\newblock \bibinfo{journal}{\bibinfo{title}{{A Graph-theoretic perspective on
+  centrality}}}.
+\newblock {\emph{\JournalTitle{Soc. Networks}}} \textbf{\bibinfo{volume}{28}},
+  \bibinfo{pages}{466--484} (\bibinfo{year}{2006}).
+\newblock \doiprefix 10.1016/j.socnet.2005.11.005.
+
+\bibitem{Smith2011}
+\bibinfo{author}{Smith, D.~S.}, \bibinfo{author}{Bailey, J.~K.},
+  \bibinfo{author}{Shuster, S.~M.} \& \bibinfo{author}{Whitham, T.~G.}
+\newblock \bibinfo{journal}{\bibinfo{title}{{A geographic mosaic of trophic
+  interactions and selection: trees, aphids and birds.}}}
+\newblock {\emph{\JournalTitle{J. Evol. Biol.}}} \textbf{\bibinfo{volume}{24}},
+  \bibinfo{pages}{422--9} (\bibinfo{year}{2011}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/21091573}.
+\newblock \doiprefix 10.1111/j.1420-9101.2010.02178.x.
+
+\bibitem{Whitham2012}
+\bibinfo{author}{Whitham, T.~G.} \emph{et~al.}
+\newblock \bibinfo{title}{{Community specificity: Life and afterlife effects of
+  genes}} (\bibinfo{year}{2012}).
+\newblock \doiprefix 10.1016/j.tplants.2012.01.005.
+
+\bibitem{Zook2010}
+\bibinfo{author}{Zook, A.~E.}, \bibinfo{author}{Eklof, A.},
+  \bibinfo{author}{Jacob, U.} \& \bibinfo{author}{Allesina, S.}
+\newblock \bibinfo{journal}{\bibinfo{title}{{Food webs: Ordering species
+  according to body size yields high degree of intervality.}}}
+\newblock {\emph{\JournalTitle{J. Theor. Biol.}}}
+  \textbf{\bibinfo{volume}{271}}, \bibinfo{pages}{106--113}
+  (\bibinfo{year}{2010}).
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0022519310006405}.
+\newblock \doiprefix 10.1016/j.jtbi.2010.11.045.
+
+\bibitem{Evans2013}
+\bibinfo{author}{Evans, D.~M.}, \bibinfo{author}{Pocock, M. J.~O.} \&
+  \bibinfo{author}{Memmott, J.}
+\newblock \bibinfo{journal}{\bibinfo{title}{{The robustness of a network of
+  ecological networks to habitat loss.}}}
+\newblock {\emph{\JournalTitle{Ecol. Lett.}}} \textbf{\bibinfo{volume}{16}},
+  \bibinfo{pages}{844--52} (\bibinfo{year}{2013}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/23692559}.
+\newblock \doiprefix 10.1111/ele.12117.
 
 \end{thebibliography}
