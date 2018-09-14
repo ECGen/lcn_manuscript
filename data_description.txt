@@ -1,0 +1,104 @@
+##### LICHEN DATA #####
+
+LCO_data_ONC_PIT.csv: Lichen count data from Pit common garden
+ including both upper and mid-level quadrats for each tree
+LichenHeritNL_master_2010-2011.csv: Jamie Lamit's lichen and roughness
+ data for Ogden Nature Center
+
+LichenTreeList.csv: This is also Jamie Lamit's lichen and roughness
+ data for Ogeden Nature Center but re-ordered
+
+ONCLichenCooc_12May2011.csv: lichen counts from trees in the Ogden
+ Nature Center from 2011
+ONCLichenCooc_May2011FINAL.csv: an abbreviated version of
+ ONCLichenCooc_12May2011.csv
+
+PITLichenCooccurrenceMay2011.csv: lichen co-occurrence data from the
+Pit common garden. 
+
+Uinta2012_all_data_from_Lamit.csv: lichen data from the Uinta garden
+UintaMaster_LichenHeritNL_FallSpring_2012_ForLau.csv: lichen data from the Uinta garden
+
+lcn_coord_onc.csv: unknown coordinates for lichen species
+
+lcn_stand_ses.csv: stand level null modeling for lichen communities in
+the Ogden Nature Center
+
+lcn_tree_ses.csv: null modeling for lichen communities for each
+replicate tree, SES (standardized effect sizes) values calculated with
+means and p-values
+
+lco_Apr2012.csv: Uintah wild stand lichen co-occurrence data
+
+wild_ses_21mar2014.csv: Uintah wild-stand standardized effect sizes
+for lichen co-occurrence data
+
+wild_ses_tree.csv: Uintah wild-stand standardized effect sizes
+for lichen co-occurrence data
+
+##### GARDEN AND TREE DATA #####
+
+Branch count & webs.xls: The spreadsheet contains Todd's counts,
+  Zacchaeus' counts and the total for the trees. Z&T were positioned
+  on different sides of tree and counted their side of the tree.
+
+Hybrid Index - Jamie.xls: A combination of tree status (recorded by
+ Jamie Lamit), Hybrid Index Values (calculated by Matt Zinkgraf) and
+ garden maps (both North and South)
+
+NONC gps data.xls: spatial coordinates for the trees in the Ogden
+ Nature Center
+NONC_gps_data.csv: spatial coordinates for the trees in the Ogden
+ Nature Center
+NONCgpsData.csv: spatial coordinates for the trees in the Ogden Nature
+ Center
+
+ONC_Hindex - Matt Z.xls: updated Hybrid Index value calcuations from
+Matt Zinkgraf (via Todd Wojtowicz)
+
+ONC_MSAT_datafromnash.csv: Ogden Nature Center microsattelite data
+from Nashelley Maneses. 
+
+ONC_MSAT_datafromnash.xlsx: Ogden Nature Center microsattelite data
+from Nashelley Maneses. 
+
+ONC_raw_roughness.csv: roughness data from Jamie Lamit
+
+roughness_ONC.csv: roughness and lichen data from the Ogden Nature Center
+
+uintah_trees: tree information from the Uintah wild stands including
+faxed data on each tree (roughness, coordinates, canopy density, etc.) 
+##### REDUNDANT OR CORRUPTED DATA #####
+### THESE ARE NOW IN THE OLD FOLDER ###
+
+lcn_onc_ses.rda: null modeling for lichen communities for each
+replicate tree, z values calculated with means and pval
+
+onc_nms.Rdata
+onc_ses.Rdata
+onc_stand_null.Rdata
+onc_tree_cs.Rdata
+onc_tree_pval.Rdata
+onc_tree_ses.Rdata
+onc_tree_ses_2011.Rdata
+
+sem_os.txt: structural equation model for input into the SEM package
+in R
+
+wild_com.Rdata: community structure file for wild stand communities in
+Uintah
+
+wild_tree_ncs.Rdata: null modeling output for lichen co-ocurrences on
+trees at the Uintah wild stand
+wild_tree_ocs.Rdata: null modeling output for lichen co-ocurrences on
+trees at the Uintah wild stand
+wild_tree_pval.Rdata: null modeling output for lichen co-ocurrences on
+trees at the Uintah wild stand
+wild_tree_ses.Rdata: null modeling output for lichen co-ocurrences on
+trees at the Uintah wild stand
+
+UintaMaster_LichenHeritNL_FallSpring_2012_ForLau.xls: lichen data from the Uinta garden
+LichenHeritNL_master_2010-2011.xls: Jamie Lamit's lichen and roughness
+ data for Ogden Nature Center
+LichenHeritNL_Spring2010.xls: Jamie Lamit's lichen and roughness data
+ for Ogden Nature Center
