@@ -9,9 +9,9 @@
 \bibitem{Araujo2011}
 \bibinfo{author}{Ara{\'{u}}jo, M.~B.}, \bibinfo{author}{Rozenfeld, A.},
   \bibinfo{author}{Rahbek, C.} \& \bibinfo{author}{Marquet, P.~A.}
-\newblock \bibinfo{journal}{\bibinfo{title}{{Using species co-occurrence
-  networks to assess the impacts of climate change}}}.
-\newblock {\emph{\JournalTitle{Ecography (Cop.).}}}
+\newblock \bibinfo{title}{{Using species co-occurrence networks to assess the
+  impacts of climate change}}.
+\newblock \emph{\bibinfo{journal}{Ecography (Cop.).}}
   \textbf{\bibinfo{volume}{34}}, \bibinfo{pages}{897--908}
   (\bibinfo{year}{2011}).
 \newblock
