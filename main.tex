@@ -11,7 +11,7 @@
 % {pnasmathematics} %= Template for a one-column mathematics article
 % {pnasinvited} %= Template for a PNAS invited submission
 
-\title{Genotypic variation in a foundation tree drives ecological
+\title{Genotypic variation in a foundation tree directs ecological
   network structure}
 
 % Use letters for affiliations, numbers to show equal authorship (if applicable) and to indicate the corresponding author
@@ -302,10 +302,20 @@ analyses, we then examined the genetically based impacts of
   \end{itemize}
 \item Network modeling
   \begin{itemize}
-  \item 
+  \item Elaborate from figure legend
   \end{itemize}
 \item Network metrics
+  \begin{itemize}
+  \item Elaborate calculations and meanings
+  \end{itemize}
 \item Statistical analyses and software
+  \begin{itemize}
+  \item REML
+  \item Least squares models
+  \item PerMANOVA
+  \item Mantel tests
+  \item Code and data available via github and zenodo
+  \end{itemize}
 \end{itemize}
 
 
@@ -368,50 +378,54 @@ Observations were made in the common garden in October 2010 and May
 
 \section*{Results}
 
-\textbf{Interactions between lichens and trees depended on tree genotype}
+\subsection*{Bark characteristis and lichen respond to tree genotype}
+
 \begin{itemize}
-\item abundance
-\item roughness predicted by genotype
-\item richness not predicted by genotype
-\item composition
+\item Genotype affected roughness
+\item Genotype affected total cover
+\item Genotype didn't affect richness
+\item Genotype predicts community composition
+\item After controlling for genotype, cover and richness predict composition
+\item Roughness was correlated with total cover
+\item Roughness was not correlated with richness
+\item Roughness did not predict community composition, after
+  controlling for genotype
 \end{itemize}
 
-Tree-lichen interactions depended on tree genotype. As previously
-observed \cite{Lamit2015} percent cover (REML: $R^2$ = 0.17,
-\texit{p-value} = 0.039) and community composition (PerMANOVA: ) of varied
-significantly among tree genotypes.
 
+\subsection*{Tree genotype influenced lichen network similarity}
 
-
-\textbf{Genotype-Lichen Interactions contributed to stand-level
-  bipartite interaction network structure}
 \begin{itemize}
-\item bipartite network structure different from random modularity
-\item for wild stand and garden
+\item Network structure across tree genotypes (Figure)
+\item Genotype predicted network similarity
+\item Species richness predicted network similarity after controlling
+  for genotype
+\item Total cover and roughness did not predict network similiarity
+\item Community similiarty was not correlated with network
+  similiarity, even after controlling for roughness, total cover and richness
 \end{itemize}
 
-\textbf{Lichen interaction network structure was genotype dependent}
+\subsection*{Lichen network patterns were primarily driven by linkages}
+
 \begin{itemize}
-\item unipartite network structure predicted by genotype
+\item Number of links is marginally predicted by genotype
+\item Genotype did not predict centrality or modularity
+\item Both total cover and richness predicted links, centrality and
+  modularity
+\item Links, centrality and modularity are correlated
+\item Species level centrality responses to genotypes
 \end{itemize}
 
-\textbf{Interaction network structure was related to composition but
-  not roughness}
-\begin{itemize}
-\item unipartite correlation with community composition
-\item unipartite not predicted by roughness
-\end{itemize}
 
-\textbf{Structural characteristics of networks were not predicted by genotype}
-\begin{itemize}
-\item network statistics global level
-\item network statistics node level
-\end{itemize}
-
-Trees acted as environmental filters contributing to interaction
-
-Interaction network structure depending on tree genotype
-
+%% Not sure if these results should be included, it might be enough to
+%% just tell the unipartite network story.
+%% \subsection*{Genotypic variation increases stand-level lichen network modularity}
+%% \begin{itemize}
+%% \item Lichens displayed signficant bipartite network structure
+%% \item Bipratite network structure was greater than compared to the
+%%   modularity based on a null model that randomizes with respect to genotype
+%% \item z = 856.05271, p-value <= 0.00100 
+%% \end{itemize}
 
 \begin{figure}[ht]
 \centering
@@ -480,10 +494,23 @@ Interaction network structure depending on tree genotype
 
 }
 
+
 \showmatmethods{} % Display the Materials and Methods section
 
 
 \section*{Discussion}
+
+\begin{itemize}
+\item Rehash of results support hypothesis of genetic basis to network structure
+\item Genotypic environmental filtering leads to altered interaction
+  network structure and potentially dymanics
+\item Indirect effects of genotypes (G -> rough -> cover -> richness
+  -> links -> networks)
+\item Importance of indirect effects and complexity and releveance to IIGEs
+\item Conclusion
+\end{itemize}
+
+
 
 Trait variation + assembly + ecosystem function
 

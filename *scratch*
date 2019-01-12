@@ -1,0 +1,42 @@
+;; This buffer is for text that is not saved, and for Lisp evaluation.
+;; To create a file, visit it with C-x C-f and enter text in its buffer.
+
+onc.rough  -> ptc.onc,    23,   NA
+ptc.onc   <-> spr.onc,    34,   NA
+ptc.onc    -> com.nms1,   35,   NA
+spr.onc    -> com.nms1,   45,   NA
+spr.onc    -> cn.nms1,    49,   NA
+spr.onc    -> cn.nms2,    410,   NA
+geno <-> geno, NA, 0
+onc.rough <-> onc.rough,  e2,   NA
+ptc.onc   <-> ptc.onc,    e3,   NA
+spr.onc   <-> spr.onc,    e4,   NA
+com.nms1  <-> com.nms1,   d5,   NA
+cn.nms1   <-> cn.nms1,    d9,   NA
+cn.nms2   <-> cn.nms2,    d10,   NA
+com.nms1  <-> cn.nms1,    d59,   NA
+com.nms1  <-> cn.nms2,    d510,   NA
+cn.nms1   <-> cn.nms2,    d910,   NA
+
+geno1005   <-> geno1005,  eg1,  NA
+geno1007   <-> geno1007,  eg2,  NA
+geno1008   <-> geno1008,  eg3,  NA
+geno1012   <-> geno1012,  eg4,  NA
+geno1017   <-> geno1017,  eg5,  NA
+geno1023   <-> geno1023,  eg6,  NA
+geno11     <-> geno11,    eg7,  NA
+geno996    <-> geno996,   eg8,  NA
+geno999    <-> geno999,   eg9,  NA
+genoH10    <-> genoH10,   eg10, NA
+genoT6     <-> genoT6,    eg11, NA
+genoWC5    <-> genoWC5,   eg12, NA
+
+geno1012   -> geno,  g4,  NA
+geno1017   -> geno,  g5,  NA
+geno1023   -> geno,  g6,  NA
+geno11     -> geno,  g7,  NA
+geno996    -> geno,  g8,  NA
+geno999    -> geno,  g9,  NA
+genoH10    -> geno,  g10, NA
+genoT6     -> geno,  g11, NA
+genoWC5    -> geno,  g12, NA
