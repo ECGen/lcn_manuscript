@@ -73,6 +73,7 @@
 %% cited in full within the abstract itself and cited in the text.
 
 %% Currently: 272 words 13Dec2018
+
 Biological evolution occurs in the context of complex networks of
 interacting species in which natural selection defines the structure
 of ecological networks. Fundamental to this evolutionary process is
@@ -102,6 +103,7 @@ species. Although these results are for a community of sessile
 organisms in close proximity to the tree, this study opens the
 possibility for a genetic basis to both direct and indirect
 interactions among species in complex communities.
+
 \end{abstract}
 
 \dates{This manuscript was compiled on \today}
@@ -302,6 +304,7 @@ analyses, we then examined the genetically based impacts of
   \end{itemize}
 \item Network modeling
   \begin{itemize}
+  \item Network modeling
   \item Elaborate from figure legend
   \end{itemize}
 \item Network metrics
@@ -378,43 +381,90 @@ Observations were made in the common garden in October 2010 and May
 
 \section*{Results}
 
+
+%%% This subsection analyzes the respones of the
+%%% bark lichen community to tree genotype 
+
 \subsection*{Bark characteristis and lichen respond to tree genotype}
 
 \begin{itemize}
-\item Genotype affected roughness
-\item Genotype affected total cover
-\item Genotype didn't affect richness
-\item Genotype predicts community composition
-\item After controlling for genotype, cover and richness predict composition
-\item Roughness was correlated with total cover
-\item Roughness was not correlated with richness
+\item Genotype affected roughness (REML RLRT = 10.69, p-value = 3e-04)
+\item Genotype affected total cover (REML RLRT = 2.9627, p-value = 0.0375)
+\item Genotype didn't affect richness (REML RLRT = 0.13047, p-value = 0.3134)
+\item Genotype predicted community composition (PerMANOVA R2 = 0.243,
+  F 12 = 1.8221, p-value = 0.0029)
+\item After controlling for genotype, cover (PerMANOVA R2 = 0.236, F 1
+  = 21.2661, p-value = 9.999e-05) and richness (PerMANOVA spr.onc R2 =
+  0.054, F 1 = 4.9036, p-value = 0.0011) predicted composition.
+\item Roughness was correlated with total cover (LM F 1, 55 = 6.797,
+  p-value = 0.01173)
+\item Roughness was not correlated with richness (LM F 1, 55 = 1.509,
+  p-value = 0.2246)
 \item Roughness did not predict community composition, after
-  controlling for genotype
+  controlling for genotype (PerMANOVA R2 = 0.011, F 1 = 0.9938,
+  p-value = 0.3841)
 \end{itemize}
 
+
+%%% This subsection connects the community responses to
+%%% network variation in response to tree genotype.
 
 \subsection*{Tree genotype influenced lichen network similarity}
 
 \begin{itemize}
 \item Network structure across tree genotypes (Figure)
-\item Genotype predicted network similarity
+\item Genotype predicted network similarity (PerMANOVA R2 = 0.33795, F
+  12 = 2.5379, p-value = 0.0050)
 \item Species richness predicted network similarity after controlling
-  for genotype
-\item Total cover and roughness did not predict network similiarity
-\item Community similiarty was not correlated with network
-  similiarity, even after controlling for roughness, total cover and richness
+  for genotype (PerMANOVA R2 = 0.17274, F 1 = 15.5675, p-value =
+  9.999e-05)
+\item Neither total cover (PerMANOVA R2 = 0.023, F 1 = 2.0628, p-value
+  = 0.1449) nor roughness (PerMANOVA R2 = 0.011, F 1 = 1.0332, p-value
+  = 0.3147) predicted network similiarity
+  \item Community similiarty was not correlated with network
+  similiarity (Mantel Rho spearman = 0.023, p-value = 0.257)
 \end{itemize}
+
+%%% This subsection focuses on network metrics to illucidate the
+%%% structural changes of networks.
 
 \subsection*{Lichen network patterns were primarily driven by linkages}
 
 \begin{itemize}
-\item Number of links is marginally predicted by genotype
-\item Genotype did not predict centrality or modularity
-\item Both total cover and richness predicted links, centrality and
-  modularity
-\item Links, centrality and modularity are correlated
-\item Species level centrality responses to genotypes
+\item Number of links was marginally predicted by genotype (REML RLRT
+  = 2.0221, p-value = 0.0657)
+\item Genotype did not predict centrality (REML RLRT = 0.073742,
+  p-value = 0.3565) or modularity (REML RLRT = 0.1321, p-value =
+  0.3168)
+\item Total cover predicted links (ANOVA F 1 = 6.867, p-value = 0.0114)
+  and centrality (ANOVA F 1 = 8.093, p-value = 0.0063) but not
+  modularity (ANOVA F 1 = 2.2250, p-value = 0.1417).
+\item Species richness predicted links (ANOVA F 1 = 29.436, p-value =
+  1.46e-06), centrality (ANOVA F 1 = 39.488, p-value = 6.38e-08) and
+  modularity (ANOVA F 1 = 31.2713, p-value = 8.004e-07).
+\item Only the number of network links (PerMANOVA R2 = 0.389, F 1 =
+  35.0440, p-value = 0.001) was correlated with network similarity,
+  however, network centrality (PerMANOVA R2 = 0.008, F 1 = 0.6804,
+  p-value = 0.499) and modularity (PerMANOVA R2 = 0.0143, F 1 =
+  1.2905, p-value = 0.267) were not.
 \end{itemize}
+
+\subsection*{Heritability estimates for lichen networks}
+
+\begin{itemize}
+\item Compare all trait heritabilities
+\item 
+\end{itemize}
+
+Response,                     H2,      R2,      p-value
+Percent Rough Bark,           0.37834, 0.37834, 2e-04
+Percent Lichen Cover,         0.17278, 0.17278, 0.0363
+Number of Network Links,      0.16892, 0.16892, 0.0675
+Lichen Network,               0.16708, 0.33794, 0.04299
+Lichen Community Composition, 0.08526, 0.27702, 0.0952
+Network Modularity,           0.03886, 0.03886, 0.3164
+Lichen Species Richness,      0.03578, 0.03578, 0.3153
+Network Centrality,           0.03033, 0.03033, 0.3472
 
 
 %% Not sure if these results should be included, it might be enough to
