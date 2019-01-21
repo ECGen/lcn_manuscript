@@ -287,35 +287,13 @@ analyses, we then examined the genetically based impacts of
 
 \matmethods{
 
+
 \begin{itemize}
 \item Common garden
-  \begin{itemize}
-  \item Cottonwoods in the west
-  \item Restoration site
-  \item Wild stand
-  \end{itemize}
 \item Lichen observations
-  \begin{itemize}
-  \item Grid system
-  \item Two grids (upper and lower)
-  \item Lichen size distribution (dominant Xgal)
-  \end{itemize}
 \item Network modeling
-  \begin{itemize}
-  \item Elaborate from figure legend
-  \end{itemize}
 \item Network metrics
-  \begin{itemize}
-  \item Elaborate calculations and meanings
-  \end{itemize}
 \item Statistical analyses and software
-  \begin{itemize}
-  \item REML
-  \item Least squares models
-  \item PerMANOVA
-  \item Mantel tests
-  \item Code and data available via github and zenodo
-  \end{itemize}
 \end{itemize}
 
 
@@ -336,11 +314,88 @@ genotyped \textit{P. angustifolia} individuals were obtained from wild
 collections and planted randomly in a single field (0.025 km$^2$) at
 the Ogden Nature Center, Ogden, UT in 1992. A total of thirteen
 genotypes replicated between 3 and 8 times each, were chosen for
-sampling. Genotype names were previously published
-\cite{Martinsen}. 
+sampling. Genotype names were previously published in
+\citep{Martinsen}.
 
-Observations were made in the common garden in October 2010 and May
-2011. 
+
+\subsection*{Bark Lichen Observations}
+
+The bark lichen community in this system is comprised of fourteen
+species; however, only 9 species were observed within our study
+quadrats. The lichen community included (abbreviations are given for
+species present in study): Xg = Xanthomendoza galericulata, Xm =
+X. montana, Ch = Caloplaca holocarpa, Cs = Candelariella subdeflexa,
+Rg = Rinodina glauca, Lh = Lecanora hagenii, Ls = Lecanora (unknown
+species), Pm = Phyciella melanchra, Pa = Physcia adscendens, Pu =
+Physcia undulata, Phaeophyscia orbicularis, Phaeophyscia ciliata,
+Melanelia subolivacea, Meanelia elegantula, including both crustose
+and foliose lichen species that exhibit low inter-annual
+variation5. We were able to rapidly assess lichen interactions by
+quantifying thalli in closed contact as assessed using 1cm2
+cells. Species accumulation curves showed that communities in the wild
+and the common garden were thoroughly sampled and with very similar
+species richness (Supplementary Materials). 
+
+On each tree, presence or absence of each lichen species was assessed
+in 50 total 1 cm2 cells arrayed in a checkerboard pattern. Sampling
+was restricted to the northern aspect of the trunk to maximize the
+abundance of lichen and control for the effect of trunk aspect. Two
+adjacent 10 cm2 quadrats centered at 50 cm and 85 cm from ground level
+were sampled. The checkerboard sampling pattern was chosen to isolate
+each cell based on an average thallus size of 1 cm2. The thalli in
+each cell are expected to be spatially independent of the other cells
+in the quadrat, but exposed to similar micro-environmental conditions
+created by the bark and the location of the sampling area on an
+individual tree.
+
+As bark roughness had previously been shown to be an important,
+genetically based, tree trait impacting this lichen community, we
+measured the percentage of rough bark on each tree following the
+methods of \citep{Lamit2012}. Briefly, the number of cells containing
+disrupted, fissured bark were counted within each quadrat on each
+tree. The number of rough bark containing cells were then summed and
+divided by the total number of cells surveyed. 
+
+
+\textbf{Make a figure of the field site and lichen on trees}
+
+\subsection*{Lichen Network Modeling and Analysis}
+
+We used the observations of lichen in the 1cm2 cells on individual
+trees of \textit{P. angustifolia}. Unipartite networks were generated
+using the conditional probabilities of each species pair, i.e. the
+probability of observing one species given an observation of another
+species ($P(A | B)$), based on the method developed by
+\citep{Araujo2011}. To calculate conditional probabilities, we
+quantified the individual probabilities of species occurrences
+($P(A)$) and the joint probability of co-occurrences ($P(A,B)$) using
+the frequencies of each species and their co-occurrences. We were then
+able to calculate the conditional probabilities of each species pair
+as $P(A|B) = \frac{P(A,B)}{P(B)}$, based on the axioms of
+probability. This yielded an asymetric matrix, that is $P(A|B)$ does
+not have to be equal to $P(B|A)$ with a trace equal to the identity
+matrix (i.e. $P(A|A) = 1$). 
+
+Once these network matrices were constructed using the conditional
+probabilities of species pairs, we then applied an analytical
+procedure to remove non-significant links between species
+(Fig.~\ref{fig:conet_method}). This procedure determines if the joint
+probability of a species pair (i.e. $P(A,B)$) is different from zero.
+If the frequency of co-occurrences ($AB$) falls outside of the
+interval ($CI_{95\%}$), the joint probability is inferred to be
+non-zero. Here, $CI_{95\%}$ is calculated as as $CI_{95\%} = E(AB) *
+Z_{95\%} * \sqrt{V(AB)}$, where the expected frequency of
+co-occurrences (E($AB$)) is the total number of cells surveyed ($N$)
+times the independent probabilities of each species ($P_A * P_B$),
+$Z_{95\%}$ is the Z-score for 95\% from a Z-distribution and the
+expected variance of $E(AB)$ is the total number of cells times the
+expected probability of $AB$ and its compliment (i.e. $V(AB) = N *
+P(AB) * (1 - P(AB))$). Since the conditional probability is calculated
+using the joint probability as the numerator, whenever the joint
+probability is determined to be zero the conditional probability is
+determined to also be zero, since $P(A|B) = \frac{P(A,B)}{P(B)} =
+\frac{0}{P(B)} = 0$.
+
 
 %% \begin{figure}%[tbhp]
 %% \centering
@@ -372,7 +427,27 @@ Observations were made in the common garden in October 2010 and May
 \end{figure}
 
 
-\textbf{Make a figure of the field site and lichen on trees}
+\subsection*{Statistical Analyses, Software and Data}
+
+A correlation test with Pearson’s r was used to test for the
+correlation between the wild and common garden networks. A Welch
+Analysis of Variance (ANOVA), which relaxes the assumption of
+homogeneity of variance, was used to test for the effects of genotype
+on tree scale SES values. A permutation based Mantel Test was used to
+test for the effect of bark roughness on SES values in the common
+garden. All analyses were conducted using the programming language R
+version 3.0.2 (R Development Core Team 2014).
+
+
+
+
+\begin{itemize}
+  \item REML
+  \item Least squares models
+  \item PerMANOVA
+  \item Mantel tests
+  \item Code and data available via github and zenodo
+\end{itemize}
 
 
 
