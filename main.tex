@@ -249,7 +249,6 @@ traits (e.g., phytochemical, phenological, morphological) produces a
 multivariate phenotype \cite{holeski2012} tha contributes to variation
 in associated communities \cite{Bailey2009a}.
 
-
 Additional work has provided support for the hypothesis that not only
 does composition vary among genetically distinct genotypes of
 foundation species but it also impacts the structure of the network of
@@ -291,10 +290,6 @@ analyses, we then examined the genetically based impacts of
 
 
 \begin{itemize}
-\item Common garden
-\item Lichen observations
-\item Network modeling
-\item Network metrics
 \item Statistical analyses and software
 \end{itemize}
 
@@ -322,44 +317,63 @@ sampling. Genotype names were previously published in
 
 \subsection*{Bark Lichen Observations}
 
-The bark lichen community in this system is comprised of fourteen
-species; however, only 9 species were observed within our study
-quadrats. The lichen community included (abbreviations are given for
-species present in study): Xg = Xanthomendoza galericulata, Xm =
-X. montana, Ch = Caloplaca holocarpa, Cs = Candelariella subdeflexa,
-Rg = Rinodina glauca, Lh = Lecanora hagenii, Ls = Lecanora (unknown
-species), Pm = Phyciella melanchra, Pa = Physcia adscendens, Pu =
-Physcia undulata, Phaeophyscia orbicularis, Phaeophyscia ciliata,
-Melanelia subolivacea, Meanelia elegantula, including both crustose
-and foliose lichen species that exhibit low inter-annual
-variation5. We were able to rapidly assess lichen interactions by
-quantifying thalli in closed contact as assessed using 1cm2
-cells. Species accumulation curves showed that communities in the wild
-and the common garden were thoroughly sampled and with very similar
-species richness (Supplementary Materials). 
-
 On each tree, presence or absence of each lichen species was assessed
-in 50 total 1 cm2 cells arrayed in a checkerboard pattern. Sampling
+in 50 total 1 cm$^2$ cells arrayed in a checkerboard pattern. Sampling
 was restricted to the northern aspect of the trunk to maximize the
 abundance of lichen and control for the effect of trunk aspect. Two
-adjacent 10 cm2 quadrats centered at 50 cm and 85 cm from ground level
-were sampled. The checkerboard sampling pattern was chosen to isolate
-each cell based on an average thallus size of 1 cm2. The thalli in
-each cell are expected to be spatially independent of the other cells
-in the quadrat, but exposed to similar micro-environmental conditions
-created by the bark and the location of the sampling area on an
-individual tree.
+adjacent 10 cm$^2$ quadrats centered at 50 cm and 85 cm from ground
+level were sampled (Fig~\ref{fig:lichen_sampling} A and B). The
+checkerboard sampling pattern was chosen to isolate each cell based on
+an average thallus size of 1 cm2 (Supplementary Materials). The thalli
+in each cell are expected to be spatially independent of the other
+cells in the quadrat, but exposed to similar micro-environmental
+conditions created by the bark and the location of the sampling area
+on an individual tree. The bark lichen community in this system is
+comprised of fourteen species; however, only 9 species were observed
+within our study quadrats (Fig~\ref{fig:lichen_sampling} C-K). The
+observed lichen community included (abbreviations are given for
+species present in study): Xg = \textit{Xanthomendoza galericulata},
+Xm = \textit{X. montana}, Ch = \textit{Caloplaca holocarpa}, Cs =
+\textit{Candelariella subdeflexa}, Rg = \textit{Rinodina glauca}, Lh =
+\textit{Lecanora hagenii}, Ls = \textit{Lecanora} sp., Pm =
+\textit{Phyciella melanchra}, Pa = \textit{Physcia adscendens}, Pu =
+\textit{Physcia undulata}. Several other species were not obesrved in
+the present study but are known to occur in this region:
+\textit{Phaeophyscia orbicularis}, \textit{Phaeophyscia ciliata},
+\textit{Melanelia subolivacea}, \textit{Meanelia elegantula}.  We were
+able to rapidly assess lichen interactions by quantifying thalli in
+closed contact as assessed using 1cm$^2$ cells. Species accumulation
+curves showed that communities in the wild and the common garden were
+thoroughly sampled and with very similar species richness
+(Supplementary Materials). As bark roughness had previously been shown
+to be an important, genetically based, tree trait impacting this
+lichen community, we measured the percentage of rough bark on each
+tree following the methods of \citep{Lamit2012}. Briefly, the number
+of cells containing disrupted, fissured bark were counted within each
+quadrat on each tree. The number of rough bark containing cells were
+then summed and divided by the total number of cells surveyed.
 
-As bark roughness had previously been shown to be an important,
-genetically based, tree trait impacting this lichen community, we
-measured the percentage of rough bark on each tree following the
-methods of \citep{Lamit2012}. Briefly, the number of cells containing
-disrupted, fissured bark were counted within each quadrat on each
-tree. The number of rough bark containing cells were then summed and
-divided by the total number of cells surveyed. 
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=\linewidth]{lcn_sampling.pdf}
+\caption{The communities of bark lichen were observed in a common
+  garden of replicated genotypes of narrowleaf cottonwood trees
+  (\textit{P. angustifolia}) at the Ogden Nature Center (Ogden,
+  UT). Lichen were sampled within a fixed area (10cm by 10cm) on
+  individual trees (A and B). (C) a photo of a typical community of
+  bark lichen species interacting on the trunk of a cottonwood tree,
+  including one of the more abundant species, \textit{Xanthomendoza
+    galericulata}, in the center. (D-K) shows the other main lichen
+  species observed, respectivley: \textit{X. montana},
+  \textit{Candelariella subdeflexa}, \textit{Rinodina} sp.,
+  \textit{Caloplaca holocarpa}, \textit{Physcia adscendens},
+  \textit{Phyciella melanchra}, \textit{Physcia undulata} and
+  \textit{Lecanora hageni}}
+\label{fig:lichen_sampling}
+\end{figure}
 
 
-\textbf{Make a figure of the field site and lichen on trees}
 
 \subsection*{Lichen Network Modeling and Analysis}
 
@@ -382,21 +396,21 @@ Once these network matrices were constructed using the conditional
 probabilities of species pairs, we then applied an analytical
 procedure to remove non-significant links between species
 (Fig.~\ref{fig:conet_method}). This procedure determines if the joint
-probability of a species pair (i.e. $P(A,B)$) is different from zero.
-If the frequency of co-occurrences ($AB$) falls outside of the
-interval ($CI_{95\%}$), the joint probability is inferred to be
-non-zero. Here, $CI_{95\%}$ is calculated as as $CI_{95\%} = E(AB) *
-Z_{95\%} * \sqrt{V(AB)}$, where the expected frequency of
-co-occurrences (E($AB$)) is the total number of cells surveyed ($N$)
-times the independent probabilities of each species ($P_A * P_B$),
-$Z_{95\%}$ is the Z-score for 95\% from a Z-distribution and the
-expected variance of $E(AB)$ is the total number of cells times the
-expected probability of $AB$ and its compliment (i.e. $V(AB) = N *
-P(AB) * (1 - P(AB))$). Since the conditional probability is calculated
-using the joint probability as the numerator, whenever the joint
-probability is determined to be zero the conditional probability is
-determined to also be zero, since $P(A|B) = \frac{P(A,B)}{P(B)} =
-\frac{0}{P(B)} = 0$.
+probability of a species pair (i.e. $P(S_iS_j)$) is different from
+zero.  If the frequency of co-occurrences ($S_iS_j$) falls outside of
+the interval ($CI_{95\%}$), the joint probability is inferred to be
+non-zero. Here, $CI_{95\%}$ is calculated as as $CI_{95\%} = E[S_iS_j]
+* Z_{95\%} * \sqrt{V(S_iS_j)}$, where the expected frequency of
+co-occurrences (E($S_iS_j$)) is the total number of cells surveyed
+($N$) times the independent probabilities of each species ($P(S_i) *
+P(S_j)$), $Z_{95\%}$ is the Z-score for 95\% from a Z-distribution and
+the expected variance of $E(S_iS_j)$ is the total number of cells
+times the expected probability of $S_iS_j$ and its compliment
+(i.e. $V(S_iS_j) = N * E[P(S_iS_j)] * (1 - E[P(S_iS_j)])$). Since the
+conditional probability is calculated using the joint probability as
+the numerator, whenever the joint probability is determined to be zero
+the conditional probability is determined to also be zero, since
+$P(S_i|S_j) = \frac{P(S_iS_j)}{P(S_j)} = \frac{0}{P(S_j)} = 0$.
 
 
 %% \begin{figure}%[tbhp]
@@ -416,32 +430,29 @@ determined to also be zero, since $P(A|B) = \frac{P(A,B)}{P(B)} =
 
 \begin{figure}[ht]
 \centering
-\includegraphics[width=\linewidth]{conet_method.pdf}
+\includegraphics[width=\linewidth]{lcn_araujo_method.pdf}
 \caption{Lichen interaction networks were constructed by conducting
   field observations in 1 cm$^2$ cells within a 10 cm$^2$ grid on each
   tree using a checkerboard pattern (grey cells). Thus, a set of $N$
   total cell observations were recorded for each tree with the
   presence or absence of each species recorded for each cell. Applying
-  a null-model based procedure \cite{Araujo2011}, we calculated and
-  removed non-significant ($\alpha = 0.05$) co-occurrences to produce
-  the network associated with an individual tree.}
+  the probability-based network modeling method adapted from
+  \cite{Araujo2011}, we calculated the conditional probabilities,
+  $P(S_i|S_j)$, for all species pairs and removed (i.e. set equal to
+  zero) species pairs whose joint probabilities, $P(S_i S_j)$, were
+  not significant using a confidence interval based comparison of
+  their observed co-occurrence frequency, $S_iS_j$, to that expected
+  due to chance alone, $E[P(S_iS_j)] = N P(S_i) P(S_j)$.}
 \label{fig:conet_method}
 \end{figure}
 
 
 \subsection*{Statistical Analyses, Software and Data}
 
-A correlation test with Pearson’s r was used to test for the
-correlation between the wild and common garden networks. A Welch
-Analysis of Variance (ANOVA), which relaxes the assumption of
-homogeneity of variance, was used to test for the effects of genotype
-on tree scale SES values. A permutation based Mantel Test was used to
-test for the effect of bark roughness on SES values in the common
-garden. All analyses were conducted using the programming language R
-version 3.0.2 (R Development Core Team 2014).
-
-
-
+We used a combination of parametric and non-parametric, permutation
+based frequentist statistical analyses to test for the effects of
+genetic variation on lichen communities and their interaction
+networks. 
 
 \begin{itemize}
   \item REML
@@ -451,7 +462,8 @@ version 3.0.2 (R Development Core Team 2014).
   \item Code and data available via github and zenodo
 \end{itemize}
 
-
+All analyses were conducted using the programming language R version
+3.4.2 (R Development Core Team 2018).
 
 \section*{Results}
 
@@ -459,84 +471,73 @@ version 3.0.2 (R Development Core Team 2014).
 %%% This subsection analyzes the respones of the
 %%% bark lichen community to tree genotype 
 
-Figure: Roughness response + community response
+Figure: Community composition NMDS with vectors
 
-\subsection*{Bark characteristis and lichen respond to tree genotype}
-
-\begin{itemize}
-\item Genotype affected roughness (REML RLRT = 10.69, p-value = 3e-04)
-\item Genotype affected total cover (REML RLRT = 2.9627, p-value = 0.0375)
-\item Genotype didn't affect richness (REML RLRT = 0.13047, p-value = 0.3134)
-\item Genotype predicted community composition (PerMANOVA R2 = 0.243,
-  F 12 = 1.8221, p-value = 0.0029)
-\item After controlling for genotype, cover (PerMANOVA R2 = 0.236, F 1
-  = 21.2661, p-value = 9.999e-05) and richness (PerMANOVA spr.onc R2 =
-  0.054, F 1 = 4.9036, p-value = 0.0011) predicted composition.
-\item Roughness was correlated with total cover (LM F 1, 55 = 6.797,
-  p-value = 0.01173)
-\item Roughness was not correlated with richness (LM F 1, 55 = 1.509,
-  p-value = 0.2246)
-\item Roughness did not predict community composition, after
-  controlling for genotype (PerMANOVA R2 = 0.011, F 1 = 0.9938,
-  p-value = 0.3841)
-\end{itemize}
-
-
-%%% This subsection connects the community responses to
-%%% network variation in response to tree genotype.
+Bark roughness and some lichen community characteristics responded to
+tree genotype. Percent rough bark varied signficaitnly among genotypes
+(REML RLRT = 10.69, p-value = 3e-04), as did total lichen cover (REML
+RLRT = 2.9627, p-value = 0.0375) and community composition (PerMANOVA
+R2 = 0.243, F 12 = 1.8221, p-value = 0.0029). However, lichen species
+richness did not show a significant response to genotype (REML RLRT =
+0.13047, p-value = 0.3134). Community composition was correlated with
+lichen cover (PerMANOVA R2 = 0.236, F 1 = 21.2661, p-value =
+9.999e-05) and richness (PerMANOVA spr.onc R2 = 0.054, F 1 = 4.9036,
+p-value = 0.0011) after controlling for tree genotype
+effects. Roughness did not predict community composition (PerMANOVA R2
+= 0.011, F 1 = 0.9938, p-value = 0.3841) even though it was correlated
+with total lichen cover (ANOVA $F_{1,55} = 6.797, p-value =
+0.01173). Roughness was not correlated with lichen species richness
+(ANOVA $F_{1, 55}$ = 1.509, p-value = 0.2246). 
 
 Figure: Genotype networks + Genotype network similarity by genotype
 
 \subsection*{Tree genotype influenced lichen network similarity}
 
-\begin{itemize}
-\item Network structure across tree genotypes 
-\item Lichen species varied in their centrality with
-  \textit{C. subdeflexa} having the highest average centrality Cs
-  0.92555555, Ch 0.61630902, Ls 0.47898268, Xg 0.22570664 Rs
-  0.21010254 Pm 0.09072022 Xm 0.06850459 Pu 0.02192982, Pa 0.00000000
-\item Genotype predicted network similarity (PerMANOVA R2 = 0.33795, F
-  12 = 2.5379, p-value = 0.0050)
-\item Species richness predicted network similarity after controlling
-  for genotype (PerMANOVA R2 = 0.3413, F 1 = 2.5417, p-value =
-  0.007399)
-\item Neither total cover (PerMANOVA R2 = 0.023, F 1 = 2.0628, p-value
-  = 0.1487) nor roughness (PerMANOVA R2 = 0.011, F 1 = 0.0497, p-value
-  = 0.3394) predicted network similiarity
-  \item Community similiarty was not correlated with network
-  similiarity (Mantel Rho spearman = 0.012, p-value = 0.337)
-\end{itemize}
+We observed significant lichen network structure. Lichen species
+varied in their centralization in the networks with
+\textit{C. subdeflexa} having the highest average centrality (0.93),
+followed by \textit{Ca. holocarpa} (0.62). The centralization of the
+remaining species were \textit{L. hageni}. (0.48),
+\textit{X. galericulata} (0.23), \textit{R.}  sp. (0.21),
+\texti{P. melanchra} (0.09), \textit{X. montana} (0.07) and
+\textit{Ph. undulata} (0.02). \textit{Physcia adscendens} was
+generally not connected to other species in the networks and had a
+centralization score of zero.
 
-%%% This subsection focuses on network metrics to illucidate the
-%%% structural changes of networks.
+\textbf{Figure. Networks of several genotypes or individual trees}
 
-Figure: Linkage and centrality by genotype
-Figure: Total cover and species richness predict L and Cen
+Lichen networks observed on trees of the same genotype tended to be
+similar in structure. Tree genotype significantly predicted the
+similarity of lichen interaction networks (PerMANOVA R2 = 0.33795, F
+12 = 2.5379, p-value = 0.0050). Lichen species richness was also a
+significant predictor of network similarity after controlling for
+genotype (PerMANOVA R2 = 0.3413, F 1 = 2.5417, p-value = 0.007399);
+however, neither total cover (PerMANOVA R2 = 0.023, F 1 = 2.0628,
+p-value = 0.1487) nor roughness (PerMANOVA R2 = 0.011, F 1 = 0.0497,
+p-value = 0.3394) predicted network similiarity and community
+similiarty was not correlated with network similiarity (Mantel Rho
+spearman = 0.012, p-value = 0.337). 
 
-\subsection*{Lichen network patterns were primarily driven by linkages}
+These patterns of structural similarity among networks on similar
+genotypes could be partially explained by several networks. Tree
+genotype marginally predicted the number of links (REML RLRT = 2.0221,
+p-value = 0.0657) and centrality (REML RLRT = 2.0915, p-value =
+0.0627) of lichen networks. Total cover was correlated with the number
+of links (ANOVA F 1 = 6.867, p-value = 0.0114) and centrality (ANOVA F
+1 = 8.093, p-value = 0.0063). Lichen species richness was also
+correlated with the number of links (ANOVA F 1 = 29.436, p-value =
+1.46e-06) and centrality (ANOVA F 1 = 39.488, p-value =
+6.38e-08). Bark roughness, however, did not significantly predict the
+number of links (ANOVA F 1 = 2.897, p-value = 0.0946) nor the
+centrality (ANOVA F 1 = 2.591, p-value = 0.1134) of lichen networks.
+The number of network links (PerMANOVA R2 = 0.392, F 1 = 72.4348,
+p-value = 0.001) and network centrality (PerMANOVA R2 = 0.309, F 1 =
+57.0440, p-value = 0.001) were highly correlated with network
+similarity.
 
-\begin{itemize}
-\item Genotype marginally predicted linkage (REML RLRT = 2.0221,
-  p-value = 0.0657) and centrality (REML RLRT = 2.0915, p-value =
-  0.0627)
-\item Genotype did not predict modularity (REML RLRT = 0.18429,
-  p-value = 0.2941)
-\item Total cover predicted links (ANOVA F 1 = 6.867, p-value = 0.0114)
-  and centrality (ANOVA F 1 = 8.093, p-value = 0.0063) but not
-  modularity (ANOVA F 1 = 2.2250, p-value = 0.1417).
-\item Species richness predicted links (ANOVA F 1 = 29.436, p-value =
-  1.46e-06), centrality (ANOVA F 1 = 39.488, p-value = 6.38e-08) and
-  modularity (ANOVA F 1 = 31.2713, p-value = 8.004e-07).
-\item Bark roughness did not predict the number of links (ANOVA F 1 =
-  2.897, p-value = 0.0946), centrality (ANOVA F 1 = 2.591, p-value =
-  0.1134) or modularity of the lichen networks (ANOVA F 1 = 0.511,
-  p-value = 0.478).
-\item The number of network links (PerMANOVA R2 = 0.392, F 1 =
-  72.4348, p-value = 0.001) and network centrality (PerMANOVA R2 =
-  0.309, F 1 = 57.0440, p-value = 0.001) were correlated with network
-  similarity, but not modularity (PerMANOVA R2 = 0.013, F 1 = 2.4048,
-  p-value = 0.105).
-\end{itemize}
+\textbf{Figure: (A) Linkage and centrality by genotype and (B) Total
+  cover and species richness predict L and Cen}
+
 
 \subsection*{Heritability estimates for lichen networks}
 
