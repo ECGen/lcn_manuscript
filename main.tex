@@ -369,7 +369,7 @@ all trees in which lichen communities were also observed.
   bark lichen species interacting on the trunk of a cottonwood tree,
   including one of the more abundant species, \textit{Xanthomendoza
     galericulata}, in the center. (D-K) shows the other main lichen
-  species observed, respectivley: \textit{X. montana},
+  species observed, respectivley:  \textit{X. montana},
   \textit{Candelariella subdeflexa}, \textit{Rinodina} sp.,
   \textit{Caloplaca holocarpa}, \textit{Physcia adscendens},
   \textit{Phyciella melanchra}, \textit{Physcia undulata} and
@@ -377,56 +377,59 @@ all trees in which lichen communities were also observed.
 \label{fig:lichen_sampling}
 \end{figure}
 
+
+
 \subsection*{Lichen Network Modeling and Analysis}
 
 We used the observations of lichen in the 1cm2 cells on individual
 trees of \textit{P. angustifolia}. Unipartite networks were generated
 using the conditional probabilities of each species pair, i.e. the
 probability of observing one species given an observation of another
-species ($P(A | B)$), based on the method developed by
+species $P(S_i | S_j)$, based on the method developed by
 \citep{Araujo2011}. To calculate conditional probabilities, we
 quantified the individual probabilities of species occurrences
-($P(A)$) and the joint probability of co-occurrences ($P(A,B)$) using
-the frequencies of each species and their co-occurrences. We were then
-able to calculate the conditional probabilities of each species pair
-as $P(A|B) = \frac{P(A,B)}{P(B)}$, based on the axioms of
-probability. This yielded an asymetric matrix, that is $P(A|B)$ does
-not have to be equal to $P(B|A)$ with a trace equal to the identity
-matrix (i.e. $P(A|A) = 1$). 
+$P(S_i)$ and the joint probability of co-occurrences $P(S_i,S_j)$
+using the frequencies of each species and their co-occurrences. We
+were then able to calculate the conditional probabilities of each
+species pair as $P(S_i|S_j) = \frac{P(S_i,S_j)}{P(S_j)}$, based on the
+axioms of probability. This yielded an asymetric matrix, that is
+$P(S_i|S_j)$ does not have to be equal to $P(S_j|S_i)$, that also had
+a diagonal $S_{ii}$ equal to one for all species present and zero for
+species that were not observed on the tree.
 
-Once these network matrices were constructed using the conditional
-probabilities of species pairs, we then applied an analytical
-procedure to remove non-significant links between species
-(Fig.~\ref{fig:conet_method}). This procedure determines if the joint
-probability of a species pair (i.e. $P(S_iS_j)$) is different from
-zero.  If the frequency of co-occurrences ($S_iS_j$) falls outside of
-the interval ($CI_{95\%}$), the joint probability is inferred to be
-non-zero. Here, $CI_{95\%}$ is calculated as as $CI_{95\%} = E[S_iS_j]
-* Z_{95\%} * \sqrt{V(S_iS_j)}$, where the expected frequency of
-co-occurrences (E($S_iS_j$)) is the total number of cells surveyed
-($N$) times the independent probabilities of each species ($P(S_i) *
-P(S_j)$), $Z_{95\%}$ is the Z-score for 95\% from a Z-distribution and
-the expected variance of $E(S_iS_j)$ is the total number of cells
-times the expected probability of $S_iS_j$ and its compliment
-(i.e. $V(S_iS_j) = N * E[P(S_iS_j)] * (1 - E[P(S_iS_j)])$). If the
+We then applied an analytical procedure to remove non-significant
+links between species. This procedure determines if the joint
+probability of a species pair (i.e. $P(S_i,S_j)$) is different from
+zero (Fig.~\ref{fig:conet_method}).  Here, a confidence interval
+$CI_{95\%}$ is calculated as as $CI_{95\%} = E[S_iS_j] * Z_{95\%} *
+\sqrt{V(S_iS_j)}$, where the expected frequency of co-occurrences
+E($S_iS_j$) is the total number of cells surveyed ($N$) times the
+independent probabilities of each species $P(S_i) * P(S_j)$,
+$Z_{95\%}$ is the Z-score for 95\% from a Z-distribution and the
+expected variance of $E(S_iS_j)$ is the total number of cells times
+the expected probability of $S_iS_j$ and its compliment
+(i.e. $V(S_iS_j) = N * E[P(S_i,S_j)] * (1 - E[P(S_i,S_j)])$). If the
 observed number of co-occurrence falls outside of the confidence
-interval, the joint probability ($P(S_iS_j)$) is determined to be
-equal to the product of the individual probabilities (i.e. $P(S_i)
-\dot P(S_j)$, and the conditional probability reduces to the
-individual probability of that species ($P(S_i)$). Therefore, unless
-the co-occurrence of a species pair falls outside the confidence
-interval, the probability that the observation of one species given
-the other is no different than simply observing that species
-alone. This enables us to remove links from a given network by
-re-scaling the resulting conditional probabilities by subtracting the
-individual probabilities from the conditional probabilities (i.e. how
-different the conditional probability is from the independent
-probability), which makes any species with a non-signficant
-conditional probability zero. The resulting matrix ($D_{ij}$) can be
-interpreted as how one species impacts another with zero being no
-effect and values less than or greater than zero interpreted as
-negative and positive effects, respectively.
-
+interval, the joint probability $P(S_i,S_j)$ is determined to be equal
+to the product of the individual probabilities (i.e. $P(S_i) \dot
+P(S_j)$), and the conditional probability reduces to the individual
+probability of that species $P(S_i)$. Therefore, unless the
+co-occurrence of a species pair falls outside the confidence interval,
+the probability that the observation of one species given the other is
+no different than simply observing that species alone. This enables us
+to remove links from a given network by re-scaling the resulting
+conditional probabilities by subtracting the individual probabilities
+from the conditional probabilities (i.e. how different the conditional
+probability is from the independent probability), which makes any
+species with a non-signficant conditional probability zero. The
+resulting matrix ($\mathbf{D} = D_{ij}$) can be interpreted as how one
+species impacts another with zero being no effect and values less than
+or greater than zero interpreted as negative and positive effects,
+respectively. Here, we will refer to this matrix ($\mathbf{D}$) as an
+interaction matrix with the properties that it can be assymetric
+(i.e. $P_{ij}$ does not necessarily equal $P_{ji}$), and the diagonal
+($P_{ii}$) is zero (i.e. a species does not influence it's own
+probability of being observed).
 
 \begin{figure}[ht]
 \centering
@@ -455,31 +458,51 @@ negative and positive effects, respectively.
 We used a combination of parametric and non-parametric, permutation
 based frequentist statistical analyses to test for the effects of
 genetic variation on lichen communities and their interaction
-networks. 
+networks. To assess the effect of genotype on univariate responses, we
+used random effects models with Restricted Maximum Likelihood
+(REML). We used a combination of Least Squares Regression, Analysis of
+Variance (ANOVA) and correlation tests to quantify and test for the
+relationship among other variables. For multivariate response
+variables, such as lichen community composition and network structure,
+we used distance based multivariate statistical approaches, including
+Permutational Analysis of Variance (PerMANOVA) and Mantel tests. For
+visualization purposes, we also used Non-metric Multi-Dimensional
+Scaling (NMDS) \cite{ecodist} to produce dimensionally reduced
+ordinations of these multi-variate responses and fitted vectors for
+continuous predictor variables to the ordinated values
+\cite{vegan}. For community composition we used Bray-Curtis
+dissimilarity, which has optimal performace with count data
+\citep{Minchen1998}. To quantify the similarity of lichen networks
+among individual trees, we calculated the pairwise Euclidean distance
+of the $\mathbf{D}$ interaction matrices among all pairs of trees.
 
-\begin{itemize}
-  \item REML
-  \item Least squares models
-  \item Multivariate
-    \begin{itemize}
-    \item Distance Metrics = Euclidean and Bray-Curtis
-    \item PerMANOVA
-    \item Mantel tests
-    \end{itemize}
-  \item Network metrics
-    \begin{itemize}
-    \item Number of edges
-    \item Centralization
-    \item Centrality
-    \end{itemize}
-  \item Code and data available via github and zenodo
-\end{itemize}
 
-All analyses were conducted using the programming language R version
-3.4.2 (R Development Core Team 2018).
+For each network, we also calculated two network metrics that measure
+different structural aspects. We calculated the number of interactions
+or ``links'' in each network, which provides a measure of the size of
+the network \citep{Lau2014, Borrett2015}. We also calculated the
+centralization of each network, which measures the evenness of the
+distribution of interactions among the species in the network
+\cite{Butts2005}. In a network with a low level of centralization
+species have similar amount of interaction in the network, while a
+network with a high level of centralization tends to one or small
+subset of species that interact with other species. We used a related
+function to calculate the centrality of each species in each network
+as well. Although there are many other metrics, see \citep{Lau2016},
+we focus on a subset for the sake of simplicity and because some
+metrics are not appropriate for our relatively small communities. In
+particular, we do not present analysis of the modularity (i.e. the
+degree of sub-grouping) because our community has relatively few
+species to form modules.
+
+We have made all code and data available online. Code is available at
+\url{github.com/communitygenetics/lcn}. Data is available via the
+Harvard Dataverse (needs project ID). The project is also archived via
+Zenodo at \url{zenodo.com/doiXXXXXX}. All analyses were conducted
+using the programming language R version 3.4.2 (R Development Core
+Team 2018).
 
 \section*{Results}
-
 
 %%% This subsection analyzes the respones of the
 %%% bark lichen community to tree genotype 
@@ -487,24 +510,29 @@ All analyses were conducted using the programming language R version
 \begin{figure}[ht]
 \centering
 \includegraphics[width=\linewidth]{com_chplot_onc.pdf}
-\caption{}
+\caption{Lichen community composition varied among genotypes. Plot of
+  the ordinated centroids ($\pm$ 1 S.E.) from the NMDS ordinated
+  community composition of each genotype (indicated by centroid
+  labels). Centroids that are closer together have more similar lichen
+  communities.}
 \label{fig:com_ch_plot}
 \end{figure}
 
 
 Bark roughness and some lichen community characteristics responded to
 tree genotype. Percent rough bark varied signficantly among genotypes
-(REML RLRT = 10.69, p-value = 3e-04), as did total lichen cover (REML
-RLRT = 2.9627, p-value = 0.0375) and community composition (PerMANOVA
-$R^2$ = 0.243, F 12 = 1.8221, p-value = 0.0029). However, lichen
-species richness did not show a significant response to genotype (REML
-RLRT = 0.13047, p-value = 0.3134). Community composition was
-correlated with lichen cover (PerMANOVA $R^2$ = 0.236, F 1 = 21.2661,
-p-value = 9.999e-05) and richness (PerMANOVA spr.onc $R^2$ = 0.054, F
-1 = 4.9036, p-value = 0.0011) after controlling for tree genotype
-effects (Fig.~\ref{fig:com_ch_plot}). Roughness did not predict
-community composition (PerMANOVA $R^2$ = 0.011, F 1 = 0.9938, p-value
-= 0.3841) even though it was correlated with total lichen cover (ANOVA
+(REML $R^2$ = ?, RLRT = 10.69, p-value = 3e-04), as did total lichen
+cover (REML $R^2$ = ?, RLRT = 2.9627, p-value = 0.0375) and community
+composition (PerMANOVA $R^2$ = 0.243, F 12 = 1.8221, p-value =
+0.0029). However, lichen species richness did not show a significant
+response to genotype (REML RLRT = 0.13047, p-value =
+0.3134). Community composition was correlated with lichen cover
+(PerMANOVA $R^2$ = 0.236, $F_1$ = 21.2661, p-value = 9.999e-05) and
+richness (PerMANOVA $R^2$ = 0.054, $F_1$ = 4.9036, p-value = 0.0011)
+after controlling for tree genotype effects
+(Fig.~\ref{fig:com_ch_plot}). Roughness did not predict community
+composition (PerMANOVA $R^2$ = 0.011, F 1 = 0.9938, p-value = 0.3841)
+even though it was correlated with total lichen cover (ANOVA
 $F_{1,55}$ = 6.797, p-value = 0.01173). Roughness was not correlated
 with lichen species richness (ANOVA $F_{1, 55}$ = 1.509, p-value =
 0.2246).
@@ -515,7 +543,14 @@ with lichen species richness (ANOVA $F_{1, 55}$ = 1.509, p-value =
 \begin{figure}[ht]
 \centering
 \includegraphics[width=\linewidth]{cn_onc.pdf}
-\caption{Significant lichen interaction networks across genotypes.}
+\caption{Lichen networks varied in structure among genotypes. Network
+  diagrams of the mean lichen interaction matrices (i.e. $\mathbf{D}$)
+  averaged for all trees and for several individual genotypes showing
+  a range of interaction network structure. Directionality
+  (arrowheads) and sign (red = negative, black = positive) of
+  interactions are shown as edges between species (abbreviated by the
+  first letter of the genus and specific epithet), which are scaled by
+  their magnitude.}
 \label{fig:geno_nets}
 \end{figure}
 
@@ -540,12 +575,12 @@ frequently tended to decrease the presence of other species.
 \includegraphics[width=\linewidth]{cn_chplot.pdf}
 \caption{Significant lichen interaction network structure resulting
   from tree genotypic variation was observed in the common garden.
-  The plot shows genotype centroids (points) of NMDS ordinated lichen
-  networks ($\pm$ 1 S.E.). Centroids that are closer in ordination
-  space are more similar in thee structure of their lichen
-  networks. Arrows show the magnitude and direction of correlation of
-  the ordinated networks with tree bark roughness (BR), percent cover
-  of lichens (PC) and lichen species richness (SR).}
+  The plot shows genotype centroids of NMDS ordinated lichen networks
+  ($\pm$ 1 S.E.). Centroids that are closer are more similar in the
+  structure of their lichen networks. Arrows show the magnitude and
+  direction of correlation of the ordinated networks with tree bark
+  roughness (BR), percent cover of lichens (PC) and lichen species
+  richness (SR).}
 \label{fig:cn_ch_plot}
 \end{figure}
 
@@ -559,8 +594,9 @@ genotype (PerMANOVA $R^2$ = 0.3413, F 1 = 2.5417, p-value = 0.007399);
 however, neither total cover (PerMANOVA $R^2$ = 0.023, F 1 = 2.0628,
 p-value = 0.1487) nor roughness (PerMANOVA $R^2$ = 0.011, F 1 =
 0.0497, p-value = 0.3394) predicted network similiarity
-(Fig.~\ref{fig:cn_ch_plot}). Community similiarty was not correlated with
-network similiarity (Mantel Rho spearman = 0.012, p-value = 0.337).
+(Fig.~\ref{fig:cn_ch_plot}). Community similiarty was not correlated
+with network similiarity (Mantel Rho spearman = 0.012, p-value =
+0.337).
 
 
 \begin{figure}[ht]
@@ -568,9 +604,9 @@ network similiarity (Mantel Rho spearman = 0.012, p-value = 0.337).
 \includegraphics[width=\linewidth]{cn_metrics.pdf}
 \caption{The impact of tree genotype on lichen network structure was
   indicative of variation in both the number variation in lichen
-  interactions among species. This Cleveleand plot shows the means and
-  standard errors (SE) for two lichen network metrics (number of links
-  and centralization) for all genotypes. Both metrics are presented as
+  interactions among species. This Cleveleand plot shows the means
+  ($\pm$ 1 S.E.) for lichen network metrics (number of links and
+  centralization) for each genotype. Both metrics are presented as
   standardized scores ($\frac{x - \bar{x}}{\sigma}$).}
 \label{fig:cn_metrics}
 \end{figure}
@@ -593,18 +629,7 @@ p-value = 0.001) and network centrality (PerMANOVA $R^2$ = 0.309, F 1 =
 57.0440, p-value = 0.001) were highly correlated with network
 similarity.
 
-\textbf{Figure: (A) Linkage and centrality by genotype and (B) Total
-  cover and species richness predict L and Cen}
 
-
-\subsection*{Heritability estimates for lichen networks}
-
-Table: heritability
-
-\begin{itemize}
-\item Compare all trait heritabilities
-\item 
-\end{itemize}
 
 %% % latex table generated in R 3.5.1 by xtable 1.8-3 package
 %% % Thu Jan 17 20:13:56 2019
