@@ -408,12 +408,24 @@ co-occurrences (E($S_iS_j$)) is the total number of cells surveyed
 P(S_j)$), $Z_{95\%}$ is the Z-score for 95\% from a Z-distribution and
 the expected variance of $E(S_iS_j)$ is the total number of cells
 times the expected probability of $S_iS_j$ and its compliment
-(i.e. $V(S_iS_j) = N * E[P(S_iS_j)] * (1 - E[P(S_iS_j)])$). Since the
-conditional probability is calculated using the joint probability as
-the numerator, whenever the joint probability is determined to be zero
-the conditional probability is determined to also be zero, since
-$P(S_i|S_j) = \frac{P(S_iS_j)}{P(S_j)} = \frac{0}{P(S_j)} = 0$.
-
+(i.e. $V(S_iS_j) = N * E[P(S_iS_j)] * (1 - E[P(S_iS_j)])$). If the
+observed number of co-occurrence falls outside of the confidence
+interval, the joint probability ($P(S_iS_j)$) is determined to be
+equal to the product of the individual probabilities (i.e. $P(S_i)
+\dot P(S_j)$, and the conditional probability reduces to the
+individual probability of that species ($P(S_i)$). Therefore, unless
+the co-occurrence of a species pair falls outside the confidence
+interval, the probability that the observation of one species given
+the other is no different than simply observing that species
+alone. This enables us to remove links from a given network by
+re-scaling the resulting conditional probabilities by subtracting the
+individual probabilities from the conditional probabilities (i.e. how
+different the conditional probability is from the independent
+probability), which makes any species with a non-signficant
+conditional probability zero. The resulting matrix ($D_{ij}$) can be
+interpreted as how one species impacts another with zero being no
+effect and values less than or greater than zero interpreted as
+negative and positive effects, respectively.
 
 
 \begin{figure}[ht]
@@ -430,9 +442,12 @@ $P(S_i|S_j) = \frac{P(S_iS_j)}{P(S_j)} = \frac{0}{P(S_j)} = 0$.
   zero) species pairs whose joint probabilities, $P(S_i S_j)$, were
   not significant using a confidence interval based comparison of
   their observed co-occurrence frequency, $S_iS_j$, to that expected
-  due to chance alone, $E[P(S_iS_j)] = P(S_i) P(S_j)$.}
+  due to chance alone, $E[P(S_iS_j)] = P(S_i) P(S_j)$, and
+  $P(S_i|S_j)$ reduces to $P(S_i)$, the observed individual
+  probability of species $S_i$.}
 \label{fig:conet_method}
 \end{figure}
+
 
 
 \subsection*{Statistical Analyses, Software and Data}
@@ -445,10 +460,19 @@ networks.
 \begin{itemize}
   \item REML
   \item Least squares models
-  \item PerMANOVA
-  \item Mantel tests
+  \item Multivariate
+    \begin{itemize}
+    \item Distance Metrics = Euclidean and Bray-Curtis
+    \item PerMANOVA
+    \item Mantel tests
+    \end{itemize}
+  \item Network metrics
+    \begin{itemize}
+    \item Number of edges
+    \item Centralization
+    \item Centrality
+    \end{itemize}
   \item Code and data available via github and zenodo
-  \item ENA -> network metrics
 \end{itemize}
 
 All analyses were conducted using the programming language R version
@@ -513,15 +537,15 @@ frequently tended to decrease the presence of other species.
 
 \begin{figure}[ht]
 \centering
-\includegraphics[width=\linewidth]{cn_chplot_onc.pdf}
+\includegraphics[width=\linewidth]{cn_chplot.pdf}
 \caption{Significant lichen interaction network structure resulting
-  from tree genotypic variation was observed in the common garden. A)
-  A network diagram showing significant interactions averaged over all
-  trees shown as edges connecting lichen species shown as vertices. B)
-  Genotype centroids (points) of NMDS ordinated lichen networks ($\pm$
-  1 S.E.). Arrows show the magnitude and direction of correlation of
-  the ordinated networks with tree bark roughness (RB), percent lichen
-  cover (PC) and lichen species richness (SR).}
+  from tree genotypic variation was observed in the common garden.
+  The plot shows genotype centroids (points) of NMDS ordinated lichen
+  networks ($\pm$ 1 S.E.). Centroids that are closer in ordination
+  space are more similar in thee structure of their lichen
+  networks. Arrows show the magnitude and direction of correlation of
+  the ordinated networks with tree bark roughness (BR), percent cover
+  of lichens (PC) and lichen species richness (SR).}
 \label{fig:cn_ch_plot}
 \end{figure}
 
@@ -538,11 +562,25 @@ p-value = 0.1487) nor roughness (PerMANOVA $R^2$ = 0.011, F 1 =
 (Fig.~\ref{fig:cn_ch_plot}). Community similiarty was not correlated with
 network similiarity (Mantel Rho spearman = 0.012, p-value = 0.337).
 
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=\linewidth]{cn_metrics.pdf}
+\caption{The impact of tree genotype on lichen network structure was
+  indicative of variation in both the number variation in lichen
+  interactions among species. This Cleveleand plot shows the means and
+  standard errors (SE) for two lichen network metrics (number of links
+  and centralization) for all genotypes. Both metrics are presented as
+  standardized scores ($\frac{x - \bar{x}}{\sigma}$).}
+\label{fig:cn_metrics}
+\end{figure}
+
+
 These patterns of structural similarity among networks on similar
 genotypes could be partially explained by several networks. Tree
 genotype marginally predicted the number of links (REML RLRT = 2.0221,
 p-value = 0.0657) and centrality (REML RLRT = 2.0915, p-value =
-0.0627) of lichen networks. Total cover was correlated with the number
+0.0627) of lichen networks (Fig.~\ref{}). Total cover was correlated with the number
 of links (ANOVA F 1 = 6.867, p-value = 0.0114) and centrality (ANOVA F
 1 = 8.093, p-value = 0.0063). Lichen species richness was also
 correlated with the number of links (ANOVA F 1 = 29.436, p-value =
