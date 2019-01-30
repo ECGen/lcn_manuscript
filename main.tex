@@ -296,17 +296,23 @@ ecosystem. Although two native species, \textit{Populus angustifolia}
 (James) and \textit{Populus fremontii} (S. Watson), occur here and are
 known to hybridize, only pure or advanced generation backcrosses of
 \textit{P. angustifolia} were sampled in order to avoid the effect of
-the hybridization between these two species \cite{Zinkgraf2016}.
+the hybridization between these two species \cite{Zinkgraf2016}. Bark
+lichen have been extensively study in this system previously, and
+provide an ideal system in which to observe and model lichen
+interaction networks, as their sessile nature permits accurate
+identification of individuals \cite{Lamit2012, Lamit2014, Lamit2015}.
 
-A common garden was used to isolate the effect of tree genotype from
-the effect of the localized microenvironment associated with each
-individual and spatial autocorrelation. Asexually propagated clones of
+A long-term, common garden experiment was used to isolate the effect
+of tree genotype from the effect of the localized microenvironment
+associated with each individual and spatial
+autocorrelation. Established in 1992, asexually propagated clones of
 genotyped \textit{P. angustifolia} individuals were obtained from wild
 collections and planted randomly in a single field (0.025 km$^2$) at
-the Ogden Nature Center, Ogden, UT in 1992. A total of thirteen
-genotypes replicated between 3 and 8 times each, were chosen for
-sampling. Genotype names were previously published in
-\citep{Martinsen}.
+the Ogden Nature Center, Ogden, UT. From the population of established
+individuals in the common garden, we chose a total of thirteen
+genotypes, replicated between 3 and 8 times each, for sampling. In
+this study, we use the genotype notations previously published in
+\citep{Martinsen1991}.
 
 
 \subsection*{Bark Lichen Observations}
@@ -459,22 +465,27 @@ We used a combination of parametric and non-parametric, permutation
 based frequentist statistical analyses to test for the effects of
 genetic variation on lichen communities and their interaction
 networks. To assess the effect of genotype on univariate responses, we
-used random effects models with Restricted Maximum Likelihood
-(REML). We used a combination of Least Squares Regression, Analysis of
-Variance (ANOVA) and correlation tests to quantify and test for the
-relationship among other variables. For multivariate response
-variables, such as lichen community composition and network structure,
-we used distance based multivariate statistical approaches, including
-Permutational Analysis of Variance (PerMANOVA) and Mantel tests. For
-visualization purposes, we also used Non-metric Multi-Dimensional
-Scaling (NMDS) \cite{ecodist} to produce dimensionally reduced
-ordinations of these multi-variate responses and fitted vectors for
-continuous predictor variables to the ordinated values
-\cite{vegan}. For community composition we used Bray-Curtis
-dissimilarity, which has optimal performace with count data
-\citep{Minchen1998}. To quantify the similarity of lichen networks
-among individual trees, we calculated the pairwise Euclidean distance
-of the $\mathbf{D}$ interaction matrices among all pairs of trees.
+used additive, random effects models with Restricted Maximum
+Likelihood (REML). We used a combination of Least Squares Regression,
+Analysis of Variance (ANOVA) and correlation tests to quantify and
+test for the relationship among other variables. Bark roughness,
+lichen cover and species richness were square-root transformed to meet
+the assumptions of hetergeneity of variance and heteroskedasticity for
+these tests. For multivariate response variables, such as lichen
+community composition and network structure, we used distance based
+multivariate statistical approaches, including Permutational Analysis
+of Variance (PerMANOVA) and Mantel tests. For all analyses, community
+composition was relativized by species maxima to reduce the effect of
+the highly abundant \textit{X. galericulata}. For visualization of
+multivariate patterns, we used Non-metric Multi-Dimensional Scaling
+(NMDS) \cite{ecodist} to produce dimensionally reduced ordinations of
+these multi-variate responses and fitted vectors for continuous
+predictor variables to the ordinated values \cite{vegan}. For
+community composition we used Bray-Curtis dissimilarity, which has
+optimal performace with count data \citep{Minchen1998}. To quantify
+the similarity of lichen networks among individual trees, we
+calculated the pairwise Euclidean distance of the $\mathbf{D}$
+interaction matrices among all pairs of trees.
 
 
 For each network, we also calculated two network metrics that measure
@@ -493,7 +504,9 @@ we focus on a subset for the sake of simplicity and because some
 metrics are not appropriate for our relatively small communities. In
 particular, we do not present analysis of the modularity (i.e. the
 degree of sub-grouping) because our community has relatively few
-species to form modules.
+species to form modules. As with the other response variables, the
+number of links was log-transformed and centralization scores were
+square-root transformed to meet variance and normality assumptions.
 
 We have made all code and data available online. Code is available at
 \url{github.com/communitygenetics/lcn}. Data is available via the
@@ -514,28 +527,33 @@ Team 2018).
   the ordinated centroids ($\pm$ 1 S.E.) from the NMDS ordinated
   community composition of each genotype (indicated by centroid
   labels). Centroids that are closer together have more similar lichen
-  communities.}
+  communities. Arrows show the direction and magnitude of correlation
+  between bark roughness (BR), percent lichen colonziation (PC) and
+  lichen species richness (SR) and the ordinated community scores.x}
 \label{fig:com_ch_plot}
 \end{figure}
 
 
-Bark roughness and some lichen community characteristics responded to
-tree genotype. Percent rough bark varied signficantly among genotypes
-(REML $R^2$ = ?, RLRT = 10.69, p-value = 3e-04), as did total lichen
-cover (REML $R^2$ = ?, RLRT = 2.9627, p-value = 0.0375) and community
-composition (PerMANOVA $R^2$ = 0.243, F 12 = 1.8221, p-value =
-0.0029). However, lichen species richness did not show a significant
-response to genotype (REML RLRT = 0.13047, p-value =
-0.3134). Community composition was correlated with lichen cover
-(PerMANOVA $R^2$ = 0.236, $F_1$ = 21.2661, p-value = 9.999e-05) and
-richness (PerMANOVA $R^2$ = 0.054, $F_1$ = 4.9036, p-value = 0.0011)
-after controlling for tree genotype effects
-(Fig.~\ref{fig:com_ch_plot}). Roughness did not predict community
-composition (PerMANOVA $R^2$ = 0.011, F 1 = 0.9938, p-value = 0.3841)
-even though it was correlated with total lichen cover (ANOVA
-$F_{1,55}$ = 6.797, p-value = 0.01173). Roughness was not correlated
-with lichen species richness (ANOVA $F_{1, 55}$ = 1.509, p-value =
-0.2246).
+Bark roughness and lichen communities responded to tree
+genotype. Percent rough bark varied signficantly among genotypes (REML
+$R^2$ = 0.378, RLRT = 10.69, p-value = 0.0001), as did total lichen
+cover (REML $R^2$ = 0.172, RLRT = 2.9627, p-value = 0.0375).However,
+lichen species richness did not show a significant response to
+genotype (REML $R^2$ = 0.0981, RLRT = 1.0001, p-value =
+0.1366). Community composition was also affected by tree genotype
+(PerMANOVA $R^2$ = 0.243, F 12 = 1.8221, p-value = 0.0029). In
+addition, community composition was correlated with bark roughness
+(PerMANOVA $R^2$ = 0.039, $F_1$ = 3.7408, p-value = 0.0064), lichen
+cover (PerMANOVA $R^2$ = 0.342, $F_1$ = 32.8482, p-value = 0.0001) and
+lichen species richness (PerMANOVA $R^2$ = 0.069, $F_1$ = 6.5958,
+p-value = 0.0002) (Fig.~\ref{fig:com_ch_plot}). However, after
+controlling for the effect of tree genotype on community composition,
+bark roughness did not significantly predict community composition
+(PerMANOVA $R^2$ = 0.011, F 1 = 0.9938, p-value = 0.3841) but lichen
+cover (PerMANOVA $R^2$ = 0.236, $F_1$ = 21.2661, p-value = 0.0001)
+and lichen species richness (PerMANOVA $R^2$ = 0.054, $F_1$ = 4.9036,
+p-value = 0.0011) were still significantly correlated with lichen
+composition.
 
 
 \subsection*{Tree genotype influenced lichen network similarity}
@@ -565,10 +583,7 @@ followed by \textit{Ca. holocarpa} (0.54) and \textit{L. hageni}
 sp. (0.18), \textit{X. galericulata} (0.14), \textit{P. melanchra}
 (0.08), \textit{X. montana} (0.06) and \textit{Ph. undulata}
 (0.02). \textit{Physcia adscendens} was generally not connected to
-other species in the networks and had a centralization score of
-zero. Interactions tended to be positive (QUANTIFY!!!); however,
-\textit{X. galericulata}, although not the most central species,
-frequently tended to decrease the presence of other species. 
+other species in the networks and had a centralization score of zero.
 
 \begin{figure}[ht]
 \centering
@@ -588,15 +603,25 @@ frequently tended to decrease the presence of other species.
 Lichen networks observed on trees of the same genotype tended to be
 similar in structure. Tree genotype significantly predicted the
 similarity of lichen interaction networks (PerMANOVA $R^2$ = 0.33795,
-F 12 = 2.5379, p-value = 0.0050). Lichen species richness was also a
-significant predictor of network similarity after controlling for
-genotype (PerMANOVA $R^2$ = 0.3413, F 1 = 2.5417, p-value = 0.007399);
-however, neither total cover (PerMANOVA $R^2$ = 0.023, F 1 = 2.0628,
-p-value = 0.1487) nor roughness (PerMANOVA $R^2$ = 0.011, F 1 =
-0.0497, p-value = 0.3394) predicted network similiarity
-(Fig.~\ref{fig:cn_ch_plot}). Community similiarty was not correlated
-with network similiarity (Mantel Rho spearman = 0.012, p-value =
-0.337).
+F 12 = 2.5379, p-value = 0.0050). Bark roughness (PerMANOVA $R^2$ =
+0.040, $F_1$ = 4.1680, p-value = 0.03770) and lichen species richness
+(PerMANOVA $R^2$ = 0.424, $F_1$ = 44.5034, p-value = 9.999e-05) were
+significant predictors of lichen network similarity, while total
+lichen cover was a weak, mariginally significant predictor (PerMANOVA
+$R^2$ = 0.032, $F_1$ = 3.3573, p-value = 0.06779). However, after
+controlling for the effect of tree genotype on lichen network
+similarity, only species richness was a significant predictor of
+lichen network similarity (PerMANOVA $R^2$ = 0.300, $F_1$ = 33.3755,
+p-value = 0.00001), and neither bark roughness (PerMANOVA $R^2$ =
+0.019, $F_1$ = 2.0858, p-value = 0.14699) nor lichen cover (PerMANOVA
+$R^2$ = 0.019, $F_1$ = 2.1504, p-value = 0.14409) were significant
+predictors. Community similiarty was not correlated with network
+similiarity (Mantel Rho spearman = 0.092, p-value = 0.09500).
+
+
+
+(Fig.~\ref{fig:cn_ch_plot}). 
+
 
 
 \begin{figure}[ht]
@@ -612,22 +637,22 @@ with network similiarity (Mantel Rho spearman = 0.012, p-value =
 \end{figure}
 
 
-These patterns of structural similarity among networks on similar
-genotypes could be partially explained by several networks. Tree
-genotype marginally predicted the number of links (REML RLRT = 2.0221,
-p-value = 0.0657) and centrality (REML RLRT = 2.0915, p-value =
-0.0627) of lichen networks (Fig.~\ref{}). Total cover was correlated with the number
-of links (ANOVA F 1 = 6.867, p-value = 0.0114) and centrality (ANOVA F
-1 = 8.093, p-value = 0.0063). Lichen species richness was also
-correlated with the number of links (ANOVA F 1 = 29.436, p-value =
-1.46e-06) and centrality (ANOVA F 1 = 39.488, p-value =
+The observed genotypic patterns of network similarity could be
+summarize by several network metrics. The number of links (PerMANOVA
+$R^2$ = 0.392, F 1 = 72.4348, p-value = 0.001) and network centrality
+(PerMANOVA $R^2$ = 0.309, F 1 = 57.0440, p-value = 0.001) were highly
+correlated with network similarity.  Tree genotype singificantly
+predicted network centrality (REML $R^2$ = 0.202, RLRT = 2.7801,
+p-value = 0.04012) but marginally predicted the number of links (REML
+$R^2$ = 0.170, RLRT = 2.0484, p-value = 0.065)
+(Fig.~\ref{fig:cn_metrics}). Total cover was correlated with the
+number of links (ANOVA F 1 = 6.867, p-value = 0.0114) and centrality
+(ANOVA F 1 = 8.093, p-value = 0.0063). Lichen species richness was
+also correlated with the number of links (ANOVA F 1 = 29.436, p-value
+= 1.46e-06) and centrality (ANOVA F 1 = 39.488, p-value =
 6.38e-08). Bark roughness, however, did not significantly predict the
 number of links (ANOVA F 1 = 2.897, p-value = 0.0946) nor the
 centrality (ANOVA F 1 = 2.591, p-value = 0.1134) of lichen networks.
-The number of network links (PerMANOVA $R^2$ = 0.392, F 1 = 72.4348,
-p-value = 0.001) and network centrality (PerMANOVA $R^2$ = 0.309, F 1 =
-57.0440, p-value = 0.001) were highly correlated with network
-similarity.
 
 
 
@@ -653,7 +678,7 @@ similarity.
 %% \label{tab:h2_table}
 %% \end{table}
 
-Supplementary: Stats tables
+%% Supplementary: Stats tables
 
 
 %% Not sure if these results should be included, it might be enough to
