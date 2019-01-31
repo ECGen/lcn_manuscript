@@ -10,6 +10,16 @@ Bascompte J, Jordano P, Olesen JM (2006) {Asymmetric Coevolutionary Networks
   Facilitate Biodiversity Maintenance\r10.1126/science.1123412}.
 \newblock {\em Science (80-. ).} 312:431--433.
 
+\bibitem{Johnson2008}
+Johnson MTJ (2008) {Bottom-up effects of plant genotype on aphids, ants, and
+  predators}.
+\newblock {\em Ecology}.
+
+\bibitem{Johnson2009}
+Johnson MT, Vellend M, Stinchcombe JR (2009) {Evolution in plant populations as
+  a driver of ecological changes in arthropod communities}.
+\newblock {\em Philos. Trans. R. Soc. B Biol. Sci.}
+
 \bibitem{Rafferty2013}
 Rafferty NE, Ives AR (2013) {Phylogenetic trait-based analyses of ecological
   networks.}
@@ -31,6 +41,26 @@ Whitham TG, et~al. (2006) {A framework for community and ecosystem genetics:
   from genes to ecosystems.}
 \newblock {\em Nat. Rev. Genet.} 7:510--523.
 
+\bibitem{Guimaraes2011}
+Guimar{\~{a}}es PR, Jordano P, Thompson JN (2011) {Evolution and coevolution in
+  mutualistic networks}.
+\newblock {\em Ecol. Lett.} 14(9):877--85.
+
+\bibitem{Moya-Larano2011}
+Moya-Lara{\~{n}}o J (2011) {Genetic variation, predator-prey interactions and
+  food web structure.}
+\newblock {\em Philos. Trans. R. Soc. Lond. B. Biol. Sci.} 366(1569):1425--37.
+
+\bibitem{Thompson2013a}
+Thompson JN, Schwind C, Guimaraes PR, Friberg M (2013) {Diversification through
+  multitrait evolution in a coevolving interaction}.
+\newblock {\em Proc. Natl. Acad. Sci.}
+
+\bibitem{Lamit2015a}
+Lamit LJ, et~al. (2015) {Genotype variation in bark texture drives lichen
+  community assembly across multiple environments}.
+\newblock {\em Ecology} 96(4):960--971.
+
 \bibitem{Ellison2005}
 Ellison AM, et~al. (2005) {Loss of foundation species: consequences for the
   structure and dynamics of forested ecosystems}.
@@ -47,9 +77,31 @@ Bailey JK, et~al. (2009) {From genes to ecosystems: a synthesis of the effects
   of plant genetic factors across levels of organization.}
 \newblock {\em Philos. Trans. R. Soc. Lond. B. Biol. Sci.} 364(1523):1607--16.
 
-\bibitem{Toju2014}
-Toju H, Guimar{\~{a}}es PR, Olesen JM, Thompson JN (2014) {No Title}.
-\newblock {\em Nat. Commun.} 5:5273.
+\bibitem{Keith2017}
+Keith AR, Bailey JK, Lau MK, Whitham TG (2017) {Genetics-based interactions of
+  foundation species affect community diversity, stability and network
+  structure}.
+\newblock {\em Proc. R. Soc. B Biol. Sci.} 284(1854):20162703.
+
+\bibitem{Lau2015a}
+Lau MK, Keith AR, Borrett SR, Shuster SM, Whitham TG (2015) {Genotypic
+  variation in foundation species generates network structure that may drive
+  community dynamics and evolution}.
+\newblock {\em Ecology} 97(3):15--0600.1.
+
+\bibitem{Toju2017}
+Toju H, et~al. (2017) {Species-rich networks and eco-evolutionary synthesis at
+  the metacommunity level}.
+
+\bibitem{Toju2016}
+Toju H, Yamamoto S, Tanabe AS, Hayakawa T, Ishii HS (2016) {Network modules and
+  hubs in plant-root fungal biomes}.
+\newblock {\em J. R. Soc. Interface}.
+
+\bibitem{Toju2014a}
+Toju H, Guimar{\~{a}}es PR, Olesen JM, Thompson JN (2014) {Assembly of complex
+  plant-fungus networks}.
+\newblock {\em Nat. Commun.}
 
 \bibitem{Winfree2011}
 Winfree R, Gross BJ, Kremen C (2011) {Valuing pollination services to
@@ -66,20 +118,24 @@ Zytynska SE, Fay MF, Penney D, Preziosi RF (2011) {Genetic variation in a
 Thompson JN (2013) {\em {Relentless Evolution}}.
 \newblock (University of Chicago Press), p. 499.
 
+\bibitem{Lamit2011}
+Lamit L, et~al. (2011) {Genetically-based trait variation within a foundation
+  tree species influences a dominant bark lichen}.
+\newblock {\em Fungal Ecol.} 4(1):103--109.
+
 \bibitem{Araujo2011}
 Ara{\'{u}}jo MB, Rozenfeld A, Rahbek C, Marquet PA (2011) {Using species
   co-occurrence networks to assess the impacts of climate change}.
 \newblock {\em Ecography (Cop.).} 34:897--908.
 
-\bibitem{Guimaraes2011}
-Guimar{\~{a}}es PR, Jordano P, Thompson JN (2011) {Evolution and coevolution in
-  mutualistic networks}.
-\newblock {\em Ecol. Lett.} 14(9):877--85.
+\bibitem{Lau2015}
+Lau MK, Borrett SR, Hines DE, Singh P (2015) {enaR: Tools for Ecological
+  Network Analysis}.
 
-\bibitem{Moya-Larano2011}
-Moya-Lara{\~{n}}o J (2011) {Genetic variation, predator-prey interactions and
-  food web structure.}
-\newblock {\em Philos. Trans. R. Soc. Lond. B. Biol. Sci.} 366(1569):1425--37.
+\bibitem{Lau2017a}
+Lau MK, Borrett SR, Baiser B, Gotelli NJ, Ellison AM (2017) {Ecological network
+  metrics: opportunities for synthesis}.
+\newblock {\em Ecosphere} 8(8):e01900.
 
 \bibitem{Borgatti2006}
 Borgatti SP, Everett MG (2006) {A Graph-theoretic perspective on centrality}.
@@ -99,10 +155,19 @@ Rowntree JK, Shuker DM, Preziosi RF (2011) {Forward from the crossroads of
 Whitham TG, et~al. (2012) {Community specificity: Life and afterlife effects of
   genes}.
 
+\bibitem{Bangert2006}
+Bangert RK, et~al. (2006) {A genetic similarity rule determines arthropod
+  community structure.}
+\newblock {\em Mol. Ecol.} 15:1379--1391.
+
 \bibitem{Zook2010}
 Zook AE, Eklof A, Jacob U, Allesina S (2010) {Food webs: Ordering species
   according to body size yields high degree of intervality.}
 \newblock {\em J. Theor. Biol.} 271(1):106--113.
+
+\bibitem{Zytynska2012}
+Zytynska SE, Khudr MS, Harris E, Preziosi RF (2012) {No Title}.
+\newblock {\em Oecologia} 170(2).
 
 \bibitem{Evans2013}
 Evans DM, Pocock MJO, Memmott J (2013) {The robustness of a network of
