@@ -1,60 +1,31 @@
 \begin{thebibliography}{10}
 
-\bibitem{Fontaine2011}
-Fontaine C, et~al. (2011) {The ecological and evolutionary implications of
-  merging different types of networks.}
-\newblock {\em Ecol. Lett.} 14(11):1170--81.
-
-\bibitem{Bascompte2006}
-Bascompte J, Jordano P, Olesen JM (2006) {Asymmetric Coevolutionary Networks
-  Facilitate Biodiversity Maintenance\r10.1126/science.1123412}.
-\newblock {\em Science (80-. ).} 312:431--433.
-
-\bibitem{Johnson2008}
-Johnson MTJ (2008) {Bottom-up effects of plant genotype on aphids, ants, and
-  predators}.
-\newblock {\em Ecology}.
-
-\bibitem{Johnson2009}
-Johnson MT, Vellend M, Stinchcombe JR (2009) {Evolution in plant populations as
-  a driver of ecological changes in arthropod communities}.
-\newblock {\em Philos. Trans. R. Soc. B Biol. Sci.}
-
-\bibitem{Rafferty2013}
-Rafferty NE, Ives AR (2013) {Phylogenetic trait-based analyses of ecological
-  networks.}
-\newblock {\em Ecology} 94(10):2321--33.
+\bibitem{Keith2017}
+Keith AR, Bailey JK, Lau MK, Whitham TG (2017) {Genetics-based interactions of
+  foundation species affect community diversity, stability and network
+  structure}.
+\newblock {\em Proc. R. Soc. B Biol. Sci.} 284(1854):20162703.
 
 \bibitem{Crutsinger2016}
 Crutsinger GM (2016) {A community genetics perspective: Opportunities for the
   coming decade}.
 \newblock {\em New Phytol.}
 
-\bibitem{Rezende2007}
-Rezende EL, Lavabre JE, Guimar{\~{a}}es PR, Jordano P, Bascompte J (2007)
-  {Non-random coextinctions in phylogenetically structured mutualistic
-  networks.}
-\newblock {\em Nature} 448(7156):925--8.
-
 \bibitem{Whitham2006a}
 Whitham TG, et~al. (2006) {A framework for community and ecosystem genetics:
   from genes to ecosystems.}
 \newblock {\em Nat. Rev. Genet.} 7:510--523.
-
-\bibitem{Guimaraes2011}
-Guimar{\~{a}}es PR, Jordano P, Thompson JN (2011) {Evolution and coevolution in
-  mutualistic networks}.
-\newblock {\em Ecol. Lett.} 14(9):877--85.
 
 \bibitem{Moya-Larano2011}
 Moya-Lara{\~{n}}o J (2011) {Genetic variation, predator-prey interactions and
   food web structure.}
 \newblock {\em Philos. Trans. R. Soc. Lond. B. Biol. Sci.} 366(1569):1425--37.
 
-\bibitem{Thompson2013a}
-Thompson JN, Schwind C, Guimaraes PR, Friberg M (2013) {Diversification through
-  multitrait evolution in a coevolving interaction}.
-\newblock {\em Proc. Natl. Acad. Sci.}
+\bibitem{Rezende2007}
+Rezende EL, Lavabre JE, Guimar{\~{a}}es PR, Jordano P, Bascompte J (2007)
+  {Non-random coextinctions in phylogenetically structured mutualistic
+  networks.}
+\newblock {\em Nature} 448(7156):925--8.
 
 \bibitem{Lamit2015a}
 Lamit LJ, et~al. (2015) {Genotype variation in bark texture drives lichen
@@ -77,12 +48,6 @@ Bailey JK, et~al. (2009) {From genes to ecosystems: a synthesis of the effects
   of plant genetic factors across levels of organization.}
 \newblock {\em Philos. Trans. R. Soc. Lond. B. Biol. Sci.} 364(1523):1607--16.
 
-\bibitem{Keith2017}
-Keith AR, Bailey JK, Lau MK, Whitham TG (2017) {Genetics-based interactions of
-  foundation species affect community diversity, stability and network
-  structure}.
-\newblock {\em Proc. R. Soc. B Biol. Sci.} 284(1854):20162703.
-
 \bibitem{Lau2015a}
 Lau MK, Keith AR, Borrett SR, Shuster SM, Whitham TG (2015) {Genotypic
   variation in foundation species generates network structure that may drive
@@ -103,6 +68,16 @@ Toju H, Guimar{\~{a}}es PR, Olesen JM, Thompson JN (2014) {Assembly of complex
   plant-fungus networks}.
 \newblock {\em Nat. Commun.}
 
+\bibitem{Guimaraes2011}
+Guimar{\~{a}}es PR, Jordano P, Thompson JN (2011) {Evolution and coevolution in
+  mutualistic networks}.
+\newblock {\em Ecol. Lett.} 14(9):877--85.
+
+\bibitem{Thompson2013a}
+Thompson JN, Schwind C, Guimaraes PR, Friberg M (2013) {Diversification through
+  multitrait evolution in a coevolving interaction}.
+\newblock {\em Proc. Natl. Acad. Sci.}
+
 \bibitem{Winfree2011}
 Winfree R, Gross BJ, Kremen C (2011) {Valuing pollination services to
   agriculture}.
@@ -117,6 +92,11 @@ Zytynska SE, Fay MF, Penney D, Preziosi RF (2011) {Genetic variation in a
 \bibitem{Thompson2013}
 Thompson JN (2013) {\em {Relentless Evolution}}.
 \newblock (University of Chicago Press), p. 499.
+
+\bibitem{Bascompte2006}
+Bascompte J, Jordano P, Olesen JM (2006) {Asymmetric Coevolutionary Networks
+  Facilitate Biodiversity Maintenance\r10.1126/science.1123412}.
+\newblock {\em Science (80-. ).} 312:431--433.
 
 \bibitem{Lamit2011}
 Lamit L, et~al. (2011) {Genetically-based trait variation within a foundation
