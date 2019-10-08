@@ -762,8 +762,22 @@ Team 2018).
 % fig:cn_onc
 % table:onc_d_Ftable
 % 1. Lichen network similarity permanova for genotype
+%% geno     12   367.65 0.26937  2.3065   0.02860 *  
+%% BR        1    23.63 0.01732  1.7792   0.18828    
+%% pH        1     8.96 0.00656  0.6745   0.41866    
+%% CN        1    37.70 0.02762  2.8379   0.08849 .  
+%% CT        1    76.22 0.05585  5.7383   0.03310 *  
+%% PC        1    28.50 0.02088  2.1458   0.14349    
+%% SR        1   332.23 0.24342 25.0117 9.999e-05 ***
+%% SE        1    51.59 0.03780  3.8843   0.04470 *  
+
 % 2. C. subdeflexa was the most central species, primarily positive
 % but tended to have a negative relationship with X. galariculata
+% 0.73 +/- 0.14
+% summary(aov(value ~ X2, data = melt(cen.spp)))
+%%              Df Sum Sq Mean Sq F value Pr(>F)    
+%% X2            8  27.04   3.380   8.086  3e-10 ***
+%% Residuals   468 195.63   0.418                   
 
 %% Network structural statistics varied among genotypes
 % Fig: Total cover, richness and centrality among genotypes
