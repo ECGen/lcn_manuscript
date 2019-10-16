@@ -1,7 +1,7 @@
 %% All authors must submit their articles at
 %% \href{http://www.pnascentral.org/cgi-bin/main.plex}{PNAScentral}. If
-%% you are using Overleaf to write your article, you can use the ``Submit
-%% to PNAS'' option in the top bar of the editor window.
+%% you are using Overleaf to write your article, you can use the
+%% ``Submit to PNAS'' option in the top bar of the editor window.
 
 \documentclass[9pt,twocolumn,twoside,lineno]{pnas-new}
 % Use the lineno option to display guide line numbers if required.
@@ -771,6 +771,7 @@ Team 2018).
 %% PC        1    28.50 0.02088  2.1458   0.14349    
 %% SR        1   332.23 0.24342 25.0117 9.999e-05 ***
 %% SE        1    51.59 0.03780  3.8843   0.04470 *  
+%% Network distance Hc2: 0.06385
 
 % 2. C. subdeflexa was the most central species, primarily positive
 % but tended to have a negative relationship with X. galariculata
@@ -782,20 +783,32 @@ Team 2018).
 
 %% Network structural statistics varied among genotypes
 % Fig: Total cover, richness and centrality among genotypes
+% Table: H2 table
+%% Response                      & H2      & R2      & p-value \\ 
+%% Lichen Network                & 0.06385 & 0.26937 & 0.0286  \\  %
+%% Network Centrality            & 0.20166 & 0.20166 & 0.03958 \\  %
+%% Number of Network Links       & 0.17016 & 0.17016 & 0.06674 \\ 
+%% Network Modularity            & 0.05731 & 0.05731 & 0.267   \\ 
+%% Percent Lichen Cover          & 0.1368  & 0.1368  & 0.0841  \\ 
+%% Lichen Species Richness       & 0.02807 & 0.02807 & 0.3517  \\ 
+%% Lichen Species Evenness       & 0.05732 & 0.05732 & 0.2461  \\ 
+%% Lichen Species Diversity      & 0.02908 & 0.02908 & 0.3532  \\ 
+%% Lichen Community Composition  & 0.16093 & 0.24287 & 0.0032  \\  %
+%% Condensed Tannins (CT)        & 0.25556 & 0.25556 & 0.0193  \\  %
+%% Carbon-Nitrogen (CN) Ratio    & 0       & 0       & 0.4608  \\ 
+%% NEED pH                       &         &         &         \\ 
 % 1. Centrality genetically based (REML)
 % 2. Number of linkages and modularity were not (REML)
-% 3. Percent cover, richness genetically based, but evenness and
-% diversity were not (REML)
+% 3. Percent cover, richness 
 % 4. Species richness correlated with network centrality, total cover
 % was not (cor.test)
 
 %% Genetically based tree traits correlated with network structure
 % Fig:cn_chplot
-% 1. Bark roughness but not tree chemistry (REML)
-% 2. Bark roughness correlated with network similarity
-% 3. Not correlated with species richness or centrality
+% 1. Net ~ traits
+% 2. Other?
 
-%% Patterns were similar to wild stands
+%% Are patterns similar to wild stands
 % Fig:
 % 1. Network and trait correlations (PerMANOVA or MANTEL)
 % 2. Community and network metric correlations (cor.test or lm)
