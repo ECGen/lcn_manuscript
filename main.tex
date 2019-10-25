@@ -444,7 +444,19 @@ networks.
   lichen individuals created in part by genetic variation in tree
   individuals.}
 
+
+
 \matmethods{
+
+
+\textbf{MKL: Need to add more citations of Lamits or other lichen
+  studies.}
+
+\textbf{LJL: If you include the field data, I would suggest changing
+  the topic sentence for this paragraph and adding something about the
+  field data sampling to this paragrpah. Note, also that we cored and
+  aged each field tree so we can site the age range of the trees here,
+  to make it clear they are within those of the garden.}
 
 
 The study was conducted along the Weber River, UT (USA), which is a
@@ -458,15 +470,6 @@ which to observe and model lichen interaction networks, as their
 sessile nature permits accurate identification of individuals
 \cite{Lamit2011}.
 
-\textbf{MKL: Need to add more citations of Lamits or other lichen
-  studies.}
-
-\textbf{LJL: If you include the field data, I would suggest changing
-  the topic sentence for this paragraph and adding something about the
-  field data sampling to this paragrpah. Note, also that we cored and
-  aged each field tree so we can site the age range of the trees here,
-  to make it clear they are within those of the garden.}
-
 A long-term, common garden experiment was used to isolate the effect
 of tree genotype from the effect of the localized microenvironment
 associated with each individual and spatial
@@ -479,8 +482,6 @@ between 3 and 8 times each, for sampling.
 
 
 \subsection*{Bark Lichen Observations}
-
-
 
 \textbf{LJL: A total pain in the butt but it might be good just to
   double check that our exact species that occured in each quadrat are
@@ -496,6 +497,7 @@ between 3 and 8 times each, for sampling.
   next sentence that highlights which species were found and which
   were not obsered. I would just stick with the second sentence and
   delete the first sentence.}
+
 
 On each tree, presence or absence of each lichen species was assessed
 in 50 total 1 cm$^2$ cells arrayed in a checkerboard pattern. Given
@@ -751,51 +753,104 @@ Harvard Dataverse (needs project ID). The project is also archived via
 Zenodo at \url{zenodo.com/doiXXXXXX}. All analyses were conducted
 using the programming language R version 3.4.2 (R Development Core
 Team 2018).
+}
+
+
+%% Integrate this figure into the methods
+%% Use it to show the output of the network modeling.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=\linewidth]{cn_onc.pdf}
+\caption{Lichen networks varied in structure among tree
+  genotypes. Network diagrams of the mean lichen interaction matrices
+  averaged for all trees and for several individual genotypes showing
+  a range of interaction network structure. Directionality
+  (arrowheads) and sign (red = negative, black = positive) of
+  interactions are shown as edges between species (abbreviated by the
+  first letter of the genus and specific epithet), which are scaled by
+  their magnitude. The sign of the interaction is indicative of
+  greater (positive) or lesser (negative) paired occurrences than
+  expected relative to the overall frequency of occurrence of each
+  species. Ecologically, the links in the network are likely the
+  product of multiple types of interactions (e.g. mutualism,
+  parasatism, competition, facilitation) that could vary over both
+  space and time.}
+\label{fig:geno_nets}
+\end{figure}
+
+
 
 \section*{Results}
 
 %%% Results outline
-
 %% Each of the ``%%'' correspond to paragraphs
 
 %% Tree genotypes support distinct lichen networks
 % fig:cn_onc
 %% Figure now remade with CT added and NA's removed
-% 1. Lichen network similarity permanova for genotype
-% table:onc_d_Ftable
-%% geno     12   367.65 0.26937  2.3065   0.02860 *  
-%% BR        1    23.63 0.01732  1.7792   0.18828    
-%% pH        1     8.96 0.00656  0.6745   0.41866    
-%% CN        1    37.70 0.02762  2.8379   0.08849 .  
-%% CT        1    76.22 0.05585  5.7383   0.03310 *  
-%% PC        1    28.50 0.02088  2.1458   0.14349    
-%% SR        1   332.23 0.24342 25.0117 9.999e-05 ***
-%% SE        1    51.59 0.03780  3.8843   0.04470 *  
-%% Network distance Hc2: 0.06385
+% 1. Genotype predicted network similarity
+% 2. Condensed tannins predicted net similarity
+% 3. Species richness predicted net similarity
+
+
 \input{cn_perm}
 
-% 2. C. subdeflexa was the most central species, primarily positive
-% but tended to have a negative relationship with X. galariculata
+
+%% UPDATE THIS!
+%% Network structural statistics varied among genotypes
+% Fig: Total cover, richness and centrality among genotypes
+
+%%% Is this interesting now that centrality is not genetically based?
+% C. subdeflexa was the most central species, primarily positive but
+% tended to have a negative relationship with X. galariculata
+
 % 0.73 +/- 0.14
 % summary(aov(value ~ X2, data = melt(cen.spp)))
 %%              Df Sum Sq Mean Sq F value Pr(>F)    
 %% X2            8  27.04   3.380   8.086  3e-10 ***
 %% Residuals   468 195.63   0.418                   
 
-%% Network structural statistics varied among genotypes
-% Fig: Total cover, richness and centrality among genotypes
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=\linewidth]{cn_chplot.pdf}
+\caption{Significant lichen interaction network structure resulting
+  from tree genotypic variation was observed in the common garden.
+  The plot shows genotype centroids of NMDS ordinated (R$^2$ = 0.999,
+  stress = 0.011) lichen networks ($\pm$ 1 S.E.). Centroids that are
+  closer are more similar in the structure of their lichen
+  networks. Arrows show the magnitude and direction of correlation of
+  the ordinated networks with tree bark roughness (BR), percent cover
+  of lichens (PC) and lichen species richness (SR).}
+\label{fig:cn_ch_plot}
+\end{figure}
+
 % Table: H2 table
-% 1. Centrality genetically based (REML)
 \input{h2_reml}
-% 2. Number of linkages and modularity were not (REML)
-% 3. Percent cover, richness 
-% 4. Species richness correlated with network centrality, total cover
-% was not (cor.test)
+
+% 1.
+% 2. 
+% 3. Lichen composition genetically based
+% 4. None of the structural networks were genetically based
 
 %% Genetically based tree traits correlated with network structure
 % Fig:cn_chplot
 % 1. Net ~ traits
 % 2. Other?
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=\linewidth]{cn_metrics.pdf}
+\caption{The impact of tree genotype on lichen network structure was
+  indicative of variation in both the number variation in lichen
+  interactions among species. Plot showing the means ($\pm$ 1 S.E.)
+  for lichen network metrics, number of links and centralization, for
+  each genotype. Both metrics are presented as standardized scores
+  ($\frac{x - \bar{x}}{\sigma}$).}
+\label{fig:cn_metrics}
+\end{figure}
+
 
 %% Are patterns similar to wild stands
 %% Wild stands don't have chemistry data
@@ -853,19 +908,6 @@ lichen networks (Supplementary Tables~\ref{tab:L_aov} and
 \textbf{MKL: I removed the community similarity figure to simplify the
 presentation of the results and improve the flow.}
 
-%% \begin{figure}[ht]
-%% \centering
-%% \includegraphics[width=\linewidth]{com_chplot_onc.pdf}
-%% \caption{Lichen community composition varied among tree
-%%   genotypes. Plot of the ordinated centroids ($\pm$ 1 S.E.) for the
-%%   composition of lichen species (R$^2$ = 0.935, stress = 0.101) for
-%%   each tree genotype (indicated by centroid labels). Centroids that
-%%   are closer together have more similar lichen communities. Arrows
-%%   show the direction and magnitude of correlation between bark
-%%   roughness (BR), percent lichen colonization (PC) and lichen species
-%%   richness (SR) and the ordinated community scores.x}
-%% \label{fig:com_ch_plot}
-%% \end{figure}
 
 \textbf{LJL: Figure looks good. But, maybe making all lines a little
   thicker would look nicer and pop more.}
@@ -888,28 +930,8 @@ presentation of the results and improve the flow.}
 
 \textbf{MKL: Adapt into a table.}
 
-
 \textbf{TGW: clarify positive vs negative interactions.}
 
-\begin{figure}[ht]
-\centering
-\includegraphics[width=\linewidth]{cn_onc.pdf}n
-\caption{Lichen networks varied in structure among tree
-  genotypes. Network diagrams of the mean lichen interaction matrices
-  averaged for all trees and for several individual genotypes showing
-  a range of interaction network structure. Directionality
-  (arrowheads) and sign (red = negative, black = positive) of
-  interactions are shown as edges between species (abbreviated by the
-  first letter of the genus and specific epithet), which are scaled by
-  their magnitude. The sign of the interaction is indicative of
-  greater (positive) or lesser (negative) paired occurrences than
-  expected relative to the overall frequency of occurrence of each
-  species. Ecologically, the links in the network are likely the
-  product of multiple types of interactions (e.g. mutualism,
-  parasatism, competition, facilitation) that could vary over both
-  space and time.}
-\label{fig:geno_nets}
-\end{figure}
 
 \subsection{Tree genotypes support distinct lichen networks}
 
@@ -992,20 +1014,6 @@ presentation of the results and improve the flow.}
 \textbf{MKL: Add the network metrics as vectors. Also add the wild
   stand as a point of reference or add as a supplementary figure.}
 
-\begin{figure}[ht]
-\centering
-\includegraphics[width=\linewidth]{cn_chplot.pdf}
-\caption{Significant lichen interaction network structure resulting
-  from tree genotypic variation was observed in the common garden.
-  The plot shows genotype centroids of NMDS ordinated (R$^2$ = 0.999,
-  stress = 0.011) lichen networks ($\pm$ 1 S.E.). Centroids that are
-  closer are more similar in the structure of their lichen
-  networks. Arrows show the magnitude and direction of correlation of
-  the ordinated networks with tree bark roughness (BR), percent cover
-  of lichens (PC) and lichen species richness (SR).}
-\label{fig:cn_ch_plot}
-\end{figure}
-
 \textbf{MKL: Need to re-organize the flow of the results.}
 
 
@@ -1023,20 +1031,6 @@ presentation of the results and improve the flow.}
   overarching statement(s).  E.g., 7 of 8 analyses support our
   overarching hypothesis that ...  Same goes for other such paragraphs
   such as the 1st and last paras of the Results.}
-
-
-
-\begin{figure}[ht]
-\centering
-\includegraphics[width=\linewidth]{cn_metrics.pdf}
-\caption{The impact of tree genotype on lichen network structure was
-  indicative of variation in both the number variation in lichen
-  interactions among species. Plot showing the means ($\pm$ 1 S.E.)
-  for lichen network metrics, number of links and centralization, for
-  each genotype. Both metrics are presented as standardized scores
-  ($\frac{x - \bar{x}}{\sigma}$).}
-\label{fig:cn_metrics}
-\end{figure}
 
 
 
@@ -1067,9 +1061,6 @@ presentation of the results and improve the flow.}
 %% \end{figure}
 
 
-
-
-}
 
 
 \showmatmethods{} % Display the Materials and Methods section
@@ -1163,13 +1154,11 @@ predator-prey-plant study, Smith \cite{Smith2011}, showed that the
 interactions among species across trophic levels depended on plant
 genotype.
 
-\textbf{LJL:  
-It could be useful to point out that our findings are
-  not related to trophic interactions, which is pretty cool.
-
-Also,we talk about interaction networks but it is not clear to me if
-the interactions tend to be positive or negative. Can we get at that
-with the approach used? }
+\textbf{LJL:  It could be useful to point out that our findings are
+  not related to trophic interactions, which is pretty cool. Also,we
+  talk about interaction networks but it is not clear to me if the
+  interactions tend to be positive or negative. Can we get at that
+  with the approach used?}
 
 
 \textbf{TGW:  Is there any adaptive component to the tree in having
