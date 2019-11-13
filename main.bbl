@@ -1,25 +1,9 @@
 \begin{thebibliography}{10}
 
-\bibitem{Keith2017}
-Keith AR, Bailey JK, Lau MK, Whitham TG (2017) {Genetics-based interactions of
-  foundation species affect community diversity, stability and network
-  structure}.
-\newblock {\em Proc. R. Soc. B Biol. Sci.} 284(1854):20162703.
-
 \bibitem{Crutsinger2016}
 Crutsinger GM (2016) {A community genetics perspective: Opportunities for the
   coming decade}.
 \newblock {\em New Phytol.}
-
-\bibitem{Whitham2006a}
-Whitham TG, et~al. (2006) {A framework for community and ecosystem genetics:
-  from genes to ecosystems.}
-\newblock {\em Nat. Rev. Genet.} 7:510--523.
-
-\bibitem{Moya-Larano2011}
-Moya-Lara{\~{n}}o J (2011) {Genetic variation, predator-prey interactions and
-  food web structure.}
-\newblock {\em Philos. Trans. R. Soc. Lond. B. Biol. Sci.} 366(1569):1425--37.
 
 \bibitem{Rezende2007}
 Rezende EL, Lavabre JE, Guimar{\~{a}}es PR, Jordano P, Bascompte J (2007)
@@ -47,6 +31,12 @@ Holeski LM, Hillstrom ML, Whitham TG, Lindroth RL (2012) {Relative importance
 Bailey JK, et~al. (2009) {From genes to ecosystems: a synthesis of the effects
   of plant genetic factors across levels of organization.}
 \newblock {\em Philos. Trans. R. Soc. Lond. B. Biol. Sci.} 364(1523):1607--16.
+
+\bibitem{Keith2017}
+Keith AR, Bailey JK, Lau MK, Whitham TG (2017) {Genetics-based interactions of
+  foundation species affect community diversity, stability and network
+  structure}.
+\newblock {\em Proc. R. Soc. B Biol. Sci.} 284(1854):20162703.
 
 \bibitem{Lau2015a}
 Lau MK, Keith AR, Borrett SR, Shuster SM, Whitham TG (2015) {Genotypic
@@ -112,10 +102,6 @@ Bdeir R, et~al. (2017) {Quantitative trait locus mapping of Populus bark
 Ara{\'{u}}jo MB, Rozenfeld A, Rahbek C, Marquet PA (2011) {Using species
   co-occurrence networks to assess the impacts of climate change}.
 \newblock {\em Ecography (Cop.).} 34:897--908.
-
-\bibitem{Lau2015}
-Lau MK, Borrett SR, Hines DE, Singh P (2015) {enaR: Tools for Ecological
-  Network Analysis}.
 
 \bibitem{Lau2017a}
 Lau MK, Borrett SR, Baiser B, Gotelli NJ, Ellison AM (2017) {Ecological network

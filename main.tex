@@ -6,6 +6,8 @@
 \documentclass[11pt,twocolumn,twoside,lineno]{pnas-new}
 % Use the lineno option to display guide line numbers if required.
 
+\usepackage[utf8]{inputenc}
+
 \templatetype{pnasresearcharticle} % Choose template 
 % {pnasresearcharticle} = Template for a two-column research article
 % {pnasmathematics} %= Template for a one-column mathematics article
@@ -279,19 +281,19 @@ foundation species.
 networks. Initially, evolution in a community context was focused on
 examples of highly co-evolved pairs of species (e.g. Darwin's famous
 prediction of the Sphinx Moth and Christmas Orchid)
-\cite{Wade2007}. However, studies of diffuse co-evolution
-(\textit{sensu} \cite{Janzen1980}) \cite{Stinchcombe2002, Strauss2007,
-  Dicke2010}, geographic mosaics of co-evolution \cite{Thompson2005}
-and community genetics \cite{Whitham2006} have provided an in-road for
-ecological network approaches \cite{Fortuna2009, Keith2017, Lau2016}
+cite{Wade2007}. However, studies of diffuse co-evolution
+(\textit{sensu} cite{Janzen1980}) cite{Stinchcombe2002, Strauss2007,
+  Dicke2010}, geographic mosaics of co-evolution cite{Thompson2005}
+and community genetics cite{Whitham2006} have provided an in-road for
+ecological network approaches cite{Fortuna2009, Keith2017, Lau2016}
 to illuminate a more complex perspective of the interface between
 ecological and evolutionary dynamics. There is now evidence to suport
-that selection tends to occur among groups of species \cite{Wade2007,
+that selection tends to occur among groups of species cite{Wade2007,
   Pieterse2007, Dicke2010} favoring the development of small webs
-\cite{Nuismer2006, Guimaraes2007, Gomez2009} and that genetic
+cite{Nuismer2006, Guimaraes2007, Gomez2009} and that genetic
 variation and phylogenetic relatedness contributes to variation in
 community assembly \cite{Crutsinger2016} and species interactions
-\cite{Whitham2006a, Bailey2009, Moya-Larano2011}, which shapes the
+cite{Whitham2006a, Bailey2009, Moya-Larano2011}, which shapes the
 ecological interaction networks \cite{Rezende2007}.
 
 \textbf{LJL: I think a key point in the first paragraph is to point
@@ -331,9 +333,9 @@ species interactions in these communities \cite{Keith2017,
 observed consistent patterns of centralized interactions of species
 modules focused around hubs of plant-fungal interactions. In other
 words, a small number of plant and fungal symbionts tended to have
-have disproportionate numbers of interactions with other species and
-likely are the drivers in determining community assembly, structure
-and dynamics.
+disproportionate numbers of interactions with other species and likely
+are the drivers in determining community assembly, structure and
+dynamics.
 
 
 More on the importance of ecological networks \cite{Guimaraes2011,
@@ -350,22 +352,11 @@ From Thompson2014
   large and small webs
 \end{itemize}
 
-Specific hypothesis from Thomspon2014
+Specific hypothesis from Thompson2014
 
 Selection in small webs
 
-\begin{itemize}
-\item 
-\end{itemize}
 
-\textbf{You mention the naturally established stand but then that data
-  doesn’t get included in the manuscript. I do like the idea of
-  including the field data. We might need to cross reference IDs of
-  the lichens in my community composition data on the same trees since
-  there was considerably more diversity than we initially saw out
-  there. We would just want to make sure the same names are applied to
-  taxa in the same quatrats on each tree. It probably wouldn’t take
-  long.}
 
 \textbf{LJL: If I recall, the Elamo paper just looks at genetic
   correlations between pairwise individual abundances. I would suggest
@@ -707,16 +698,16 @@ statistical approaches, including Permutational Analysis of Variance
 was relativized by species maxima to reduce the effect of the highly
 abundant \textit{X. galericulata}. For community composition we used
 Bray-Curtis dissimilarity, which has optimal performance with count
-data \citep{Minchen1998}. To quantify the similarity of lichen
+data citep{Minchen1998}. To quantify the similarity of lichen
 networks among individual trees, we calculated the pairwise Euclidean
 distance of the $\mathbf{D}$ interaction matrices among all pairs of
 trees.
 
 For visualization of multivariate patterns, we used Non-metric
-Multi-Dimensional Scaling (NMDS) \cite{ecodist} to produce
+Multi-Dimensional Scaling (NMDS) cite{ecodist} to produce
 dimensionally reduced ordinations of these multi-variate responses and
 fitted vectors for continuous predictor variables to the ordinated
-values \cite{vegan}. Using random initial configurations with a
+values cite{vegan}. Using random initial configurations with a
 maximum of 500 iterations and a change in stress threshold of less
 than 10$^{-12}$. Final configurations has the lowest stress with at
 most a stress level of 0.10.
@@ -725,10 +716,10 @@ most a stress level of 0.10.
 For each network, we also calculated two network metrics that measure
 different structural aspects. We calculated the number of interactions
 or ``links'' in each network, which provides a measure of the size of
-the network \citep{Lau2015, Borrett2015}. We also calculated the
+the network citep{Lau2015, Borrett2014}. We also calculated the
 centralization of each network, which measures the evenness of the
 distribution of interactions among the species in the network
-\cite{Butts2005}. In a network with a low level of centralization
+cite{Butts2005}. In a network with a low level of centralization
 species have similar amount of interaction in the network, while a
 network with a high level of centralization tends to one or small
 subset of species that interact with other species. We used a related
@@ -761,6 +752,8 @@ Team 2018).
 %% Integrate this figure into the methods
 %% Use it to show the output of the network modeling.
 
+
+
 \begin{figure}[ht]
 \centering
 \includegraphics[width=\linewidth]{cn_onc.pdf}
@@ -783,22 +776,17 @@ Team 2018).
 
 \section*{Results}
 
-\begin{figure}[ht]
-\centering
-\includegraphics[width=\linewidth]{h2_plot.pdf}
-\caption{A. Significant lichen interaction network structure resulting
-  from tree genotypic variation was observed in the common garden.
-  The plot shows genotype centroids of NMDS ordinated (R$^2$ = 0.999,
-  stress = 0.008) lichen networks ($\pm$ 1 S.E.). Centroids that are
-  closer are more similar in the structure of their lichen networks.
-  B. Plot showing the standardized ($\frac{x - \bar{x}}{\sigma}$)
-  means ($\pm$ 1 S.E.) for the two genetically based tree traits: tree
-  bark roughness and condensed tannin concentration.}
-\label{fig:h2_plot}
-\end{figure}
 
-% Table: H2 table
-\input{h2_reml}
+
+
+%% A. Significant lichen interaction network structure resulting
+%%   from tree genotypic variation was observed in the common garden.
+%%   The plot shows genotype centroids of NMDS ordinated (R2 = 0.999,
+  %% stress = 0.008) lichen networks (1 S.E.). Centroids that are
+  %% closer are more similar in the structure of their lichen networks.
+  %% B. Plot showing the standardized ($\frac{x - \bar{x}}{\sigma}$)
+  %% means ($\pm$ 1 S.E.) for the two genetically based tree traits: tree
+  %% bark roughness and condensed tannin concentration.
 
 
 Network similarity and several tree traits were genetically
@@ -812,24 +800,34 @@ ratio. Also, none of the lichen community nor any of the lichen
 network metrics were significantly predicted by tree genotype
 (Table~\ref{tab:h2_table}).
 
+% Table: H2 table
+\input{h2_reml}
+
+\begin{figure*}[ht]
+\centering
+\includegraphics[width=\linewidth]{h2_plot.pdf}
+\caption{}
+\label{fig:h2_plot}
+\end{figure*}
+
 
 Tree traits and lichen community metrics were correlated with lichen
-networks. The genetically based traits bark roughness (R$^2$ = 0.01,
-\textit{p-value} = 0.003) and condensed tannins (R$^2$ 0.05,
-\textit{p-value} $\leq$ 0.001) were both significant predictors of
-network similarity (Table~\ref{tab:cn_perm}). Bark C:N ratio (R$^2$
-0.03, \textit{p-value} $\leq$ 0.001) was correlated with lichen
-network similarity, as stated above, it was did not show evidence of a
-genetic response, and bark pH (R$^2$ 0.004, \textit{p-value} = 0.083)
-did not significantly predict network similarity. The abundance,
-richness, evenness and diversity of the bark lichen communities were
-all correlated with lichen network similarity
-(Table~\ref{tab:cn_perm}). Interestingly, lichen network similarity
-was not correlated with lichen community composition either when
-species abundances were relativized (Mantel R = 0.09, \textit{p-value}
-= 0.139) or not (Mantel R = -0.03, \textit{p-value} = 0.573). Also,
-unlike lichen network similarity, lichen community composition was not
-predicted by tree genotype (Supplementary Table~\ref{tab:com_perm}).
+networks. The genetically based traits, bark roughness and condensed
+tannins were both significant predictors of network similarity
+(Table~\ref{tab:cn_perm}). Bark C:N ratio was also a significant
+predictor of network similarity, but, as shown previously (see
+Table~\ref{tab:h2_table}), there is not sufficient evidence support a
+genetic basis for it. Bark pH was not a significant predictor of
+lichen network similarity (Table~\ref{tab:cn_perm}). The abundance,
+richness, evenness and diversity of the bark lichen community,
+although also not predicted by tree genotype, were all significantly
+correlated with lichen network structure
+(Table~\ref{tab:cn_perm}). Lichen community composition was not
+correlated with lichen network similarity, either when species
+abundances were relativized (Mantel R = -0.09, \textit{p-value} =
+0.139) or not (Mantel R = -0.03, \textit{p-value} = 0.573).
+
+
 
 \input{cn_perm}
 
@@ -840,61 +838,59 @@ predicted by tree genotype (Supplementary Table~\ref{tab:com_perm}).
 %% centralities were genotype dependent (REML).
 
 
+%% \textbf{MKL Wild stands don't have chemistry data so those data were
+%%   not used.}
 
-\textbf{MKL Wild stands don't have chemistry data so those data were
-  not used.}
+%% \textbf{MKL: I removed the community similarity figure to simplify the
+%% presentation of the results and improve the flow.}
 
-\textbf{MKL: I removed the community similarity figure to simplify the
-presentation of the results and improve the flow.}
+%% \textbf{LJL: Figure looks good. But, maybe making all lines a little
+%%   thicker would look nicer and pop more.}
 
-\textbf{LJL: Figure looks good. But, maybe making all lines a little
-  thicker would look nicer and pop more.}
-
-\textbf{LJL: Since we already published that tree genotypes differ in
-  lichen composition, I wonder if we need to say somewhere in the
-  manuscript why this test was run here. It seems to me it is
-  important to verify this with a slightly different sampling method
-  as used int eh 2015 paper, and for this specific set of
-  genotypes. But, then does this test of composition just become
-  something necessary just in a methodological variation that
-  justifies the next step of examing network structure.  Something to
-  think about. It might be that theNMDS should jsut go in a
-  supplement, although I do like it here in some ways.  It might also
-  be another approach to put the composition and other analyses after
-  the network analysis results are presented. In this way, you could
-  use the composition and results with vectors to help provide
-  resolution on what is driving networks to differ among genotypes.}
-
-
-\textbf{MKL: Adapt into a table.}
-
-\textbf{TGW: clarify positive vs negative interactions.}
+%% \textbf{LJL: Since we already published that tree genotypes differ in
+%%   lichen composition, I wonder if we need to say somewhere in the
+%%   manuscript why this test was run here. It seems to me it is
+%%   important to verify this with a slightly different sampling method
+%%   as used int eh 2015 paper, and for this specific set of
+%%   genotypes. But, then does this test of composition just become
+%%   something necessary just in a methodological variation that
+%%   justifies the next step of examing network structure.  Something to
+%%   think about. It might be that theNMDS should jsut go in a
+%%   supplement, although I do like it here in some ways.  It might also
+%%   be another approach to put the composition and other analyses after
+%%   the network analysis results are presented. In this way, you could
+%%   use the composition and results with vectors to help provide
+%%   resolution on what is driving networks to differ among genotypes.}
 
 
-\textbf{MKL: lichen networks in wild stands displayed similar
-  structural patterns. Is it worth adding the wild stand? This will
-  requite adding methods, results and more discussion.}
+%% \textbf{MKL: Adapt into a table.}
 
-\textbf{MKL: Add the network metrics as vectors. Also add the wild
-  stand as a point of reference or add as a supplementary figure.}
-
-\textbf{MKL: Need to re-organize the flow of the results.}
+%% \textbf{TGW: clarify positive vs negative interactions.}
 
 
-\textbf{LJL: It seems to me that the first two sentences here are the
-  most important of the results. How can you make them stand out more?
-  Maybe also they should go at the begining of the previous paragrpah,
-  and then move that paragraph to being the first in the REsults
-  section.}
+%% \textbf{MKL: lichen networks in wild stands displayed similar
+%%   structural patterns. Is it worth adding the wild stand? This will
+%%   requite adding methods, results and more discussion.}
 
-\textbf{TGW: Here and in earlier paragraphs, a lot of stats are
-  presented some of which are significant and some not.  For your
-  topic sentence to be accepted, it seems readers need to know how
-  many of the stats need to confirm the pattern and how many would it
-  take to reject.  This paragraph has about 8 stats so need some
-  overarching statement(s).  E.g., 7 of 8 analyses support our
-  overarching hypothesis that ...  Same goes for other such paragraphs
-  such as the 1st and last paras of the Results.}
+%% \textbf{MKL: Add the network metrics as vectors. Also add the wild
+%%   stand as a point of reference or add as a supplementary figure.}
+
+%% \textbf{MKL: Need to re-organize the flow of the results.}
+
+%% \textbf{LJL: It seems to me that the first two sentences here are the
+%%   most important of the results. How can you make them stand out more?
+%%   Maybe also they should go at the begining of the previous paragrpah,
+%%   and then move that paragraph to being the first in the REsults
+%%   section.}
+
+%% \textbf{TGW: Here and in earlier paragraphs, a lot of stats are
+%%   presented some of which are significant and some not.  For your
+%%   topic sentence to be accepted, it seems readers need to know how
+%%   many of the stats need to confirm the pattern and how many would it
+%%   take to reject.  This paragraph has about 8 stats so need some
+%%   overarching statement(s).  E.g., 7 of 8 analyses support our
+%%   overarching hypothesis that ...  Same goes for other such paragraphs
+%%   such as the 1st and last paras of the Results.}
 
 
 %% In addition to including your tables within this manuscript file, PNAS
@@ -986,7 +982,7 @@ propagate through networks of interacting species and trophic levels.
 
 This work corroborates previous findings of the importance of plant
 genetics in shaping community structure and ecosystem
-processes. \citep{Bangert2008}
+processes. citep{Bangert2008}
 
 
 Altering the structure of interaction networks
