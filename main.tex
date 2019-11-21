@@ -578,7 +578,7 @@ nitrogen.
   size.}
 
 
-\begin{figure}[ht]
+\begin{figure*}[ht]
 \centering
 \includegraphics[width=\linewidth]{lcn_sampling.pdf}
 \caption{The communities of bark lichens were observed in a common
@@ -596,7 +596,7 @@ nitrogen.
   \textit{Physcia undulata} and \textit{Lecanora hagenii}. Photo
   Credits: L.J. Lamit (A-C) and R.R. Naesbourg (D-K).}
 \label{fig:lichen_sampling}
-\end{figure}
+\end{figure*}
 
 
 \subsection*{Lichen Network Modeling and Analysis}
@@ -674,7 +674,7 @@ probability of being observed).
 \textbf{MKL: agreed. This seems like a job for Bowker or Stuart. They
   can take a look on the next round of reviews.}
 
-\begin{figure}[ht]
+\begin{figure*}[ht]
 \centering
 \includegraphics[width=\linewidth]{lcn_araujo_method.pdf}
 \caption{Lichen interaction networks were constructed by conducting
@@ -692,7 +692,7 @@ probability of being observed).
   $P(S_i|S_j)$ reduces to $P(S_i)$, the observed individual
   probability of species $S_i$.}
 \label{fig:conet_method}
-\end{figure}
+\end{figure*}
 
 
 \textbf{LJL: I like the details here. THe one thing is that it sort of
@@ -722,12 +722,10 @@ lichen cover and species richness were square-root transformed to meet
 the assumptions of homogeneity of variance and normality for these
 tests.
 
-
-
 For multivariate response variables, such as lichen community
 composition and network structure, we used distance based multivariate
 statistical approaches, including Permutational Analysis of Variance
-(PerMANOVA) and Mantel tests. For all analyses, community composition
+(PERMANOVA) and Mantel tests. For some analyses, community composition
 was relativized by species maxima to reduce the effect of the highly
 abundant \textit{X. galericulata}. For community composition we used
 Bray-Curtis dissimilarity, which has optimal performance with count
@@ -746,46 +744,33 @@ than 10$^{-12}$. Final configurations has the lowest stress with at
 most a stress level of 0.10.
 
 
-For each network, we also calculated two network metrics that measure
-different structural aspects. We calculated the number of interactions
-or ``links'' in each network, which provides a measure of the size of
-the network citep{Lau2015, Borrett2014}. We also calculated the
-centralization of each network, which measures the evenness of the
-distribution of interactions among the species in the network
-cite{Butts2005}. In a network with a low level of centralization
-species have similar amount of interaction in the network, while a
-network with a high level of centralization tends to one or small
-subset of species that interact with other species. We used a related
-function to calculate the centrality of each species in each network
-as well. Although there are many other metrics, see \citep{Lau2017a},
-we focus on a subset for the sake of simplicity and because some
-metrics are not appropriate for our relatively small
-communities. \textbf{In particular, we do not present analysis of the
-  modularity (i.e. the degree of sub-grouping) because our community
-  has relatively few species to form modules.} As with the other
-response variables, the number of links was log-transformed and
-centralization scores were square-root transformed to meet variance
+For each network, we also calculated metrics that measure different
+structural aspects. Although there are many other metrics, for the
+sake of simplicity we focus on a subset that represent several
+interesting features of network structure (see \citep{Lau2017a}). We
+calculated the number of interactions or ``links'' in each network,
+which provides a measure of the size of the network citep{Lau2015,
+  Borrett2014}. We also calculated the centralization of each network,
+which measures the evenness of the distribution of interactions among
+the species in the network cite{Butts2005}. In a network with a low
+level of centralization species have similar amount of interaction in
+the network, while a network with a high level of centralization tends
+to have one or small number of species that interact with other
+species. We used a related function to calculate the centrality of
+each species (i.e. node level centrality) in each network as well. The
+modularity of each network was also quantified using a weighted
+algorithm cite{Beckett2016}, which measures the degree to which a
+given network is divided into groups of species more connected to each
+other than other species. As with the other response variables, the
+number of links was log-transformed and both modularity and
+centralization scores were fourth-root transformed to meet variance
 and normality assumptions.
 
-\textbf{LJL: I suggest deleting the highlighted part. And, just
-  changing the sentence above it to “...because some metric (e.g.,
-  modularity) are not appropriate...”  Too much emphasis on caviots
-  will make some readers be uncertain. But, also, you can save some
-  space that way.}
-
-We have made all code and data available online. Code is available at
-\url{github.com/communitygenetics/lcn}. Data is available via the
-Harvard Dataverse (needs project ID). The project is also archived via
-Zenodo at \url{zenodo.com/doiXXXXXX}. All analyses were conducted
-using the programming language R version 3.4.2 (R Development Core
-Team 2018).
-}
-
-
-%% Integrate this figure into the methods
-%% Use it to show the output of the network modeling.
-
-
+All code and data for the project are openly available online. Code
+and data are available at \url{github.com/ecgen/comgen}. The project
+is also archived via Zenodo at \url{zenodo.com/doiXXXXXX}. All
+analyses were conducted using the programming language R version 3.6.1
+(R Development Core Team 2019).
 
 \begin{figure}[ht]
 \centering
@@ -806,6 +791,9 @@ Team 2018).
   space and time.}
 \label{fig:geno_nets}
 \end{figure}
+}
+
+\showmatmethods{} % Display the Materials and Methods section
 
 \section*{Results}
 
@@ -921,8 +909,6 @@ abundances were relativized (Mantel R = -0.09, \textit{p-value} =
 %% \verb|\end{document}| command. This is necessary so that the
 %% submission system can convert each file to PDF.
 
-
-\showmatmethods{} % Display the Materials and Methods section
 
 
 \section*{Discussion}
