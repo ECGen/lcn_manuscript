@@ -32,41 +32,17 @@ Bailey JK, et~al. (2009) {From genes to ecosystems: a synthesis of the effects
   of plant genetic factors across levels of organization.}
 \newblock {\em Philos. Trans. R. Soc. Lond. B. Biol. Sci.} 364(1523):1607--16.
 
-\bibitem{Keith2017}
-Keith AR, Bailey JK, Lau MK, Whitham TG (2017) {Genetics-based interactions of
-  foundation species affect community diversity, stability and network
-  structure}.
-\newblock {\em Proc. R. Soc. B Biol. Sci.} 284(1854):20162703.
-
 \bibitem{Lau2015a}
 Lau MK, Keith AR, Borrett SR, Shuster SM, Whitham TG (2015) {Genotypic
   variation in foundation species generates network structure that may drive
   community dynamics and evolution}.
 \newblock {\em Ecology} 97(3):15--0600.1.
 
-\bibitem{Toju2017}
-Toju H, et~al. (2017) {Species-rich networks and eco-evolutionary synthesis at
-  the metacommunity level}.
-
-\bibitem{Toju2016}
-Toju H, Yamamoto S, Tanabe AS, Hayakawa T, Ishii HS (2016) {Network modules and
-  hubs in plant-root fungal biomes}.
-\newblock {\em J. R. Soc. Interface}.
-
-\bibitem{Toju2014a}
-Toju H, Guimar{\~{a}}es PR, Olesen JM, Thompson JN (2014) {Assembly of complex
-  plant-fungus networks}.
-\newblock {\em Nat. Commun.}
-
-\bibitem{Guimaraes2011}
-Guimar{\~{a}}es PR, Jordano P, Thompson JN (2011) {Evolution and coevolution in
-  mutualistic networks}.
-\newblock {\em Ecol. Lett.} 14(9):877--85.
-
-\bibitem{Thompson2013a}
-Thompson JN, Schwind C, Guimaraes PR, Friberg M (2013) {Diversification through
-  multitrait evolution in a coevolving interaction}.
-\newblock {\em Proc. Natl. Acad. Sci.}
+\bibitem{Keith2017}
+Keith AR, Bailey JK, Lau MK, Whitham TG (2017) {Genetics-based interactions of
+  foundation species affect community diversity, stability and network
+  structure}.
+\newblock {\em Proc. R. Soc. B Biol. Sci.} 284(1854):20162703.
 
 \bibitem{Winfree2011}
 Winfree R, Gross BJ, Kremen C (2011) {Valuing pollination services to
@@ -93,11 +69,6 @@ Lamit L, et~al. (2011) {Genetically-based trait variation within a foundation
   tree species influences a dominant bark lichen}.
 \newblock {\em Fungal Ecol.} 4(1):103--109.
 
-\bibitem{Bdeir2017}
-Bdeir R, et~al. (2017) {Quantitative trait locus mapping of Populus bark
-  features and stem diameter}.
-\newblock {\em BMC Plant Biol.}
-
 \bibitem{Araujo2011}
 Ara{\'{u}}jo MB, Rozenfeld A, Rahbek C, Marquet PA (2011) {Using species
   co-occurrence networks to assess the impacts of climate change}.
@@ -116,6 +87,35 @@ Borgatti SP, Everett MG (2006) {A Graph-theoretic perspective on centrality}.
 Smith DS, Bailey JK, Shuster SM, Whitham TG (2011) {A geographic mosaic of
   trophic interactions and selection: trees, aphids and birds.}
 \newblock {\em J. Evol. Biol.} 24(2):422--9.
+
+\bibitem{Toju2017}
+Toju H, et~al. (2017) {Species-rich networks and eco-evolutionary synthesis at
+  the metacommunity level}.
+
+\bibitem{Toju2016}
+Toju H, Yamamoto S, Tanabe AS, Hayakawa T, Ishii HS (2016) {Network modules and
+  hubs in plant-root fungal biomes}.
+\newblock {\em J. R. Soc. Interface}.
+
+\bibitem{Toju2014a}
+Toju H, Guimar{\~{a}}es PR, Olesen JM, Thompson JN (2014) {Assembly of complex
+  plant-fungus networks}.
+\newblock {\em Nat. Commun.}
+
+\bibitem{Guimaraes2011}
+Guimar{\~{a}}es PR, Jordano P, Thompson JN (2011) {Evolution and coevolution in
+  mutualistic networks}.
+\newblock {\em Ecol. Lett.} 14(9):877--85.
+
+\bibitem{Thompson2013a}
+Thompson JN, Schwind C, Guimaraes PR, Friberg M (2013) {Diversification through
+  multitrait evolution in a coevolving interaction}.
+\newblock {\em Proc. Natl. Acad. Sci.}
+
+\bibitem{Bdeir2017}
+Bdeir R, et~al. (2017) {Quantitative trait locus mapping of Populus bark
+  features and stem diameter}.
+\newblock {\em BMC Plant Biol.}
 
 \bibitem{Rowntree2011}
 Rowntree JK, Shuker DM, Preziosi RF (2011) {Forward from the crossroads of
