@@ -646,7 +646,11 @@ analyses were conducted using the programming language R version 3.6.1
   \begin{itemize}
   \item genotype predicted bark roughness (reml)
   \item bark roughness predicted network metrics (L, Cen, AMI)
-  \item residuals of BR - geno reml did not predict net metrics
+  \item Bark roughness was negatively correlated with L, Cen and AMI
+  \item genotype did not predict any residual variation in lichen
+    networks from bark roughness' effect
+  \item Genotype didn't predict any other measured traits
+  \item No other bark traits predicted network metrics
   \end{itemize}
 \item Centrality was a collective response
   \begin{itemize}
@@ -654,6 +658,15 @@ analyses were conducted using the programming language R version 3.6.1
   \item individual species centrality did not respond to genotype
   \item mantel?
   \item Figure: barplot + post-hoc
+  \end{itemize}
+\item The lichen networks also responded to non-genetically based
+  variation in the community
+  \begin{itemize}
+  \item Bark roughness not correlated with lichen PC, SR, SE, SD
+  \item PC negatively correlated with Cen
+  \item SR positively correlated with L
+  \item SE positively correlated with L
+  \item SD positively correlated with L, Cen
   \end{itemize}
 \end{enumerate}
 
@@ -765,26 +778,20 @@ abundances were relativized (Mantel R = -0.09, \textit{p-value} =
 %% submission system can convert each file to PDF.
 
 
-
 \section*{Discussion}
+
 
 \begin{itemize}
 \item We found:
   \begin{itemize}
   \item Lichen networks genetically based
-  \item Several genetically based traits also explained variation in
-    lichen network structure
-  \item Although correlated with lichen network structure, the network
-    metrics explored were not genetically based
+  \item Bark roughness was the primary genetically based trait driving
+    network structure
+  \item Lichn networks also varied with cover, richness and diversity
+    of the lichen community, which were not correlated with roughness
+    and primarily driven by one dominant species
   \end{itemize}
-\item Genetic response of lichen networks is not a function of the
-  abundance, richness, diversity or composition of lichen communities
-  and is not reducible to simple network metrics. This is likely the
-  result of having similar interactions among similar species in
-  networks on trees of the same genotype.  This is difficult to
-  disentangle with the current set of analyses. Future work should
-  apply a structural statistical approach, such as SEM or path
-  analysis.
+\item What mechanisms could be at play?
 \item Habitat filtering of communities (richness, composition) vs
   environmental influence on interactions. Likely a combination of
   both of these factors.
