@@ -635,39 +635,48 @@ analyses were conducted using the programming language R version 3.6.1
 %% New results Fri May  1 19:00:26 EDT 2020
 
 \begin{enumerate}
-\item Network structure responded to genotype 
+\item Genotype influenced lichen network structure
   \begin{itemize}
-  \item number of links responded
-  \item centrality responded
-  \item average mutual information responded
-  \item Figure: chplot network metrics 
+   \item Tree genotype significantly predicted the similarity of
+     lichen networks (Pseudo-$F_{9,27}$ = 3.58, $H^2$ = 0.41, \textit{p-value} = 0.0537). 
+   \item All network metrics examined responded signficantly to tree
+     genotype: including the number of links (\textit{RLRT} = ?, $H^2$
+     = 0.32, \textit{p-value} = 0.0269), AMI (\textit{RLRT} = ?, $H^2$
+     = 0.31, \textit{p-value} = 0.0268) and degree centralization
+     (\textit{RLRT} = ?, $H^2$ = 0.33, \textit{p-value} = 0.0196).
+   \item Fig 1. NMDS crosshair with vectors
+   \item Supplementary Table. Vectors
+   \item Supplementary Table. h2-reml
   \end{itemize}
-\item Genotype indirectly influenced networks through bark roughness
+\item Genotype impacts were on positive interactions mainly driven by Ch
   \begin{itemize}
-  \item genotype predicted bark roughness (reml)
-  \item bark roughness predicted network metrics (L, Cen, AMI)
-  \item Bark roughness was negatively correlated with L, Cen and AMI
-  \item genotype did not predict any residual variation in lichen
-    networks from bark roughness' effect
-  \item Genotype didn't predict any other measured traits
-  \item No other bark traits predicted network metrics
+  \item Tree genotype significantly predicted both in-degree
+    (\textit{RLRT} = ?, $H^2$ = 0.35, \textit{p-value} = 0.0157) and
+    out-degree (\textit{RLRT} = ?, $H^2$ = 0.33, \textit{p-value}
+    = 0.0195) centralization.
+  \item \textit{Caloplaca holocarpa} centrality was the only species
+    to exhibit a significant response to tree genotype (\textit{RLRT}
+    = ?, $H^2$ = ?, \textit{p-value} = ?).
+  \item Fig 2. dot plot centralization in/out pos/neg
+  \item Table 1. REML H2 Centrality (in/out, pos/neg, spp(in/out, pos/neg))
   \end{itemize}
-\item Centrality was a collective response
+\item Genotype indirectly influenced lichen network centralization via bark roughness
   \begin{itemize}
-  \item centrality varied among species
-  \item individual species centrality did not respond to genotype
-  \item mantel?
-  \item Figure: barplot + post-hoc
+   \item BR ~ Geno (REML), but not other traits (\textit{RLRT} = ?,
+     $H^2$ = 0.32,\textit{p-value} = 0.0128)
+   \item Net ~ BR (PERMANOVA) ($F_{1,32}$ = 13.029, $R^2$ = 0.26,
+     \textit{p-value} = 0.0096)
+   \item Centrality was significantly correlated with bark roughness
+     ($F_{1, 32}$ = ?, $R^2$ = ?, \textit{p-value} = ?)
+   \item However, tree genotype did not significantly predict the
+     variation in the residuals from the regression of centrality and
+     bark roughness (\textit{RLRT} = ?, $H^2$ = 0.011, \textit{p-value} = 0.4219)
+   \item Fig. cross-hair plot Cen ~ BR with trend line
+   \item Table: Network metric and residual responses LM and REML results
+   \item Supplementary Table: cn-trait-perm.tex
+   \item Supplementary Table: geno-trait-path.tex
   \end{itemize}
-\item The lichen networks also responded to non-genetically based
-  variation in the community
-  \begin{itemize}
-  \item Bark roughness not correlated with lichen PC, SR, SE, SD
-  \item PC negatively correlated with Cen
-  \item SR positively correlated with L
-  \item SE positively correlated with L
-  \item SD positively correlated with L, Cen
-  \end{itemize}
+\item Net(sim) ~ Other lichen variation (LM) not genetically based (PERMANOVA)
 \end{enumerate}
 
 %% OLD results
@@ -687,7 +696,7 @@ roughness and condensed tannins were not correlated (Pearson's $r$ =
 0.084, \textit{p-value} = 0.556).
 
 % Table: H2 table
-\input{h2_reml}
+\input{h2_reml_net}
 
 \begin{figure*}[ht]
 \centering
@@ -1093,6 +1102,7 @@ Wojtowicz, Luke Evans and David Solance Smith.}
 \input{cn_trait_perm.tex}
 \input{cormat.tex}
 \input{com_perm.tex}
+\input{geno_trait_path.tex}
 
 \newpage
 
