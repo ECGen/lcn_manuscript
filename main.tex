@@ -673,7 +673,7 @@ analyses were conducted using the programming language R version 3.6.1
      variation in the residuals from the regression of centrality and
      bark roughness (\textit{RLRT} = ?, $H^2$ = 0.011, \textit{p-value} = 0.4219)
    \item Fig. cross-hair plot Cen ~ BR with trend line
-   \item Table: h2_trait.tex
+   \item Table: h2-trait.tex
    \item Supplementary Table: cn-trait-perm.tex
    \item Supplementary Table: geno-trait-path.tex
   \end{itemize}
@@ -730,6 +730,18 @@ abundances were relativized (Mantel R = -0.09, \textit{p-value} =
 0.139) or not (Mantel R = -0.03, \textit{p-value} = 0.573). 
 
 \input{cn_perm}
+
+
+\begin{figure*}[ht]
+\centering
+\includegraphics[width=\linewidth]{br_net.pdf}
+\caption{Bivariate plots of the relationship between bark roughness
+  and three network metrics: A) number of links (L), B) centralization
+  and C) average mutual information (AMI). Each plot displays the
+  genotype mean $\pm$ 1 S.E. for both variables and a least-squares
+  regression calculated using the genotype means.}
+\label{fig:br_net}
+\end{figure*}
 
 
 %% \textbf{MKL Wild stands don't have chemistry data so those data were
@@ -1128,6 +1140,7 @@ Wojtowicz, Luke Evans and David Solance Smith.}
 \label{fig:h2_plot_app}
 \end{figure*}
 
+
 \begin{figure*}[ht]
 \centering
 \includegraphics[width=\linewidth]{spp_cen.pdf}
@@ -1136,8 +1149,13 @@ Wojtowicz, Luke Evans and David Solance Smith.}
 \end{figure*}
 
 \begin{figure*}[ht]
+\centering
+\includegraphics[width=\linewidth]{br_net.pdf}
+\caption{}
+\label{fig:br_net_app}
+\end{figure*}
 
-
+\begin{figure*}[ht]
 \centering
 \includegraphics[width=\linewidth]{spp_cen_in.pdf}
 \caption{}
