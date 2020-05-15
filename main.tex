@@ -518,7 +518,7 @@ respectively. Here, we will refer to this matrix ($\mathbf{D}$) as an
 interaction matrix with the properties that it can be asymetric
 (i.e. $P_{ij}$ does not necessarily equal $P_{ji}$), and the diagonal
 ($P_{ii}$) is zero (i.e. a species does not influence it's own
-probability of being observed).
+probability of being observed). 
 
 \begin{figure*}[ht]
 \centering
@@ -536,10 +536,54 @@ probability of being observed).
   their observed co-occurrence frequency, $S_iS_j$, to that expected
   due to chance alone, $E[P(S_iS_j)] = P(S_i) P(S_j)$, and
   $P(S_i|S_j)$ reduces to $P(S_i)$, the observed individual
-  probability of species $S_i$.}
+  probability of species $S_i$. In the context of these networks,
+  asymetry and positive/negative valued connections are distinct
+  quantities. In-coming and out-going connections can be interpreted
+  as ``influenced by'' and ``influenced'', respectively; while
+  positive and negative should be seen as one species increasing or
+  decreasing, respectively, the probability of another species'
+  occurrence.}
 \label{fig:conet_method}
 \end{figure*}
 
+
+\subsection*{Network Metrics}
+
+To quantify the structural variation of lichen networks we calculated
+several metrics at both the node and whole-network level. For
+individual nodes (i.e. species) in each network, we calculated both
+the degree \eqref{eq:1} and the centrality. We also calculated two
+similar global network metrics: degree and centralization. The first
+was network degree, which is a count of the total number of links in a
+network. As the networks contained not only positive and negative
+connections, as well as directional connections (both in-coming and
+out-going), we calculated the same network metrics for all
+combinations of these types of connections in each network. Although
+there are many more possible network metrics that could have been
+examined, we chose to focus on a restricted set for the sake of
+clarity. Also, degree and centrality cover are the basis of many other
+network metrics.
+
+\textbf{ADD EQUATIONS FOR METRICS}
+
+\begin{equation}
+  \sum{x_i}\label{eq:1}
+\end{equation}
+
+\begin{itemize}
+\item Node degree
+\item In/out node degree
+\item Pos/neg node degree
+\item Node centrality
+\item In/out node centrality
+\item Pos/neg centrality
+\item Network degree
+\item Network in/out degree
+\item Network pos/neg degree
+\item Centralization 
+\item In/out centralization 
+\item Pos/neg centralization 
+\end{itemize}
 
 
 \subsection*{Statistical Analyses, Software and Data}
@@ -631,149 +675,120 @@ analyses were conducted using the programming language R version 3.6.1
 
 \section*{Results}
 
-
 %% New results Fri May  1 19:00:26 EDT 2020
 
-\begin{enumerate}
-\item Genotype influenced lichen network structure
-  \begin{itemize}
-   \item Tree genotype significantly predicted the similarity of
-     lichen networks (Pseudo-$F_{9,27}$ = 3.58, $H^2$ = 0.41, \textit{p-value} = 0.0537). 
-   \item All network metrics examined responded signficantly to tree
-     genotype: including the number of links (\textit{RLRT} = ?, $H^2$
-     = 0.32, \textit{p-value} = 0.0269), AMI (\textit{RLRT} = ?, $H^2$
-     = 0.31, \textit{p-value} = 0.0268) and degree centralization
-     (\textit{RLRT} = ?, $H^2$ = 0.33, \textit{p-value} = 0.0196).
-  \item Networks were dominated by positive links (mean +- SE), and
-    in general we observed far fewer negative links among lichen
-    species (mean +- SE).
-  \item Only positive links responded to tree genotype (see h2-net.tex)
-  \item Tree genotype significantly predicted both in-degree
-    (\textit{RLRT} = ?, $H^2$ = 0.35, \textit{p-value} = 0.0157) and
-    out-degree (\textit{RLRT} = ?, $H^2$ = 0.33, \textit{p-value}
-    = 0.0195) centralization.
-  \item Fig 1. NMDS crosshair with vectors
-  \item Table. h2-net
-  \item Supplementary Table. Vectors
-  \end{itemize}
-\item Genotype impacts were on positive interactions mainly driven by Ch
-  \begin{itemize}
-  \item Centrality varied among species (ANOVA)
-  \item \textit{Caloplaca holocarpa} centrality was the main species
-    to exhibit a significant response to tree genotype in terms of
-    overall centrality (\textit{RLRT} = ?, $H^2$ = ?, \textit{p-value}
-    = ?), as well as positive centrality for both in- (\textit{RLRT} =
-    ?, $H^2$ = ?, \textit{p-value} = ?) and out-degree (\textit{RLRT}
-    = ?, $H^2$ = ?, \textit{p-value} = ?).
-  \item Although \textit{X. montana} positive out-degree centrality
-    also varied significantly among tree genotypes (\textit{RLRT} = ?,
-    $H^2$ = ?, \textit{p-value} = ?), this response was small ($H^2$ =
-    ?) and driven by two genotypes 
-  \item Fig 2. dot plot centralization in/out pos/neg
-  \item Supplementary Table: species centrality
-  \end{itemize}
-\item Genotype indirectly influenced lichen network centralization via bark roughness
-  \begin{itemize}
-   \item BR ~ Geno (REML), but not other traits (\textit{RLRT} = ?,
-     $H^2$ = 0.32,\textit{p-value} = 0.0128)
-   \item Net ~ BR (PERMANOVA) ($F_{1,32}$ = 13.029, $R^2$ = 0.26,
-     \textit{p-value} = 0.0096)
-   \item Centrality was significantly correlated with bark roughness
-     ($F_{1, 32}$ = ?, $R^2$ = ?, \textit{p-value} = ?)
-   \item However, tree genotype did not significantly predict the
-     variation in the residuals from the regression of centrality and
-     bark roughness (\textit{RLRT} = ?, $H^2$ = 0.011, \textit{p-value} = 0.4219)
-   \item Fig. cross-hair plot Cen ~ BR with trend line
-   \item Table: h2-trait.tex
-   \item Supplementary Table: cn-trait-perm.tex
-   \item Supplementary Table: geno-trait-path.tex
-  \end{itemize}
-\end{enumerate}
-
-%% OLD results
-
-Network similarity and several tree traits were genetically
-based. Tree genotype was a significant predictor of network similarity
-(H$^2$ = 0.16, \textit{p-value} $\leq$ 0.001). Bark roughness (H$^2$ =
-0.38, \textit{p-value} $\leq$ 0.001) and condensed tannin
-concentration (H$^2$ = 0.28, \textit{p-value} = 0.014) also showed a
-signature of tree genotype (Fig.~\ref{fig:h2_plot}); however, this was
-not the case for other tree traits, bark pH and carbon to nitrogen
-ratio. Also, none of the lichen network metrics were significantly
-predicted by tree genotype, either at the scale of the entire network
-(Table~\ref{tab:h2_net}) or for individual species (see Supporting
-Information). Although both showed a response to tree genotype, bark
-roughness and condensed tannins were not correlated (Pearson's $r$ =
-0.084, \textit{p-value} = 0.556).
-
-% Table: H2 table
-\input{h2_reml_net}
+Tree genotype influenced lichen network structure.  Tree genotype
+significantly predicted the structural similarity of lichen networks
+(PERMANOVA: Pseudo-$F_{9,27}$ = 3.58, $H^2$ = 0.41, \textit{p-value} =
+0.0537) (Fig.~\ref{fig:h2_plot}).  Overall network level metrics
+responded signficantly to tree genotype (Table~\ref{tab:h2_net}),
+including network degree (\textit{RLRT} = 3.52, $H^2$ = 0.32,
+\textit{p-value} = 0.0255) and centralization including both in-coming
+and out-going links (\textit{RLRT} = 4.04, $H^2$ = 0.33,
+\textit{p-value} = 0.0184) or when separated into in-coming only
+(\textit{RLRT} = 3.9852, $H^2$ = 0.3309, \textit{p-value} = 0.0190) or
+out-going only (\textit{RLRT} = 3.8615, $H^2$ = 0.3193,
+\textit{p-value} = 0.0205).  Metrics including only positive links
+also showed a signficant effect of tree genotype, including positive
+degree (\textit{RLRT} = 3.6925, $H^2$ = 0.3242, \textit{p-value} =
+0.0229), positive in-going centralization (\textit{RLRT} = 4.4812,
+$H^2$ = 0.3487, \textit{p-value} = 0.0142) Metrics calculated with
+negative links were not significant, including degree (negative)
+(\textit{RLRT} = 0.0327, $H^2$ = 0.0318, \textit{p-value} = 0.3859)
+and both in-coming (negative) (\textit{RLRT} = 0.3304, $H^2$ = 0.1057,
+\textit{p-value} = 0.2508) and out-going centralization (negative)
+(\textit{RLRT} = 0.0862, $H^2$ = 0.0513, \textit{p-value} = 0.3446).
 
 \begin{figure*}[ht]
 \centering
 \includegraphics[width=\linewidth]{h2_plot.pdf}
-\caption{Tree genotype affected lichen networks and several bark
-  traits. A. The plot shows genotype centroids of NMDS ordinated
+\caption{The similarity of lichen networks varied among tree
+  genotypes. A. The plot shows genotype centroids of NMDS ordinated
   (R$^2$ = 0.999, stress = 0.008) lichen networks ($\pm$ 1
-  S.E.). Centroids that are closer are more similar in the structure
-  of their lichen networks.  B. Plot showing the standardized
-  ($\frac{x - \bar{x}}{\sigma}$) means ($\pm$ 1 S.E.) for the two
-  genetically based tree traits: tree bark roughness and condensed
-  tannin concentration.}
+  S.E.). Genotype centroids that are closer together tend to have more
+  similar lichen network structure.  B. Plot showing the standardized
+  ($\frac{x - \bar{x}}{\sigma}$) means ($\pm$ 1 S.E.)  for the two of
+  the genetically based lichen network metrics: overall degree
+  (i.e. total number of links) and centralization, which is a measure
+  of the dominance of one species in the network.}
 \label{fig:h2_plot}
 \end{figure*}
 
-Tree traits and lichen community metrics were correlated with lichen
-networks. The genetically based traits, bark roughness and condensed
-tannins were both significant predictors of network similarity
-(Table~\ref{tab:cn_perm}). Bark C:N ratio was also a significant
-predictor of network similarity, but, as shown previously (see
-Table~\ref{tab:h2_table}), there is not sufficient evidence support a
-genetic basis for it. Bark pH was not a significant predictor of
-lichen network similarity (Table~\ref{tab:cn_perm}). The abundance,
-richness, evenness and diversity of the bark lichen community,
-although also not predicted by tree genotype, were all significantly
-correlated with lichen network structure
-(Table~\ref{tab:cn_perm}). Lichen community composition was not
-correlated with lichen network similarity, either when species
-abundances were relativized (Mantel R = -0.09, \textit{p-value} =
-0.139) or not (Mantel R = -0.03, \textit{p-value} = 0.573). 
+\input{h2_reml_net}
 
-\input{cn_perm}
 
+Genotype indirectly influenced lichen network centralization via the
+genetically based variation in bark roughness. The percent of rough
+bark was the only tree trait that displayed a significant response to
+genotype (\textit{RLRT} = 4.8526, $H^2$ = 0.3221, \textit{p-value} =
+0.0113). None of the other bark traits, condensed tannins
+(\textit{RLRT} = 0.0007, $H^2$ = 0.0041, \textit{p-value} = 0.4439),
+pH (\textit{RLRT} = 0.00, $H^2$ = 0.00, \textit{p-value} = 1.0000) or
+carbon-nitrogen Ratio (\textit{RLRT} = 0.0000, $H^2$ = 0.0000,
+\textit{p-value} = 1.0000), showed a signficant response to tree
+genotype and none other than bark roughness were correlated with
+network similarity (Supplementary Table~\ref{tab:cn_trait_perm});
+therefore, we focused our analysis on bark roughness. We found that
+bark roughness was signficantly correlated with network similarity
+(PERMANOVA:  Pseudo-$F_{1,32}$ = 13.029, $R^2$ = 0.26,
+\textit{p-value} = 0.0096) and other lichen network metrics, including
+negative correlations with overall network degree ($df$ = 35, $t$ =
+-2.13, $r$ = -0.34, \textit{p-value} = 0.04) and centralization ($df$
+= 35, $t$ = -2.52, $r$ = -0.39, \textit{p-value} = 0.02). To determine
+how much of the effect of bark roughness was genetically based, we
+used the residual values from regressions of network degree and
+centralization in tests of the effect of tree genotype and found no
+significant effect of tree genotype for either degree (\textit{RLRT} =
+0.00, $H^2$ = 0.00, \textit{p-value} = 1.0000) or centralization
+(\textit{RLRT} = 0.00, $H^2$ = 0.00, \textit{p-value} = 1.0000),
+suggesting that the observed relationship between bark roughness and
+lichen network structure was largely genetically based
+(Fig.~\ref{fig:br_net}).
 
 \begin{figure*}[ht]
 \centering
 \includegraphics[width=\linewidth]{br_net.pdf}
 \caption{Bivariate plots of the relationship between bark roughness
-  and three network metrics: A) number of links (L), B) centralization
-  and C) average mutual information (AMI). Each plot displays the
-  genotype mean $\pm$ 1 S.E. for both variables and a least-squares
-  regression calculated using the genotype means.}
+  and three network metrics: A) degree and B) centralization. Each
+  plot displays the genotype mean $\pm$ 1 S.E. for both variables and
+  a least-squares regression calculated using the genotype means.}
 \label{fig:br_net}
 \end{figure*}
 
+The genetic response of network centralization was driven by variation
+in \textit{Caloplaca holocarpa}. Centrality varied significantly among
+species ($F_{8, 324}$ = 7.99, $R^2$ = 0.16, \textit{p-value} $<<$
+0.0001). \textit{Caloplaca holocarpa} centrality was the main species
+to exhibit a significant response to tree genotype in terms of
+positive centrality for both the in-coming (\textit{RLRT} = 3.61,
+$H^2$ = 0.32, \textit{p-value} = 0.0240) and out-going (\textit{RLRT}
+= 3.13, $H^2$ = 0.30, \textit{p-value} = 0.0327) perspectives, but not
+for either negative centrality metrics in-coming (\textit{RLRT} = 0,
+$H^2$ = 0, \textit{p-value} = 1) or out-going (\textit{RLRT} = 0,
+$H^2$ = 0, \textit{p-value} = 0.4543). None of the other species'
+centralities showed a genotypic response (Supplementary
+Table~\ref{tab:sppcen}) with the exception of \textit{X. montana}
+(\textit{RLRT} = 2.92, $H^2$ = 0.32, \textit{p-value} = 0.0375);
+however, the centrality of \textit{X. montana} was much lower overall
+relative to \textit{C. holocarpa} and the variation in
+\textit{X. montana} centrality was restricted to two genotypes
+(Fig.~\ref{fig:geno_sppcen}).
 
-%% \textbf{MKL Wild stands don't have chemistry data so those data were
-%%   not used.}
-%% \textbf{MKL: I removed the community similarity figure to simplify the
-%% presentation of the results and improve the flow.}
-%% \textbf{LJL: Figure looks good. But, maybe making all lines a little
-%%   thicker would look nicer and pop more.}
-%% \textbf{LJL: Since we already published that tree genotypes differ in
-%%   lichen composition, I wonder if we need to say somewhere in the
-%%   manuscript why this test was run here. It seems to me it is
-%%   important to verify this with a slightly different sampling method
-%%   as used int eh 2015 paper, and for this specific set of
-%%   genotypes. But, then does this test of composition just become
-%%   something necessary just in a methodological variation that
-%%   justifies the next step of examing network structure.  Something to
-%%   think about. It might be that theNMDS should jsut go in a
-%%   supplement, although I do like it here in some ways.  It might also
-%%   be another approach to put the composition and other analyses after
-%%   the network analysis results are presented. In this way, you could
-%%   use the composition and results with vectors to help provide
-%%   resolution on what is driving networks to differ among genotypes.}
+
+
+\begin{figure*}[ht]
+\centering
+\includegraphics[width=\linewidth]{geno_sppcen.pdf}
+\caption{Dot-plots showing the mean (dot) and $\pm$ 1 SE of in-degree
+  (A) and out-degree (B) centrality for two species,
+  \textit{C. holocarpa} and \textit{X. montana}. \textit{Caloplaca
+    holocarpa} centrality was highly variable among
+  genotypes. \textit{Xanthomendoza montana} centrality, both in- and
+  out-degree, was only non-zero for two genotypes, and only out-degree
+  centrality displayed a significant response to genotype.}
+\label{fig:geno_sppcen}
+\end{figure*}
+
 
 
 %% \textbf{MKL: Adapt into a table.}
@@ -783,23 +798,6 @@ abundances were relativized (Mantel R = -0.09, \textit{p-value} =
 %%   requite adding methods, results and more discussion.}
 %% \textbf{MKL: Add the network metrics as vectors. Also add the wild
 %%   stand as a point of reference or add as a supplementary figure.}
-
-%% \textbf{MKL: Need to re-organize the flow of the results.}
-
-%% \textbf{LJL: It seems to me that the first two sentences here are the
-%%   most important of the results. How can you make them stand out more?
-%%   Maybe also they should go at the begining of the previous paragrpah,
-%%   and then move that paragraph to being the first in the REsults
-%%   section.}
-
-%% \textbf{TGW: Here and in earlier paragraphs, a lot of stats are
-%%   presented some of which are significant and some not.  For your
-%%   topic sentence to be accepted, it seems readers need to know how
-%%   many of the stats need to confirm the pattern and how many would it
-%%   take to reject.  This paragraph has about 8 stats so need some
-%%   overarching statement(s).  E.g., 7 of 8 analyses support our
-%%   overarching hypothesis that ...  Same goes for other such paragraphs
-%%   such as the 1st and last paras of the Results.}
 
 
 %% In addition to including your tables within this manuscript file, PNAS
@@ -819,24 +817,20 @@ abundances were relativized (Mantel R = -0.09, \textit{p-value} =
   \item Lichen networks genetically based
   \item Bark roughness was the primary genetically based trait driving
     network structure
-  \item Lichn networks also varied with cover, richness and diversity
+  \item Genotype altered the importance of one particular species,
+    primarily through positive interactions
+  \item Lichen networks also varied with cover, richness and diversity
     of the lichen community, which were not correlated with roughness
-    and primarily driven by one dominant species
+    and primarily driven by one dominant species (PC, SR, SE, SD
+    didn't respond to genotype but were correlated with network
+    metrics)
   \end{itemize}
 \item What mechanisms could be at play?
-\item Habitat filtering of communities (richness, composition) vs
-  environmental influence on interactions. Likely a combination of
-  both of these factors.
-  \begin{itemize}
-  \item Lichen network structure correlated with species richness,
-    evenness and diversity
-  \item Lichen community composition not correlated with network
-    structure
-  \item None of these were genetically based
-  \end{itemize}
+\item Body size and sessile nature of lichen important to observing
+  genotype responses
 \item An important consequence for diversity is that genotypes could
-  be supporting unique communities, even if the composition of the
-  communities is the same among individuals and genotypes.
+  be supporting unique community dynamics, even if the composition of
+  the communities is the same among individuals and genotypes.
 \item Genetic diversity could be influencing the stability of
   communities through the effects on interactions. Some network
   structures are likely to be more stable, either in response to
@@ -858,16 +852,16 @@ abundances were relativized (Mantel R = -0.09, \textit{p-value} =
   \end{itemize}
 \end{itemize}
 
-\textbf{TGW: I think window is too vague and this topic sentence needs
-  to be much stronger for a journal like PNAS.  Might be stronger by
-  saying "Our findings argue there is a genetic component to network
-  structure, which implies that network structure could be subject to
-  selection and networks can evolve."}
+%% \textbf{TGW: I think window is too vague and this topic sentence needs
+%%   to be much stronger for a journal like PNAS.  Might be stronger by
+%%   saying "Our findings argue there is a genetic component to network
+%%   structure, which implies that network structure could be subject to
+%%   selection and networks can evolve."}
 
-\textbf{TGW: Could we also make the comparsion that genetically more
-  similar trees also have more similar communities?  We've done this
-  in the past and it has worked, e.g., Randy's genetic similarity
-  rule.}
+%% \textbf{TGW: Could we also make the comparsion that genetically more
+%%   similar trees also have more similar communities?  We've done this
+%%   in the past and it has worked, e.g., Randy's genetic similarity
+%%   rule.}
 
 \begin{itemize}
 \item Genetic assembly rule = similar genetics will have more similar
@@ -904,11 +898,11 @@ findings support the hypothesis that genotypic variation in a
 foundation species contributes to the structure of a network of
 interacting species.
 
-\textbf{LJL: I wonder if you need to have so much on richness here. 
-Overall, I think you want to focus on the network reponses and
-patterns among genotype first, and then go into mechanism later. I
-think we don’t quite have a good mechanism yet so I don’t think it
-needs to come up in the first paragrpah of the discussion.}
+%% \textbf{LJL: I wonder if you need to have so much on richness here. 
+%% Overall, I think you want to focus on the network reponses and
+%% patterns among genotype first, and then go into mechanism later. I
+%% think we don’t quite have a good mechanism yet so I don’t think it
+%% needs to come up in the first paragrpah of the discussion.}
 
 
 
@@ -956,96 +950,96 @@ From Thompson2014
 
 Specific hypothesis from Thompson2014
 
-\textbf{LJL: If I recall, the Elamo paper just looks at genetic
-  correlations between pairwise individual abundances. I would suggest
-  maybe it doesn’t deserve to be in this 1st paragraph. Perhaps it
-  actually should be in the 2nd or 3rd paragraph, just as a reference
-  that points to the potential for genotype to influence
-  networks. Definately our 2015 JOE paper goes much further, too,
-  since it has whole communities being correlationed. But, again, I
-  woudl put both of these as citation in the community genetics
-  paragraphs (2 of 3) instead of the first paragrpah, which focuses on
-  the general network lit.}
+%% \textbf{LJL: If I recall, the Elamo paper just looks at genetic
+%%   correlations between pairwise individual abundances. I would suggest
+%%   maybe it doesn’t deserve to be in this 1st paragraph. Perhaps it
+%%   actually should be in the 2nd or 3rd paragraph, just as a reference
+%%   that points to the potential for genotype to influence
+%%   networks. Definately our 2015 JOE paper goes much further, too,
+%%   since it has whole communities being correlationed. But, again, I
+%%   woudl put both of these as citation in the community genetics
+%%   paragraphs (2 of 3) instead of the first paragrpah, which focuses on
+%%   the general network lit.}
 
 
-\textbf{LJL:  It could be useful to point out that our findings are
-  not related to trophic interactions, which is pretty cool. Also,we
-  talk about interaction networks but it is not clear to me if the
-  interactions tend to be positive or negative. Can we get at that
-  with the approach used?}
+%% \textbf{LJL:  It could be useful to point out that our findings are
+%%   not related to trophic interactions, which is pretty cool. Also,we
+%%   talk about interaction networks but it is not clear to me if the
+%%   interactions tend to be positive or negative. Can we get at that
+%%   with the approach used?}
 
 
-\textbf{TGW:  Is there any adaptive component to the tree in having
-  certain lichen communities?  e.g., can they feed back to affect tree
-  performance in some way or is this a passive outcome of a trait that
-  affects bark for other adaptive reasons and lichens are passive
-  players that tag along for the ride?  I could envision that lichens
-  covering the bark of a tree act as a barrier between insects and
-  pathogens, much like ectomycorrhizae cover fine roots as a first
-  line of defense by invading microorganisms.  Uptake of N that gets
-  passed to the tree??}
+%% \textbf{TGW:  Is there any adaptive component to the tree in having
+%%   certain lichen communities?  e.g., can they feed back to affect tree
+%%   performance in some way or is this a passive outcome of a trait that
+%%   affects bark for other adaptive reasons and lichens are passive
+%%   players that tag along for the ride?  I could envision that lichens
+%%   covering the bark of a tree act as a barrier between insects and
+%%   pathogens, much like ectomycorrhizae cover fine roots as a first
+%%   line of defense by invading microorganisms.  Uptake of N that gets
+%%   passed to the tree??}
 
 
-\textbf{LJL: I agree that there is a general overarching theme that
-  evolution occurs in a community network context, but I’m not sure
-  that we should state that as our main hypothesis. It seems more that
-  this is a fundamental foundation for our work. The hypothesis is
-  more what we are testing directly, but we don’t test this
-  directly. I guess I don’t want to give the impresison that our
-  communities are necessarily the result of each species evolving into
-  its place in the community on these tree genotypes (although I do
-  understand this as Shuster et al 2006’s fundamental explanation for
-  why we see different communities on different genotypes; I don’t
-  necessarily agree that this is the only reason we woudl see
-  different communities on dif genotypes). Most of these are pretty
-  generalist lichens, which could be found on other decidous trees in
-  the surounding city or natural areas. I would look at it more like
-  an assembling of lichen species into unique configurations on
-  genetically different substrates. There may be some selection for
-  different genotype of lichen during the community assembly process
-  but we can’t really tell that just by differences in species
-  abundances or coocurneces. I guess to me the evolutionary context
-  that is more direclty related to this work is that the tree genotype
-  is a central controller (indeed a sort of hub species in the
-  network) of network structure. By anchoring the lichen network to
-  tree genotype (and variation among networks to variation among tree
-  genotypes) , our study highlights the possibility that natural
-  selection acting on the trees may have an extended consequence for
-  the network structure of organisms living on the trees…the extra
-  thing we add to the field is that we show interaction networks are
-  sensitive to genotype. I doubt the lichens have a direct effect on
-  tree fitness, but favorability of some tree genotypes over others
-  during natural selection will then go on to favor and disfavor
-  certain lichen communities of different network structures. By being
-  sensitive to tree genotype, the lichen community networks are
-  passive riders on the waves of evolutionary dynamics that occur
-  within the tree species they inhabit.}
+%% \textbf{LJL: I agree that there is a general overarching theme that
+%%   evolution occurs in a community network context, but I’m not sure
+%%   that we should state that as our main hypothesis. It seems more that
+%%   this is a fundamental foundation for our work. The hypothesis is
+%%   more what we are testing directly, but we don’t test this
+%%   directly. I guess I don’t want to give the impresison that our
+%%   communities are necessarily the result of each species evolving into
+%%   its place in the community on these tree genotypes (although I do
+%%   understand this as Shuster et al 2006’s fundamental explanation for
+%%   why we see different communities on different genotypes; I don’t
+%%   necessarily agree that this is the only reason we woudl see
+%%   different communities on dif genotypes). Most of these are pretty
+%%   generalist lichens, which could be found on other decidous trees in
+%%   the surounding city or natural areas. I would look at it more like
+%%   an assembling of lichen species into unique configurations on
+%%   genetically different substrates. There may be some selection for
+%%   different genotype of lichen during the community assembly process
+%%   but we can’t really tell that just by differences in species
+%%   abundances or coocurneces. I guess to me the evolutionary context
+%%   that is more direclty related to this work is that the tree genotype
+%%   is a central controller (indeed a sort of hub species in the
+%%   network) of network structure. By anchoring the lichen network to
+%%   tree genotype (and variation among networks to variation among tree
+%%   genotypes) , our study highlights the possibility that natural
+%%   selection acting on the trees may have an extended consequence for
+%%   the network structure of organisms living on the trees…the extra
+%%   thing we add to the field is that we show interaction networks are
+%%   sensitive to genotype. I doubt the lichens have a direct effect on
+%%   tree fitness, but favorability of some tree genotypes over others
+%%   during natural selection will then go on to favor and disfavor
+%%   certain lichen communities of different network structures. By being
+%%   sensitive to tree genotype, the lichen community networks are
+%%   passive riders on the waves of evolutionary dynamics that occur
+%%   within the tree species they inhabit.}
 
-\textbf{MKL: In response to Lamit's comment above, I agree that it is
-  not reuqired that there is co-evolution. Another, perhaps simpler,
-  explanation is that there is variation in environmental filtering of
-  lichen individuals created in part by genetic variation in tree
-  individuals.}
+%% \textbf{MKL: In response to Lamit's comment above, I agree that it is
+%%   not reuqired that there is co-evolution. Another, perhaps simpler,
+%%   explanation is that there is variation in environmental filtering of
+%%   lichen individuals created in part by genetic variation in tree
+%%   individuals.}
 
 
-\textbf{TGW: might be good to cite papers on competition in lichens or
-  other organizing factors to back up the least expected statement.
-  as epiphytes we might not expect them to care.}
+%% \textbf{TGW: might be good to cite papers on competition in lichens or
+%%   other organizing factors to back up the least expected statement.
+%%   as epiphytes we might not expect them to care.}
 
-\textbf{TGW: I think we need to emphasize the long-term nature of our
-  common garden study as very few common garden studies of lichens
-  likely exist. Any refs on this? If true might want to mention this
-  up front in intro.}
+%% \textbf{TGW: I think we need to emphasize the long-term nature of our
+%%   common garden study as very few common garden studies of lichens
+%%   likely exist. Any refs on this? If true might want to mention this
+%%   up front in intro.}
 
-\textbf{MKL: Environmental filtering is evidenced by species richness,
-  but also possibly species interaction varying based on environment
-  as networks varied in terms of sign and magnitude as well.}
+%% \textbf{MKL: Environmental filtering is evidenced by species richness,
+%%   but also possibly species interaction varying based on environment
+%%   as networks varied in terms of sign and magnitude as well.}
 
-\textbf{MKL: The effect of bark roughness on network similarity was
-  primarily genetically based, and there are likely other factors at
-  play.}
+%% \textbf{MKL: The effect of bark roughness on network similarity was
+%%   primarily genetically based, and there are likely other factors at
+%%   play.}
 
-\textbf{Discussion of network implications for stability with genetics.}
+%% \textbf{Discussion of network implications for stability with genetics.}
 
 Bark roughness had previously been shown to be an important tree trait
 influencing bark lichens \cite{Lamit2011} that is under strong genetic
@@ -1093,24 +1087,7 @@ Wojtowicz, Luke Evans and David Solance Smith.}
 \bibliography{lichen_network_genetics}
 
 \newpage
-
-%% \section*{Supplementary Materials}
-\section*{Assessment and Results}
-
-\begin{itemize}
-\item Network similarity not genetically based
-\item Genetically based number of links and centrality but not modularity
-\item Lichen cover, richness, evenness, diversity and composition not
-  genetically based
-\item Roughness genetically based but not bark condensed tannins, CN
-  or pH
-\item Bark roughness correlation with number of links (yes) and
-  centrality (yes)? <- TODO add figure A = mdc.plot(L, Cen), B = (ch.plot(L,Cen,geno), BR vector))
-\item Centrality values for species <- censpp.pdf
-\item Redo haritability calculations
-\item Jamie double check genotype network permanova in PRIMER
-\item Jamie double check reml's in R
-\end{itemize}
+\section*{Supplementary Materials}
 
 \setcounter{figure}{0}
 \setcounter{table}{0}
@@ -1118,77 +1095,31 @@ Wojtowicz, Luke Evans and David Solance Smith.}
 \subsection*{Tables}
 
 \newpage
-
-\input{muse.tex}
+\input{cn_perm}
+\newpage
 \input{h2_reml.tex}
-\input{h2_reml_net.tex}
-\input{vec.tex}
-\input{h2_reml_trait.tex}
+\newpage
 \input{trait_path.tex}
+\newpage
 \input{cn_perm.tex}
+\newpage
 \input{cn_trait_perm.tex}
+\newpage
 \input{sppcen.tex}
+\newpage
 \input{cormat.tex}
+\newpage
 \input{com_perm.tex}
 
 \newpage
-
 \subsection*{Figures}
 
-\newpage
-
 \begin{figure*}[ht]
 \centering
-\includegraphics[width=\linewidth]{cn_onc.pdf}
+\includegraphics[width=\linewidth]{xg_size.pdf}
 \caption{}
-\label{fig:cn_onc_app}
+\label{fig:xg_size_app}
 \end{figure*}
-
-\begin{figure*}[ht]
-\centering
-\includegraphics[width=\linewidth]{h2_plot.pdf}
-\caption{}
-\label{fig:h2_plot_app}
-\end{figure*}
-
-\begin{figure*}[ht]
-\centering
-\includegraphics[width=\linewidth]{geno_sppcen.pdf}
-\caption{}
-\label{fig:geno_sppcen}
-\end{figure*}
-
-
-
-\begin{figure*}[ht]
-\centering
-\includegraphics[width=\linewidth]{spp_cen.pdf}
-\caption{}
-\label{fig:spp_cen_app}
-\end{figure*}
-
-\begin{figure*}[ht]
-\centering
-\includegraphics[width=\linewidth]{spp_cen_in.pdf}
-\caption{}
-\label{fig:spp_cen_in_app}
-\end{figure*}
-
-\begin{figure*}[ht]
-\centering
-\includegraphics[width=\linewidth]{spp_cen_out.pdf}
-\caption{}
-\label{fig:spp_cen_out_app}
-\end{figure*}
-
-
-\begin{figure*}[ht]
-\centering
-\includegraphics[width=\linewidth]{br_net.pdf}
-\caption{}
-\label{fig:br_net_app}
-\end{figure*}
-
 
 \begin{figure*}[ht]
 \centering
@@ -1200,10 +1131,24 @@ Wojtowicz, Luke Evans and David Solance Smith.}
 
 \begin{figure*}[ht]
 \centering
-\includegraphics[width=\linewidth]{xg_size.pdf}
+\includegraphics[width=\linewidth]{spp_cen.pdf}
 \caption{}
-\label{fig:xg_size_app}
+\label{fig:spp_cen_app}
 \end{figure*}
+
+%% \begin{figure*}[ht]
+%% \centering
+%% \includegraphics[width=\linewidth]{spp_cen_in.pdf}
+%% \caption{}
+%% \label{fig:spp_cen_in_app}
+%% \end{figure*}
+
+%% \begin{figure*}[ht]
+%% \centering
+%% \includegraphics[width=\linewidth]{spp_cen_out.pdf}
+%% \caption{}
+%% \label{fig:spp_cen_out_app}
+%% \end{figure*}
 
 \end{document}
 
