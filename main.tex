@@ -613,7 +613,6 @@ maximum of 500 iterations and a change in stress threshold of less
 than 10$^{-12}$. Final configurations has the lowest stress with at
 most a stress level of 0.10.
 
-
 For each network, we also calculated metrics that measure different
 structural aspects. Although there are many other metrics, for the
 sake of simplicity we focus on a subset that represent several
@@ -635,6 +634,19 @@ other than other species. As with the other response variables, the
 number of links was log-transformed and both modularity and
 centralization scores were fourth-root transformed to meet variance
 and normality assumptions.
+
+For all tests where genotype was used as a predictor, we quantified
+the heritability of the response variable. Because the trees in the
+garden were clonal replicates of each genotype, we calculated
+broad-sense heritability, which is the genotypic variance divided by
+the total phenotypic variance \cite{Conner2004}. This can be
+interpreted as a measure of the phenotypic variance due to genotypic
+variation. We also apply this to the community genetics context as the
+variance in \textit{extended} phenotypic variance due to genotypic
+variation \cite{Dawkins1981, Antonovics1991, Whitham2006a}. For the
+multivariate analyses, where we employ PERMANOVA, we followed the
+methods of \citep{Shuster2006} to adjust the degrees of freedom for
+unbalanced genotype replicates.
 
 All code and data for the project are openly available online. Code
 and data are available at \url{github.com/ecgen/comgen}. The project
