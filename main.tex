@@ -118,19 +118,21 @@ network structure we conducted quantitative modeling of interaction
 networks. We constructed networks of epiphytic lichen associated with
 individual trees that were a part of a long-term experimental common
 garden of genotypes of (\textit{Populus angustifolia}), a foundation
-species. We found three main results. First, tree genotype
-significantly predicted lichen network similarity, i.e. trees of the
-same genotype had more similar lichen networks. Second, positive
-interactions of one lichen species, \textit{Caloplaca holocarpa} drove
-the genetically based variation in network structure. Third, bark
-roughness was both predicted by tree genotype and correlated with
-lichen network similarity. We conclude that tree genotype can
-influence not only the relative abundances of organisms but also the
-interaction network structure of associated organisms. Given that
-variation in network structure can have consequences for the dynamics
-of communities through altering the stability of the system and
-modulating or amplifying perturbations, these results have important
-implications for the evolutionary dynamics of ecosystems.
+species. We found two primary results. First, tree genotype
+significantly predicted lichen network similarity, i.e. clonal
+replicates of the same genotype tended to support more similar lichen
+networks, using multiple network metrics. Second, one of the examined
+tree traits, bark roughness, was both predicted by tree genotype and
+correlated with lichen network similarity, supporting a mechanistic
+pathway from a variration in a heritable tree trait and the
+genetically based variation in lichen network structure. We conclude
+that tree genotype can influence not only the relative abundances of
+organisms but also the interaction network structure of associated
+organisms. Given that variation in network structure can have
+consequences for the dynamics of communities through altering the
+stability of the system and modulating or amplifying perturbations,
+these results have important implications for the evolutionary
+dynamics of ecosystems.
 
 
 \end{abstract}
@@ -285,20 +287,21 @@ implications for the evolutionary dynamics of ecosystems.
 networks. Initially, evolution in a community context was focused on
 examples of highly co-evolved pairs of species (e.g. Darwin's famous
 prediction of the Sphinx Moth and Christmas Orchid)
-\cite{Wade2007}. However, studies of diffuse co-evolution
-(\textit{sensu} \cite{Janzen1980}) \cite{Stinchcombe2002, Strauss2007,
-  Dicke2010}, geographic mosaics of co-evolution \cite{Thompson2013}
-and community genetics \cite{Whitham2006a} have provided an in-road for
-ecological network approaches \cite{Fortuna2009, Keith2017, Lau2016} to
+\cite{Wade2007TheCommunities}. However, studies of diffuse
+co-evolution (\textit{sensu} \cite{Janzen1980SpecificityForest})
+\cite{StinchcombeCanHerbivores, Strauss2008EvolutionSize}, geographic
+mosaics of co-evolution \cite{Thompson2013} and community genetics
+\cite{Whitham2006a} have provided an in-road for ecological network
+approaches \cite{Smith2015b, Keith2017, Lau2016GenotypicEvolution} to
 illuminate a more complex perspective of the interface between
 ecological and evolutionary dynamics. There is now evidence to support
-that selection tends to occur among groups of species \cite{Wade2007,
-  Pieterse2007, Dicke2010} favoring the development of small webs
-\cite{Nuismer2006, Guimaraes2007, Gomez2009} and that genetic variation
-and phylogenetic relatedness contributes to variation in community
-assembly \cite{Crutsinger2016} and species interactions
-\cite{Whitham2006a, Bailey2009a, Moya-Larano2011}, which shapes the
-ecological interaction networks \cite{Rezende2007}. 
+that selection tends to occur among groups of species
+\cite{Wade2007TheCommunities} favoring the development of small webs
+\cite{Guimaraes2007InteractionNetworks, Gomez2009LocalMosaic} and that
+genetic variation and phylogenetic relatedness contributes to
+variation in community assembly \cite{Crutsinger2016} and species
+interactions \cite{Whitham2006a, Bailey2009a, Moya-Larano2011}, which
+shapes the ecological interaction networks \cite{Rezende2007}.
 
 Community genetics studies \cite{Lamit2015a} have shown that genetic
 variation in foundation species \cite{Ellison2005} plays a significant
@@ -319,14 +322,14 @@ Additional work has provided support for the hypothesis that not only
 does composition vary among genetically distinct genotypes of
 foundation species but that it also impacts the structure of species
 interactions. However, studies in the network ecology literature
-generally do not include a genetic component \cite{Borrett2014}. And,
-community genetics studies have primarily focused on community
-composition in terms of the abundance of species
-\cite{DesRoches2018TheVariation}. Multiple studies from different
-plant-associated communities (including \textit{Populus},
+generally do not include a genetic component
+\cite{Borrett2014EnaR:Analysis}; and, community genetics studies have
+primarily focused on community composition in terms of the abundance
+of species \cite{DesRoches2018TheVariation}. Multiple studies from
+different plant-associated communities (including \textit{Populus},
 \textit{Solidago}, \textit{Oenothera}, \textit{Salix}) have examined
 the effect of genetic variation on trohic interactions
-\cite{Bailey2005, Johnson2008, Smith2011, Smith2015b,
+\cite{Bailey2005ImportanceInteractions, Johnson2008, Smith2011, Smith2015b,
   Barbour2016GeneticComplexity} and generally found that increasing
 genotypic diversity leads to increased trophic complexity. Similarly,
 two other studies have examined the effect of genotypic variation on
@@ -365,7 +368,7 @@ network modeling approach, we constructed a set of interaction network
 models for the lichens associated with individual trees. Using these
 models, we then examined the genetic basis of the structure of these
 ecological networks. Based on previous community genetics studies,
-particularly \citep{Bangert2005} which proposed the community
+particularly \citep{Bangert2006} which proposed the community
 similarity rule, we hypothesize that trees will vary in some
 phenotypic traits and those trees of the same genotype will tend to
 have similar traits leading to similarities in lichen network
@@ -578,7 +581,7 @@ network metrics.
 
 To calculate separate metrics for positive and negative links, we
 applied methods for calculating the centrality accounting for the
-sign differences (? and Borgatti 2014). We used the \texttt{signnet}
+sign differences \cite{Everett2014NetworksTies}. We used the \texttt{signnet}
 package version ????, which is available at ???.
 
 
@@ -618,34 +621,28 @@ structural aspects. Although there are many other metrics, for the
 sake of simplicity we focus on a subset that represent several
 interesting features of network structure (see \citep{Lau2017a}). We
 calculated the number of interactions or ``links'' in each network,
-which provides a measure of the size of the network \citep{Lau2015,
-  Borrett2014}. We also calculated the centralization of each network,
-which measures the evenness of the distribution of interactions among
-the species in the network \cite{Butts2005}. In a network with a low
-level of centralization species have similar amount of interaction in
-the network, while a network with a high level of centralization tends
-to have one or small number of species that interact with other
-species. We used a related function to calculate the centrality of
-each species (i.e. node level centrality) in each network as well. The
-modularity of each network was also quantified using a weighted
-algorithm \cite{Beckett2016}, which measures the degree to which a
-given network is divided into groups of species more connected to each
-other than other species. As with the other response variables, the
-number of links was log-transformed and both modularity and
-centralization scores were fourth-root transformed to meet variance
-and normality assumptions.
+which provides a measure of the size of the network \citep{Lau2015a,
+  Borrett2014EnaR:Analysis}. We also calculated the centralization of
+each network, which measures the evenness of the distribution of
+interactions among the species in the network \cite{sna}. In a network
+with a low level of centralization species have similar amount of
+interaction in the network, while a network with a high level of
+centralization tends to have one or small number of species that
+interact with other species. We used a related function to calculate
+the centrality of each species (i.e. node level centrality) in each
+network as well.
 
 For all tests where genotype was used as a predictor, we quantified
 the heritability of the response variable. Because the trees in the
 garden were clonal replicates of each genotype, we calculated
 broad-sense heritability, which is the genotypic variance divided by
-the total phenotypic variance \cite{Conner2004}. This can be
+the total phenotypic variance \cite{Conner2004ATextbook}. This can be
 interpreted as a measure of the phenotypic variance due to genotypic
 variation. We also apply this to the community genetics context as the
 variance in \textit{extended} phenotypic variance due to genotypic
-variation \cite{Dawkins1981, Antonovics1991, Whitham2006a}. For the
+variation \cite{DawkinsTheGene}. For the
 multivariate analyses, where we employ PERMANOVA, we followed the
-methods of \citep{Shuster2006} to adjust the degrees of freedom for
+methods of \citep{Shuster2006COMMUNITYSTRUCTURE} to adjust the degrees of freedom for
 unbalanced genotype replicates.
 
 All code and data for the project are openly available online. Code

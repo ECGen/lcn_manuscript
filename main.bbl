@@ -1,5 +1,21 @@
 \begin{thebibliography}{10}
 
+\bibitem{Wade2007TheCommunities}
+Wade MJ (2007) {The co-evolutionary genetics of ecological communities}.
+
+\bibitem{Janzen1980SpecificityForest}
+Janzen DH (1980) {Specificity of Seed-Attacking Beetles in a Costa Rican
+  Deciduous Forest}.
+\newblock {\em The Journal of Ecology} 68(3):929.
+
+\bibitem{StinchcombeCanHerbivores}
+Stinchcombe JR (year?) {Can tolerance traits impose selection on herbivores?},
+  Technical report.
+
+\bibitem{Strauss2008EvolutionSize}
+Strauss SY, Lau JA, Schoener TW, Tiffin P (2008) {Evolution in ecological field
+  experiments: implications for effect size}.
+
 \bibitem{Thompson2013}
 Thompson JN (2013) {\em {Relentless Evolution}}.
 \newblock (University of Chicago Press), p. 499.
@@ -9,12 +25,34 @@ Whitham TG, et~al. (2006) {A framework for community and ecosystem genetics:
   from genes to ecosystems.}
 \newblock {\em Nature reviews. Genetics} 7:510--523.
 
+\bibitem{Smith2015b}
+Smith DS, et~al. (2015) {Introduced elk alter traits of a native plant and its
+  plant-associated arthropod community}.
+\newblock {\em Acta Oecologica} 67:8--16.
+
 \bibitem{Keith2017}
 Keith AR, Bailey JK, Lau MK, Whitham TG (2017) {Genetics-based interactions of
   foundation species affect community diversity, stability and network
   structure}.
 \newblock {\em Proceedings of the Royal Society B: Biological Sciences}
   284(1854):20162703.
+
+\bibitem{Lau2016GenotypicEvolution}
+Lau MK, Keith AR, Borrett SR, Shuster SM, Whitham TG (2016) {Genotypic
+  variation in foundation species generates network structure that may drive
+  community dynamics and evolution}.
+\newblock {\em Ecology}.
+
+\bibitem{Guimaraes2007InteractionNetworks}
+Guimar{\~{a}}es PR, et~al. (2007) {Interaction Intimacy Affects Structure and
+  Coevolutionary Dynamics in Mutualistic Networks}.
+\newblock {\em Current Biology} 17(20):1797--1803.
+
+\bibitem{Gomez2009LocalMosaic}
+G{\'{o}}mez JM, Abdelaziz M, Camacho JPM, Mu{\~{n}}oz-Pajares AJ, Perfectti F
+  (2009) {Local adaptation and maladaptation to pollinators in a generalist
+  geographic mosaic}.
+\newblock {\em Ecology Letters} 12(7):672--682.
 
 \bibitem{Crutsinger2016}
 Crutsinger GM (2016) {A community genetics perspective: Opportunities for the
@@ -60,6 +98,16 @@ Des~Roches S, et~al. (2018) {The ecological importance of intraspecific
   variation}.
 \newblock {\em Nature Ecology and Evolution} 2(1):57--64.
 
+\bibitem{Borrett2014EnaR:Analysis}
+Borrett SR, Lau MK (2014) {enaR: An R package for Ecosystem Network Analysis}.
+\newblock {\em Methods in Ecology and Evolution} 5(11):1206--1213.
+
+\bibitem{Bailey2005ImportanceInteractions}
+Bailey JK, Wooley SC, Lindroth RL, Whitham TG (2005) {Importance of species
+  interactions to community heritability: a genetic basis to trophic-level
+  interactions}.
+\newblock {\em Ecology Letters} 0(0):051122062725008.
+
 \bibitem{Johnson2008}
 Johnson MTJ (2008) {Bottom-up effects of plant genotype on aphids, ants, and
   predators}.
@@ -69,11 +117,6 @@ Johnson MTJ (2008) {Bottom-up effects of plant genotype on aphids, ants, and
 Smith DS, Bailey JK, Shuster SM, Whitham TG (2011) {A geographic mosaic of
   trophic interactions and selection: trees, aphids and birds.}
 \newblock {\em Journal of evolutionary biology} 24(2):422--9.
-
-\bibitem{Smith2015b}
-Smith DS, et~al. (2015) {Introduced elk alter traits of a native plant and its
-  plant-associated arthropod community}.
-\newblock {\em Acta Oecologica} 67:8--16.
 
 \bibitem{Barbour2016GeneticComplexity}
 Barbour MA, et~al. (2016) {Genetic specificity of a plant-insect food web:
@@ -109,6 +152,11 @@ Bascompte J, Jordano P, Olesen JM (2006) {Asymmetric Coevolutionary Networks
   Facilitate Biodiversity Maintenance{\textbackslash}r10.1126/science.1123412}.
 \newblock {\em Science} 312:431--433.
 
+\bibitem{Bangert2006}
+Bangert RK, et~al. (2006) {A genetic similarity rule determines arthropod
+  community structure.}
+\newblock {\em Molecular ecology} 15:1379--1391.
+
 \bibitem{Lamit2011}
 Lamit L, et~al. (2011) {Genetically-based trait variation within a foundation
   tree species influences a dominant bark lichen}.
@@ -119,14 +167,29 @@ Ara{\'{u}}jo MB, Rozenfeld A, Rahbek C, Marquet PA (2011) {Using species
   co-occurrence networks to assess the impacts of climate change}.
 \newblock {\em Ecography} 34:897--908.
 
+\bibitem{Everett2014NetworksTies}
+Everett MG, Borgatti SP (2014) {Networks containing negative ties}.
+\newblock {\em Social Networks} 38(1):111--120.
+
 \bibitem{Lau2017a}
 Lau MK, Borrett SR, Baiser B, Gotelli NJ, Ellison AM (2017) {Ecological network
   metrics: opportunities for synthesis}.
 \newblock {\em Ecosphere} 8(8):e01900.
 
-\bibitem{Lau2015}
-Lau MK, Borrett SR, Hines DE, Singh P (2015) {enaR: Tools for Ecological
-  Network Analysis}.
+\bibitem{Conner2004ATextbook}
+Conner K, Hartl DL (2004) {\em {A Primer of Ecological Genetics: a textbook}}.
+\newblock (Sinauer Associates, Inc., Sunderland, Massachusetts), 1st edition,
+  p. All.
+
+\bibitem{DawkinsTheGene}
+Dawkins R (year?) {\em {The extended phenotype : the long reach of the gene}}.
+\newblock p. 468.
+
+\bibitem{Shuster2006COMMUNITYSTRUCTURE}
+Shuster SM, Lonsdorf EV, Wimp GM, Bailey JK, Whitham TG (2006) {COMMUNITY
+  HERITABILITY MEASURES THE EVOLUTIONARY CONSEQUENCES OF INDIRECT GENETIC
+  EFFECTS ON COMMUNITY STRUCTURE}.
+\newblock {\em Evolution} 60(5):991.
 
 \bibitem{Bdeir2017}
 Bdeir R, et~al. (2017) {Quantitative trait locus mapping of Populus bark
@@ -160,11 +223,6 @@ Rowntree JK, Shuker DM, Preziosi RF (2011) {Forward from the crossroads of
 \bibitem{Whitham2012}
 Whitham TG, et~al. (2012) {Community specificity: Life and afterlife effects of
   genes}.
-
-\bibitem{Bangert2006}
-Bangert RK, et~al. (2006) {A genetic similarity rule determines arthropod
-  community structure.}
-\newblock {\em Molecular ecology} 15:1379--1391.
 
 \bibitem{Zook2010}
 Zook AE, Eklof A, Jacob U, Allesina S (2010) {Food webs: Ordering species
