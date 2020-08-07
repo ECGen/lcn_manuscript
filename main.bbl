@@ -15,6 +15,7 @@ Stinchcombe JR (year?) {Can tolerance traits impose selection on herbivores?},
 \bibitem{Strauss2008EvolutionSize}
 Strauss SY, Lau JA, Schoener TW, Tiffin P (2008) {Evolution in ecological field
   experiments: implications for effect size}.
+\newblock {\em Ecology Letters}.
 
 \bibitem{Thompson2013}
 Thompson JN (2013) {\em {Relentless Evolution}}.
@@ -98,9 +99,10 @@ Des~Roches S, et~al. (2018) {The ecological importance of intraspecific
   variation}.
 \newblock {\em Nature Ecology and Evolution} 2(1):57--64.
 
-\bibitem{Borrett2014EnaR:Analysis}
-Borrett SR, Lau MK (2014) {enaR: An R package for Ecosystem Network Analysis}.
-\newblock {\em Methods in Ecology and Evolution} 5(11):1206--1213.
+\bibitem{Lau2017a}
+Lau MK, Borrett SR, Baiser B, Gotelli NJ, Ellison AM (2017) {Ecological network
+  metrics: opportunities for synthesis}.
+\newblock {\em Ecosphere} 8(8):e01900.
 
 \bibitem{Bailey2005ImportanceInteractions}
 Bailey JK, Wooley SC, Lindroth RL, Whitham TG (2005) {Importance of species
@@ -171,10 +173,9 @@ Ara{\'{u}}jo MB, Rozenfeld A, Rahbek C, Marquet PA (2011) {Using species
 Everett MG, Borgatti SP (2014) {Networks containing negative ties}.
 \newblock {\em Social Networks} 38(1):111--120.
 
-\bibitem{Lau2017a}
-Lau MK, Borrett SR, Baiser B, Gotelli NJ, Ellison AM (2017) {Ecological network
-  metrics: opportunities for synthesis}.
-\newblock {\em Ecosphere} 8(8):e01900.
+\bibitem{Borrett2014EnaR:Analysis}
+Borrett SR, Lau MK (2014) {enaR: An R package for Ecosystem Network Analysis}.
+\newblock {\em Methods in Ecology and Evolution} 5(11):1206--1213.
 
 \bibitem{Conner2004ATextbook}
 Conner K, Hartl DL (2004) {\em {A Primer of Ecological Genetics: a textbook}}.
