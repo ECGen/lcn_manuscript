@@ -173,9 +173,22 @@ Ara{\'{u}}jo MB, Rozenfeld A, Rahbek C, Marquet PA (2011) {Using species
 Everett MG, Borgatti SP (2014) {Networks containing negative ties}.
 \newblock {\em Social Networks} 38(1):111--120.
 
+\bibitem{ecodist}
+Goslee SC, Urban DL (2007) The ecodist package for dissimilarity-based analysis
+  of ecological data.
+\newblock {\em Journal of Statistical Software} 22(7):1--19.
+
+\bibitem{vegan}
+Oksanen J, et~al. (2019) {\em vegan: Community Ecology Package}.
+\newblock R package version 2.5-6.
+
 \bibitem{Borrett2014EnaR:Analysis}
 Borrett SR, Lau MK (2014) {enaR: An R package for Ecosystem Network Analysis}.
 \newblock {\em Methods in Ecology and Evolution} 5(11):1206--1213.
+
+\bibitem{sna}
+Butts CT (2019) {\em sna: Tools for Social Network Analysis}.
+\newblock R package version 2.5.
 
 \bibitem{Conner2004ATextbook}
 Conner K, Hartl DL (2004) {\em {A Primer of Ecological Genetics: a textbook}}.
