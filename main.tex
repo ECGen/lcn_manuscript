@@ -649,10 +649,10 @@ the total phenotypic variance \cite{Conner2004ATextbook}. This can be
 interpreted as a measure of the phenotypic variance due to genotypic
 variation. We also apply this to the community genetics context as the
 variance in \textit{extended} phenotypic variance due to genotypic
-variation \cite{DawkinsTheGene}. For the
-multivariate analyses, where we employ PERMANOVA, we followed the
-methods of \citep{Shuster2006COMMUNITYSTRUCTURE} to adjust the degrees of freedom for
-unbalanced genotype replicates.
+variation \cite{DawkinsTheGene}. For the multivariate analyses, where
+we employ PERMANOVA, we followed the methods of
+\citep{Shuster2006COMMUNITYSTRUCTURE} to adjust the degrees of freedom
+for unbalanced genotype replicates.
 
 All code and data for the project are openly available online. Code
 and data are available at \url{github.com/ecgen/comgen}. The project
@@ -665,18 +665,18 @@ analyses were conducted using the programming language R version 3.6.1
 \includegraphics[width=\linewidth]{cn_onc.pdf}
 \caption{Lichen networks varied in structure among tree
   genotypes. Network diagrams of the mean lichen interaction matrices
-  averaged for all trees and for several individual genotypes showing
-  a range of interaction network structure. Directionality
-  (arrowheads) and sign (red = negative, black = positive) of
-  interactions are shown as edges between species (abbreviated by the
-  first letter of the genus and specific epithet), which are scaled by
-  their magnitude. The sign of the interaction is indicative of
-  greater (positive) or lesser (negative) paired occurrences than
-  expected relative to the overall frequency of occurrence of each
-  species. Ecologically, the links in the network are likely the
-  product of multiple types of interactions (e.g. mutualism,
-  parasatism, competition, facilitation) that could vary over both
-  space and time.}
+  averaged for all trees and for several individual genotypes (996,
+  WC5 and 1008) showing a range of interaction network
+  structure. Directionality (arrowheads) and sign (red = negative,
+  black = positive) of interactions are shown as edges between species
+  (abbreviated by the first letter of the genus and specific epithet),
+  which are scaled by their magnitude. The sign of the interaction is
+  indicative of greater (positive) or lesser (negative) paired
+  occurrences than expected relative to the overall frequency of
+  occurrence of each species. Ecologically, the links in the network
+  are likely the product of multiple types of interactions
+  (e.g. mutualism, parasatism, competition, facilitation) that could
+  vary over both space and time.}
 \label{fig:geno_nets}
 \end{figure}
 }
@@ -771,7 +771,7 @@ pH (\textit{RLRT} = 0.00, $H^2$ = 0.00, \textit{p-value} = 1.0000) or
 carbon-nitrogen Ratio (\textit{RLRT} = 0.0000, $H^2$ = 0.0000,
 \textit{p-value} = 1.0000), showed a signficant response to tree
 genotype and none other than bark roughness were correlated with
-network similarity (Supplementary Table~\ref{tab:cn_trait_perm});
+network similarity (Table~\ref{tab:cn_trait_perm});
 therefore, we focused our analysis on bark roughness. We found that
 bark roughness was signficantly correlated with network similarity
 (PERMANOVA:  Pseudo-$F_{1,32}$ = 13.029, $R^2$ = 0.26,
@@ -788,6 +788,8 @@ significant effect of tree genotype for either degree (\textit{RLRT} =
 suggesting that the observed relationship between bark roughness and
 lichen network structure was largely genetically based
 (Fig.~\ref{fig:br_net}).
+
+\input{cn_trait_perm.tex}
 
 \begin{figure*}[ht]
 \centering
@@ -1123,16 +1125,10 @@ Wojtowicz, Luke Evans and David Solance Smith.}
 \subsection*{Tables}
 
 \newpage
-\input{cn_perm}
+\input{cn_perm.tex}
 
 \newpage
 \input{h2_reml.tex}
-
-\newpage
-\input{trait_path.tex}
-
-\newpage
-\input{cn_perm.tex}
 
 \newpage
 \input{cn_trait_perm.tex}
