@@ -285,6 +285,8 @@ community assembly \cite{Crutsinger2016} and species interactions
 structure of ecological interaction networks \cite{Rezende2007,
   Guimaraes2007InteractionNetworks, Gomez2009LocalMosaic}.
 
+\textbf{Indirect genetic effects and inter-specific indirect genetic effects}
+
 The genetic similarity rule provides a useful framework for
 approaching the nexus of evolutionary and community dynamics in the
 context of complex interaction networks. In a study combining
@@ -314,19 +316,36 @@ genotypic diversity generates increased network modularity
 the scale of forest stands, rather than individual trees; therefore,
 neither was able to observe replicated networks in order to
 statistically test for genetic effects on network structure and
-quantify the genetic component (i.e. heritabible variation) in network
+quantify the genetic component (i.e. heritable variation) in network
 structure.
 
 What are the potential issues/concerns of not considering network
-structure?
-
-Namely, we are ignoring how the structure of interactions among
-species may influence the impact of selection in real ecosystems. \\
-
-1. Indirect effects and IIGEs \cite{Thompson2014, Whitham2020} \\
-2. Structure and function -> evolution/ecology \cite{Watts1999, Novak2006, Bascompte2014} \\
-3. Metrics \cite{Lau2017} \\
-
+structure? Network theory and evidence from empirical studies in
+ecology have demonstrated that indirect effects can lead to
+self-organization, producing sign-changing, amplifying and/or
+dampening effects \cite{Newman2006, Sole2006}. The development of
+indirect genetic effects (IGE) and its community-level extension,
+inter-specific indirect genetic effects (IIGE) \cite{Shuster2006,
+  Whitham2020} in evolutionary biology point to the importance of
+studying the genetic basis of interaction network structure. IGE and
+IIGE theory develop a quantitative framework that demonstrates the
+importance of the indirect effect of genetic variation of one
+individual on other individuals of the same (IGE) or different species
+(IIGE). Evolutionary applications of network theory have demonstrated
+that, at least at the population scale, indirect effects of
+interactions can lead to network structures that can amplify or dampen
+the effects of selection \cite{Lieberman2005}. For example, networks
+that form a star-like structure in which there is a central species or
+core group of species that interact with other, peripheral species,
+can grealty amplify selection events. Empirically, network analysis of
+the structure of bipartite (i.e. two-mode) mutualistic networks has
+shown in multiple cases that nestedness, or the degree to which
+species tend to interact with similar subsets of the community, tends
+to promote stability and resilience to disturbances
+\cite{Bascompte2014}. Therefore, observing not only \textit{if} but
+\textit{how} networks of genetically similar individuals are more
+similar, is essential to fully understanding evolutionary dynamics in
+real ecosystems.
 
 Here, we investigate how genetic variation in a foundation tree
 species determines the structure of a network of interactions among a
@@ -357,11 +376,15 @@ individual trees. Using these models, we then examined the genetic
 basis of the structure of these ecological networks via several
 network metrics that measures different aspects of network structure
 at the scale of individual species (i.e. nodes) or the entire network
-observed on each tree. Based on previous community genetics studies,
-particularly the community similarity rule \citep{Bangert2006}, we
-hypothesize that trees will vary in some phenotypic traits and those
-trees of the same genotype will tend to have similar traits leading to
-similarities in lichen network structure.
+observed on each tree. In particular, we focus the metric of
+centrality for individual species and centralization for whole
+networks, which measures how much a species is connected in the
+network relative to other species. Based on previous community
+genetics studies, particularly the community similarity rule
+\citep{Bangert2006}, we hypothesize that trees will vary in some
+phenotypic traits and those trees of the same genotype will tend to
+have similar traits leading to similarities in lichen network
+structure.
 
 
 \matmethods{
@@ -554,7 +577,7 @@ combinations of these types of connections in each network. Although
 there are many more possible network metrics that could have been
 examined, we chose to focus on a restricted set for the sake of
 clarity. Also, degree and centrality form the basis of many other
-network metrics. 
+network metrics.
 
 \textbf{ADD EQUATIONS FOR METRICS}
 
