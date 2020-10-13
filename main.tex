@@ -329,45 +329,46 @@ effects on network structure and quantify the genetic component
 Network theory and evidence from empirical studies in ecology have
 demonstrated that indirect effects can lead to self-organization,
 producing sign-changing, amplifying and/or dampening effects
-\cite{Newman2006, Sole2006}. The development of interspecific indirect
-genetic effects (IIGE) theory \cite{Shuster2006COMMUNITYSTRUCTURE} in
-evolutionary biology points to the importance of studying the genetic
-basis of interaction network structure because genetic based
-differences in network structure among individuals can be acted upon
-by natural selection when there are fitness consequences of different
-networks of IIGEs that can result in community evolution
-\cite{Whitham2020IntraspecificEvolution}. For example, although the
-analysis was of abundances rather than interaction networks,
-\citep{Gehring2014PlantChange, Gehring2017a} found that the
-mycorrhizal communities on the roots of drought tolerant and
-intolerant trees are dominated by different orders of ectomycorrhizal
-fungal mutualists that also differ in the benefits they provide that
-enhance tree performance. Because drought tolerant genotypes are 3x
-more likely to survive record droughts, selection acts both on the
-tree and its fungal community and with increased drought the community
-phenotype has changed over time. Also, in an antagonistic interaction
-context, \citep{Busby2015} found that with the addition of a damaging
-leaf pathogen to cottonwoods in a common garden, the impacts of these
-strong interactors results in a different and diminished community of
-arthropods relative to control trees. Thus, selection acting on the
-tree may alter the network structure of associated communities in
-which different networks of communities are most likely to survive
-pathogen outbreaks. Regardless of whether the IIGE is unilateral
-(i.e., tree affects the community) or reciprocal (i.e., the community
-also affects the relative fitness of the tree), selection on tree,
-community or both can change network structure
-\cite{Whitham2020IntraspecificEvolution} and thereby alter community
-dynamics.  Evolutionary applications of network theory have
+\cite{Newman2006, Sole2006Self-OrganizationEcosystems}. The
+development of interspecific indirect genetic effects (IIGE) theory
+\cite{Shuster2006COMMUNITYSTRUCTURE} in evolutionary biology points to
+the importance of studying the genetic basis of interaction network
+structure because genetic based differences in network structure among
+individuals can be acted upon by natural selection when there are
+fitness consequences of different networks of IIGEs that can result in
+community evolution \cite{Whitham2020IntraspecificEvolution}. For
+example, although the analysis was of abundances rather than
+interaction networks, \citep{Gehring2014PlantChange, Gehring2017a}
+found that the mycorrhizal communities on the roots of drought
+tolerant and intolerant trees are dominated by different orders of
+ectomycorrhizal fungal mutualists that also differ in the benefits
+they provide that enhance tree performance. Because drought tolerant
+genotypes are 3x more likely to survive record droughts, selection
+acts both on the tree and its fungal community and with increased
+drought the community phenotype has changed over time. Also, in an
+antagonistic interaction context, \citep{Busby2015} found that with
+the addition of a damaging leaf pathogen to cottonwoods in a common
+garden, the impacts of these strong interactors results in a different
+and diminished community of arthropods relative to control
+trees. Thus, selection acting on the tree may alter the network
+structure of associated communities in which different networks of
+communities are most likely to survive pathogen outbreaks. Regardless
+of whether the IIGE is unilateral (i.e., tree affects the community)
+or reciprocal (i.e., the community also affects the relative fitness
+of the tree), selection on tree, community or both can change network
+structure \cite{Whitham2020IntraspecificEvolution} and thereby alter
+community dynamics.  Evolutionary applications of network theory have
 demonstrated that indirect effects of interactions among species can
 lead to network structures that amplify or dampen the effects of
-selection \cite{Lieberman2005}. For example, networks that form a
-star-like structure in which there is a central species or core group
-of species that interact with other, peripheral species, can amplify
-selection events. Empirically, network analysis of the structure of
-bipartite (i.e., two-mode) mutualistic networks has shown in multiple
-cases that nestedness, or the degree to which species tend to interact
-with similar subsets of the community, tends to promote stability and
-resilience to disturbances \cite{Rohr2014OnSystems}%
+selection \cite{Lieberman2005EvolutionaryGraphs}. For example,
+networks that form a star-like structure in which there is a central
+species or core group of species that interact with other, peripheral
+species, can amplify selection events. Empirically, network analysis
+of the structure of bipartite (i.e., two-mode) mutualistic networks
+has shown in multiple cases that nestedness, or the degree to which
+species tend to interact with similar subsets of the community, tends
+to promote stability and resilience to disturbances
+\cite{Rohr2014OnSystems}%
 %I added a sentence here that I think is a stronger ending for this
 %paragraph and a good setup for a key discussion point that I think we
 %could focus on more.  Lau, Matthew K.  October 7, 2020, 4:31 PM
@@ -610,7 +611,7 @@ clarity. Also, degree and centrality form the basis of many other
 network metrics. To calculate separate metrics for positive and
 negative links, we applied methods for calculating the centrality
 accounting for the sign differences \cite{Everett2014NetworksTies}
-using the \texttt{signet} package.
+using the \texttt{signnet} package \cite{siggnet}.
 
 
 \subsection*{Statistical Analyses, Software and Data}
@@ -987,7 +988,7 @@ examples of highly co-evolved pairs of species (e.g. Darwin's famous
 prediction of the Sphinx Moth and Christmas Orchid)
 \cite{Wade2007TheCommunities}. However, studies of diffuse
 co-evolution (\textit{sensu} \cite{Janzen1980SpecificityForest})
-\cite{StinchcombeCanHerbivores, Strauss2008EvolutionSize}, geographic
+\cite{StinchcombeCanHerbivores, Strauss2008EvolutionSizeb}, geographic
 mosaics of co-evolution \cite{Thompson2013} and community genetics
 \cite{Whitham2006a} have provided an in-road for ecological network
 approaches \cite{Smith2015b, Keith2017, Lau2016GenotypicEvolution} to
@@ -1075,14 +1076,14 @@ dynamics in which evolutionary effects are dampened or amplified by
 the struture of the network. For example, a star structure in which
 there is a primary or core set of central species with feedbacks from
 the radiating species has been demonstrated to be a structure that
-amplifies evolutionary dynamics \cite{Lieberman2005}. If such
-feedbacks do not exist, and these sub-networks of the lichen and tree
-genotypes are likely to be multi-rooted networks. Such a structure is
-theorized to generally promote diversification as variation arising
-from the shifting distribution of the ``roots'', i.e. genotypes;
-however, loss of genotype/root diversity could lead to fixation of a
-single genotype in the population and a decrease in community-wide
-diversity.
+amplifies evolutionary dynamics
+\cite{Lieberman2005EvolutionaryGraphs}. If such feedbacks do not
+exist, and these sub-networks of the lichen and tree genotypes are
+likely to be multi-rooted networks. Such a structure is theorized to
+generally promote diversification as variation arising from the
+shifting distribution of the ``roots'', i.e. genotypes; however, loss
+of genotype/root diversity could lead to fixation of a single genotype
+in the population and a decrease in community-wide diversity.
 
 \subsection*{Conclusion}
 
@@ -1242,7 +1243,7 @@ Wojtowicz, Luke Evans and David Solance Smith.}
 
 \showacknow{} % Display the acknowledgments section
 
-\bibliography{lichen_network_genetics}
+\bibliography{lichen_network_genetics, r_pkgs}
 
 \newpage
 \section*{Supplementary Materials}

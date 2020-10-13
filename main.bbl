@@ -32,6 +32,10 @@ Bailey JK, et~al. (2009) {From genes to ecosystems: a synthesis of the effects
 \newblock {\em Philosophical transactions of the Royal Society of London.
   Series B, Biological sciences} 364(1523):1607--16.
 
+\bibitem{Whitham2012}
+Whitham TG, et~al. (2012) {Community specificity: Life and afterlife effects of
+  genes}.
+
 \bibitem{DesRoches2018TheVariation}
 Des~Roches S, et~al. (2018) {The ecological importance of intraspecific
   variation}.
@@ -128,9 +132,9 @@ Newman MEJ (2006) {Modularity and community structure in networks.}
 \newblock {\em Proceedings of the National Academy of Sciences of the United
   States of America} 103(23):8577--82.
 
-\bibitem{Sole2006}
-Sole R (2006) {\em {Self-Organization in Complex Ecosystems}}.
-\newblock (Princeton University Press), p.~NA.
+\bibitem{Sole2006Self-OrganizationEcosystems}
+Sole R, Bascompte J (2006) {\em {Self-Organization in Complex Ecosystems}}.
+\newblock (Princeton University Press, Princeton, N.J.).
 
 \bibitem{Shuster2006COMMUNITYSTRUCTURE}
 Shuster SM, Lonsdorf EV, Wimp GM, Bailey JK, Whitham TG (2006) {COMMUNITY
@@ -138,14 +142,31 @@ Shuster SM, Lonsdorf EV, Wimp GM, Bailey JK, Whitham TG (2006) {COMMUNITY
   EFFECTS ON COMMUNITY STRUCTURE}.
 \newblock {\em Evolution} 60(5):991.
 
-\bibitem{Lieberman2005}
-Lieberman E (2005) {Evolutionary dynamics on graphs}.
-\newblock {\em Nature}.
+\bibitem{Whitham2020IntraspecificEvolution}
+Whitham TG, Allan GJ, Cooper HF, Shuster SM (2020) {Intraspecific Genetic
+  Variation and Species Interactions Contribute to Community Evolution}.
+\newblock {\em Annual Review of Ecology, Evolution, and Systematics} 51(1).
 
-\bibitem{Bascompte2006}
-Bascompte J, Jordano P, Olesen JM (2006) {Asymmetric Coevolutionary Networks
-  Facilitate Biodiversity Maintenance{\textbackslash}r10.1126/science.1123412}.
-\newblock {\em Science} 312:431--433.
+\bibitem{Gehring2014PlantChange}
+Gehring C, et~al. (2014) {Plant genetics and interspecific competitive
+  interactions determine ectomycorrhizal fungal community responses to climate
+  change}.
+\newblock {\em Molecular Ecology} 23(6):1379--1391.
+
+\bibitem{Gehring2017a}
+Gehring CA, Sthultz CM, Flores-Renter{\'{i}}a L, Whipple AV, Whitham TG (2017)
+  {Tree genetics defines fungal partner communities that may confer drought
+  tolerance}.
+\newblock {\em Proceedings of the National Academy of Sciences}.
+
+\bibitem{Lieberman2005EvolutionaryGraphs}
+Lieberman E, Hauert C, Howak MA (2005) {Evolutionary dynamics on graphs}.
+\newblock {\em Nature} 433(7023):312--316.
+
+\bibitem{Rohr2014OnSystems}
+Rohr RP, Saavedra S, Bascompte J (2014) {On the structural stability of
+  mutualistic systems}.
+\newblock {\em Science} 345(6195).
 
 \bibitem{Barbour2019TraitCommunities}
 Barbour MA, et~al. (2019) {Trait plasticity is more important than genetic
@@ -168,6 +189,11 @@ Zytynska SE, Fay MF, Penney D, Preziosi RF (2011) {Genetic variation in a
 Thompson JN (2013) {\em {Relentless Evolution}}.
 \newblock (University of Chicago Press), p. 499.
 
+\bibitem{Bascompte2006}
+Bascompte J, Jordano P, Olesen JM (2006) {Asymmetric Coevolutionary Networks
+  Facilitate Biodiversity Maintenance{\textbackslash}r10.1126/science.1123412}.
+\newblock {\em Science} 312:431--433.
+
 \bibitem{Lamit2011}
 Lamit L, et~al. (2011) {Genetically-based trait variation within a foundation
   tree species influences a dominant bark lichen}.
@@ -186,6 +212,9 @@ Ara{\'{u}}jo MB, Rozenfeld A, Rahbek C, Marquet PA (2011) {Using species
 \bibitem{Everett2014NetworksTies}
 Everett MG, Borgatti SP (2014) {Networks containing negative ties}.
 \newblock {\em Social Networks} 38(1):111--120.
+
+\bibitem{siggnet}
+Schoch D (2020) {\em signnet: An R package to analyze signed networks}.
 
 \bibitem{ecodist}
 Goslee SC, Urban DL (2007) The ecodist package for dissimilarity-based analysis
@@ -227,20 +256,15 @@ Janzen DH (1980) {Specificity of Seed-Attacking Beetles in a Costa Rican
 Stinchcombe JR (year?) {Can tolerance traits impose selection on herbivores?},
   Technical report.
 
-\bibitem{Strauss2008EvolutionSize}
+\bibitem{Strauss2008EvolutionSizeb}
 Strauss SY, Lau JA, Schoener TW, Tiffin P (2008) {Evolution in ecological field
-  experiments: implications for effect size}.
-\newblock {\em Ecology Letters}.
+  experiments: Implications for effect size}.
 
 \bibitem{Lau2016GenotypicEvolution}
 Lau MK, Keith AR, Borrett SR, Shuster SM, Whitham TG (2016) {Genotypic
   variation in foundation species generates network structure that may drive
   community dynamics and evolution}.
 \newblock {\em Ecology}.
-
-\bibitem{Whitham2012}
-Whitham TG, et~al. (2012) {Community specificity: Life and afterlife effects of
-  genes}.
 
 \bibitem{Borgatti2006}
 Borgatti SP, Everett MG (2006) {A Graph-theoretic perspective on centrality}.
