@@ -209,6 +209,10 @@ Ara{\'{u}}jo MB, Rozenfeld A, Rahbek C, Marquet PA (2011) {Using species
   co-occurrence networks to assess the impacts of climate change}.
 \newblock {\em Ecography} 34:897--908.
 
+\bibitem{sna}
+Butts CT (2019) {\em sna: Tools for Social Network Analysis}.
+\newblock R package version 2.5.
+
 \bibitem{Everett2014NetworksTies}
 Everett MG, Borgatti SP (2014) {Networks containing negative ties}.
 \newblock {\em Social Networks} 38(1):111--120.
@@ -228,10 +232,6 @@ Oksanen J, et~al. (2019) {\em vegan: Community Ecology Package}.
 \bibitem{Borrett2014EnaR:Analysis}
 Borrett SR, Lau MK (2014) {enaR: An R package for Ecosystem Network Analysis}.
 \newblock {\em Methods in Ecology and Evolution} 5(11):1206--1213.
-
-\bibitem{sna}
-Butts CT (2019) {\em sna: Tools for Social Network Analysis}.
-\newblock R package version 2.5.
 
 \bibitem{Conner2004ATextbook}
 Conner K, Hartl DL (2004) {\em {A Primer of Ecological Genetics: a textbook}}.

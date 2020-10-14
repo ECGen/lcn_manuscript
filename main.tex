@@ -598,18 +598,18 @@ probability of being observed).
 To quantify the structural variation of lichen networks we calculated
 several metrics at both the node and whole-network level. For
 individual nodes (i.e. species) in each network, we calculated both
-the degree \eqref{eq:1} and the centrality. We also calculated two
-similar global network metrics: degree and centralization. The first
-was network degree, which is a count of the total number of links in a
-network. As the networks contained not only positive and negative
-connections, as well as directional connections (both in-coming and
-out-going), we calculated the same network metrics for all
-combinations of these types of connections in each network. Although
-there are many more possible network metrics that could have been
-examined, we chose to focus on a restricted set for the sake of
-clarity. Also, degree and centrality form the basis of many other
-network metrics. To calculate separate metrics for positive and
-negative links, we applied methods for calculating the centrality
+the degree and the Freeman's centrality \cite{sna}. We also calculated
+two similar global network metrics: degree and centralization. The
+first was network degree, which is a count of the total number of
+links in a network. As the networks contained not only positive and
+negative connections, as well as directional connections (both
+in-coming and out-going), we calculated the same network metrics for
+all combinations of these types of connections in each
+network. Although there are many more possible network metrics that
+could have been examined, we chose to focus on a restricted set for
+the sake of clarity. Also, degree and centrality form the basis of
+many other network metrics. To calculate separate metrics for positive
+and negative links, we applied methods for calculating the centrality
 accounting for the sign differences \cite{Everett2014NetworksTies}
 using the \texttt{signnet} package \cite{siggnet}.
 
