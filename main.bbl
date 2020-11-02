@@ -163,16 +163,6 @@ Gehring CA, Sthultz CM, Flores-Renter{\'{i}}a L, Whipple AV, Whitham TG (2017)
 Lieberman E, Hauert C, Howak MA (2005) {Evolutionary dynamics on graphs}.
 \newblock {\em Nature} 433(7023):312--316.
 
-\bibitem{Rohr2014OnSystems}
-Rohr RP, Saavedra S, Bascompte J (2014) {On the structural stability of
-  mutualistic systems}.
-\newblock {\em Science} 345(6195).
-
-\bibitem{Barbour2019TraitCommunities}
-Barbour MA, et~al. (2019) {Trait plasticity is more important than genetic
-  variation in determining species richness of associated communities}.
-\newblock {\em Journal of Ecology} 107(1):350--360.
-
 \bibitem{Winfree2011}
 Winfree R, Gross BJ, Kremen C (2011) {Valuing pollination services to
   agriculture}.
@@ -208,6 +198,10 @@ Lamit LJ, et~al. (2015) {Genotype variation in bark texture drives lichen
 Ara{\'{u}}jo MB, Rozenfeld A, Rahbek C, Marquet PA (2011) {Using species
   co-occurrence networks to assess the impacts of climate change}.
 \newblock {\em Ecography} 34:897--908.
+
+\bibitem{Poisot2016TheNetworks}
+Poisot T, et~al. (2016) {The structure of probabilistic networks}.
+\newblock {\em Methods in Ecology and Evolution} 7(3):303--312.
 
 \bibitem{sna}
 Butts CT (2019) {\em sna: Tools for Social Network Analysis}.
@@ -247,6 +241,96 @@ Bdeir R, et~al. (2017) {Quantitative trait locus mapping of Populus bark
   features and stem diameter}.
 \newblock {\em BMC Plant Biology}.
 
+\bibitem{Barbour2019TraitCommunities}
+Barbour MA, et~al. (2019) {Trait plasticity is more important than genetic
+  variation in determining species richness of associated communities}.
+\newblock {\em Journal of Ecology} 107(1):350--360.
+
+\bibitem{Lau2016GenotypicEvolution}
+Lau MK, Keith AR, Borrett SR, Shuster SM, Whitham TG (2016) {Genotypic
+  variation in foundation species generates network structure that may drive
+  community dynamics and evolution}.
+\newblock {\em Ecology}.
+
+\bibitem{Weber2017EvolutionMacroevolution}
+Weber MG, Wagner CE, Best RJ, Harmon LJ, Matthews B (2017) {Evolution in a
+  Community Context: On Integrating Ecological Interactions and
+  Macroevolution}.
+
+\bibitem{Valverde2018TheSpandrel}
+Valverde S, et~al. (2018) {The architecture of mutualistic networks as an
+  evolutionary spandrel}.
+\newblock {\em Nature Ecology and Evolution} 2(1):94--99.
+
+\bibitem{Harmon2019DetectingInteractions}
+Harmon LJ, et~al. (2019) {Detecting the macroevolutionary signal of species
+  interactions}.
+\newblock {\em Journal of Evolutionary Biology} 32(8):769--782.
+
+\bibitem{Maliet2020AnNetworks}
+Maliet O, Loeuille N, Morlon H (2020) {An individual‐based model for the
+  eco‐evolutionary emergence of bipartite interaction networks}.
+\newblock {\em Ecology Letters} 23(11):1623--1634.
+
+\bibitem{Guimaraes2020TheOrganization}
+Guimar{\~{a}}es PR (2020) {The Structure of Ecological Networks Across Levels
+  of Organization}.
+\newblock {\em Annual Review of Ecology, Evolution, and Systematics} 51(1).
+
+\bibitem{Lleberman2005EvolutionaryGraphs}
+Lleberman E, Hauert C, Howak MA (2005) {Evolutionary dynamics on graphs}.
+\newblock {\em Nature} 433(7023):312--316.
+
+\bibitem{Diaz-Castelazo2010}
+D{\'{i}}az-Castelazo C, et~al. (2010) {Changes of a mutualistic network over
+  time: Reanalysis over a 10-year period}.
+\newblock {\em Ecology}.
+
+\bibitem{Guimaraes2011}
+Guimar{\~{a}}es PR, Jordano P, Thompson JN (2011) {Evolution and coevolution in
+  mutualistic networks}.
+\newblock {\em Ecology letters} 14(9):877--85.
+
+\bibitem{Nelson2018LichenHelens}
+Nelson PR, McCune B, Wheeler T, Geiser LH, Crisafulli CM (2018) {Lichen
+  community development along a volcanic disturbance gradient at Mount St.
+  Helens} in {\em Ecological Responses at Mount St. Helens: Revisited 35 years
+  after the 1980 Eruption}.
+\newblock (Springer New York), pp. 185--198.
+
+\bibitem{Norby1989NitrogenDioxide}
+Norby RJ, Sigal LL (1989) {Nitrogen fixation in the lichen Lobaria pulmonaria
+  in elevated atmospheric carbon dioxide}.
+\newblock {\em Oecologia} 79(4):566--568.
+
+\bibitem{Arnold2009ADiversification}
+Arnold AE, et~al. (2009) {A phylogenetic estimation of trophic transition
+  networks for ascomycetous Fungi: Are lichens cradles of symbiotrophic Fungal
+  diversification?}
+\newblock {\em Systematic Biology} 58(3):283--297.
+
+\bibitem{Chagnon2016InteractionScale}
+Chagnon PL, U’Ren JM, Miadlikowska J, Lutzoni F, Elizabeth~Arnold A (2016)
+  {Interaction type influences ecological network structure more than local
+  abiotic conditions: evidence from endophytic and endolichenic fungi at a
+  continental scale}.
+\newblock {\em Oecologia} 180(1):181--191.
+
+\bibitem{Elias2013EvolutionaryNetwork}
+Elias M, Fontaine C, Frank Van~Veen FJ (2013) {Evolutionary history and
+  ecological processes shape a local multilevel antagonistic network}.
+\newblock {\em Current Biology} 23(14):1355--1359.
+
+\bibitem{Grilli2016ModularityCommunities}
+Grilli J, Rogers T, Allesina S (2016) {Modularity and stability in ecological
+  communities}.
+\newblock {\em Nature Communications} 7.
+
+\bibitem{Staniczenko2013TheNetworks}
+Staniczenko PP, Kopp JC, Allesina S (2013) {The ghost of nestedness in
+  ecological networks}.
+\newblock {\em Nature Communications} 4(1):1--6.
+
 \bibitem{Borgatti2006}
 Borgatti SP, Everett MG (2006) {A Graph-theoretic perspective on centrality}.
 \newblock {\em Social Networks} 28:466--484.
@@ -265,21 +349,21 @@ Toju H, Guimar{\~{a}}es PR, Olesen JM, Thompson JN (2014) {Assembly of complex
   plant-fungus networks}.
 \newblock {\em Nature Communications}.
 
-\bibitem{Diaz-Castelazo2010}
-D{\'{i}}az-Castelazo C, et~al. (2010) {Changes of a mutualistic network over
-  time: Reanalysis over a 10-year period}.
-\newblock {\em Ecology}.
+\bibitem{Coelho2018NeutralInteractions}
+Coelho MTP, Rangel TF (2018) {Neutral community dynamics and the evolution of
+  species interactions}.
+\newblock {\em American Naturalist} 191(4):421--434.
 
-\bibitem{Guimaraes2011}
-Guimar{\~{a}}es PR, Jordano P, Thompson JN (2011) {Evolution and coevolution in
-  mutualistic networks}.
-\newblock {\em Ecology letters} 14(9):877--85.
+\bibitem{Santamaria2007LinkageBarriers}
+Santamar{\'{i}}a L, Rodr{\'{i}}guez-Giron{\'{e}}s MA (2007) {Linkage rules for
+  plant-pollinator networks: Trait complementarity or exploitation barriers?}
+\newblock {\em PLoS Biology} 5(2):0354--0362.
 
-\bibitem{Rowntree2011}
-Rowntree JK, Shuker DM, Preziosi RF (2011) {Forward from the crossroads of
-  ecology and evolution.}
-\newblock {\em Philosophical transactions of the Royal Society of London.
-  Series B, Biological sciences} 366(1569):1322--8.
+\bibitem{Dormann2017IdentifyingLimitations}
+Dormann CF, Fr{\"{u}}nd J, Schaefer HM (2017) {Identifying Causes of Patterns
+  in Ecological Networks: Opportunities and Limitations}.
+\newblock {\em Annual Review of Ecology, Evolution, and Systematics}
+  48(1):559--584.
 
 \bibitem{Thompson2013a}
 Thompson JN, Schwind C, Guimaraes PR, Friberg M (2013) {Diversification through
@@ -290,6 +374,12 @@ Thompson JN, Schwind C, Guimaraes PR, Friberg M (2013) {Diversification through
 Crutsinger GM, et~al. (2014) {Testing a ‘genes-to-ecosystems’ approach to
   understanding aquatic-terrestrial linkages}.
 \newblock {\em Molecular Ecology} 23(23):5888--5903.
+
+\bibitem{Rowntree2011}
+Rowntree JK, Shuker DM, Preziosi RF (2011) {Forward from the crossroads of
+  ecology and evolution.}
+\newblock {\em Philosophical transactions of the Royal Society of London.
+  Series B, Biological sciences} 366(1569):1322--8.
 
 \bibitem{Zook2010}
 Zook AE, Eklof A, Jacob U, Allesina S (2010) {Food webs: Ordering species
