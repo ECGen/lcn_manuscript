@@ -77,6 +77,42 @@ G{\'{o}}mez JM, Abdelaziz M, Camacho JPM, Mu{\~{n}}oz-Pajares AJ, Perfectti F
   geographic mosaic}.
 \newblock {\em Ecology Letters} 12(7):672--682.
 
+\bibitem{Shuster2006COMMUNITYSTRUCTURE}
+Shuster SM, Lonsdorf EV, Wimp GM, Bailey JK, Whitham TG (2006) {COMMUNITY
+  HERITABILITY MEASURES THE EVOLUTIONARY CONSEQUENCES OF INDIRECT GENETIC
+  EFFECTS ON COMMUNITY STRUCTURE}.
+\newblock {\em Evolution} 60(5):991.
+
+\bibitem{Whitham2020IntraspecificEvolution}
+Whitham TG, Allan GJ, Cooper HF, Shuster SM (2020) {Intraspecific Genetic
+  Variation and Species Interactions Contribute to Community Evolution}.
+\newblock {\em Annual Review of Ecology, Evolution, and Systematics} 51(1).
+
+\bibitem{Gehring2014PlantChange}
+Gehring C, et~al. (2014) {Plant genetics and interspecific competitive
+  interactions determine ectomycorrhizal fungal community responses to climate
+  change}.
+\newblock {\em Molecular Ecology} 23(6):1379--1391.
+
+\bibitem{Gehring2017a}
+Gehring CA, Sthultz CM, Flores-Renter{\'{i}}a L, Whipple AV, Whitham TG (2017)
+  {Tree genetics defines fungal partner communities that may confer drought
+  tolerance}.
+\newblock {\em Proceedings of the National Academy of Sciences}.
+
+\bibitem{Newman2006}
+Newman MEJ (2006) {Modularity and community structure in networks.}
+\newblock {\em Proceedings of the National Academy of Sciences of the United
+  States of America} 103(23):8577--82.
+
+\bibitem{Sole2006Self-OrganizationEcosystems}
+Sole R, Bascompte J (2006) {\em {Self-Organization in Complex Ecosystems}}.
+\newblock (Princeton University Press, Princeton, N.J.).
+
+\bibitem{Lieberman2005EvolutionaryGraphs}
+Lieberman E, Hauert C, Howak MA (2005) {Evolutionary dynamics on graphs}.
+\newblock {\em Nature} 433(7023):312--316.
+
 \bibitem{Bangert2006}
 Bangert RK, et~al. (2006) {A genetic similarity rule determines arthropod
   community structure.}
@@ -127,41 +163,10 @@ Keith AR, Bailey JK, Lau MK, Whitham TG (2017) {Genetics-based interactions of
 \newblock {\em Proceedings of the Royal Society B: Biological Sciences}
   284(1854):20162703.
 
-\bibitem{Newman2006}
-Newman MEJ (2006) {Modularity and community structure in networks.}
-\newblock {\em Proceedings of the National Academy of Sciences of the United
-  States of America} 103(23):8577--82.
-
-\bibitem{Sole2006Self-OrganizationEcosystems}
-Sole R, Bascompte J (2006) {\em {Self-Organization in Complex Ecosystems}}.
-\newblock (Princeton University Press, Princeton, N.J.).
-
-\bibitem{Shuster2006COMMUNITYSTRUCTURE}
-Shuster SM, Lonsdorf EV, Wimp GM, Bailey JK, Whitham TG (2006) {COMMUNITY
-  HERITABILITY MEASURES THE EVOLUTIONARY CONSEQUENCES OF INDIRECT GENETIC
-  EFFECTS ON COMMUNITY STRUCTURE}.
-\newblock {\em Evolution} 60(5):991.
-
-\bibitem{Whitham2020IntraspecificEvolution}
-Whitham TG, Allan GJ, Cooper HF, Shuster SM (2020) {Intraspecific Genetic
-  Variation and Species Interactions Contribute to Community Evolution}.
-\newblock {\em Annual Review of Ecology, Evolution, and Systematics} 51(1).
-
-\bibitem{Gehring2014PlantChange}
-Gehring C, et~al. (2014) {Plant genetics and interspecific competitive
-  interactions determine ectomycorrhizal fungal community responses to climate
-  change}.
-\newblock {\em Molecular Ecology} 23(6):1379--1391.
-
-\bibitem{Gehring2017a}
-Gehring CA, Sthultz CM, Flores-Renter{\'{i}}a L, Whipple AV, Whitham TG (2017)
-  {Tree genetics defines fungal partner communities that may confer drought
-  tolerance}.
-\newblock {\em Proceedings of the National Academy of Sciences}.
-
-\bibitem{Lieberman2005EvolutionaryGraphs}
-Lieberman E, Hauert C, Howak MA (2005) {Evolutionary dynamics on graphs}.
-\newblock {\em Nature} 433(7023):312--316.
+\bibitem{Martinsen2001HybridSpecies}
+Martinsen GD, Whitham TG, Turek RJ, Keim P (2001) {Hybrid populations
+  selectively filter gene introgression between species}.
+\newblock {\em Evolution} 55(7):1325--1335.
 
 \bibitem{Winfree2011}
 Winfree R, Gross BJ, Kremen C (2011) {Valuing pollination services to
