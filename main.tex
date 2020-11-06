@@ -1,110 +1,77 @@
-%% All authors must submit their articles at
-%% \href{http://www.pnascentral.org/cgi-bin/main.plex}{PNAScentral}. If
-%% you are using Overleaf to write your article, you can use the
-%% ``Submit to PNAS'' option in the top bar of the editor window.
+%% Basic Academic Journal Article Template
+%% Author
+%% John Hammersley
+%% License
+%% Creative Commons CC BY 4.0
+%% Abstract
+%% This is a basic journal article template which includes metadata fields for multiple authors, affiliations and keywords.
 
-\documentclass[11pt,twocolumn,twoside,lineno]{pnas-new}
-% Use the lineno option to display guide line numbers if required.
+%% It is also set up to use the lineno package for line numbers; these can be turned on by adding the 'lineno' option to the documentclass command.
+
+%% Tags
+%% Find More Templates
+%% Basic Academic Journal Article Template
+%% © 2020 OverleafPrivacy and TermsSecurityContact UsAboutBlog
+%% Overleaf on TwitterOverleaf on FacebookOverleaf on LinkedIn
+\documentclass[fleqn,12pt]{olplainarticle}
+
+% Use option lineno for line numbers 
 
 \usepackage[utf8]{inputenc}
-
-\templatetype{pnasresearcharticle} % Choose template 
-% {pnasresearcharticle} = Template for a two-column research article
-% {pnasmathematics} %= Template for a one-column mathematics article
-% {pnasinvited} %= Template for a PNAS invited submission
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{lineno}
+\linenumbers
 
 \title{Genotypic variation in a foundation tree results in heritable
   ecological network structure of an associated community}
 
-% Use letters for affiliations, numbers to show equal authorship (if
-% applicable) and to indicate the corresponding author
+\author[1,2]{Matthew K. Lau}
+\author[1,3]{Louis J. Lamit}
+\author[1, 4]{Rikke R. Naesbourg}
+\author[5]{Stuart R. Borrett}
+\author[6]{Matthew A. Bowker}
+\author[1,3]{Thomas G. Whitham}
 
-\author[a,b,1]{Matthew K. Lau}
-\author[b]{Louis J. Lamit}
-\author[c]{Rikke R. Naesbourg}
-\author[d]{Stuart R. Borrett}
-\author[e]{Matthew A. Bowker}
-\author[a]{Thomas G. Whitham}
-
-%% Include department, institution, and complete address, with the
-%% ZIP/postal code, for each author. Use lower case letters to match
-%% authors with institutions, as shown in the example. 
-%% Authors with an ORCID ID may supply this information at submission.
-
-\affil[a]{Department of Biological Sciences and Merriam-Powell Center
+\affil[1]{Department of Biological Sciences and Merriam-Powell Center
   for Environmental Research, Northern Arizona University, Flagstaff,
   AZ 86011, USA}
-\affil[b]{Harvard Forest, Harvard University, 324 N Main St,
+\affil[2]{Harvard Forest, Harvard University, 324 N Main St,
   Petersham, MA 01366, USA}
-\affil[d]{Department of Biology, Syracuse University, 107 College
+\affil[3]{Department of Biology, Syracuse University, 107 College
   Place Syracuse, NY 13244, USA}
-\affil[e]{University of California Berkeley, Berkeley, CA, USA}
-\affil[f]{Department of Biology and Marine Biology, University of
+\affil[4]{Cheadle Center for Biodiversity and Restoration, University
+  of California Santa Barbara, Santa Barbara, CA 93106, USA}
+\affil[5]{Department of Biology and Marine Biology, University of
   North Carolina Wilmington, 601 South College Road, Wilmington, NC,
   28403, USA}
-\affil[g]{School of Forestry, Northern Arizona University, Flagstaff,
+\affil[6]{School of Forestry, Northern Arizona University, Flagstaff,
   AZ 86011, USA}
-\affil[h]{Current Address: Institute of Applied Ecology, Chinese
-  Academy of Sciences, Shenyang, China 00000-00000}
 
-% Please give the surname of the lead author for the running footer
-\leadauthor{Lau} 
-% Use letters for affiliations, numbers to show equal authorship (if
-% applicable) and to indicate the corresponding author
-% Please add here a significance statement to explain the relevance of your work
-
-%% Authors must submit a 120-word maximum statement about the
-%% significance of their research paper written at a level
-%% understandable to an undergraduate educated scientist outside their
-%% field of speciality. The primary goal of the Significance Statement
-%% is to explain the relevance of the work in broad context to a broad
-%% readership. The Significance Statement appears in the paper itself
-%% and is required for all research papers.
-
-\significancestatement{Evolution occurs in the context of ecosystems
-  comprised of complex ecological networks. Research at the interface
-  of ecology and evolution has primarily focused on pairwise
-  interactions among species and have rarely included a genetic
-  component to network structure. Here, we used a 20+ year common
-  garden experiment to reveal the effect that genotypic variation can
-  have on networks of lichens that colonize the bark of a foundation
-  tree species. We found that lichen interaction network structure is
-  genetically based and primarily driven by bark roughness. These
-  findings demonstrate the importance of genetic variation and
-  evolutionary dynamics in shaping ecological networks as evolved
-  traits. In particular, this study points to the importance of
-  assessing the effect of foundation species genetics on the structure
-  of species interactions that can generate heritable network
-  variation that selection can act upon.}
-
-
-% Please include corresponding author, author contribution and author
-% declaration information
-
-\authorcontributions{M.L. and L.L. conceived the study, M.L. and
-  L.L. conducted the field work, R.N.  assisted in lichen
-  identifications, M.L. wrote the first draft of the manuscript,
-  S.B. and T.W. contributed substantively to the conceptual
-  development, T.W. established the common garden. All authors
-  contributed to revisions of the manuscript.}
-\authordeclaration{The authors have no conflicts of interest.}
-\correspondingauthor{\textsuperscript{1}Dr. Matthew K. Lau. E-mail:
-  matthewklau@fas.harvard.edu}
-
-% Keywords are not mandatory, but authors are strongly encouraged to
-% provide them. If provided, please include two to five keywords,
-% separated by the pipe symbol, e.g:
 \keywords{networks $|$ heritability $|$ community $|$ genetics $|$
   lichen $|$ cottonwood $|$ \textit{Populus} $|$ common garden}
 
+%% \significancestatement{Evolution occurs in the context of ecosystems
+%%   comprised of complex ecological networks. Research at the interface
+%%   of ecology and evolution has primarily focused on pairwise
+%%   interactions among species and have rarely included a genetic
+%%   component to network structure. Here, we used a 20+ year common
+%%   garden experiment to reveal the effect that genotypic variation can
+%%   have on networks of lichens that colonize the bark of a foundation
+%%   tree species. We found that lichen interaction network structure is
+%%   genetically based and primarily driven by bark roughness. These
+%%   findings demonstrate the importance of genetic variation and
+%%   evolutionary dynamics in shaping ecological networks as evolved
+%%   traits. In particular, this study points to the importance of
+%%   assessing the effect of foundation species genetics on the structure
+%%   of species interactions that can generate heritable network
+%%   variation that selection can act upon.}
+
+
 \begin{abstract}
-%% Please provide an abstract of no more than 250 words in a single
-%% paragraph. Abstracts should explain to the general reader the major
-%% contributions of the article. References in the abstract must be
-%% cited in full within the abstract itself and cited in the text.
 
 %% Currently: 250 words (Thu 05 Nov 2020 10:55:40 AM EST)
-
+  
 Biological evolution occurs in ecosystems whereby natural selection
 defines the structure of ecological networks. Therefore, elucidating
 the genetic basis to ecological network structure is fundamental to
@@ -133,137 +100,18 @@ the scale of entire networks. Given that network structure has
 determines system-wide stability and resilience, our findings have
 important implications for how evolution acts in ecosystems.
 
-
 \end{abstract}
-
-\dates{This manuscript was compiled on \today}
-\doi{\url{www.pnas.org/cgi/doi/10.1073/pnas.XXXXXXXXXX}}
 
 \begin{document}
 
-%% Many authors find it useful to organize their manuscripts with the
-%% following order of sections; Title, Author Affiliation, Keywords,
-%% Abstract, Significance Statement, Results, Discussion, Materials
-%% and methods, Acknowledgments, and References. Other orders and
-%% headings are permitted.
+\flushbottom
+\maketitle
+\date
+\thispagestyle{empty}
 
-%% PNAS generally uses a two-column format averaging 67 characters,
-%% including spaces, per line. The maximum length of a Direct
-%% Submission research article is six pages and a Direct Submission
-%% Plus research article is ten pages including all text, spaces, and
-%% the number of characters displaced by figures, tables, and
-%% equations.  When submitting tables, figures, and/or equations in
-%% addition to text, keep the text for your manuscript under 39,000
-%% characters (including spaces) for Direct Submissions and 72,000
-%% characters (including spaces) for Direct Submission Plus.
+\section*{Introduction}
 
-%% Authors may use 1- or 2-column equations in their article,
-%% according to their preference.
-
-%% To allow an equation to span both columns, use the
-%% \verb|\begin{figure*}...\end{figure*}| environment mentioned above
-%% for figures.
-
-%% Note that the use of the \verb|widetext| environment for equations
-%% is not recommended, and should not be used.
-
-%% \begin{figure*}[bt!]
-%% \begin{align*}
-%% (x+y)^3&=(x+y)(x+y)^2\\
-%%        &=(x+y)(x^2+2xy+y^2) \numberthis \label{eqn:example} \\
-%%        &=x^3+3x^2y+3xy^3+x^3. 
-%% \end{align*}
-%% \end{figure*}
-
-
-%% \begin{table}%[tbhp]
-%% \centering
-%% \caption{Comparison of the fitted potential energy surfaces and ab
-%% initio benchmark electronic energy calculations}
-%% \begin{tabular}{lrrr}
-%% Species & CBS & CA & G3 \\
-%% \midrule
-%% 1. Acetaldehyde & 0.0 & 0.0 & 0.0 \\
-%% 2. Vinyl alcohol & 9.1 & 9.6 & 13.5 \\
-%% 3. Hydroxyethylidene & 50.8 & 51.2 & 54.0\\
-%% \bottomrule
-%% \end{tabular}
-%% \addtabletext{nomenclature for the TSs refers to the numbered
-%% species in the table.}
-%% \end{table}
-
-%% References should be cited in numerical order as they appear in
-%% text; this will be done automatically via bibtex,
-%% e.g. \cite{belkin2002using} and
-%% \cite{berard1994embedding,coifman2005geometric}. All references
-%% should be included in the main manuscript file.
-
-%% PNAS must be able to archive the data essential to a published
-%% article. Where such archiving is not possible, deposition of data
-%% in public databases, such as GenBank, ArrayExpress, Protein Data
-%% Bank, Unidata, and others outlined in the Information for Authors,
-%% is acceptable.
-
-
-%% Only TIFF, EPS, and high-resolution PDF for Mac or PC are allowed
-%% for figures that will appear in the main text, and images must be
-%% final size. Authors may submit U3D or PRC files for 3D images;
-%% these must be accompanied by 2D representations in TIFF, EPS, or
-%% high-resolution PDF format.  Color images must be in RGB (red,
-%% green, blue) mode. Include the font files for any text.
-
-%% Figures and Tables should be labeled and referenced in the
-%% standard way using the \verb|\label{}| and \verb|\ref{}| commands.
-
-%% Figure \ref{fig:frog} shows an example of how to insert a
-%% column-wide figure. To insert a figure wider than one column,
-%% please use the \verb|\begin{figure*}...\end{figure*}|
-%% environment. Figures wider than one column should be sized to 11.4
-%% cm or 17.8 cm wide. Use \verb|\begin{SCfigure*}...\end{SCfigure*}|
-%% for a wide figure with side captions.
-
-%% Authors should submit SI as a single separate PDF file, combining
-%% all text, figures, tables, movie legends, and SI references.  PNAS
-%% will publish SI uncomposed, as the authors have provided it.
-%% Additional details can be found here:
-%% \href{http://www.pnas.org/page/authors/journal-policies}{policy on
-%% SI}.  For SI formatting instructions click
-%% \href{https://www.pnascentral.org/cgi-bin/main.plex?form_type=display_auth_si_instructions}{here}.
-%% The PNAS Overleaf SI template can be found
-%% \href{https://www.overleaf.com/latex/templates/pnas-template-for-supplementary-information/wqfsfqwdiscujtsd}{here}.
-%% Refer to the SI Appendix in the manuscript at an appropriate point
-%% in the text. Number supporting figures and tables starting with S1,
-%% S2, etc.
-
-%% Authors who place detailed materials and methods in an SI Appendix
-%% must provide sufficient detail in the main text methods to enable a
-%% reader to follow the logic of the procedures and results and also
-%% must reference the SI methods. If a paper is fundamentally a study
-%% of a new method or technique, then the methods must be described
-%% completely in the main text.
-
-
-\maketitle \thispagestyle{firststyle}
-\ifthenelse{\boolean{shortarticle}}{\ifthenelse{\boolean{singlecolumn}}{\abscontentformatted}{\abscontent}}{}
-
-% If your first paragraph (i.e. with the \dropcap) contains a list
-% environment (quote, quotation, theorem, definition, enumerate,
-% itemize...), the line after the list may have some extra
-% indentation. If this is the case, add \parshape=0 to the end of the
-% list environment.
-
-%% \dropcap{T}his PNAS journal template is provided to help you write
-%% your work in the correct journal format.  Instructions for use are
-%% provided below.
-
-%% Note: please start your introduction without including the word
-%% ``Introduction'' as a section heading (except for math articles in
-%% the Physical Sciences section); this heading is implied in the
-%% first paragraphs.
-
-%% Introduction
-
-\dropcap{E}volution occurs in the context of complex ecological
+Evolution occurs in the context of complex ecological
 networks. Community genetics studies have shown that genetic variation
 in foundation species, which have large effects on ecosystems by
 modulating and stabilizing local conditions \cite{Ellison2005}, plays
@@ -393,7 +241,8 @@ based, or, in other words, plant genotypes will support different and
 heritable interaction networks. 
 
 
-\matmethods{
+\section*{Materials and Methods}
+
 
 \subsection*{Study System}
 
@@ -464,7 +313,7 @@ pH and carbon and nitrogen concentrations and pH.
 
 \begin{figure}[t]
 \centering
-\includegraphics[width=\linewidth]{lcn_sampling.png}
+\includegraphics[width=\linewidth]{figures/lcn_sampling.png}
 \caption{The communities of bark lichens were observed in a common
   garden of replicated genotypes of narrowleaf cottonwood trees
   (\textit{P. angustifolia}) at the Ogden Nature Center (Ogden,
@@ -546,7 +395,7 @@ resulting $D_{ii} = 0$.
 
 \begin{figure*}[ht]
 \centering
-\includegraphics[width=\linewidth]{lcn_araujo_method.pdf}
+\includegraphics[width=\linewidth]{figures/lcn_araujo_method.pdf}
 \caption{Lichen interaction networks were constructed by conducting
   field observations in 1 cm$^2$ cells within a 100 cm$^2$ grid on each
   tree using a checkerboard pattern (grey cells). Thus, a set of $N$
@@ -650,10 +499,10 @@ the total phenotypic variance \cite{Conner2004ATextbook}. This can be
 interpreted as a measure of the phenotypic variance due to genotypic
 variation. We also apply this to the community genetics context as the
 variance in \textit{extended} phenotypic variance due to genotypic
-variation \cite{DawkinsTheGene}. For the multivariate analyses, where
-we employ PERMANOVA, we followed the methods of
-\citep{Shuster2006COMMUNITYSTRUCTURE} to adjust the degrees of freedom
-for unbalanced genotype replicates.
+variation \cite{Whitham2006a, Whitham2012, Crutsinger2016}. For the
+multivariate analyses, where we employ PERMANOVA, we followed the
+methods of \citep{Shuster2006COMMUNITYSTRUCTURE} to adjust the degrees
+of freedom for unbalanced genotype replicates.
 
 All code and data for the project are openly available online. Code
 and data are available at \url{github.com/ecgen/comgen}. The project
@@ -663,7 +512,7 @@ analyses were conducted using the programming language R version 3.6.1
 
 \begin{figure}[ht]
 \centering
-\includegraphics[width=\linewidth]{cn_onc.pdf}
+\includegraphics[width=\linewidth]{figures/cn_onc.pdf}
 \caption{Lichen networks varied in structure among tree
   genotypes. Network diagrams of the mean lichen interaction matrices
   averaged for all trees and for several individual genotypes (996,
@@ -680,13 +529,8 @@ analyses were conducted using the programming language R version 3.6.1
   vary over both space and time.}
 \label{fig:geno_nets}
 \end{figure}
-}
-
-\showmatmethods{} % Display the Materials and Methods section
 
 \section*{Results}
-
-%% New results Fri May  1 19:00:26 EDT 2020
 
 Tree genotype influenced lichen network structure and multiple lichen
 network metrics were heritable.  Tree genotype significantly predicted
@@ -713,7 +557,7 @@ and out-going centralization (negative) (\textit{RLRT} = 0.0862, $H^2$
 
 \begin{figure*}[ht]
 \centering
-\includegraphics[width=\linewidth]{h2_plot.pdf}
+\includegraphics[width=\linewidth]{figures/h2_plot.pdf}
 \caption{The similarity of lichen networks varied among tree
   genotypes. A. The plot shows genotype centroids of NMDS ordinated
   (R$^2$ = 0.999, stress = 0.008) lichen network similarity ($\pm$ 1
@@ -729,7 +573,7 @@ and out-going centralization (negative) (\textit{RLRT} = 0.0862, $H^2$
 \label{fig:h2_plot}
 \end{figure*}
 
-\input{h2_reml_net}
+\input{tables/h2_reml_net}
 
 The genetic response of network centralization was driven by variation
 in \textit{Caloplaca holocarpa}. Centrality varied significantly among
@@ -754,7 +598,7 @@ relative to \textit{C. holocarpa} and the variation in
 
 \begin{figure*}[ht]
 \centering
-\includegraphics[width=\linewidth]{geno_sppcen.pdf}
+\includegraphics[width=\linewidth]{figures/geno_sppcen.pdf}
 \caption{Dot-plots showing the mean (dot) and $\pm$ 1 SE of in-degree
   (A) and out-degree (B) centrality for two species,
   \textit{C. holocarpa} and \textit{X. montana}. \textit{Caloplaca
@@ -797,11 +641,11 @@ $H^2$ = 0.00, \textit{p-value} = 1.0000), suggesting that the observed
 relationship between bark roughness and lichen network structure was
 largely genetically based (Fig.~\ref{fig:br_net}).
 
-\input{cn_trait_perm.tex}
+\input{tables/cn_trait_perm.tex}
 
 \begin{figure*}[ht]
 \centering
-\includegraphics[width=\linewidth]{br_net.pdf}
+\includegraphics[width=\linewidth]{figures/br_net.pdf}
 \caption{Bivariate plots of the negative relationship between bark
   roughness and two network metrics: A) degree and B)
   centralization. Each plot displays the genotype mean ($\pm$ 1 S.E)
@@ -811,14 +655,6 @@ largely genetically based (Fig.~\ref{fig:br_net}).
   those interactions decreased.}
 \label{fig:br_net}
 \end{figure*}
-
-
-%% In addition to including your tables within this manuscript file, PNAS
-%% requires that each table be uploaded to the submission separately as a
-%% “Table” file.  Please ensure that each table .tex file contains a
-%% preamble, the \verb|\begin{document}| command, and the
-%% \verb|\end{document}| command. This is necessary so that the
-%% submission system can convert each file to PDF.
 
 
 \section*{Discussion}
@@ -1246,195 +1082,38 @@ the evolutionary drivers of Darwin's entangled bank and the
 interconnectedness of species in complex communities.
 
 
+\subsection*{Acknowledgements}
 
-
-
-%% \textbf{TGW:  Is there any adaptive component to the tree in having
-%%   certain lichen communities?  e.g., can they feed back to affect tree
-%%   performance in some way or is this a passive outcome of a trait that
-%%   affects bark for other adaptive reasons and lichens are passive
-%%   players that tag along for the ride?  I could envision that lichens
-%%   covering the bark of a tree act as a barrier between insects and
-%%   pathogens, much like ectomycorrhizae cover fine roots as a first
-%%   line of defense by invading microorganisms.  Uptake of N that gets
-%%   passed to the tree??}
-
-
-%% \textbf{LJL: I agree that there is a general overarching theme that
-%%   evolution occurs in a community network context, but I’m not sure
-%%   that we should state that as our main hypothesis. It seems more that
-%%   this is a fundamental foundation for our work. The hypothesis is
-%%   more what we are testing directly, but we don’t test this
-%%   directly. I guess I don’t want to give the impresison that our
-%%   communities are necessarily the result of each species evolving into
-%%   its place in the community on these tree genotypes (although I do
-%%   understand this as Shuster et al 2006’s fundamental explanation for
-%%   why we see different communities on different genotypes; I don’t
-%%   necessarily agree that this is the only reason we woudl see
-%%   different communities on dif genotypes). Most of these are pretty
-%%   generalist lichens, which could be found on other decidous trees in
-%%   the surounding city or natural areas. I would look at it more like
-%%   an assembling of lichen species into unique configurations on
-%%   genetically different substrates. There may be some selection for
-%%   different genotype of lichen during the community assembly process
-%%   but we can’t really tell that just by differences in species
-%%   abundances or coocurneces. I guess to me the evolutionary context
-%%   that is more direclty related to this work is that the tree genotype
-%%   is a central controller (indeed a sort of hub species in the
-%%   network) of network structure. By anchoring the lichen network to
-%%   tree genotype (and variation among networks to variation among tree
-%%   genotypes) , our study highlights the possibility that natural
-%%   selection acting on the trees may have an extended consequence for
-%%   the network structure of organisms living on the trees…the extra
-%%   thing we add to the field is that we show interaction networks are
-%%   sensitive to genotype. I doubt the lichens have a direct effect on
-%%   tree fitness, but favorability of some tree genotypes over others
-%%   during natural selection will then go on to favor and disfavor
-%%   certain lichen communities of different network structures. By being
-%%   sensitive to tree genotype, the lichen community networks are
-%%   passive riders on the waves of evolutionary dynamics that occur
-%%   within the tree species they inhabit.}
-
-%% \textbf{TGW: might be good to \cite papers on competition in lichens or
-%%   other organizing factors to back up the least expected statement.
-%%   as epiphytes we might not expect them to care.}
-
-%% \textbf{TGW: I think we need to emphasize the long-term nature of our
-%%   common garden study as very few common garden studies of lichens
-%%   likely exist. Any refs on this? If true might want to mention this
-%%   up front in intro.}
-
-%% \textbf{MKL: Environmental filtering is evidenced by species richness,
-%%   but also possibly species interaction varying based on environment
-%%   as networks varied in terms of sign and magnitude as well.}
-
-%% \textbf{MKL: The effect of bark roughness on network similarity was
-%%   primarily genetically based, and there are likely other factors at
-%%   play.}
-
-%% \textbf{Discussion of network implications for stability with genetics.}
-
-
-%% Please include your acknowledgments here, set in a single
-%% paragraph. Please do not include any acknowledgments in the
-%% Supporting Information, or anywhere else in the manuscript.
-
-
-
-\acknow{This work was supported by the National Science Foundation grant
+This work was supported by the National Science Foundation grant
 (DEB-0425908) and Integrative Graduate Research Traineeship (IGERT)
 fellowships for M.L. and L.L. The Ogden Nature Center staff helped to
 maintain the common gardens. Lichen sampling was supported by Todd
-Wojtowicz, Luke Evans and David Solance Smith.}
+Wojtowicz, Luke Evans and David Solance Smith.
 
-\showacknow{} % Display the acknowledgments section
+
+%% \subsection*{Figures and Tables}
+
+%% Use the table and tabular commands for basic tables --- see Table~\ref{tab:widgets}, for example. You can upload a figure (JPEG, PNG or PDF) using the project menu. To include it in your document, use the includegraphics command as in the code for Figure~\ref{figures/fig:view} below.
+
+%% \begin{figure}[ht]
+%% \centering
+%% \includegraphics[width=0.7\linewidth]{figures/frog}
+%% \caption{An example image of a frog.}
+%% \label{fig:view}
+%% \end{figure}
+
+%% \begin{table}[ht]
+%% \centering
+%% \begin{tabular}{l|r}
+%% Item & Quantity \\\hline
+%% Candles & 4 \\
+%% Fork handles & ?  
+%% \end{tabular}
+%% \caption{\label{tab:widgets}An example table.}
+%% \end{table}
+
+\subsection*{Citations}
 
 \bibliography{lichen_network_genetics, r_pkgs}
 
-\newpage
-\section*{Supplementary Materials}
-
-\setcounter{figure}{0}
-\setcounter{table}{0}
-
-\subsection*{Tables}
-
-\newpage
-\input{cn_perm.tex}
-
-\newpage
-\input{h2_reml.tex}
-
-
-\newpage
-\input{sppcen.tex}
-
-\newpage
-\input{cormat.tex}
-
-\newpage
-\input{com_perm.tex}
-
-\newpage
-\subsection*{Figures}
-
-\begin{figure*}[ht]
-\centering
-\includegraphics[width=\linewidth]{xg_size.pdf}
-\caption{}
-\label{fig:xg_size_app}
-\end{figure*}
-
-\begin{figure*}[ht]
-\centering
-\includegraphics[width=\linewidth]{spac_geno.pdf}
-\caption{Species area curve by genotype.}
-\label{fig:spac_geno_app}
-\end{figure*}
-
-
-\begin{figure*}[ht]
-\centering
-\includegraphics[width=\linewidth]{spp_cen.pdf}
-\caption{}
-\label{fig:spp_cen_app}
-\end{figure*}
-
-%% \begin{figure*}[ht]
-%% \centering
-%% \includegraphics[width=\linewidth]{spp_cen_in.pdf}
-%% \caption{}
-%% \label{fig:spp_cen_in_app}
-%% \end{figure*}
-
-%% \begin{figure*}[ht]
-%% \centering
-%% \includegraphics[width=\linewidth]{spp_cen_out.pdf}
-%% \caption{}
-%% \label{fig:spp_cen_out_app}
-%% \end{figure*}
-
 \end{document}
-
-%% \subsection*{Supporting Information (SI)}
-
-%% Authors should submit SI as a single separate PDF file, combining
-%% all text, figures, tables, movie legends, and SI references.  PNAS
-%% will publish SI uncomposed, as the authors have provided it.
-%% Additional details can be found here:
-%% \href{http://www.pnas.org/page/authors/journal-policies}{policy on
-%% SI}.  For SI formatting instructions click
-%% \href{https://www.pnascentral.org/cgi-bin/main.plex?form_type=display_auth_si_instructions}{here}.
-%% The PNAS Overleaf SI template can be found
-%% \href{https://www.overleaf.com/latex/templates/pnas-template-for-supplementary-information/wqfsfqwyjtsd}{here}.
-%% Refer to the SI Appendix in the manuscript at an appropriate point
-%% in the text. Number supporting figures and tables starting with S1,
-%% S2, etc.
-
-%% Authors who place detailed materials and methods in an SI Appendix
-%% must provide sufficient detail in the main text methods to enable a
-%% reader to follow the logic of the procedures and results and also
-%% must reference the SI methods. If a paper is fundamentally a study
-%% of a new method or technique, then the methods must be described
-%% completely in the main text.
-
-%% \subsubsection*{SI Datasets} 
-
-%% Supply Excel (.xls), RTF, or PDF files. This file type will be
-%% published in raw format and will not be edited or composed.
-
-%% \subsubsection*{SI Movies}
-
-%% Supply Audio Video Interleave (avi), Quicktime (mov), Windows Media
-%% (wmv), animated GIF (gif), or MPEG files and submit a brief legend
-%% for each movie in a Word or RTF file. All movies should be
-%% submitted at the desired reproduction size and length. Movies
-%% should be no more than 10 MB in size.
-
-
-%% \subsubsection*{3D Figures}
-
-%% Supply a composable U3D or PRC file so that it may be edited and
-%% composed. Authors may submit a PDF file but please note it will be
-%% published in raw format and will not be edited or composed.
-
