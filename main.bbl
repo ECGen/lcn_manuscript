@@ -78,6 +78,12 @@ Borgatti, S.~P. and Everett, M.~G. (2006).
 \newblock {A Graph-theoretic perspective on centrality}.
 \newblock {\em Social Networks}, 28:466--484.
 
+\bibitem[Borrett et~al., 2007]{Borrett2007FunctionalProliferation}
+Borrett, S.~R., Fath, B.~D., and Patten, B.~C. (2007).
+\newblock {Functional integration of ecological networks through pathway
+  proliferation}.
+\newblock {\em Journal of Theoretical Biology}, 245(1):98--111.
+
 \bibitem[Borrett and Lau, 2014]{Borrett2014EnaR:Analysis}
 Borrett, S.~R. and Lau, M.~K. (2014).
 \newblock {enaR: An R package for Ecosystem Network Analysis}.
