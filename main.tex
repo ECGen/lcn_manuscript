@@ -445,17 +445,22 @@ species with a non-significant conditional probability zero.
 The resulting matrix ($\mathbf{D} = D_{ij}$) can be interpreted as one
 species' impact on another with zero being no effect and values less
 than or greater than zero being negative and positive effects,
-respectively. Here, we will refer to $\mathbf{D}$ as a signed,
-weighted interaction matrix. As such, $\mathbf{D}$ has the properties
-that it can be asymmetric (i.e., $D_{ij}$ does not necessarily equal
-$D_{ji}$) and it scales between -1 and 1, and, therefore, does not
-have the mathematical properties of a probabilistic network
+respectively. We will refer to $\mathbf{D}$ as a signed, weighted
+interaction matrix. As such, $\mathbf{D}$ has the properties that it
+can be asymmetric (i.e., $D_{ij}$ does not necessarily equal $D_{ji}$)
+and it scales between -1 and 1, and, therefore, does not have the
+mathematical properties of a probabilistic network
 \citep{Poisot2016TheNetworks}. Also, as the method does not track
 individuals within species and interactions such as competitive
 exclusion or facilitation within species would result in the same
 species being observed. Therefore, the results of intra-specific
 interactions always results in the same species being observed and a
-resulting $D_{ii} = 0$.
+resulting $D_{ii} = 0$. In the context of these networks, asymmetry
+and positive/negative valued connections are distinct
+quantities. In-coming and out-going connections can be interpreted as
+``influenced by'' and ``influenced'', respectively; while positive and
+negative should be seen as one species increasing or decreasing,
+respectively, the probability of another species' occurrence.
 
 \begin{figure*}[ht]
 \centering
@@ -473,13 +478,7 @@ resulting $D_{ii} = 0$.
   their observed co-occurrence frequency, $S_iS_j$, to that expected
   due to chance alone, $E[P(S_iS_j)] = P(S_i) P(S_j)$, and
   $P(S_i|S_j)$ reduces to $P(S_i)$, the observed individual
-  probability of species $S_i$. In the context of these networks,
-  asymmetry and positive/negative valued connections are distinct
-  quantities. In-coming and out-going connections can be interpreted
-  as ``influenced by'' and ``influenced'', respectively; while
-  positive and negative should be seen as one species increasing or
-  decreasing, respectively, the probability of another species'
-  occurrence.}
+  probability of species $S_i$.}
 \label{fig:conet_method}
 \end{figure*}
 
@@ -698,7 +697,7 @@ largely genetically based (Fig.~\ref{fig:br_net}).
   for both variables and a least-squares regression line calculated
   using the genotype means. Generally, as roughness increased the
   number of interactions (degree) and dominance of
-  those interactions decreased.}
+  those interactions (centralization) decreased.}
 \label{fig:br_net}
 \end{figure*}
 
@@ -872,9 +871,8 @@ has ecological effects on associated species.
 This builds on many previous studies demonstrating that the community
 level effects vary among genotypes. It is not clear what potential
 there is for feedbacks to the origins (e.g. the cottonwood genotypes)
-from the community, and as such it cannot be determined whether these
-networks are cyclic or rooted. In terrestrial ecosystems, lichen play
-important ecological roles, such as substrate stabilization
+from the community. In terrestrial ecosystems, lichen play important
+ecological roles, such as substrate stabilization
 \citep{Root2011BioticWashington} and nutrient fixation
 \citep{Nelson2018LichenHelens}. In some systems lignicolous lichens
 can have demonstrable effects on the availability of nutrients for the
@@ -959,115 +957,6 @@ the impact of network structure would be a productive path forward for
 the theoretical development and application of the IIGE concept. 
 
 
-
-\subsection*{Applicability to Other Systems}
-
-
-In attempting to apply these findings to other systems, it is
-important to consider the spatial and temporal scaling of genetic
-effects. In the present study, the sessile nature of lichens means
-that individuals, and potentially multiple generations, live their
-entire lives on a single tree. As such, our study examines one scaling
-of a genetic effect, in which the phenotype of a single tree
-individual (i.e., tree genotype) has complete influence on the
-community with little to no effect of other tree individuals in the
-population. The extreme from this would be where the associated
-community moved among and interacted with not only other community
-members but also multiple tree individuals at a high rate, as would be
-the case with free-living animals (e.g. flying insects). In the latter
-case, the effect of tree genetics would then be the integral effect of
-all the tree individuals in the population, and, all other factors
-being equal, any one tree genotype would have a lower effect on
-associated community. In reality, ecosystems are a mixture of species
-of different body sizes and life-histories, and, as such, vary in the
-degree to which they interact with other organisms, which is the basis
-of the theory of the geographic mosaic of co-evolution
-\citep{Thompson2013, Thompson2013a}. It is now important to consider
-how the impacts of genetic effects on the network structure of
-sub-groups, such as lichens, may or may not propagate through the
-ecosystem to more mobile organisms. As developed previously, the
-degree to which a genetic effect influences the community is a
-function of the fidelity of the genetic effect (i.e., heritability)
-and both the frequency and the intensity of the interaction
-\citep{Shuster2006COMMUNITYSTRUCTURE}. One possible path forward is for
-future work to extend the many previous community genetics studies
-that have focused on sessile organisms, such as galling insects
-\citep{Bailey2005ImportanceInteractions, Whitham2006a, Crutsinger2014,
-  Smith2011, Keith2017}, to quantify the frequency of these
-interactions in the context of the larger community. This would
-provide an estimate of the relative impact of these focal, often
-termed foundation, species. In addition, community genetics theory has
-only considered first order interactions, i.e., between two organisms
-\citep{Shuster2006COMMUNITYSTRUCTURE, Whitham2012,
-  Whitham2020IntraspecificEvolution}. Given that network structure
-could be influenced by genetic effects, as evidenced by the present
-study, assessing higher order interactions could provide a path
-forward for theoretical advances that could help with identifying
-important characteristics of sub-groups to focus on in empirical
-studies.
-
-Although our study was conducted with a community of lichens, these
-results can be generalized to other groups of diverse organisms around
-the world that also exhibit significant genetic signals at the
-community level \citep{Rowntree2011, Whitham2012}. However, there are
-important points to consider when extending the observed genetically
-based response of the lichen networks to other systems. As bark lichen
-individuals do not move, but grow in a primarily two dimensional
-plane, these communities and their interactions occur in the highly
-localized context of the tree's bark surface. Lichen individuals are
-also many orders of magnitude smaller than the tree individual in this
-system \citep{Lamit2011}. For these reasons, the genetic effects on
-these communities is not dampened by the movement of individuals and
-the mixing of the effect of different tree genotypes on the lichen
-community, as might occur for more mobile species (e.g. insects and
-birds). Relatedly, we only examined lichen in this study, and other
-species whose distributions, abundances and/or interactions vary in
-their response to tree genotype, such as animals that may also impact
-lichen communities, could be playing a role that we did not
-examine. For example, an analysis of the multivariate correlations of
-different components of the community in this system demonstrated
-significant patterns of genetic co-responses to tree genotype,
-supporting the non-mutually exclusive possibilities of shared
-responses to tree genotype or tree genotypic effects on interactions
-among these sub-communities \citep{Lamit2015c}. As such, although we
-can not rule out the possibility that other unmeasured tree traits or
-organisms correlated with bark roughness are underlying the observed
-patterns, substantial research supports the importance of genetically
-based tree traits for communities and ecosystems
-\citep{DesRoches2018TheVariation}, and in particular bark roughness for
-bark lichen communities \citep{Bdeir2017, Lamit2011, Lamit2015a}.
-
-These findings also have implications for our understanding of
-community assembly. Models based on neutral theory have been developed
-that can reconstruct interactions networks with similar structural
-characteristics to those observed in real ecosystems
-\citep{Coelho2018NeutralInteractions}. The findings or our study
-support the possibility that, although communities and their
-interaction networks may assemble as a result of conditions that are
-entirely agnostic to functional variation, if there are strong
-ecological assymetries, such as the case in foundation species
-systems, then spatial and temporal variation in network structure will
-arise as a results of trait variation within the foundtion
-species. Taking even the extreme case, even when such genetically
-based variation is the result of ``neutral'' evolutionary processes
-(e.g., genetic drift), as long as resulting genetic diversity produces
-ecological relevant phenotypic diversity, then network structure will
-still have a genetic basis. Given that ecosystems with large
-assymetries seem to be the rule rather than the excpetion for
-ecosystems \citep{Ellison2005, Santamaria2007LinkageBarriers,
-  Staniczenko2013TheNetworks, Dormann2017IdentifyingLimitations,
-  Coelho2018NeutralInteractions}, the results of our study are likely
-to be broadly applicable and provides further support for the
-conclusion that the community context of evolutionary dynamics at
-either micro- or macro-evolutionary scales
-\citep{Weber2017EvolutionMacroevolution,
-  Harmon2019DetectingInteractions} should not be ignored. As genetic
-variation is inherent to biological systems, it would now seem that
-the adage ``you can't be neutral on a moving train'' might well apply
-to the evolutionary dynamics of ecosystems that are comprised of
-networks of interacting species.
-
-
 \subsection*{Conclusion}
 
 In the face of the high degree of complexity and potential context
@@ -1090,9 +979,26 @@ structure indicates evolutionary dynamics should be considered at the
 community level and that conserving genetic variation is important to
 consider in efforts to restore or preserve complex species
 interactions and their associated ecosystem functions
-\citep{Evans2013}. Such findings will bring us closer to understanding
-the evolutionary drivers of Darwin's entangled bank and the
-interconnectedness of species in complex communities.
+\citep{Evans2013}. 
+
+One possible path forward is for future work to extend the many
+previous community genetics studies that have focused on sessile
+organisms, such as galling insects
+\citep{Bailey2005ImportanceInteractions, Whitham2006a, Crutsinger2014,
+  Smith2011, Keith2017}, to quantify the frequency of these
+interactions in the context of the larger community. This would
+provide an estimate of the relative impact of these focal, often
+termed foundation, species. In addition, community genetics theory has
+only considered first order interactions, i.e., between two organisms
+\citep{Shuster2006COMMUNITYSTRUCTURE, Whitham2012,
+  Whitham2020IntraspecificEvolution}. Given that network structure
+could be influenced by genetic effects, assessing higher order
+interactions could provide a path forward for theoretical advances
+that could help with identifying important characteristics of
+sub-groups to focus on in empirical studies. Such findings will bring
+us closer to understanding the evolutionary drivers of Darwin's
+entangled bank and the interconnectedness of species in complex
+communities \citep{Darwin1859, Dattilo2016}.
 
 
 \subsection*{Acknowledgements}
@@ -1127,6 +1033,6 @@ Wojtowicz, Luke Evans and David Solance Smith.
 
 \subsection*{Citations}
 
-\bibliography{lichen_network_genetics, r_pkgs}
+\bibliography{lichen_network_genetics, manual, r_pkgs}
 
 \end{document}
