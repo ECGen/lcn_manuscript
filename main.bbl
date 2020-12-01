@@ -36,13 +36,6 @@ Bangert, R.~K., Turek, R.~J., Rehill, B., Wimp, G.~M., Schweitzer, J.~A.,
 \newblock {A genetic similarity rule determines arthropod community structure.}
 \newblock {\em Molecular ecology}, 15:1379--1391.
 
-\bibitem[Barbour et~al., 2019]{Barbour2019TraitCommunities}
-Barbour, M.~A., Erlandson, S., Peay, K., Locke, B., Jules, E.~S., and
-  Crutsinger, G.~M. (2019).
-\newblock {Trait plasticity is more important than genetic variation in
-  determining species richness of associated communities}.
-\newblock {\em Journal of Ecology}, 107(1):350--360.
-
 \bibitem[Barbour et~al., 2016]{Barbour2016GeneticComplexity}
 Barbour, M.~A., Fortuna, M.~A., Bascompte, J., Nicholson, J.~R.,
   Julkunen-Tiitto, R., Jules, E.~S., and Crutsinger, G.~M. (2016).
@@ -109,12 +102,6 @@ Chagnon, P.~L., U’Ren, J.~M., Miadlikowska, J., Lutzoni, F., and
   a continental scale}.
 \newblock {\em Oecologia}, 180(1):181--191.
 
-\bibitem[Coelho and Rangel, 2018]{Coelho2018NeutralInteractions}
-Coelho, M. T.~P. and Rangel, T.~F. (2018).
-\newblock {Neutral community dynamics and the evolution of species
-  interactions}.
-\newblock {\em American Naturalist}, 191(4):421--434.
-
 \bibitem[Conner and Hartl, 2004]{Conner2004ATextbook}
 Conner, K. and Hartl, D.~L. (2004).
 \newblock {\em {A Primer of Ecological Genetics: a textbook}}.
@@ -134,6 +121,19 @@ Crutsinger, G.~M., Rudman, S.~M., Rodriguez-Cabal, M.~A., McKown, A.~D., Sato,
   aquatic-terrestrial linkages}.
 \newblock {\em Molecular Ecology}, 23(23):5888--5903.
 
+\bibitem[Darwin, 1859]{Darwin1859}
+Darwin, C. (1859).
+\newblock {\em {On the Origin of Species}}.
+\newblock Murray, London.
+
+\bibitem[D{\'{a}}ttilo et~al., 2016]{Dattilo2016}
+D{\'{a}}ttilo, W., Lara-Rodr{\'{i}}guez, N., Jordano, P., Guimar{\~{a}}es,
+  P.~R., Thompson, J.~N., Marquis, R.~J., Medeiros, L.~P., Ortiz-Pulido, R.,
+  Marcos-Garc{\'{i}}a, M.~A., and Rico-Gray, V. (2016).
+\newblock {Unravelling darwin’s entangled bank: Architecture and robustness
+  of mutualistic networks with multiple interaction types}.
+\newblock {\em Proceedings of the Royal Society B: Biological Sciences}.
+
 \bibitem[Des~Roches et~al., 2018]{DesRoches2018TheVariation}
 Des~Roches, S., Post, D.~M., Turley, N.~E., Bailey, J.~K., Hendry, A.~P.,
   Kinnison, M.~T., Schweitzer, J.~A., and Palkovacs, E.~P. (2018).
@@ -146,13 +146,6 @@ D{\'{i}}az-Castelazo, C., Guimar{\~{a}}es, P.~R., Jordano, P., Thompson, J.~N.,
 \newblock {Changes of a mutualistic network over time: Reanalysis over a
   10-year period}.
 \newblock {\em Ecology}.
-
-\bibitem[Dormann et~al., 2017]{Dormann2017IdentifyingLimitations}
-Dormann, C.~F., Fr{\"{u}}nd, J., and Schaefer, H.~M. (2017).
-\newblock {Identifying Causes of Patterns in Ecological Networks: Opportunities
-  and Limitations}.
-\newblock {\em Annual Review of Ecology, Evolution, and Systematics},
-  48(1):559--584.
 
 \bibitem[Elias et~al., 2013]{Elias2013EvolutionaryNetwork}
 Elias, M., Fontaine, C., and Frank Van~Veen, F.~J. (2013).
@@ -372,19 +365,6 @@ Root, H.~T., Miller, J. E.~D., and McCune, B. (2011).
   habitats of Oregon and Washington}.
 \newblock {\em The Bryologist}, 114(4):796.
 
-\bibitem[Rowntree et~al., 2011]{Rowntree2011}
-Rowntree, J.~K., Shuker, D.~M., and Preziosi, R.~F. (2011).
-\newblock {Forward from the crossroads of ecology and evolution.}
-\newblock {\em Philosophical transactions of the Royal Society of London.
-  Series B, Biological sciences}, 366(1569):1322--8.
-
-\bibitem[Santamar{\'{i}}a and Rodr{\'{i}}guez-Giron{\'{e}}s,
-  2007]{Santamaria2007LinkageBarriers}
-Santamar{\'{i}}a, L. and Rodr{\'{i}}guez-Giron{\'{e}}s, M.~A. (2007).
-\newblock {Linkage rules for plant-pollinator networks: Trait complementarity
-  or exploitation barriers?}
-\newblock {\em PLoS Biology}, 5(2):0354--0362.
-
 \bibitem[Schoch, 2020]{siggnet}
 Schoch, D. (2020).
 \newblock {\em signnet: An R package to analyze signed networks}.
@@ -423,12 +403,6 @@ Staniczenko, P.~P., Kopp, J.~C., and Allesina, S. (2013).
 Thompson, J.~N. (2013).
 \newblock {\em {Relentless Evolution}}.
 \newblock University of Chicago Press.
-
-\bibitem[Thompson et~al., 2013]{Thompson2013a}
-Thompson, J.~N., Schwind, C., Guimaraes, P.~R., and Friberg, M. (2013).
-\newblock {Diversification through multitrait evolution in a coevolving
-  interaction}.
-\newblock {\em Proceedings of the National Academy of Sciences}.
 
 \bibitem[Toju et~al., 2014]{Toju2014a}
 Toju, H., Guimar{\~{a}}es, P.~R., Olesen, J.~M., and Thompson, J.~N. (2014).
