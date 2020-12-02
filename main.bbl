@@ -66,11 +66,6 @@ Bdeir, R., Muchero, W., Yordanov, Y., Tuskan, G.~A., Busov, V., and Gailing, O.
   diameter}.
 \newblock {\em BMC Plant Biology}.
 
-\bibitem[Borgatti and Everett, 2006]{Borgatti2006}
-Borgatti, S.~P. and Everett, M.~G. (2006).
-\newblock {A Graph-theoretic perspective on centrality}.
-\newblock {\em Social Networks}, 28:466--484.
-
 \bibitem[Borrett et~al., 2007]{Borrett2007FunctionalProliferation}
 Borrett, S.~R., Fath, B.~D., and Patten, B.~C. (2007).
 \newblock {Functional integration of ecological networks through pathway
@@ -270,6 +265,12 @@ Lamit, L.~J., Lau, M.~K., N{\ae}sborg, R.~R., Wojtowicz, T., Whitham, T.~G.,
   across multiple environments}.
 \newblock {\em Ecology}, 96(4):960--971.
 
+\bibitem[Landau, 2018]{drake}
+Landau, W.~M. (2018).
+\newblock The drake r package: a pipeline toolkit for reproducibility and
+  high-performance computing.
+\newblock {\em Journal of Open Source Software}, 3(21).
+
 \bibitem[Lau et~al., 2017]{Lau2017a}
 Lau, M.~K., Borrett, S.~R., Baiser, B., Gotelli, N.~J., and Ellison, A.~M.
   (2017).
@@ -365,7 +366,7 @@ Root, H.~T., Miller, J. E.~D., and McCune, B. (2011).
   habitats of Oregon and Washington}.
 \newblock {\em The Bryologist}, 114(4):796.
 
-\bibitem[Schoch, 2020]{siggnet}
+\bibitem[Schoch, 2020]{signnet}
 Schoch, D. (2020).
 \newblock {\em signnet: An R package to analyze signed networks}.
 
