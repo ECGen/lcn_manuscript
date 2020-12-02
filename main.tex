@@ -139,8 +139,11 @@ phylogenetic relatedness contribute to variation in community assembly
 \citep{Crutsinger2016} and species interactions \citep{Whitham2006a,
   Bailey2009a, Moya-Larano2011}, which shape the structure of
 ecological interaction networks \citep{Rezende2007,
-  Guimaraes2007InteractionNetworks, Gomez2009LocalMosaic}. Network
-theory and evidence from empirical studies in ecology have
+  Guimaraes2007InteractionNetworks, Gomez2009LocalMosaic}.
+
+Empirical and theoretical work in network ecology and evolutionary
+biology point to the need for examinations of the genetic basis of
+ecological network structure. Analyses of ecological networks have
 demonstrated that indirect effects can lead to self-organization,
 producing sign-changing, amplifying and/or dampening effects
 \citep{Newman2006, Sole2006Self-OrganizationEcosystems}, and other
@@ -157,16 +160,13 @@ species) focused around hubs of plant-fungal interactions. In other
 words, a small number of plant and fungal symbionts tended to have
 disproportionate numbers of interactions with other species and likely
 are the drivers in determining community assembly, structure and
-dynamics.
-
-
-Interspecific indirect genetic effects (IIGE) theory (\textit{sensu}
-\cite{Shuster2006COMMUNITYSTRUCTURE}) in evolutionary biology supports
-ecological network studies that point to the importance of studying
-the genetic basis of interaction network structure. Genetic based
-differences in network structure among individuals can be acted upon
-by natural selection when there are fitness consequences of different
-networks of IIGEs, leading to community evolution per
+dynamics.  Interspecific indirect genetic effects (IIGE) theory
+(\textit{sensu} \cite{Shuster2006COMMUNITYSTRUCTURE}) in evolutionary
+biology also point to the importance of studying the genetics of
+interaction network structure. Genetic based differences in network
+structure among individuals can be acted upon by natural selection
+when there are fitness consequences of different networks of IIGEs,
+leading to community evolution per
 \cite{Whitham2020IntraspecificEvolution} and, by extension, network
 evolution. For example, although the analysis was of abundances rather
 than interaction networks, \cite{Gehring2014PlantChange, Gehring2017a}
@@ -188,53 +188,8 @@ of whether the IIGE is unilateral (i.e., tree affects the community)
 or reciprocal (i.e., the community also affects the relative fitness
 of the tree), selection on tree, community or both can change network
 structure \citep{Whitham2020IntraspecificEvolution} and thereby alter
-community dynamics. 
+community dynamics.
 
-\begin{quote}
-
-Hi Matt, In thinking more about your paper, it seems we need more
-explicit definitions of evolutionary terms and how they relate to
-networks.  The following text is something to consider, which could go
-into the intro or discussion if you feel it adds to the paper. 
-Cheers, Tom
-
-The demonstration of community evolution requires demonstrating three
-key elements. First, there must be variation in the structure
-(composition, abundance, species interactions, diversity) of
-communities across the landscape. Second, these differences must be
-genetically based and heritable in which community structure is passed
-from one generation to the next. For example, numerous studies show
-that related individuals tend to support the same communities of
-insects and microbes, and ecosystem processes of biodiversity,
-nutrient cycling and stability, whereas unrelated individuals support
-more different communities and ecosystem processes. Importantly, this
-study shows that networks are also heritable traits that greatly
-increases its utility as a community phenotype that selection can act
-upon.  Third, selection must act on these differences to favor some
-communities over others leading to change over time or community
-evolution. Since our findings show that networks are heritable,
-another metric of community evolution is showing how networks change
-over time in response to an invasive species, climate change, or some
-other agent of selection.
-
-It is important to consider how network structure itself is a trait
-that has been selected over time to potentially optimize modules that
-affect the interactions of mutualists that benefit the plant, while
-minimizing modules of herbivores and pathogens that negatively impact
-the plant (I think this deserves more serious thought and it would be
-good to come up with some predictions). Thus, the combined
-interactions of communities of interacting species should be reflected
-in the differences of networks of individual plant genotypes and how
-they might differ across a landscape in which selection pressures
-change in response to local biotic and abiotic conditions.  Such
-analyses are also important in helping to identify the modules and
-species that are most important to study in systems where little is
-known about the biology of the system.  For example, in systems where
-background knowledge is lacking, a network analysis based upon species
-occurrence and abundance, could tell researchers which species should
-be focused on to best understand the dynamics of the system.
-
-\end{quote}
 
 In this context, the ``genetic similarity rule'' of community genetics
 provides a useful framework we can apply to interaction networks at
@@ -312,7 +267,7 @@ The study was conducted along the Weber River, UT (USA), which is a
 cottonwood (\textit{Populus} spp.) dominated riparian
 ecosystem. Although two native species, \textit{Populus angustifolia}
 (James) and \textit{Populus fremontii} (S. Watson), occur here and are
-known to hybridize, only pure or advanced generation backcrosses of
+known to hybridize, only pure or advanced generation back-crosses of
 \textit{P. angustifolia} were sampled. Bark lichens have been
 intensively sampled in this system and provide an ideal community in
 which to observe and model interaction networks, as their sessile
@@ -352,7 +307,7 @@ given for species present in study): Xg = \textit{Xanthomendoza
   holocarpa}, Cs = \textit{Candelariella subdeflexa}, Rg =
 \textit{Rinodina glauca}, Lh = \textit{Lecanora hagenii}, Pm =
 \textit{Phyciella melanchra}, Pa = \textit{Physcia adscendens}, Pu =
-\textit{Physcia undulata}. Several other species were not obesrved in
+\textit{Physcia undulata}. Several other species were not observed in
 the present study but are known to occur in this region:
 \textit{Phaeophyscia orbicularis}, \textit{Phaeophyscia ciliata},
 \textit{Melanelia subolivacea}, \textit{Meanelia elegantula}.
@@ -393,7 +348,7 @@ pH and carbon and nitrogen concentrations and pH.
 \end{figure}
 
 
-\subsection*{Lichen Network Modeling and Analysis}
+\subsection*{Lichen Network Modeling}
 
 For each tree, repeated observations of lichen were made in order to
 construct replicated interaction networks for each genotype. We
@@ -483,28 +438,31 @@ respectively, the probability of another species' occurrence.
 \end{figure*}
 
 
-\subsection*{Network Metrics}
+\subsection*{Analyses, Software and Data}
 
 To quantify the structural variation of lichen networks we calculated
-several metrics at both the level of node and whole networks. For
-individual nodes (i.e., species) in each network, we calculated both
-the degree and the Freeman's centrality \citep{sna}. We also
-calculated two similar global network metrics: degree and
-centralization. The first was network degree, which is a count of the
-total number of links in a network. As the networks contained not only
-positive and negative connections but also directional connections
-(both in-coming and out-going), we calculated the same network metrics
-for all combinations of these types of connections in each network,
-accounting for differences in sign through the application of recently
-developed metrics that incoporate sign information from signed,
-weighted, directed networks \citep{Everett2014NetworksTies}. Although
-there are many more possible network metrics that could have been
-examined, we chose to focus on a restricted set for the sake of
-clarity. In addition, degree and centrality form the basis of many
-other network metrics.
-
-
-\subsection*{Statistical Analyses, Software and Data}
+several metrics at both the level of node and whole networks. Although
+there are many other metrics, for the sake of simplicity we focus on a
+subset that represent the primary interesting features of network
+structure (see \cite{Lau2017a}). We calculated the number of
+interactions or ``links'' in each network (degree), which provides a
+measure of the size of the network \citep{Lau2015a,
+  Borrett2014EnaR:Analysis}. We also calculated the centralization of
+each network using Freeman's centrality, which measures the evenness
+of the distribution of interactions among the species in the network,
+using the \texttt{sna} package \citep{sna}. In a network with a low
+level of centralization species have similar amount of interaction in
+the network, while a network with a high level of centralization tends
+to have one or small number of species that interact with other
+species. We used a related function to calculate the centrality of
+each species (i.e., node level centrality) in each network as well. To
+calculate separate metrics for positive and negative links, as the
+networks contained not only positive and negative connections but also
+directional connections (both in-coming and out-going), we calculated
+the same network metrics for all combinations of these types of
+connections using recently developed methods for signed, weighted and
+directed networks \citep{Everett2014NetworksTies} using the
+\texttt{signnet} package \citep{signnet}.
 
 We used a combination of parametric and non-parametric, permutation
 based frequentist statistical analyses to test for the effects of
@@ -533,40 +491,18 @@ maximum of 500 iterations and a change in stress threshold of less
 than 10$^{-12}$. Final configurations has the lowest stress with at
 most a stress level of 0.10.
 
-For each network, we also calculated metrics that measure different
-structural aspects. Although there are many other metrics, for the
-sake of simplicity we focus on a subset that represent several
-interesting features of network structure (see \cite{Lau2017a}). We
-calculated the number of interactions or ``links'' in each network,
-which provides a measure of the size of the network \citep{Lau2015a,
-  Borrett2014EnaR:Analysis}. We also calculated the centralization of
-each network, which measures the evenness of the distribution of
-interactions among the species in the network \citep{sna}. In a
-network with a low level of centralization species have similar amount
-of interaction in the network, while a network with a high level of
-centralization tends to have one or small number of species that
-interact with other species. We used a related function to calculate
-the centrality of each species (i.e., node level centrality) in each
-network as well. To calculate separate metrics for positive and
-negative links, we applied methods for calculating the centrality
-accounting for the sign differences \citep{Everett2014NetworksTies}
-using the \texttt{signnet} package \citep{siggnet}.
-
 For all tests where genotype was used as a predictor, we quantified
 the heritability of the response variable. Because the trees in the
 garden were clonal replicates of each genotype, we calculated
 broad-sense heritability, which is the genotypic variance divided by
 the total phenotypic variance \citep{Conner2004ATextbook}. This can be
 interpreted as a measure of the phenotypic variance due to genotypic
-variation. We also apply this to the community genetics context as the
-variance in \textit{extended} phenotypic variance due to genotypic
-variation \citep{Whitham2006a, Whitham2012, Crutsinger2016}. 
+variation. 
 
-All code and data for the project are openly available online. Code
-and data are available at \url{github.com/ecgen/comgen}. The project
-is also archived via Zenodo at \url{zenodo.com/doiXXXXXX}. All
-analyses were conducted using the programming language R version 3.6.1
-(R Development Core Team 2019).
+All analyses were conducted using R version 3.6.1 (R Development Core
+Team 2019). Code and data for the project are openly available as a
+reproducible workflow using \textt{drake} \citep{drake}, which is
+archived via Zenodo \url{zenodo.com/doiXXXXXX}. 
 
 \begin{figure}[ht]
 \centering
@@ -704,27 +640,28 @@ largely genetically based (Fig.~\ref{fig:br_net}).
 
 \section*{Discussion}
 
-We found that tree genotype influenced lichen network structure in the
-experimental cottonwood forest. Network similarity and metrics of
-network structure tended to be more similar on trees of the same
-genotype. Generally, this genetic effect was manifested in positive
-interactions and largely driven by \textit{C. holocarpa}. The
-genetically based trait, bark roughness, was the only trait observed
-to effect network variation, largely via shifts in positive in-coming
-and out-going interactions. Chemistry traits, whether genetically
-based, such as tannin concentration, or not, were not significantly
-correlated with lichen network structure. Bark roughness has been
-demonstrated previously to be under strong genetic control
-\citep{Bdeir2017}, and bark roughness has also been shown to be an
-important tree trait influencing bark lichens \citep{Lamit2015a};
-however this is the first demonstration of a link from genetics to
-lichen network structure.  As such these results have important
-implications for the potential influence of genetically based
-variation in ecosystems with networks of interacting species. 
+
+We found that tree genotype influenced the network structure of lichen
+communities associated with narrowleaf cottonwoods in a riparian
+forest ecosystem. Network similarity and metrics of network structure
+tended to be more similar on trees of the same genotype. Generally,
+this genetic effect was manifested in positive interactions and
+largely driven by \textit{C. holocarpa}. The genetically based trait,
+bark roughness, was the only trait observed to effect network
+variation, largely via shifts in positive in-coming and out-going
+interactions. Chemistry traits, whether genetically based, such as
+tannin concentration, or not, were not significantly correlated with
+lichen network structure. Bark roughness has been demonstrated
+previously to be under strong genetic control \citep{Bdeir2017}, and
+bark roughness has also been shown to be an important tree trait
+influencing bark lichens \citep{Lamit2015a}; however this is the first
+demonstration of a link from genetics to lichen network structure.  As
+such these results have important implications for the potential
+influence of genetically based variation in ecosystems with networks
+of interacting species.
 
 
-\subsection*{Implications of the Heritability of Interaction Network Structure}
-
+\subsection*{Implications of Ecological Network Heritability}
 
 Significant heritability of lichen interaction network structure is in
 line with the genetic similarity rule, networks observed on trees of
@@ -740,7 +677,7 @@ have primarily focused on macro-evolutionary dynamics
   Valverde2018TheSpandrel, Harmon2019DetectingInteractions} or have
 been simulation based individual-level models that integrate
 intraspecific variation to the species level
-\citep{Maliet2020AnNetworks}, even though recent syntheses ave pointed
+\citep{Maliet2020AnNetworks}, even though recent syntheses have pointed
 to the importance of processes operating across scales of organization
 \citep{Guimaraes2020TheOrganization}. There are two important
 functional ramifications of genetically based variation in network
@@ -756,7 +693,7 @@ comprised of hundreds and thousands of species, each having a
 multitude of interactions, the potential to find traction for making
 predictions in the context of ecological, let alone evolutionary,
 dynamics seems daunting. The promise of predictability lies in the
-presence of assymetries in ecosystems that contribute to the
+presence of asymmetries in ecosystems that contribute to the
 occurrence of foundation species, such as hierarchy and nestedness
 created by body size differences or life-history strategies, has been
 widely observed \citep{Ellison2005}. The second is that heritability
@@ -815,8 +752,60 @@ otherwise community level genetic effects may be underestimated,
 especially when cumulative interaction effects are taken into account
 \citep{Borrett2007FunctionalProliferation}.
 
+Furthermore, the demonstration of the heritability of interaction
+networks, without significant differences in community composition,
+provides clear empirical evidence that variation in network structure
+points to the need to expand IIGEs encompass the structure of
+interaction networks. Although, IIGE theory provides a quantitative
+framework within which to approach evolutionary theory at higher
+levels of biological organization (from populations to communities and
+ecosystems), this theory has focused on modeling the strong effects of
+foundation species \citep{Shuster2006COMMUNITYSTRUCTURE, Whitham2012,
+  Whitham2020IntraspecificEvolution} and has not yet integrated
+developments from the ecological or evolutionary network theory
+literature. Thus, it has not developed a way to examine complex
+interactions among species; however, previous studies have
+demonstrated this network context is likely to be important, as
+altering the structure of interaction networks provides a means for
+genetic effects to be dampened or magnified within the system of
+interacting species \cite{Smith2011, Keith2017}. Although such a
+synthesis necessitates a much greater effort than can be afforded in
+this paper, it is possible to point to several productive pathways
+forward. In terms of interaction networks, foundation species are
+relatively central within the system of interactions, that is their
+direct and/or indirect effects are greater then other species. So,
+when the more centralized (foundation) species have genetically based
+interactions, genetic effects will tend to be magnified in the
+community. Here, we found that even though more abundant or more
+centralized (i.e., ``important'') species were present in the
+community, their effects were not the main component responding to
+genetic effects. Considering the impact of network structure would be
+a productive path forward for the theoretical development and
+application of the IIGE concept.
 
-\subsection*{Evolutionary Implications of a Genetic Basis to Network Structure}
+
+\subsection*{Evolution and Genetically Based Network Structure}
+
+The demonstration of evolution at any scale of biological organization
+requires demonstrating three key elements. First, there must be
+variation in the structure (composition, abundance, species
+interactions, diversity, networks) of communities across the
+landscape. Second, these differences must be genetically based and
+heritable in which community structure is passed from one generation
+to the next. For example, numerous studies show that related
+individuals tend to support the same communities of insects and
+microbes, and ecosystem processes of biodiversity, nutrient cycling
+and stability, whereas unrelated individuals support more different
+communities and ecosystem processes \citep{DesRoches2018TheVariation,
+  Whitham2020IntraspecificEvolution}. Importantly, the current study
+shows that networks are also heritable traits that greatly increases
+its utility as a community phenotype that selection can act
+upon. Third, selection must act on these differences to favor some
+communities over others leading to change over time (i.e., community
+evolution). Since our findings show that networks are heritable,
+another metric of community evolution is showing how networks change
+over time in response to an invasive species, climate change, or some
+other agent of selection. 
 
 Intra-specific, genotypic diversity could be creating lichen
 metacommmunities on individual trees that form interaction modules
@@ -840,11 +829,9 @@ the center and radiating interactions out from the central core
 \citep{Lleberman2005EvolutionaryGraphs}. This is structurally what we
 have observed with the networks that tend to occur on some of the
 genotypes in our study, i.e., the more centralized networks. It is
-possible that these more centralized networks could function as
-hot-spots of evolutionary dynamics resulting from the amplifying
-effect the centralized network structure found on that tree genotype.
-
-
+possible that these networks could function as hot-spots of
+evolutionary dynamics resulting from the amplifying effect the
+centralized network structure found on that tree genotype.
 
 
 Ecological network studies have focused on asymmetry and the
@@ -903,7 +890,7 @@ modularity contributes to the stabilization of antagonistic networks
 that the nestedness of mutualistic networks is not necessarily the
 result of selection for systems-level properties that promote
 stability but could be either product of asymptotic abundance
-distributions leading to un-even interaction frequencies
+distributions leading to uneven interaction frequencies
 \citep{Staniczenko2013TheNetworks} and/or a by-product of selection and
 divergence creating network ``spandrels'' in ecosystems
 \citep{Valverde2018TheSpandrel}, this does not preclude the functional
@@ -915,47 +902,6 @@ that are not only weighted and directed but also signed. Hopefully
 future network theoretic developments will make the appropriate
 metrics available to conduct these analyses.
 
-\subsection*{Implications for Interspecific Indirect Genetic Effects (IIGEs)}
-
-Interspecific indirect genetic effects (IIGE) theory provides a
-quantitative framework within which to approach evolutionary theory at
-higher levels of biological organization: from populations to
-communities and ecosystems. To date, this theory has focused on
-modeling the strong effects of foundation species
-\citep{Shuster2006COMMUNITYSTRUCTURE, Whitham2012}, but it has not yet
-integrated developments in the ecological or evolutionary network
-theory literature. This is to say that it has not developed a way to
-examine complex interactions among species; however, previous studies
-have demonstrated this network context is likely to be important, as
-altering the structure of interaction networks provides a means for
-genetic effects to be dampened or magnified within the system of
-interacting species. For example, \cite{Keith2017} showed that the
-genetics based interactions of aphid resistant and aphid susceptible
-trees resulted in different interaction networks of their associated
-arthropod communities composed of 139 species. At the scale of
-ecosystems, trophic networks or food webs direct and control the rates
-of energy and nutrient flux \citep{Borgatti2006}. Furthermore, in a
-predator-prey-plant study, \cite{Smith2011} showed that the
-interactions among species across trophic levels depended on plant
-genotype. 
-
-The results of the current study provides clear empirical evidence
-that variation in network structure can be genetically based (i.e.,
-heritable) and points to the need to expand IIGEs encompass the
-structure of interaction networks. Although such a synthesis
-necessitates a much greater effort than can be afforded in this paper,
-it is possible to point to several productive pathways forward. In
-terms of interaction networks, foundation species are relatively
-central within the system of interactions, that is their direct and/or
-indirect effects are greater then other species. So, when the more
-centralized (foundation) species have genetically based interactions,
-genetic effects will tend to be magnified in the community. Here, we
-found that even though more abundant or more centralized (i.e.,
-``important'') species were present in the community, their effects
-were not the main component responding to genetic effects. Considering
-the impact of network structure would be a productive path forward for
-the theoretical development and application of the IIGE concept. 
-
 
 \subsection*{Conclusion}
 
@@ -966,7 +912,7 @@ interactions, as discussed in previous studies \citep{Bangert2006,
   Zook2010, Zytynska2012}. In the present research, we found that the
 assembly of ecological networks can have a measurable genetic basis
 depending on the spatial scale of interactions, due in part, to
-assymetries in size and longevity of organisms. The importance of the
+asymmetries in size and longevity of organisms. The importance of the
 scale of network organization to create hierarchical structure
 \citep{Guimaraes2020TheOrganization} and the potential for foundation
 species to create this structure in the vast majority of ecosystems
@@ -994,11 +940,24 @@ only considered first order interactions, i.e., between two organisms
   Whitham2020IntraspecificEvolution}. Given that network structure
 could be influenced by genetic effects, assessing higher order
 interactions could provide a path forward for theoretical advances
-that could help with identifying important characteristics of
-sub-groups to focus on in empirical studies. Such findings will bring
-us closer to understanding the evolutionary drivers of Darwin's
-entangled bank and the interconnectedness of species in complex
-communities \citep{Darwin1859, Dattilo2016}.
+(e.g., IIGEs) that could help with identifying important
+characteristics of sub-groups to focus on in empirical studies. That
+is, the combined interactions of communities of interacting species
+should be reflected in the differences of networks of individual plant
+genotypes and how they might differ across a landscape in which
+selection pressures change in response to local biotic and abiotic
+conditions, leading to the optimization of modules under selective
+pressures. Network modeling and analysis could prove useful for the
+identification of species within network modules that are most
+important to study in systems where little is known about the biology
+of the system. For example, in systems where background knowledge of
+the natural history of organisms is lacking, network analyses based on
+species occurrence and abundance direct researchers to species that
+could be focused on to best understand the dynamics of the
+system. Such investigations will bring us closer to understanding the
+evolutionary drivers of Darwin's entangled bank and the
+interconnectedness of species in complex communities
+\citep{Darwin1859, Dattilo2016}.
 
 
 \subsection*{Acknowledgements}

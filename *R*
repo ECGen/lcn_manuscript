@@ -1,0 +1,46 @@
+
+R version 3.6.3 (2020-02-29) -- "Holding the Windsock"
+Copyright (C) 2020 The R Foundation for Statistical Computing
+Platform: aarch64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> setwd('/home/glomus/workroom/comgen/docs/lcn_manuscript/')
+> library(drake)
+> citation(drake)
+Error in system.file(package = package, lib.loc = lib.loc) : 
+  object 'drake' not found
+> citation("drake")
+
+To cite drake in publications use:
+
+  William Michael Landau, (2018). The drake R package: a pipeline
+  toolkit for reproducibility and high-performance computing. Journal
+  of Open Source Software, 3(21), 550,
+  https://doi.org/10.21105/joss.00550
+
+A BibTeX entry for LaTeX users is
+
+  @Article{,
+    title = {The drake R package: a pipeline toolkit for reproducibility and high-performance computing},
+    author = {William Michael Landau},
+    journal = {Journal of Open Source Software},
+    year = {2018},
+    volume = {3},
+    number = {21},
+    url = {https://doi.org/10.21105/joss.00550},
+  }
+
+> 
