@@ -121,11 +121,11 @@ Darwin, C. (1859).
 \newblock {\em {On the Origin of Species}}.
 \newblock Murray, London.
 
-\bibitem[D{\'{a}}ttilo et~al., 2016]{Dattilo2016}
+\bibitem[D{\'{a}}ttilo et~al., 2016]{Dattilo2016fix}
 D{\'{a}}ttilo, W., Lara-Rodr{\'{i}}guez, N., Jordano, P., Guimar{\~{a}}es,
   P.~R., Thompson, J.~N., Marquis, R.~J., Medeiros, L.~P., Ortiz-Pulido, R.,
   Marcos-Garc{\'{i}}a, M.~A., and Rico-Gray, V. (2016).
-\newblock {Unravelling darwin’s entangled bank: Architecture and robustness
+\newblock {Unravelling Darwin’s entangled bank: Architecture and robustness
   of mutualistic networks with multiple interaction types}.
 \newblock {\em Proceedings of the Royal Society B: Biological Sciences}.
 
@@ -277,16 +277,16 @@ Lau, M.~K., Borrett, S.~R., Baiser, B., Gotelli, N.~J., and Ellison, A.~M.
 \newblock {Ecological network metrics: opportunities for synthesis}.
 \newblock {\em Ecosphere}, 8(8):e01900.
 
-\bibitem[Lau et~al., 2015]{Lau2015a}
+\bibitem[Lau et~al., 2016a]{Lau2016afix}
 Lau, M.~K., Keith, A.~R., Borrett, S.~R., Shuster, S.~M., and Whitham, T.~G.
-  (2015).
+  (2016a).
 \newblock {Genotypic variation in foundation species generates network
   structure that may drive community dynamics and evolution}.
 \newblock {\em Ecology}, 97(3):15--0600.
 
-\bibitem[Lau et~al., 2016]{Lau2016GenotypicEvolution}
+\bibitem[Lau et~al., 2016b]{Lau2016GenotypicEvolution}
 Lau, M.~K., Keith, A.~R., Borrett, S.~R., Shuster, S.~M., and Whitham, T.~G.
-  (2016).
+  (2016b).
 \newblock {Genotypic variation in foundation species generates network
   structure that may drive community dynamics and evolution}.
 \newblock {\em Ecology}.
