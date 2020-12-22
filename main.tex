@@ -244,17 +244,25 @@ determining network dynamics \citep{Lieberman2005EvolutionaryGraphs},
 we focused on network metrics that measure centrality for individual
 species and centralization for whole networks. Both of these metrics
 measure how much a species is connected in the network relative to
-other species. We hypothesize that in natural systems evolution occurs
-in communities comprised of networks of interacting species
-\citep{Lau2016afix, Keith2017, Thompson2013, Bascompte2006}. More
-specifically, based on the community similarity rule
-\cite{Bangert2006}, we hypothesize that trees will co-vary in
-functional phenotypic traits, such as bark roughness and chemical
-composition, and trees of the same genotype will tend to have similar
-traits leading to similarities in lichen network structure. If
-correct, we expect to find that network structure is genetically
-based, or, in other words, plant genotypes will support different and
-heritable interaction networks.
+other species. As there is a preponderance of evidence that in natural
+systems evolution occurs in communities comprised of networks of
+interacting species \citep{Lau2016afix, Keith2017, Thompson2013,
+  Bascompte2006}, we set out to test two hypotheses. First, per the
+community similarity rule \citep{Bangert2006} and IIGE theory
+\citep{Whitham2020IntraspecificEvolution}, we hypothesize that trees
+of the same genotype (i.e., clones) will support more similar lichen
+interaction networks relative to less related genotypes. In other
+words, epiphytic lichen network structure is heritable, which can be
+calculated via comparisons of within and among group variation in
+network structure. Second, heritability of lichen network structure is
+the result of underlying phenotypic covariation in tree traits
+important to interactions between trees and lichens and among
+lichens. Evidence that such trait covariance generates variation in
+interactions among community members provides an intermediate
+genetics-based mechanism for the underlyhing factors determining
+lichen distribution and abundance. In combination, evaluating these
+two hypotheses is fundamental to understanding variation and dynamics
+of network structure and evolution.
 
 
 \section*{Materials and Methods}
@@ -525,18 +533,19 @@ archived via Zenodo \url{zenodo.com/doiXXXXXX}.
 
 \section*{Results}
 
-Tree genotype influenced lichen network structure and multiple lichen
-network metrics were heritable.  Tree genotype significantly predicted
-the structural similarity of lichen networks and, overall,
-network-level metrics responded significantly to tree genotype,
-including network degree and centralization including both in-coming
-and out-going links or when separated into in-coming only or out-going
-only (Table~\ref{tab:h2_net}, Fig.~\ref{fig:h2_plot}).  Metrics
-including only positive links also showed a significant effect of tree
-genotype, including positive degree and positive in-going
-centralization.  Metrics calculated with negative links were not
-significant, including degree (negative) and both in-coming (negative)
-and out-going centralization (negative).
+In support of our first hypotheses, we found that tree genotype
+influenced lichen network structure and multiple lichen network
+metrics were heritable.  Tree genotype significantly predicted the
+structural similarity of lichen networks and, overall, network-level
+metrics responded significantly to tree genotype, including network
+degree and centralization including both in-coming and out-going links
+or when separated into in-coming only or out-going only
+(Table~\ref{tab:h2_net}, Fig.~\ref{fig:h2_plot}).  Metrics including
+only positive links also showed a significant effect of tree genotype,
+including positive degree and positive in-going centralization.
+Metrics calculated with negative links were not significant, including
+degree (negative) and both in-coming (negative) and out-going
+centralization (negative).
 
 \begin{figure*}[ht]
 \centering
@@ -592,29 +601,30 @@ centrality was restricted to two genotypes
 \label{fig:geno_sppcen}
 \end{figure*}
 
-Genotype indirectly influenced lichen network centralization via the
-genetically based variation in bark roughness. The percent cover of
-rough bark (\textit{RLRT} = 4.8526, $H^2$ = 0.3221, \textit{p-value} =
-0.0113) and condensed tannins (\textit{RLRT} = 3.0522, $H^2$ = 0.3205,
-\textit{p-value} = 0.0343) both displayed significant responses to
-tree genotype. None of the other bark traits, pH (\textit{RLRT} =
-0.00, $H^2$ = 0.00, \textit{p-value} = 1.0000) or carbon-nitrogen
-ratio (\textit{RLRT} = 0.0000, $H^2$ = 0.0000, \textit{p-value} =
-1.0000), showed a significant response to tree genotype and none other
-than bark roughness was correlated with network similarity
-(Table~\ref{tab:cn_trait_perm}); therefore, we focused our subsequent
-analyses on the indirect effect of genotype on lichen network
-structure via bark roughness. We found that bark roughness was
-significantly correlated with network similarity and other lichen
-network metrics, including negative correlations with overall network
-degree ($df$ = 35, $t$ = -2.13, $r$ = -0.34, \textit{p-value} = 0.04)
-and centralization ($df$ = 35, $t$ = -2.52, $r$ = -0.39,
-\textit{p-value} = 0.02). In other words, trees with more similar
-levels of bark roughness tended to have lichen interaction networks
-with similar structure. To quantify the genetic bases of this effect
-of bark roughness on network structure, we used the residual values
-from regressions of network degree and centralization in tests of the
-effect of tree genotype and found no significant effect of tree
+In support of our second hypothesis, analysis of trait covariation
+revealed that genotype indirectly influenced lichen network
+centralization via genetically based variation in bark roughness. The
+percent cover of rough bark (\textit{RLRT} = 4.8526, $H^2$ = 0.3221,
+\textit{p-value} = 0.0113) and condensed tannins (\textit{RLRT} =
+3.0522, $H^2$ = 0.3205, \textit{p-value} = 0.0343) both displayed
+significant responses to tree genotype. None of the other bark traits,
+pH (\textit{RLRT} = 0.00, $H^2$ = 0.00, \textit{p-value} = 1.0000) or
+carbon-nitrogen ratio (\textit{RLRT} = 0.0000, $H^2$ = 0.0000,
+\textit{p-value} = 1.0000), showed a significant response to tree
+genotype and none other than bark roughness was correlated with
+network similarity (Table~\ref{tab:cn_trait_perm}); therefore, we
+focused our subsequent analyses on the indirect effect of genotype on
+lichen network structure via bark roughness. We found that bark
+roughness was significantly correlated with network similarity and
+other lichen network metrics, including negative correlations with
+overall network degree ($df$ = 35, $t$ = -2.13, $r$ = -0.34,
+\textit{p-value} = 0.04) and centralization ($df$ = 35, $t$ = -2.52,
+$r$ = -0.39, \textit{p-value} = 0.02). In other words, trees with more
+similar levels of bark roughness tended to have lichen interaction
+networks with similar structure. To quantify the genetic bases of this
+effect of bark roughness on network structure, we used the residual
+values from regressions of network degree and centralization in tests
+of the effect of tree genotype and found no significant effect of tree
 genotype for either degree (\textit{RLRT} = 0.00, $H^2$ = 0.00,
 \textit{p-value} = 1.0000) or centralization (\textit{RLRT} = 0.00,
 $H^2$ = 0.00, \textit{p-value} = 1.0000), suggesting that the observed
@@ -640,24 +650,24 @@ largely genetically based (Fig.~\ref{fig:br_net}).
 \section*{Discussion}
 
 
-We found that tree genotype influenced the network structure of lichen
-communities associated with narrowleaf cottonwoods in a riparian
-forest ecosystem. Network similarity and metrics of network structure
-tended to be more similar on trees of the same genotype. Generally,
-this genetic effect was manifested in positive interactions and
-largely driven by \textit{C. holocarpa}. The genetically based trait,
-bark roughness, was the only trait observed to effect network
-variation, largely via shifts in positive in-coming and out-going
-interactions. Chemistry traits, whether genetically based, such as
-tannin concentration, or not, were not significantly correlated with
-lichen network structure. Bark roughness has been demonstrated
-previously to be under strong genetic control \citep{Bdeir2017}, and
-bark roughness has also been shown to be an important tree trait
-influencing bark lichens \citep{Lamit2015a}; however this is the first
-demonstration of a link from genetics to lichen network structure.  As
-such these results have important implications for the potential
-influence of genetically based variation in ecosystems with networks
-of interacting species.
+We found support for both of our hypotheses. First, tree genotype
+influenced the network structure of lichen communities associated with
+narrowleaf cottonwoods in a riparian forest ecosystem. Network
+similarity and metrics of network structure tended to be more similar
+on trees of the same genotype. Generally, this genetic effect was
+manifested in positive interactions and largely driven by
+\textit{C. holocarpa}. Second, the genetically based trait, bark
+roughness, was observed to affect network variation, largely via
+shifts in positive in-coming and out-going interactions. Chemistry
+traits, whether genetically based, such as tannin concentration, or
+not, were not significantly correlated with lichen network
+structure. Bark roughness has been demonstrated previously to be under
+strong genetic control \citep{Bdeir2017}, and bark roughness has also
+been shown to be an important tree trait influencing bark lichens
+\citep{Lamit2015a}; however this is the first demonstration of a link
+from genetics to lichen network structure.  As such these results have
+important implications for the potential influence of genetically
+based variation in ecosystems with networks of interacting species.
 
 
 \subsection*{Implications of Ecological Network Heritability}
