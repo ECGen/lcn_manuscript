@@ -77,6 +77,11 @@ Borrett, S.~R. and Lau, M.~K. (2014).
 \newblock {enaR: An R package for Ecosystem Network Analysis}.
 \newblock {\em Methods in Ecology and Evolution}, 5(11):1206--1213.
 
+\bibitem[Borrett et~al., 2010]{Borrett2010}
+Borrett, S.~R., Whipple, S.~J., and Patten, B.~C. (2010).
+\newblock Rapid development of indirect effects in ecological networks.
+\newblock {\em Oikos}, 119(7):1136--1148.
+
 \bibitem[Busby et~al., 2015]{Busby2015}
 Busby, P.~E., Lamit, L.~J., Keith, A.~R., Newcombe, G., Gehring, C.~A.,
   Whitham, T.~G., and Dirzo, R. (2015).
@@ -166,6 +171,12 @@ Evans, D.~M., Pocock, M. J.~O., and Memmott, J. (2013).
 Everett, M.~G. and Borgatti, S.~P. (2014).
 \newblock {Networks containing negative ties}.
 \newblock {\em Social Networks}, 38(1):111--120.
+
+\bibitem[Fath and Patten, 1998]{Fath1998}
+Fath, B.~D. and Patten, B.~C. (1998).
+\newblock Network synergism: Emergence of positive relations in ecological
+  systems.
+\newblock {\em Ecological Modelling}, 107(2):127 -- 143.
 
 \bibitem[Gehring et~al., 2014]{Gehring2014PlantChange}
 Gehring, C., Flores-Renter{\'{i}}a, D., Sthultz, C.~M., Leonard, T.~M.,
