@@ -59,6 +59,11 @@ Bascompte, J., Jordano, P., and Olesen, J.~M. (2006).
   Maintenance{\textbackslash}r10.1126/science.1123412}.
 \newblock {\em Science}, 312:431--433.
 
+\bibitem[Bates et~al., 2015]{lme4}
+Bates, D., M{\"a}chler, M., Bolker, B., and Walker, S. (2015).
+\newblock Fitting linear mixed-effects models using {lme4}.
+\newblock {\em Journal of Statistical Software}, 67(1):1--48.
+
 \bibitem[Bdeir et~al., 2017]{Bdeir2017}
 Bdeir, R., Muchero, W., Yordanov, Y., Tuskan, G.~A., Busov, V., and Gailing, O.
   (2017).
@@ -364,6 +369,11 @@ Poisot, T., Cirtwill, A.~R., Cazelles, K., Gravel, D., Fortin, M., and
 \newblock {The structure of probabilistic networks}.
 \newblock {\em Methods in Ecology and Evolution}, 7(3):303--312.
 
+\bibitem[{R Core Team}, 2020]{R2020}
+{R Core Team} (2020).
+\newblock {\em R: A Language and Environment for Statistical Computing}.
+\newblock R Foundation for Statistical Computing, Vienna, Austria.
+
 \bibitem[Rezende et~al., 2007]{Rezende2007}
 Rezende, E.~L., Lavabre, J.~E., Guimar{\~{a}}es, P.~R., Jordano, P., and
   Bascompte, J. (2007).
@@ -376,6 +386,12 @@ Root, H.~T., Miller, J. E.~D., and McCune, B. (2011).
 \newblock {Biotic soil crust lichen diversity and conservation in shrub-steppe
   habitats of Oregon and Washington}.
 \newblock {\em The Bryologist}, 114(4):796.
+
+\bibitem[Scheipl et~al., 2008]{RLRsim}
+Scheipl, F., Greven, S., and Kuechenhoff, H. (2008).
+\newblock Size and power of tests for a zero random effect variance or
+  polynomial regression in additive and linear mixed models.
+\newblock {\em Computational Statistics \& Data Analysis}, 52(7):3283--3299.
 
 \bibitem[Schoch, 2020]{signnet}
 Schoch, D. (2020).
