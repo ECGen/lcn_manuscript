@@ -481,22 +481,26 @@ package \citep{signnet}.
 We used a combination of parametric and non-parametric, permutation
 based frequentist statistical analyses to test for the effects of
 genetic variation on lichen communities and their interaction
-networks. To assess the effect of genotype on univariate responses, we
+networks. To assess the effect of genotype on traits as univariate
+response variables (including the metrics of network structure), we
 used additive, random effects models with Restricted Maximum
-Likelihood (REML). We used a combination of Least Squares Regression,
-Analysis of Variance (ANOVA) and correlation tests to quantify and
-test for the relationship among other variables. Bark roughness,
-lichen cover and species richness were square-root transformed to meet
-the assumptions of homogeneity of variance and normality for these
-tests.
-
-For multivariate response variables, such as lichen community
-composition and network structure, we used distance based multivariate
-statistical approaches, including Permutational Analysis of Variance
-(PERMANOVA) and Mantel tests. To quantify the similarity of lichen
-networks among individual trees, we calculated the pairwise Euclidean
-distance of the $\mathbf{D}$ interaction matrices among all pairs of
-trees. For visualization of multivariate patterns, we used Non-metric
+Likelihood (REML) conducted in R via the \texttt{lme4} and
+\texttt{RLRsim} packages \citep{lme4, RLRsim}. To conform to test
+assumptions, traits were root transformed with the exception of
+condensed tannin concentration and carbon-nitrogen ratio, which were
+rank and log$_{10}$ transformed, respectivley. Differences in node
+level centrality among species was tested using ANOVA and Tukey-HSD
+multiple comparison tests. Correlations among trait variables and
+network metrics were quantified and tested using linear correlations
+of Pearson's $r$. For multivariate response variables, such as lichen
+community composition and network structure, we used distance based
+multivariate statistical approaches. To quantify the similarity of
+lichen networks among individual trees, we calculated the pairwise
+Euclidean distance of the $\mathbf{D}$ interaction matrices among all
+trees. To test for the effects of genotype and other predictor
+variables on network similarity we conducted Permutational Analysis of
+Variance (PERMANOVA) with \texttt{vegan} \citep{vegan}. For
+visualization of multivariate patterns, we used Non-metric
 Multi-Dimensional Scaling (NMDS) \citep{ecodist} to produce
 dimensionally reduced ordinations of these multi-variate responses and
 fitted vectors for continuous predictor variables to the ordinated
@@ -514,8 +518,8 @@ the total phenotypic variance \citep{Conner2004ATextbook}. This can be
 interpreted as a measure of the phenotypic variance due to genotypic
 variation. 
 
-All analyses were conducted using R version 3.6.1 (R Development Core
-Team 2019). Code and data for the project are openly available as a
+All analyses were conducted using R version 4.0.2 (R Development Core
+Team 2020). Code and data for the project are openly available as a
 reproducible workflow using \texttt{drake} \citep{drake}, which is
 archived via Zenodo \url{zenodo.com/doiXXXXXX}. 
 
@@ -790,7 +794,7 @@ interactions among species; however, previous studies have
 demonstrated this network context is likely to be important, as
 altering the structure of interaction networks provides a means for
 genetic effects to be dampened or magnified within the system of
-interacting species \cite{Smith2011, Keith2017}. Although such a
+interacting species \citep{Smith2011, Keith2017}. Although such a
 synthesis necessitates a much greater effort than can be afforded in
 this paper, it is possible to point to several productive pathways
 forward. In terms of interaction networks, foundation species are
