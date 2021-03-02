@@ -1,38 +1,107 @@
-\documentclass[fleqn,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Professional Formal Letter
+% LaTeX Template
+% Version 2.0 (12/2/17)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Brian Moses
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[12pt, a4paper]{letter} % Set the font size (10pt, 11pt and 12pt) and paper size (letterpaper, a4paper, etc)
+
+\usepackage{hyperref}
+
+\input{structure.tex} % Include the file that specifies the document structure
+
+%\longindentation=0pt % Un-commenting this line will push the closing "Sincerely," and date to the left of the page
+
+%----------------------------------------------------------------------------------------
+%	YOUR INFORMATION
+%----------------------------------------------------------------------------------------
+
+\Who{Dr. Matthew K. Lau} % Your name
+
+\Title{, PhD.} % Your title, leave blank for no title
+
+\authordetails{
+PIFI Research Fellow \\
+Institute of Applied Ecology\\ % Your department/institution
+Chinese Academy of Sciences \\ % Your city, zip code, country, etc
+Shenyang 110016, China\\ % Your address
+and \\
+External Research Fellow \\
+Harvard Forest \\
+Harvard University \\
+Cambridge, MA  02138 \\
+}
+
+%----------------------------------------------------------------------------------------
+%	HEADER CONTENTS
+%----------------------------------------------------------------------------------------
+
+\logo{cas_logo_large.jpg} % Logo filename, your logo should have
+                          % square dimensions (i.e. roughly the same
+                          % width and height), if it does not, you
+                          % will need to adjust spacing within the
+                          % HEADER STRUCTURE block in structure.tex
+                          % (read the comments carefully!)
+
+\headerlineone{CHINESE ACADEMY} % Top header line, leave blank if you only want the bottom line
+
+\headerlinetwo{OF SCIENCES} % Bottom header line
+
+%----------------------------------------------------------------------------------------
 
 \begin{document}
 
+%----------------------------------------------------------------------------------------
+%	TO ADDRESS
+%----------------------------------------------------------------------------------------
+
+\begin{letter}{
+
+}
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT
+%----------------------------------------------------------------------------------------
+
 For Submission to Nature Ecology and Evolution
 
-Elucidating the genetic basis to ecological network structure is
-fundamental to understanding evolution in complex ecosystems. Although
-previous work has demonstrated that genetic variation can influence
-food webs and trophic chains, we are unaware of a study that
-quantified the contribution of phenotypic variation to heritable
-variation in network structure. To examine this, in a 20+ year old
-common garden we observed epiphytic lichens associated with narrowleaf
-cottonwood (\textit{Populus angustifolia}), a riparian ecosystem
-foundation species. We constructed and conducted genetic analyses of
-signed, weighted, directed lichen interaction networks on individual
-trees. We found three primary results. First, genotype identity
-significantly predicted lichen network similarity; i.e., replicates of
-the same genotype supported more similar lichen networks than
-different genotypes. Second, broad sense heritability estimates showed
-that plant genotype explained network similarity ($H^2$ = 0.41),
-degree ($H^2$ = 0.32) and centralization ($H^2$ = 0.33). Third, of
-several tree phenotypic traits examined, bark roughness was both
-heritable ($H^2$ = 0.32) and significantly predicted by lichen network
-similarity ($R^2$ = 0.26). These results support a mechanistic,
-genetic pathway from variation in a heritable tree trait to ecological
-network structure and demonstrate that evolution can act at the
-community level to influence not only abundances of organisms but also
-interactions at the scale of entire networks. Given that network
-structure can influence system-wide stability and resilience, our
-findings have important implications for how evolution acts in
-ecosystems.
+
+\opening{Dear Editor of Nature Ecology and Evolution,}
 
 
+\closing{Sincerely, \\
+  \hbox{\hspace{-10cm}}
+\includegraphics[height=2cm]{mkl_sig.pdf}  
+}
 
 
+%----------------------------------------------------------------------------------------
+%	OPTIONAL FOOTNOTE
+%----------------------------------------------------------------------------------------
+
+% Uncomment the 4 lines below to print a footnote with custom text
+%\def\thefootnote{}
+%\def\footnoterule{\hrule}
+%\footnotetext{\hspace*{\fill}{\footnotesize\em Footnote text}}
+%\def\thefootnote{\arabic{footnote}}
+
+%----------------------------------------------------------------------------------------
+
+\end{letter}
 
 \end{document}
