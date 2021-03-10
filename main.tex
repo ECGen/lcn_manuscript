@@ -506,26 +506,26 @@ aggregating the gridded observations by summing over the binary
 cell-wise species presence-absences. To test for the effects of
 genotype and other predictor variables on community and network
 similarity we conducted Permutational Analysis of Variance (PERMANOVA)
-with \texttt{vegan} \citep{vegan}. For visualization of multivariate
-patterns, we used Non-metric Multi-Dimensional Scaling (NMDS)
-\citep{ecodist} to produce dimensionally reduced ordinations of these
-multivariate responses and fitted vectors for continuous predictor
-variables to the ordinated values \citep{vegan}, using 100 random
-initial configurations with a maximum of 1000 iterations and a change
-in stress threshold of less than 10$^{-12}$. This was repeated for one
-to four dimension configurations, and the configuration with the
-lowest dimensionality and an unexplained variation less than 10\% was
-selected. For all tests where genotype was used as a predictor, we
-quantified the heritability of the response variable. Because the
-trees in the garden were clonal replicates of each genotype, we
-calculated broad-sense heritability, which is the genotypic variance
-divided by the total phenotypic variance \citep{Conner2004ATextbook},
-which can be interpreted as a measure of the phenotypic variance due
-to genotypic variation. All analyses were conducted using R version
-4.0.2 \citep{R2020}. Code and data for the project are openly
-available as a reproducible workflow using \texttt{drake}
-\citep{drake} archived via Zenodo
-\url{https://doi.org/10.5281/zenodo.4581639}.
+with \texttt{vegan} \citep{vegan} using 100000 permutations. For
+visualization of multivariate patterns, we used Non-metric
+Multi-Dimensional Scaling (NMDS) \citep{ecodist} to produce
+dimensionally reduced ordinations of these multivariate responses and
+fitted vectors for continuous predictor variables to the ordinated
+values \citep{vegan}, using 100 random initial configurations with a
+maximum of 1000 iterations and a change in stress threshold of less
+than 10$^{-12}$. This was repeated for one to four dimension
+configurations, and the configuration with the lowest dimensionality
+and an unexplained variation less than 10\% was selected. For all
+tests where genotype was used as a predictor, we quantified the
+heritability of the response variable. Because the trees in the garden
+were clonal replicates of each genotype, we calculated broad-sense
+heritability, which is the genotypic variance divided by the total
+phenotypic variance \citep{Conner2004ATextbook}, which can be
+interpreted as a measure of the phenotypic variance due to genotypic
+variation. All analyses were conducted using R version 4.0.2
+\citep{R2020}. Code and data for the project are openly available as a
+reproducible workflow using \texttt{drake} \citep{drake} archived via
+Zenodo \url{https://doi.org/10.5281/zenodo.4581639}.
 
 \begin{figure}[ht]
 \centering
@@ -567,7 +567,11 @@ only positive links also showed a significant effect of tree genotype,
 including positive degree and positive in-going centralization.
 Metrics calculated with negative links were not significant, including
 degree (negative) and both in-coming (negative) and out-going
-centralization (negative).
+centralization (negative). Interestingly, although network similarity
+and multiple network metrics were significantly predicted by tree
+genotype, we did not observe a significant genotypic effect for
+community composition (Pseudo-$F_{9, 27}$ = 0.751, R$^2$ = 0.20,
+\textit{p-value} = 0.888).
 
 \begin{figure*}[ht]
 \centering
