@@ -6,14 +6,6 @@ Ara{\'{u}}jo, M.~B., Rozenfeld, A., Rahbek, C., and Marquet, P.~A. (2011).
   climate change}.
 \newblock {\em Ecography}, 34:897--908.
 
-\bibitem[Arnold et~al., 2009]{Arnold2009ADiversification}
-Arnold, A.~E., Miadlikowska, J., Higgins, K.~L., Sarvate, S.~D., Gugger, P.,
-  Way, A., Hofstetter, V., Kauff, F., and Lutzoni, F. (2009).
-\newblock {A phylogenetic estimation of trophic transition networks for
-  ascomycetous Fungi: Are lichens cradles of symbiotrophic Fungal
-  diversification?}
-\newblock {\em Systematic Biology}, 58(3):283--297.
-
 \bibitem[Bailey et~al., 2009]{Bailey2009a}
 Bailey, J.~K., Schweitzer, J.~A., Ubeda, F., Koricheva, J., LeRoy, C.~J.,
   Madritch, M.~D., Rehill, B.~J., Bangert, R.~K., Fischer, D.~G., Allan, G.~J.,
@@ -104,14 +96,6 @@ Busby, P.~E., Lamit, L.~J., Keith, A.~R., Newcombe, G., Gehring, C.~A.,
 Butts, C.~T. (2019).
 \newblock {\em sna: Tools for Social Network Analysis}.
 \newblock R package version 2.5.
-
-\bibitem[Chagnon et~al., 2016]{Chagnon2016InteractionScale}
-Chagnon, P.~L., U’Ren, J.~M., Miadlikowska, J., Lutzoni, F., and
-  Elizabeth~Arnold, A. (2016).
-\newblock {Interaction type influences ecological network structure more than
-  local abiotic conditions: evidence from endophytic and endolichenic fungi at
-  a continental scale}.
-\newblock {\em Oecologia}, 180(1):181--191.
 
 \bibitem[Conner and Hartl, 2004]{Conner2004ATextbook}
 Conner, K. and Hartl, D.~L. (2004).
@@ -315,11 +299,6 @@ Lau, M.~K., Keith, A.~R., Borrett, S.~R., Shuster, S.~M., and Whitham, T.~G.
 
 \bibitem[Lieberman et~al., 2005]{Lieberman2005EvolutionaryGraphs}
 Lieberman, E., Hauert, C., and Howak, M.~A. (2005).
-\newblock {Evolutionary dynamics on graphs}.
-\newblock {\em Nature}, 433(7023):312--316.
-
-\bibitem[Lleberman et~al., 2005]{Lleberman2005EvolutionaryGraphs}
-Lleberman, E., Hauert, C., and Howak, M.~A. (2005).
 \newblock {Evolutionary dynamics on graphs}.
 \newblock {\em Nature}, 433(7023):312--316.
 
