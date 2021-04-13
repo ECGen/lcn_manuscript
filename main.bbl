@@ -402,11 +402,11 @@ Scheipl, F., Greven, S., and Kuechenhoff, H. (2008).
 Schoch, D. (2020).
 \newblock {\em signnet: An R package to analyze signed networks}.
 
-\bibitem[Shuster et~al., 2006]{Shuster2006COMMUNITYSTRUCTURE}
+\bibitem[Shuster et~al., 2006]{Shuster2006COMMUNITYSTRUCTURE-fix}
 Shuster, S.~M., Lonsdorf, E.~V., Wimp, G.~M., Bailey, J.~K., and Whitham, T.~G.
   (2006).
-\newblock {COMMUNITY HERITABILITY MEASURES THE EVOLUTIONARY CONSEQUENCES OF
-  INDIRECT GENETIC EFFECTS ON COMMUNITY STRUCTURE}.
+\newblock {Community heritability measures the evolutionary consequences of
+  indirect genetic effects on community structure}.
 \newblock {\em Evolution}, 60(5):991.
 
 \bibitem[Smith et~al., 2011]{Smith2011}
