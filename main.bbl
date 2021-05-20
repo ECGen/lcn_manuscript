@@ -15,11 +15,11 @@ Bailey, J.~K., Schweitzer, J.~A., Ubeda, F., Koricheva, J., LeRoy, C.~J.,
 \newblock {\em Philosophical transactions of the Royal Society of London.
   Series B, Biological sciences}, 364(1523):1607--16.
 
-\bibitem[Bailey et~al., 2005]{Bailey2005ImportanceInteractions}
-Bailey, J.~K., Wooley, S.~C., Lindroth, R.~L., and Whitham, T.~G. (2005).
+\bibitem[Bailey et~al., 2006]{Bailey2006fix}
+Bailey, J.~K., Wooley, S.~C., Lindroth, R.~L., and Whitham, T.~G. (2006).
 \newblock {Importance of species interactions to community heritability: a
   genetic basis to trophic-level interactions}.
-\newblock {\em Ecology Letters}, 0(0):051122062725008.
+\newblock {\em Ecology Letters}, 9(1):78--85.
 
 \bibitem[Bangert et~al., 2008]{Bangert2008a}
 Bangert, R.~K., Lonsdorf, E.~V., Wimp, G.~M., Shuster, S.~M., Fischer, D.,
@@ -185,12 +185,13 @@ Gehring, C., Flores-Renter{\'{i}}a, D., Sthultz, C.~M., Leonard, T.~M.,
   ectomycorrhizal fungal community responses to climate change}.
 \newblock {\em Molecular Ecology}, 23(6):1379--1391.
 
-\bibitem[Gehring et~al., 2017]{Gehring2017a}
+\bibitem[Gehring et~al., 2017]{Gehring2017afix}
 Gehring, C.~A., Sthultz, C.~M., Flores-Renter{\'{i}}a, L., Whipple, A.~V., and
   Whitham, T.~G. (2017).
 \newblock {Tree genetics defines fungal partner communities that may confer
   drought tolerance}.
-\newblock {\em Proceedings of the National Academy of Sciences}.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  114(42):11169--74.
 
 \bibitem[Gilbert et~al., 2012]{Gilbert2012}
 Gilbert, S., Sapp, J., and Tauber, A. (2012).
@@ -210,15 +211,16 @@ Goslee, S.~C. and Urban, D.~L. (2007).
   data.
 \newblock {\em Journal of Statistical Software}, 22:1--19.
 
-\bibitem[Grilli et~al., 2016]{Grilli2016ModularityCommunities}
+\bibitem[Grilli et~al., 2016]{Grilli2016afix}
 Grilli, J., Rogers, T., and Allesina, S. (2016).
 \newblock {Modularity and stability in ecological communities}.
-\newblock {\em Nature Communications}, 7.
+\newblock {\em Nature Communications}, 7:12031.
 
-\bibitem[Guimar{\~{a}}es, 2020]{Guimaraes2020TheOrganization}
+\bibitem[Guimar{\~{a}}es, 2020]{Guimaraes2020afix}
 Guimar{\~{a}}es, P.~R. (2020).
 \newblock {The Structure of Ecological Networks Across Levels of Organization}.
-\newblock {\em Annual Review of Ecology, Evolution, and Systematics}, 51(1).
+\newblock {\em Annual Review of Ecology, Evolution, and Systematics},
+  51(1):433--460.
 
 \bibitem[Guimar{\~{a}}es et~al., 2011]{Guimaraes2011}
 Guimar{\~{a}}es, P.~R., Jordano, P., and Thompson, J.~N. (2011).
@@ -299,19 +301,12 @@ Lau, M.~K., Borrett, S.~R., Baiser, B., Gotelli, N.~J., and Ellison, A.~M.
 \newblock {Ecological network metrics: opportunities for synthesis}.
 \newblock {\em Ecosphere}, 8(8):e01900.
 
-\bibitem[Lau et~al., 2016a]{Lau2016afix}
+\bibitem[Lau et~al., 2016]{Lau2016afix}
 Lau, M.~K., Keith, A.~R., Borrett, S.~R., Shuster, S.~M., and Whitham, T.~G.
-  (2016a).
+  (2016).
 \newblock {Genotypic variation in foundation species generates network
   structure that may drive community dynamics and evolution}.
-\newblock {\em Ecology}, 97(3):15--0600.
-
-\bibitem[Lau et~al., 2016b]{Lau2016GenotypicEvolution}
-Lau, M.~K., Keith, A.~R., Borrett, S.~R., Shuster, S.~M., and Whitham, T.~G.
-  (2016b).
-\newblock {Genotypic variation in foundation species generates network
-  structure that may drive community dynamics and evolution}.
-\newblock {\em Ecology}.
+\newblock {\em Ecology}, 97(3):733--42.
 
 \bibitem[Lieberman et~al., 2005]{Lieberman2005EvolutionaryGraphs}
 Lieberman, E., Hauert, C., and Howak, M.~A. (2005).
@@ -508,10 +503,11 @@ Whitham, T.~G., Bailey, J.~K., Schweitzer, J.~A., Shuster, S.~M., Bangert,
   ecosystems.}
 \newblock {\em Nature reviews. Genetics}, 7:510--523.
 
-\bibitem[Whitham et~al., 2012]{Whitham2012}
+\bibitem[Whitham et~al., 2012]{Whitham2012afix}
 Whitham, T.~G., Gehring, C.~A., Lamit, L.~J., Wojtowicz, T., Evans, L.~M.,
   Keith, A.~R., and Smith, D.~S. (2012).
 \newblock {Community specificity: Life and afterlife effects of genes}.
+\newblock 17:271--281.
 
 \bibitem[Winfree et~al., 2011]{Winfree2011}
 Winfree, R., Gross, B.~J., and Kremen, C. (2011).
