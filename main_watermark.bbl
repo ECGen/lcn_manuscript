@@ -1,0 +1,531 @@
+\begin{thebibliography}{}
+
+\bibitem[Ara{\'{u}}jo et~al., 2011]{Araujo2011}
+Ara{\'{u}}jo, M.~B., Rozenfeld, A., Rahbek, C., and Marquet, P.~A. (2011).
+\newblock {Using species co-occurrence networks to assess the impacts of
+  climate change}.
+\newblock {\em Ecography}, 34:897--908.
+
+\bibitem[Bailey et~al., 2009]{Bailey2009a}
+Bailey, J.~K., Schweitzer, J.~A., Ubeda, F., Koricheva, J., LeRoy, C.~J.,
+  Madritch, M.~D., Rehill, B.~J., Bangert, R.~K., Fischer, D.~G., Allan, G.~J.,
+  and Whitham, T.~G. (2009).
+\newblock {From genes to ecosystems: a synthesis of the effects of plant
+  genetic factors across levels of organization.}
+\newblock {\em Philosophical transactions of the Royal Society of London.
+  Series B, Biological sciences}, 364(1523):1607--16.
+
+\bibitem[Bailey et~al., 2006]{Bailey2006fix}
+Bailey, J.~K., Wooley, S.~C., Lindroth, R.~L., and Whitham, T.~G. (2006).
+\newblock {Importance of species interactions to community heritability: a
+  genetic basis to trophic-level interactions}.
+\newblock {\em Ecology Letters}, 9(1):78--85.
+
+\bibitem[Bangert et~al., 2008]{Bangert2008a}
+Bangert, R.~K., Lonsdorf, E.~V., Wimp, G.~M., Shuster, S.~M., Fischer, D.,
+  Schweitzer, J.~A., Allan, G.~J., Bailey, J.~K., and Whitham, T.~G. (2008).
+\newblock {Genetic structure of a foundation species: Scaling community
+  phenotypes from the individual to the region}.
+
+\bibitem[Bangert et~al., 2006]{Bangert2006}
+Bangert, R.~K., Turek, R.~J., Rehill, B., Wimp, G.~M., Schweitzer, J.~A.,
+  Allan, G.~J., Bailey, J.~K., Martinsen, G.~D., Keim, P., Lindroth, R.~L., and
+  Whitham, T.~G. (2006).
+\newblock {A genetic similarity rule determines arthropod community structure.}
+\newblock {\em Molecular ecology}, 15:1379--1391.
+
+\bibitem[Barbour et~al., 2016]{Barbour2016GeneticComplexity}
+Barbour, M.~A., Fortuna, M.~A., Bascompte, J., Nicholson, J.~R.,
+  Julkunen-Tiitto, R., Jules, E.~S., and Crutsinger, G.~M. (2016).
+\newblock {Genetic specificity of a plant-insect food web: Implications for
+  linking genetic variation to network complexity}.
+\newblock {\em Proceedings of the National Academy of Sciences of the United
+  States of America}, 113(8):2128--2133.
+
+\bibitem[Barbour et~al., 2009]{Barbour2009c}
+Barbour, R.~C., O'Reilly-Wapstra, J.~M., Little, D. W.~D., Jordan, G.~J.,
+  Steane, D.~A., Humphreys, J.~R., Bailey, J.~K., Whitham, T.~G., Potts, B.~M.,
+  De~Little, D.~W., Jordan, G.~J., Steane, D.~A., Humphreys, J.~R., Bailey,
+  J.~K., Whitham, T.~G., and Potts, B.~M. (2009).
+\newblock {A geographic mosaic of genetic variation within a foundation tree
+  species and its community-level consequences}.
+\newblock {\em Ecology}, 90(7):1762--1772.
+
+\bibitem[Barraclough, 2015]{Barraclough2015}
+Barraclough, T. (2015).
+\newblock How do species interactions affect evolutionary dynamics across whole
+  communities?
+\newblock {\em Annual Review of Ecology, Evolution, and Systematics},
+  46:150805153913004.
+
+\bibitem[Bascompte et~al., 2006]{Bascompte2006}
+Bascompte, J., Jordano, P., and Olesen, J.~M. (2006).
+\newblock {Asymmetric Coevolutionary Networks Facilitate Biodiversity
+  Maintenance{\textbackslash}r10.1126/science.1123412}.
+\newblock {\em Science}, 312:431--433.
+
+\bibitem[Bates et~al., 2015]{lme4}
+Bates, D., M{\"a}chler, M., Bolker, B., and Walker, S. (2015).
+\newblock Fitting linear mixed-effects models using {lme4}.
+\newblock {\em Journal of Statistical Software}, 67(1):1--48.
+
+\bibitem[Bdeir et~al., 2017]{Bdeir2017}
+Bdeir, R., Muchero, W., Yordanov, Y., Tuskan, G.~A., Busov, V., and Gailing, O.
+  (2017).
+\newblock {Quantitative trait locus mapping of Populus bark features and stem
+  diameter}.
+\newblock {\em BMC Plant Biology}.
+
+\bibitem[Bordenstein and Theis, 2015]{Bordenstein2015}
+Bordenstein, S. and Theis, K. (2015).
+\newblock Host biology in light of the microbiome: ten principles of holobionts
+  and hologenomes.
+\newblock {\em PLOS Biol.}, 13:e1002226.
+
+\bibitem[Borrett et~al., 2007]{Borrett2007FunctionalProliferation}
+Borrett, S.~R., Fath, B.~D., and Patten, B.~C. (2007).
+\newblock {Functional integration of ecological networks through pathway
+  proliferation}.
+\newblock {\em Journal of Theoretical Biology}, 245(1):98--111.
+
+\bibitem[Borrett and Lau, 2014]{Borrett2014EnaR:Analysis}
+Borrett, S.~R. and Lau, M.~K. (2014).
+\newblock {enaR: An R package for Ecosystem Network Analysis}.
+\newblock {\em Methods in Ecology and Evolution}, 5(11):1206--1213.
+
+\bibitem[Borrett et~al., 2010]{Borrett2010}
+Borrett, S.~R., Whipple, S.~J., and Patten, B.~C. (2010).
+\newblock Rapid development of indirect effects in ecological networks.
+\newblock {\em Oikos}, 119(7):1136--1148.
+
+\bibitem[Busby et~al., 2015]{Busby2015}
+Busby, P.~E., Lamit, L.~J., Keith, A.~R., Newcombe, G., Gehring, C.~A.,
+  Whitham, T.~G., and Dirzo, R. (2015).
+\newblock {Genetics-based interactions among plants, pathogens, and herbivores
+  define arthropod community structure}.
+\newblock {\em Ecology}, 96(7):1974--1984.
+
+\bibitem[Butts, 2019]{sna}
+Butts, C.~T. (2019).
+\newblock {\em sna: Tools for Social Network Analysis}.
+\newblock R package version 2.5.
+
+\bibitem[Conner and Hartl, 2004]{Conner2004ATextbook}
+Conner, K. and Hartl, D.~L. (2004).
+\newblock {\em {A Primer of Ecological Genetics: a textbook}}.
+\newblock Sinauer Associates, Inc., Sunderland, Massachusetts, 1st edition.
+
+\bibitem[Crutsinger, 2016]{Crutsinger2016}
+Crutsinger, G.~M. (2016).
+\newblock {A community genetics perspective: Opportunities for the coming
+  decade}.
+\newblock {\em New Phytologist}.
+
+\bibitem[Darwin, 1859]{Darwin1859}
+Darwin, C. (1859).
+\newblock {\em {On the Origin of Species}}.
+\newblock Murray, London.
+
+\bibitem[D{\'{a}}ttilo et~al., 2016]{Dattilo2016fix}
+D{\'{a}}ttilo, W., Lara-Rodr{\'{i}}guez, N., Jordano, P., Guimar{\~{a}}es,
+  P.~R., Thompson, J.~N., Marquis, R.~J., Medeiros, L.~P., Ortiz-Pulido, R.,
+  Marcos-Garc{\'{i}}a, M.~A., and Rico-Gray, V. (2016).
+\newblock {Unravelling Darwin’s entangled bank: Architecture and robustness
+  of mutualistic networks with multiple interaction types}.
+\newblock {\em Proceedings of the Royal Society B: Biological Sciences}.
+
+\bibitem[Des~Roches et~al., 2018]{DesRoches2018TheVariation}
+Des~Roches, S., Post, D.~M., Turley, N.~E., Bailey, J.~K., Hendry, A.~P.,
+  Kinnison, M.~T., Schweitzer, J.~A., and Palkovacs, E.~P. (2018).
+\newblock {The ecological importance of intraspecific variation}.
+\newblock {\em Nature Ecology and Evolution}, 2(1):57--64.
+
+\bibitem[D{\'{i}}az-Castelazo et~al., 2010]{Diaz-Castelazo2010}
+D{\'{i}}az-Castelazo, C., Guimar{\~{a}}es, P.~R., Jordano, P., Thompson, J.~N.,
+  Marquis, R.~J., and Rico-Gray, V. (2010).
+\newblock {Changes of a mutualistic network over time: Reanalysis over a
+  10-year period}.
+\newblock {\em Ecology}.
+
+\bibitem[Elias et~al., 2013]{Elias2013EvolutionaryNetwork}
+Elias, M., Fontaine, C., and Frank Van~Veen, F.~J. (2013).
+\newblock {Evolutionary history and ecological processes shape a local
+  multilevel antagonistic network}.
+\newblock {\em Current Biology}, 23(14):1355--1359.
+
+\bibitem[Ellison et~al., 2005]{Ellison2005}
+Ellison, A.~M., Bank, M.~S., Clinton, B.~D., Colburn, E.~A., Elliott, K., Ford,
+  C.~R., Foster, D.~R., Kloeppel, B.~D., Knoepp, J.~D., Lovett, G.~M., Mohan,
+  J., Orwig, D.~A., Rodenhouse, N.~L., Sobczak, W.~V., Stinson, K.~A., Stone,
+  J.~K., Swan, C.~M., Thompson, J., Von~Holle, B., and Webster, J.~R. (2005).
+\newblock {Loss of foundation species: consequences for the structure and
+  dynamics of forested ecosystems}.
+\newblock {\em Frontiers in Ecology and the Environment}, 3(9):479--486.
+
+\bibitem[Evans et~al., 2013]{Evans2013}
+Evans, D.~M., Pocock, M. J.~O., and Memmott, J. (2013).
+\newblock {The robustness of a network of ecological networks to habitat loss.}
+\newblock {\em Ecology letters}, 16:844--52.
+
+\bibitem[Everett and Borgatti, 2014]{Everett2014NetworksTies}
+Everett, M.~G. and Borgatti, S.~P. (2014).
+\newblock {Networks containing negative ties}.
+\newblock {\em Social Networks}, 38(1):111--120.
+
+\bibitem[Fath and Patten, 1998]{Fath1998}
+Fath, B.~D. and Patten, B.~C. (1998).
+\newblock Network synergism: Emergence of positive relations in ecological
+  systems.
+\newblock {\em Ecological Modelling}, 107(2):127 -- 143.
+
+\bibitem[Gehring et~al., 2014]{Gehring2014PlantChange}
+Gehring, C., Flores-Renter{\'{i}}a, D., Sthultz, C.~M., Leonard, T.~M.,
+  Flores-Renter{\'{i}}a, L., Whipple, A.~V., and Whitham, T.~G. (2014).
+\newblock {Plant genetics and interspecific competitive interactions determine
+  ectomycorrhizal fungal community responses to climate change}.
+\newblock {\em Molecular Ecology}, 23(6):1379--1391.
+
+\bibitem[Gehring et~al., 2017]{Gehring2017afix}
+Gehring, C.~A., Sthultz, C.~M., Flores-Renter{\'{i}}a, L., Whipple, A.~V., and
+  Whitham, T.~G. (2017).
+\newblock {Tree genetics defines fungal partner communities that may confer
+  drought tolerance}.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  114(42):11169--74.
+
+\bibitem[Gilbert et~al., 2012]{Gilbert2012}
+Gilbert, S., Sapp, J., and Tauber, A. (2012).
+\newblock A symbiotic view of life: We have never been individuals.
+\newblock {\em Q. Rev. Biol.}, 87:325–41.
+
+\bibitem[G{\'{o}}mez et~al., 2009]{Gomez2009LocalMosaic}
+G{\'{o}}mez, J.~M., Abdelaziz, M., Camacho, J. P.~M., Mu{\~{n}}oz-Pajares,
+  A.~J., and Perfectti, F. (2009).
+\newblock {Local adaptation and maladaptation to pollinators in a generalist
+  geographic mosaic}.
+\newblock {\em Ecology Letters}, 12(7):672--682.
+
+\bibitem[Goslee and Urban, 2007]{ecodist}
+Goslee, S.~C. and Urban, D.~L. (2007).
+\newblock The ecodist package for dissimilarity-based analysis of ecological
+  data.
+\newblock {\em Journal of Statistical Software}, 22:1--19.
+
+\bibitem[Grilli et~al., 2016]{Grilli2016afix}
+Grilli, J., Rogers, T., and Allesina, S. (2016).
+\newblock {Modularity and stability in ecological communities}.
+\newblock {\em Nature Communications}, 7:12031.
+
+\bibitem[Guimar{\~{a}}es, 2020]{Guimaraes2020afix}
+Guimar{\~{a}}es, P.~R. (2020).
+\newblock {The Structure of Ecological Networks Across Levels of Organization}.
+\newblock {\em Annual Review of Ecology, Evolution, and Systematics},
+  51(1):433--460.
+
+\bibitem[Guimar{\~{a}}es et~al., 2011]{Guimaraes2011}
+Guimar{\~{a}}es, P.~R., Jordano, P., and Thompson, J.~N. (2011).
+\newblock {Evolution and coevolution in mutualistic networks}.
+\newblock {\em Ecology letters}, 14(9):877--85.
+
+\bibitem[Guimar{\~{a}}es et~al., 2007]{Guimaraes2007InteractionNetworks}
+Guimar{\~{a}}es, P.~R., Rico-Gray, V., Oliveira, P.~S., Izzo, T.~J., dos Reis,
+  S.~F., and Thompson, J.~N. (2007).
+\newblock {Interaction Intimacy Affects Structure and Coevolutionary Dynamics
+  in Mutualistic Networks}.
+\newblock {\em Current Biology}, 17(20):1797--1803.
+
+\bibitem[Harmon et~al., 2019]{Harmon2019DetectingInteractions}
+Harmon, L.~J., Andreazzi, C.~S., D{\'{e}}barre, F., Drury, J., Goldberg, E.~E.,
+  Martins, A.~B., Meli{\'{a}}n, C.~J., Narwani, A., Nuismer, S.~L., Pennell,
+  M.~W., Rudman, S.~M., Seehausen, O., Silvestro, D., Weber, M., and Matthews,
+  B. (2019).
+\newblock {Detecting the macroevolutionary signal of species interactions}.
+\newblock {\em Journal of Evolutionary Biology}, 32(8):769--782.
+
+\bibitem[Holeski et~al., 2012]{holeski2012}
+Holeski, L.~M., Hillstrom, M.~L., Whitham, T.~G., and Lindroth, R.~L. (2012).
+\newblock {Relative importance of genetic, ontogenetic, induction, and seasonal
+  variation in producing a multivariate defense phenotype in a foundation tree
+  species}.
+\newblock {\em Oecologia}, 170:695--707.
+
+\bibitem[Johnson, 2008]{Johnson2008}
+Johnson, M. T.~J. (2008).
+\newblock {Bottom-up effects of plant genotype on aphids, ants, and predators}.
+\newblock {\em Ecology}.
+
+\bibitem[Johnson and Gibson, 2021]{Johnson2021}
+Johnson, N.~C. and Gibson, K.~S. (2021).
+\newblock Understanding multilevel selection may facilitate management of
+  arbuscular mycorrhizae in sustainable agroecosystems.
+\newblock {\em Front. Plant. Sci.}, 11:627345.
+
+\bibitem[Keith et~al., 2017]{Keith2017}
+Keith, A.~R., Bailey, J.~K., Lau, M.~K., and Whitham, T.~G. (2017).
+\newblock {Genetics-based interactions of foundation species affect community
+  diversity, stability and network structure}.
+\newblock {\em Proceedings of the Royal Society B: Biological Sciences},
+  284(1854):20162703.
+
+\bibitem[Lamit et~al., 2011]{Lamit2011}
+Lamit, L., Bowker, M., Holeski, L., N{\ae}sborg, R.~R., Wooley, S., Zinkgraf,
+  M., Lindroth, R., Whitham, T., and Gehring, C. (2011).
+\newblock {Genetically-based trait variation within a foundation tree species
+  influences a dominant bark lichen}.
+\newblock {\em Fungal Ecology}, 4(1):103--109.
+
+\bibitem[Lamit et~al., 2015a]{Lamit2015c}
+Lamit, L.~J., Busby, P.~E., Lau, M.~K., Compson, Z.~G., Wojtowicz, T., Keith,
+  A.~R., Zinkgraf, M.~S., Schweitzer, J.~A., Shuster, S.~M., Gehring, C.~A.,
+  and Whitham, T.~G. (2015a).
+\newblock {Tree genotype mediates covariance among communities from microbes to
+  lichens and arthropods}.
+\newblock {\em Journal of Ecology}, 103(4):840--850.
+
+\bibitem[Lamit et~al., 2015b]{Lamit2015a}
+Lamit, L.~J., Lau, M.~K., N{\ae}sborg, R.~R., Wojtowicz, T., Whitham, T.~G.,
+  and Gehring, C.~A. (2015b).
+\newblock {Genotype variation in bark texture drives lichen community assembly
+  across multiple environments}.
+\newblock {\em Ecology}, 96(4):960--971.
+
+\bibitem[Landau, 2018]{drake}
+Landau, W.~M. (2018).
+\newblock The drake r package: a pipeline toolkit for reproducibility and
+  high-performance computing.
+\newblock {\em Journal of Open Source Software}, 3(21).
+
+\bibitem[Lau et~al., 2017]{Lau2017a}
+Lau, M.~K., Borrett, S.~R., Baiser, B., Gotelli, N.~J., and Ellison, A.~M.
+  (2017).
+\newblock {Ecological network metrics: opportunities for synthesis}.
+\newblock {\em Ecosphere}, 8(8):e01900.
+
+\bibitem[Lau et~al., 2016]{Lau2016afix}
+Lau, M.~K., Keith, A.~R., Borrett, S.~R., Shuster, S.~M., and Whitham, T.~G.
+  (2016).
+\newblock {Genotypic variation in foundation species generates network
+  structure that may drive community dynamics and evolution}.
+\newblock {\em Ecology}, 97(3):733--42.
+
+\bibitem[Lieberman et~al., 2005]{Lieberman2005EvolutionaryGraphs}
+Lieberman, E., Hauert, C., and Howak, M.~A. (2005).
+\newblock {Evolutionary dynamics on graphs}.
+\newblock {\em Nature}, 433(7023):312--316.
+
+\bibitem[Maliet et~al., 2020]{Maliet2020AnNetworks}
+Maliet, O., Loeuille, N., and Morlon, H. (2020).
+\newblock {An individual‐based model for the eco‐evolutionary emergence of
+  bipartite interaction networks}.
+\newblock {\em Ecology Letters}, 23(11):1623--1634.
+
+\bibitem[Martinsen et~al., 2001]{Martinsen2001HybridSpecies}
+Martinsen, G.~D., Whitham, T.~G., Turek, R.~J., and Keim, P. (2001).
+\newblock {Hybrid populations selectively filter gene introgression between
+  species}.
+\newblock {\em Evolution}, 55(7):1325--1335.
+
+\bibitem[Moya-Lara{\~{n}}o, 2011]{Moya-Larano2011}
+Moya-Lara{\~{n}}o, J. (2011).
+\newblock {Genetic variation, predator-prey interactions and food web
+  structure.}
+\newblock {\em Philosophical transactions of the Royal Society of London.
+  Series B, Biological sciences}, 366(1569):1425--37.
+
+\bibitem[Nantongo et~al., 2020]{Nantongo2020}
+Nantongo, J.~S., Potts, B.~M., Fitzgerald, H., Newman, J., Elms, S., Aurik, D.,
+  Dungey, H., and O’Reilly-Wapstra, J.~M. (2020).
+\newblock Quantitative genetic variation in bark stripping of pinus radiata.
+\newblock {\em Forests}, 11(12):1356.
+
+\bibitem[Nelson et~al., 2018]{Nelson2018LichenHelens}
+Nelson, P.~R., McCune, B., Wheeler, T., Geiser, L.~H., and Crisafulli, C.~M.
+  (2018).
+\newblock {Lichen community development along a volcanic disturbance gradient
+  at Mount St. Helens}.
+\newblock In {\em Ecological Responses at Mount St. Helens: Revisited 35 years
+  after the 1980 Eruption}, pages 185--198. Springer New York.
+
+\bibitem[Newman, 2010]{Newman2010}
+Newman, M. (2010).
+\newblock {\em Networks: An Introduction}.
+\newblock Oxford University Press.
+
+\bibitem[Newman, 2006]{Newman2006}
+Newman, M. E.~J. (2006).
+\newblock {Modularity and community structure in networks.}
+\newblock {\em Proceedings of the National Academy of Sciences of the United
+  States of America}, 103(23):8577--82.
+
+\bibitem[Norby and Sigal, 1989]{Norby1989NitrogenDioxide}
+Norby, R.~J. and Sigal, L.~L. (1989).
+\newblock {Nitrogen fixation in the lichen Lobaria pulmonaria in elevated
+  atmospheric carbon dioxide}.
+\newblock {\em Oecologia}, 79(4):566--568.
+
+\bibitem[Oksanen et~al., 2019]{vegan}
+Oksanen, J., Blanchet, F.~G., Friendly, M., Kindt, R., Legendre, P., McGlinn,
+  D., Minchin, P.~R., O'Hara, R.~B., Simpson, G.~L., Solymos, P., Stevens, M.
+  H.~H., Szoecs, E., and Wagner, H. (2019).
+\newblock {\em vegan: Community Ecology Package}.
+\newblock R package version 2.5-6.
+
+\bibitem[Poisot et~al., 2016]{Poisot2016TheNetworks}
+Poisot, T., Cirtwill, A.~R., Cazelles, K., Gravel, D., Fortin, M., and
+  Stouffer, D.~B. (2016).
+\newblock {The structure of probabilistic networks}.
+\newblock {\em Methods in Ecology and Evolution}, 7(3):303--312.
+
+\bibitem[{R Core Team}, 2020]{R2020}
+{R Core Team} (2020).
+\newblock {\em R: A Language and Environment for Statistical Computing}.
+\newblock R Foundation for Statistical Computing, Vienna, Austria.
+
+\bibitem[Rezende et~al., 2007]{Rezende2007}
+Rezende, E.~L., Lavabre, J.~E., Guimar{\~{a}}es, P.~R., Jordano, P., and
+  Bascompte, J. (2007).
+\newblock {Non-random coextinctions in phylogenetically structured mutualistic
+  networks.}
+\newblock {\em Nature}, 448(7156):925--8.
+
+\bibitem[Root et~al., 2011]{Root2011BioticWashington}
+Root, H.~T., Miller, J. E.~D., and McCune, B. (2011).
+\newblock {Biotic soil crust lichen diversity and conservation in shrub-steppe
+  habitats of Oregon and Washington}.
+\newblock {\em The Bryologist}, 114(4):796.
+
+\bibitem[Scheipl et~al., 2008]{RLRsim}
+Scheipl, F., Greven, S., and Kuechenhoff, H. (2008).
+\newblock Size and power of tests for a zero random effect variance or
+  polynomial regression in additive and linear mixed models.
+\newblock {\em Computational Statistics \& Data Analysis}, 52(7):3283--3299.
+
+\bibitem[Schoch, 2020]{signnet}
+Schoch, D. (2020).
+\newblock {\em signnet: An R package to analyze signed networks}.
+
+\bibitem[Shuster et~al., 2006]{Shuster2006COMMUNITYSTRUCTURE-fix}
+Shuster, S.~M., Lonsdorf, E.~V., Wimp, G.~M., Bailey, J.~K., and Whitham, T.~G.
+  (2006).
+\newblock {Community heritability measures the evolutionary consequences of
+  indirect genetic effects on community structure}.
+\newblock {\em Evolution}, 60(5):991.
+
+\bibitem[Smith et~al., 2011]{Smith2011}
+Smith, D.~S., Bailey, J.~K., Shuster, S.~M., and Whitham, T.~G. (2011).
+\newblock {A geographic mosaic of trophic interactions and selection: trees,
+  aphids and birds.}
+\newblock {\em Journal of evolutionary biology}, 24(2):422--9.
+
+\bibitem[Smith et~al., 2015]{Smith2015b}
+Smith, D.~S., Lamit, L.~J., Lau, M.~K., Gehring, C.~A., Shuster, S.~M., and
+  Whitham, T.~G. (2015).
+\newblock {Introduced elk alter traits of a native plant and its
+  plant-associated arthropod community}.
+\newblock {\em Acta Oecologica}, 67:8--16.
+
+\bibitem[Sole and Bascompte, 2006]{Sole2006Self-OrganizationEcosystems}
+Sole, R. and Bascompte, J. (2006).
+\newblock {\em {Self-Organization in Complex Ecosystems}}.
+\newblock Princeton University Press, Princeton, N.J.
+
+\bibitem[Staniczenko et~al., 2013]{Staniczenko2013TheNetworks}
+Staniczenko, P.~P., Kopp, J.~C., and Allesina, S. (2013).
+\newblock {The ghost of nestedness in ecological networks}.
+\newblock {\em Nature Communications}, 4(1):1--6.
+
+\bibitem[Sthultz et~al., 2009]{Sthultz2009}
+Sthultz, C., Gehring, C., and Whitham, T. (2009).
+\newblock Deadly combination of genes and drought: Increased mortality of
+  herbivore-resistant trees in a foundation species.
+\newblock {\em Global Change Biology}, 15(8):1949--1961.
+\newblock Copyright: Copyright 2009 Elsevier B.V., All rights reserved.
+
+\bibitem[Thompson, 2013]{Thompson2013}
+Thompson, J.~N. (2013).
+\newblock {\em {Relentless Evolution}}.
+\newblock University of Chicago Press.
+
+\bibitem[Toju et~al., 2014]{Toju2014a}
+Toju, H., Guimar{\~{a}}es, P.~R., Olesen, J.~M., and Thompson, J.~N. (2014).
+\newblock {Assembly of complex plant-fungus networks}.
+\newblock {\em Nature Communications}.
+
+\bibitem[Toju et~al., 2017]{Toju2017}
+Toju, H., Yamamichi, M., Guimar{\~{a}}es, P.~R., Olesen, J.~M., Mougi, A.,
+  Yoshida, T., and Thompson, J.~N. (2017).
+\newblock {Species-rich networks and eco-evolutionary synthesis at the
+  metacommunity level}.
+
+\bibitem[Toju et~al., 2016]{Toju2016}
+Toju, H., Yamamoto, S., Tanabe, A.~S., Hayakawa, T., and Ishii, H.~S. (2016).
+\newblock {Network modules and hubs in plant-root fungal biomes}.
+\newblock {\em Journal of the Royal Society Interface}.
+
+\bibitem[Valverde et~al., 2018]{Valverde2018TheSpandrel}
+Valverde, S., Pi{\~{n}}ero, J., Corominas-Murtra, B., Montoya, J., Joppa, L.,
+  and Sol{\'{e}}, R. (2018).
+\newblock {The architecture of mutualistic networks as an evolutionary
+  spandrel}.
+\newblock {\em Nature Ecology and Evolution}, 2(1):94--99.
+
+\bibitem[Wade, 2007]{Wade2007TheCommunities}
+Wade, M.~J. (2007).
+\newblock {The co-evolutionary genetics of ecological communities}.
+
+\bibitem[Weber et~al., 2017]{Weber2017EvolutionMacroevolution}
+Weber, M.~G., Wagner, C.~E., Best, R.~J., Harmon, L.~J., and Matthews, B.
+  (2017).
+\newblock {Evolution in a Community Context: On Integrating Ecological
+  Interactions and Macroevolution}.
+
+\bibitem[Whitham et~al., 2003]{Whitham2003}
+Whitham, T., Young, W., Martinsen, G., Gehring, C., Schweitzer, J., Shuster,
+  S., Wimp, G., Fischer, D., Bailey, J., Lindroth, R., Woolbright, S., and
+  Kuske, C. (2003).
+\newblock Community and ecosystem genetics: A consequence of the extended
+  phenotype.
+\newblock {\em Ecology}, 84(3):559--573.
+\newblock Copyright: Copyright 2017 Elsevier B.V., All rights reserved.
+
+\bibitem[Whitham et~al., 2020]{Whitham2020IntraspecificEvolution}
+Whitham, T.~G., Allan, G.~J., Cooper, H.~F., and Shuster, S.~M. (2020).
+\newblock {Intraspecific Genetic Variation and Species Interactions Contribute
+  to Community Evolution}.
+\newblock {\em Annual Review of Ecology, Evolution, and Systematics}, 51(1).
+
+\bibitem[Whitham et~al., 2006]{Whitham2006a}
+Whitham, T.~G., Bailey, J.~K., Schweitzer, J.~A., Shuster, S.~M., Bangert,
+  R.~K., LeRoy, C.~J., Lonsdorf, E.~V., Allan, G.~J., DiFazio, S.~P., Potts,
+  B.~M., Fischer, D.~G., Gehring, C.~A., Lindroth, R.~L., Marks, J.~C., Hart,
+  S.~C., Wimp, G.~M., and Wooley, S.~C. (2006).
+\newblock {A framework for community and ecosystem genetics: from genes to
+  ecosystems.}
+\newblock {\em Nature reviews. Genetics}, 7:510--523.
+
+\bibitem[Whitham et~al., 2012]{Whitham2012afix}
+Whitham, T.~G., Gehring, C.~A., Lamit, L.~J., Wojtowicz, T., Evans, L.~M.,
+  Keith, A.~R., and Smith, D.~S. (2012).
+\newblock {Community specificity: Life and afterlife effects of genes}.
+\newblock 17:271--281.
+
+\bibitem[Winfree et~al., 2011]{Winfree2011}
+Winfree, R., Gross, B.~J., and Kremen, C. (2011).
+\newblock {Valuing pollination services to agriculture}.
+\newblock {\em Ecological Economics}, 71:80--88.
+
+\bibitem[Zilber-Rosenberg and Rosenberg, 2008]{Zilber-Rosenberg2008}
+Zilber-Rosenberg, I. and Rosenberg, E. (2008).
+\newblock Role of microorganisms in the evolution of animals and plants: the
+  hologenome theory of evolution.
+\newblock {\em FEMS Microbiol. Rev.}, 32:723--735.
+
+\bibitem[Zytynska et~al., 2011]{Zytynska2011}
+Zytynska, S.~E., Fay, M.~F., Penney, D., and Preziosi, R.~F. (2011).
+\newblock {Genetic variation in a tropical tree species influences the
+  associated epiphytic plant and invertebrate communities in a complex forest
+  ecosystem.}
+\newblock {\em Philosophical transactions of the Royal Society of London.
+  Series B, Biological sciences}, 366:1329--1336.
+
+\end{thebibliography}
