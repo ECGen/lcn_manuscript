@@ -1,0 +1,3 @@
+For conversion to docx use:
+
+pandoc --bibliography=bibliography.bib -o main.docx main.tex --citeproc
